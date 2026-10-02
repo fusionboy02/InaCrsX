@@ -1,0 +1,1 @@
+Aquí el robot guarda el texto de las páginas de inacross-guide y de la web original que aún no se traducen solas.

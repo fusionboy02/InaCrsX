@@ -1,0 +1,3396 @@
+{
+ "trials": [
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 1,
+   "with": [
+    4009,
+    3016
+   ],
+   "lineup": [
+    {
+     "id": 4009,
+     "el": "B",
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
+    },
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino Emperador N.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 2,
+   "with": [
+    3016,
+    10003
+   ],
+   "lineup": [
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino Emperador N.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 3,
+   "with": [
+    3018,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3018,
+     "el": "F",
+     "tech": "Caída celestial",
+     "techJP": "天空落とし"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 4,
+   "with": [
+    3010,
+    4008
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 4008,
+     "el": "V",
+     "tech": "Viento Mach",
+     "techJP": "マッハウィンド"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 5,
+   "with": [
+    3016,
+    10003
+   ],
+   "lineup": [
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino Emperador N.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 4008,
+     "el": "V",
+     "tech": "Viento Mach",
+     "techJP": "マッハウィンド"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 6,
+   "with": [
+    3018,
+    4008
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3018,
+     "el": "F",
+     "tech": "Caída celestial",
+     "techJP": "天空落とし"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 4008,
+     "el": "V",
+     "tech": "Viento Mach",
+     "techJP": "マッハウィンド"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 7,
+   "with": [
+    4009,
+    10003
+   ],
+   "lineup": [
+    {
+     "id": 4009,
+     "el": "B",
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
+    },
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 8,
+   "with": [
+    4009,
+    3016
+   ],
+   "lineup": [
+    {
+     "id": 4009,
+     "el": "B",
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
+    },
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino Emperador N.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 4008,
+     "el": "V",
+     "tech": "Viento Mach",
+     "techJP": "マッハウィンド"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 9,
+   "with": [
+    2052,
+    4008
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 4008,
+     "el": "V",
+     "tech": "Viento Mach",
+     "techJP": "マッハウィンド"
+    },
+    {
+     "id": 2052,
+     "el": "V",
+     "tech": "Caída relámpago",
+     "techJP": "イナズマ落とし"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 10,
+   "with": [
+    2052,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2052,
+     "el": "V",
+     "tech": "Caída relámpago",
+     "techJP": "イナズマ落とし"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 1,
+   "with": [
+    4009,
+    3016
+   ],
+   "lineup": [
+    {
+     "id": 4009,
+     "el": "B",
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
+    },
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino Emperador N.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 2,
+   "with": [
+    10001,
+    3016
+   ],
+   "lineup": [
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino Emperador N.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 3,
+   "with": [
+    3018,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3018,
+     "el": "F",
+     "tech": "Caída celestial",
+     "techJP": "天空落とし"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 4,
+   "with": [
+    4009,
+    10001
+   ],
+   "lineup": [
+    {
+     "id": 4009,
+     "el": "B",
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
+    },
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 5,
+   "with": [
+    3010,
+    3016
+   ],
+   "lineup": [
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino Emperador N.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 6,
+   "with": [
+    1040,
+    4009
+   ],
+   "lineup": [
+    {
+     "id": 4009,
+     "el": "B",
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
+    },
+    {
+     "id": 1040,
+     "el": "B",
+     "tech": "Tornado oscuro",
+     "techJP": "ダークトルネード"
+    },
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino Emperador N.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 7,
+   "with": [
+    4009,
+    10001
+   ],
+   "lineup": [
+    {
+     "id": 4009,
+     "el": "B",
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
+    },
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino Emperador N.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 8,
+   "with": [
+    1040,
+    3016
+   ],
+   "lineup": [
+    {
+     "id": 1040,
+     "el": "B",
+     "tech": "Tornado oscuro",
+     "techJP": "ダークトルネード"
+    },
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino Emperador N.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 9,
+   "with": [
+    4009,
+    10001
+   ],
+   "lineup": [
+    {
+     "id": 4009,
+     "el": "B",
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
+    },
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino Emperador N.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 10,
+   "with": [
+    3010,
+    10001
+   ],
+   "lineup": [
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Conejo saltarín (fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 1,
+   "with": [
+    10001
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3018,
+     "el": "F",
+     "tech": "Caída celestial",
+     "techJP": "天空落とし"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ],
+   "label": "Cuatro cadenas"
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 2,
+   "with": [
+    1152,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 1152,
+     "el": "F",
+     "tech": "Triángulo Z",
+     "techJP": "トライアングルZ"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 3,
+   "with": [
+    1110,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1110,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 4,
+   "with": [
+    1152,
+    3018
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 1152,
+     "el": "F",
+     "tech": "Triángulo Z",
+     "techJP": "トライアングルZ"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3018,
+     "el": "F",
+     "tech": "Caída celestial",
+     "techJP": "天空落とし"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 5,
+   "with": [
+    4009,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 4009,
+     "el": "B",
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 6,
+   "with": [
+    4008,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 4008,
+     "el": "V",
+     "tech": "Viento Mach",
+     "techJP": "マッハウィンド"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 7,
+   "with": [
+    1110,
+    3018
+   ],
+   "lineup": [
+    {
+     "id": 1110,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3018,
+     "el": "F",
+     "tech": "Caída celestial",
+     "techJP": "天空落とし"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 8,
+   "with": [
+    3011,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 3011,
+     "el": "M",
+     "tech": "Impulso del tigre",
+     "techJP": "タイガードライブ"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 9,
+   "with": [
+    2054,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 2054,
+     "el": "F",
+     "tech": "Veleta de fuego",
+     "techJP": "炎の風見鶏"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 10,
+   "with": [
+    1153,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 1153,
+     "el": "F",
+     "tech": "Triángulo Z",
+     "techJP": "トライアングルZ"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 1,
+   "with": [
+    1168
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3018,
+     "el": "F",
+     "tech": "Caída celestial",
+     "techJP": "天空落とし"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ],
+   "label": "Cuatro cadenas"
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 2,
+   "with": [
+    4008,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 4008,
+     "el": "V",
+     "tech": "Viento Mach",
+     "techJP": "マッハウィンド"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 3,
+   "with": [
+    1152,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 1152,
+     "el": "F",
+     "tech": "Triángulo Z",
+     "techJP": "トライアングルZ"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 4,
+   "with": [
+    3011,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 3011,
+     "el": "M",
+     "tech": "Impulso del tigre",
+     "techJP": "タイガードライブ"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 5,
+   "with": [
+    1110,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1110,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 6,
+   "with": [
+    4008,
+    3018
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3018,
+     "el": "F",
+     "tech": "Caída celestial",
+     "techJP": "天空落とし"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 4008,
+     "el": "V",
+     "tech": "Viento Mach",
+     "techJP": "マッハウィンド"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 7,
+   "with": [
+    1152,
+    3018
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 1152,
+     "el": "F",
+     "tech": "Triángulo Z",
+     "techJP": "トライアングルZ"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3018,
+     "el": "F",
+     "tech": "Caída celestial",
+     "techJP": "天空落とし"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 8,
+   "with": [
+    4009,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 4009,
+     "el": "B",
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 9,
+   "with": [
+    3011,
+    3018
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3018,
+     "el": "F",
+     "tech": "Caída celestial",
+     "techJP": "天空落とし"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 3011,
+     "el": "M",
+     "tech": "Impulso del tigre",
+     "techJP": "タイガードライブ"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 10,
+   "with": [
+    2052,
+    3010
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Tornillo explosivo",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2052,
+     "el": "V",
+     "tech": "Caída relámpago",
+     "techJP": "イナズマ落とし"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "defensa",
+   "rank": 1,
+   "with": [
+    1166
+   ],
+   "lineup": [
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ],
+   "label": "Bonus a los cinco"
+  },
+  {
+   "el": "M",
+   "mode": "defensa",
+   "rank": 2,
+   "with": [
+    3007,
+    1166
+   ],
+   "lineup": [
+    {
+     "id": 3007,
+     "el": "V",
+     "tech": "Demonio del vacío",
+     "techJP": "真空魔"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "defensa",
+   "rank": 3,
+   "with": [
+    2046,
+    1166
+   ],
+   "lineup": [
+    {
+     "id": 2046,
+     "el": "V",
+     "tech": "Corte giratorio",
+     "techJP": "スピニングカット"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "defensa",
+   "rank": 4,
+   "with": [
+    1158,
+    1166
+   ],
+   "lineup": [
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 1158,
+     "el": "M",
+     "tech": "El muro",
+     "techJP": "ザ・ウォール"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "defensa",
+   "rank": 5,
+   "with": [
+    2003,
+    1166
+   ],
+   "lineup": [
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 2003,
+     "el": "M",
+     "tech": "Gravitación",
+     "techJP": "グラビテイション"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "defensa",
+   "rank": 6,
+   "with": [
+    3006,
+    1166
+   ],
+   "lineup": [
+    {
+     "id": 3006,
+     "el": "V",
+     "tech": "Formación torbellino",
+     "techJP": "旋風陣"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "defensa",
+   "rank": 7,
+   "with": [
+    3020,
+    1013
+   ],
+   "lineup": [
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3020,
+     "el": "B",
+     "tech": "Mano infinita",
+     "techJP": "ムゲン・ザ・ハンド"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "defensa",
+   "rank": 8,
+   "with": [
+    1170,
+    1013
+   ],
+   "lineup": [
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1170,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "defensa",
+   "rank": 9,
+   "with": [
+    1017,
+    1013
+   ],
+   "lineup": [
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1017,
+     "el": "F",
+     "tech": "Escudo de potencia máxima",
+     "techJP": "フルパワーシールド"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "defensa",
+   "rank": 10,
+   "with": [
+    2001,
+    1166
+   ],
+   "lineup": [
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 2001,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "defensa",
+   "rank": 1,
+   "with": [
+    3020
+   ],
+   "lineup": [
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3020,
+     "el": "B",
+     "tech": "Mano infinita",
+     "techJP": "ムゲン・ザ・ハンド"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "defensa",
+   "rank": 2,
+   "with": [
+    1166,
+    3003
+   ],
+   "lineup": [
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "defensa",
+   "rank": 3,
+   "with": [
+    1017,
+    3003
+   ],
+   "lineup": [
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1017,
+     "el": "F",
+     "tech": "Escudo de potencia máxima",
+     "techJP": "フルパワーシールド"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "defensa",
+   "rank": 4,
+   "with": [
+    2000,
+    3003
+   ],
+   "lineup": [
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 2000,
+     "el": "B",
+     "tech": "Agujero de gusano",
+     "techJP": "ワームホール"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "defensa",
+   "rank": 5,
+   "with": [
+    1158,
+    3020
+   ],
+   "lineup": [
+    {
+     "id": 1158,
+     "el": "F",
+     "tech": "Martillo del juicio",
+     "techJP": "裁きの鉄槌"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3020,
+     "el": "B",
+     "tech": "Mano infinita",
+     "techJP": "ムゲン・ザ・ハンド"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "defensa",
+   "rank": 6,
+   "with": [
+    2001,
+    3020
+   ],
+   "lineup": [
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 2001,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト"
+    },
+    {
+     "id": 3020,
+     "el": "B",
+     "tech": "Mano infinita",
+     "techJP": "ムゲン・ザ・ハンド"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "defensa",
+   "rank": 7,
+   "with": [
+    3007,
+    3020
+   ],
+   "lineup": [
+    {
+     "id": 3007,
+     "el": "V",
+     "tech": "Demonio del vacío",
+     "techJP": "真空魔"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3020,
+     "el": "B",
+     "tech": "Mano infinita",
+     "techJP": "ムゲン・ザ・ハンド"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "defensa",
+   "rank": 8,
+   "with": [
+    2002,
+    3020
+   ],
+   "lineup": [
+    {
+     "id": 2002,
+     "el": "F",
+     "tech": "Súper pisotón de sumo",
+     "techJP": "スーパー四股踏み"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3020,
+     "el": "B",
+     "tech": "Mano infinita",
+     "techJP": "ムゲン・ザ・ハンド"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "defensa",
+   "rank": 9,
+   "with": [
+    1158,
+    3003
+   ],
+   "lineup": [
+    {
+     "id": 1158,
+     "el": "F",
+     "tech": "Martillo del juicio",
+     "techJP": "裁きの鉄槌"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3020,
+     "el": "B",
+     "tech": "Mano infinita",
+     "techJP": "ムゲン・ザ・ハンド"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "defensa",
+   "rank": 10,
+   "with": [
+    2001,
+    3003
+   ],
+   "lineup": [
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 2001,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3020,
+     "el": "B",
+     "tech": "Mano infinita",
+     "techJP": "ムゲン・ザ・ハンド"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "defensa",
+   "rank": 1,
+   "with": [
+    4003
+   ],
+   "lineup": [
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1017,
+     "el": "F",
+     "tech": "Escudo de potencia máxima",
+     "techJP": "フルパワーシールド"
+    }
+   ],
+   "label": "Remate con ventaja"
+  },
+  {
+   "el": "B",
+   "mode": "defensa",
+   "rank": 2,
+   "with": [
+    1158,
+    1017
+   ],
+   "lineup": [
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 1158,
+     "el": "F",
+     "tech": "Martillo del juicio",
+     "techJP": "裁きの鉄槌"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1017,
+     "el": "F",
+     "tech": "Escudo de potencia máxima",
+     "techJP": "フルパワーシールド"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "defensa",
+   "rank": 3,
+   "with": [
+    1166,
+    1013
+   ],
+   "lineup": [
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "defensa",
+   "rank": 4,
+   "with": [
+    1158,
+    1166
+   ],
+   "lineup": [
+    {
+     "id": 1158,
+     "el": "F",
+     "tech": "Martillo del juicio",
+     "techJP": "裁きの鉄槌"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "defensa",
+   "rank": 5,
+   "with": [
+    1158,
+    1013
+   ],
+   "lineup": [
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 1158,
+     "el": "F",
+     "tech": "Martillo del juicio",
+     "techJP": "裁きの鉄槌"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1017,
+     "el": "F",
+     "tech": "Escudo de potencia máxima",
+     "techJP": "フルパワーシールド"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "defensa",
+   "rank": 6,
+   "with": [
+    2002,
+    1017
+   ],
+   "lineup": [
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 2002,
+     "el": "F",
+     "tech": "Súper pisotón de sumo",
+     "techJP": "スーパー四股踏み"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1017,
+     "el": "F",
+     "tech": "Escudo de potencia máxima",
+     "techJP": "フルパワーシールド"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "defensa",
+   "rank": 7,
+   "with": [
+    1156,
+    1017
+   ],
+   "lineup": [
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 1156,
+     "el": "F",
+     "tech": "Martillo del juicio",
+     "techJP": "裁きの鉄槌"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1017,
+     "el": "F",
+     "tech": "Escudo de potencia máxima",
+     "techJP": "フルパワーシールド"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "defensa",
+   "rank": 8,
+   "with": [
+    2003,
+    1017
+   ],
+   "lineup": [
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 2003,
+     "el": "M",
+     "tech": "Gravitación",
+     "techJP": "グラビテイション"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1017,
+     "el": "F",
+     "tech": "Escudo de potencia máxima",
+     "techJP": "フルパワーシールド"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "defensa",
+   "rank": 9,
+   "with": [
+    2002,
+    1166
+   ],
+   "lineup": [
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 2002,
+     "el": "F",
+     "tech": "Súper pisotón de sumo",
+     "techJP": "スーパー四股踏み"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "defensa",
+   "rank": 10,
+   "with": [
+    2002,
+    1013
+   ],
+   "lineup": [
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 2002,
+     "el": "F",
+     "tech": "Súper pisotón de sumo",
+     "techJP": "スーパー四股踏み"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 1017,
+     "el": "F",
+     "tech": "Escudo de potencia máxima",
+     "techJP": "フルパワーシールド"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "defensa",
+   "rank": 1,
+   "with": [
+    1166
+   ],
+   "lineup": [
+    {
+     "id": 1013,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト",
+     "manual": true
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ],
+   "label": "Remate con ventaja"
+  },
+  {
+   "el": "F",
+   "mode": "defensa",
+   "rank": 2,
+   "with": [
+    1158,
+    10002
+   ],
+   "lineup": [
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 1158,
+     "el": "M",
+     "tech": "El muro",
+     "techJP": "ザ・ウォール"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "defensa",
+   "rank": 3,
+   "with": [
+    2003,
+    10002
+   ],
+   "lineup": [
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 2003,
+     "el": "M",
+     "tech": "Gravitación",
+     "techJP": "グラビテイション"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "defensa",
+   "rank": 4,
+   "with": [
+    2002,
+    10002
+   ],
+   "lineup": [
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 2002,
+     "el": "M",
+     "tech": "Gravitación",
+     "techJP": "グラビテイション"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "defensa",
+   "rank": 5,
+   "with": [
+    2046,
+    10002
+   ],
+   "lineup": [
+    {
+     "id": 2046,
+     "el": "V",
+     "tech": "Corte giratorio",
+     "techJP": "スピニングカット"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "defensa",
+   "rank": 6,
+   "with": [
+    1172,
+    10002
+   ],
+   "lineup": [
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 1172,
+     "el": "M",
+     "tech": "El muro",
+     "techJP": "ザ・ウォール"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "defensa",
+   "rank": 7,
+   "with": [
+    3007,
+    10002
+   ],
+   "lineup": [
+    {
+     "id": 3007,
+     "el": "V",
+     "tech": "Demonio del vacío",
+     "techJP": "真空魔"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "defensa",
+   "rank": 8,
+   "with": [
+    1156,
+    10002
+   ],
+   "lineup": [
+    {
+     "id": 1156,
+     "el": "F",
+     "tech": "Martillo del juicio",
+     "techJP": "裁きの鉄槌"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "defensa",
+   "rank": 9,
+   "with": [
+    2001,
+    10002
+   ],
+   "lineup": [
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 2001,
+     "el": "B",
+     "tech": "Cinturón de asteroides",
+     "techJP": "アステロイドベルト"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "defensa",
+   "rank": 10,
+   "with": [
+    3006,
+    10002
+   ],
+   "lineup": [
+    {
+     "id": 3006,
+     "el": "V",
+     "tech": "Formación torbellino",
+     "techJP": "旋風陣"
+    },
+    {
+     "id": 10002,
+     "el": "F",
+     "tech": "Mochi de kinako (fuegos artificiales)",
+     "techJP": "もちもち黄粉餅（花火）"
+    },
+    {
+     "id": 4003,
+     "el": "B",
+     "tech": "Niebla profunda",
+     "techJP": "ディープミスト"
+    },
+    {
+     "id": 3003,
+     "el": "M",
+     "tech": "La montaña",
+     "techJP": "ザ・マウンテン"
+    },
+    {
+     "id": 1166,
+     "el": "M",
+     "tech": "Mano celestial",
+     "techJP": "ゴッドハンド"
+    }
+   ]
+  }
+ ],
+ "pvp": [
+  {
+   "tier": "SS",
+   "version": "1.3.2",
+   "coach": 71013,
+   "shape": "4-4-2",
+   "title": "Hitomiko, eje Viento 4-4-2",
+   "note": "Acumula mejoras y marca con Ulvida. Coloca a Kinako y a Kamimura según los delanteros del rival.",
+   "key": [
+    2042,
+    10002,
+    2046
+   ]
+  },
+  {
+   "tier": "SS",
+   "version": "1.3.2",
+   "coach": 71013,
+   "shape": "4-4-2",
+   "title": "Hitomiko, eje Bosque 4-4-2",
+   "note": "Fei es el goleador. Suma las mejoras que se activan cuando el rival te para un tiro y cuando un aliado para uno.",
+   "key": [
+    10003
+   ]
+  },
+  {
+   "tier": "SS",
+   "version": "1.3.2",
+   "coach": 71010,
+   "shape": "4-3-3",
+   "title": "Nikaidou y Natsumi, mejoras 4-3-3",
+   "note": "La pasiva de entrenador de Nikaidou y las mejoras de Natsumi refuerzan a los delanteros. Los tiros lejanos de Sugata abren el ataque.",
+   "key": [
+    1168,
+    2053
+   ]
+  }
+ ],
+ "limited": [],
+ "crossSim": [],
+ "training": [],
+ "trialNotes": {
+  "M-defensa": "El primero no tiene ventaja de escenario y cierra con la Mano celestial de Kino. Prioriza que los cinco reciban apoyo, incluida Kino, y las dos cadenas de Bosque y Montaña, por delante de usar técnicas con ventaja.",
+  "V-defensa": "Domon, Kirino y Tachimukai tienen ventaja de escenario y Tachimukai cierra con Mano infinita. Encadena las tres técnicas de Bosque con ventaja y combina dos cadenas con el apoyo a los aliados.",
+  "B-defensa": "Kinako y Genda tienen ventaja de escenario y Genda cierra con Escudo de potencia máxima. Concentra el bonus de Fuego en los dos últimos puestos, los de más potencia.",
+  "F-defensa": "Kabeyama y Kino tienen ventaja de escenario y Kino cierra con Mano celestial. Suma ventaja y cadena en las dos técnicas de Montaña finales para aprovechar la potencia de Kino.",
+  "M-ataque": "Shindou, Fei y Sakuma (Inazuma Japan) encadenan tres técnicas de Bosque y Natsumi y Tsurugi rematan con dos de Fuego. Natsumi usa Tornado de fuego aprendido con manual. No hay ventaja de escenario, pero la mejora general de Shindou y los apoyos a Bosque y Fuego permiten encadenar tres veces."
+ },
+ "trialDefenseCommon": "En las cuatro defensas el primer puesto parte de la misma base: Domon aprende Cinturón de asteroides con manual y se combinan los apoyos de Domon, Kirino, Kinako y Kabeyama.",
+ "credits": {
+  "source": "inacross-guide.com",
+  "author": "Tesla (@tsla_game)",
+  "url": "https://inacross-guide.com",
+  "trials": "Ranking calculado por inacross-guide con su simulador de pruebas: 111 jugadores registrados a 19 de septiembre de 2026, modo Endless y efectos de escenario activados. Comprobado en el juego el 31 de agosto (versión 1.2.3). El orden puede cambiar según el despertar, el nivel de las técnicas, los manuales y el entrenamiento; en ataque se exploró un conjunto de candidatos, así que no garantiza el máximo absoluto.",
+  "pvp": "Formaciones de nivel SS de inacross-guide, comprobadas en el juego el 16 de septiembre de 2026 (versión 1.3.2)."
+ },
+ "techNote": "Los nombres de técnicas de los equipos recomendados están traducidos del japonés; el original aparece al pasar por encima."
+}

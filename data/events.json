@@ -1,0 +1,80 @@
+[
+ {
+  "id": "evento-caos",
+  "kind": "evento",
+  "title": "¡Llega Caos!",
+  "text": "Consigue a los nueve jugadores de Caos en el tablón de conexiones y reúne fichas para la tienda del evento y el manual de Balón iceberg. Requiere capítulo 2, fase 16.",
+  "start": "2026-09-29T05:00:00+09:00",
+  "end": "2026-10-20T04:59:00+09:00",
+  "img": "official-36067.jpg",
+  "team": "Caos"
+ },
+ {
+  "id": "tienda-caos",
+  "kind": "tienda",
+  "title": "Tienda del evento Caos",
+  "text": "Canjea las fichas del evento por recompensas.",
+  "start": "2026-09-29T05:00:00+09:00",
+  "end": "2026-10-27T04:59:00+09:00",
+  "img": "official-36067.jpg"
+ },
+ {
+  "id": "gacha-torch",
+  "kind": "gacha",
+  "title": "Gacha destacado de Torch",
+  "text": "Delantero de Fuego de tres estrellas con Ventisca de fuego.",
+  "start": "2026-09-29T05:00:00+09:00",
+  "end": "2026-10-27T04:59:00+09:00",
+  "img": "official-banner-35850.jpg",
+  "player": 2031
+ },
+ {
+  "id": "gacha-gazelle",
+  "kind": "gacha",
+  "title": "Gacha destacado de Gazelle",
+  "text": "Delantero de Viento de tres estrellas.",
+  "start": "2026-09-29T05:00:00+09:00",
+  "end": "2026-10-27T04:59:00+09:00",
+  "img": "official-banner-35852.jpg",
+  "player": 2030
+ },
+ {
+  "id": "gacha-ulvida",
+  "kind": "gacha",
+  "title": "Gacha destacado de Ulvida",
+  "text": "Centrocampista de Viento de tres estrellas.",
+  "start": null,
+  "end": "2026-10-13T04:59:00+09:00",
+  "img": "official-banner-35734.jpg",
+  "player": 2042
+ },
+ {
+  "id": "gacha-zaizen",
+  "kind": "gacha",
+  "title": "Gacha destacado de Zaizen Touko",
+  "text": "Centrocampista de Viento de tres estrellas.",
+  "start": null,
+  "end": "2026-10-13T04:59:00+09:00",
+  "img": "official-banner-35736.jpg",
+  "player": 2064
+ },
+ {
+  "id": "capitulo-6",
+  "kind": "contenido",
+  "title": "Capítulo 6 de la historia",
+  "text": "La historia continúa con Torch y Gazelle. Se desbloquea al superar la fase de recompensas del capítulo 5.",
+  "start": "2026-09-29T05:00:00+09:00",
+  "end": null,
+  "img": "official-36089.jpg"
+ },
+ {
+  "id": "entrenamiento",
+  "kind": "contenido",
+  "title": "Programa de entrenamiento permanente",
+  "text": "Misiones que se desbloquean con los días de inicio de sesión. Dan bolas diamante y tiques del gacha Inazuma.",
+  "start": "2026-09-29T05:00:00+09:00",
+  "end": null,
+  "img": "official-36092.jpg",
+  "dailyReset": true
+ }
+]

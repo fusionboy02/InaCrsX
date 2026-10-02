@@ -1,0 +1,44 @@
+[
+ {
+  "date": "2026-09-29",
+  "kind": "contenido",
+  "title": "Capítulo 6 ya disponible",
+  "img": "official-36089.jpg",
+  "points": [
+   "Disponible desde el 29 de septiembre",
+   "Requiere completar el capítulo 5"
+  ]
+ },
+ {
+  "date": "2026-09-29",
+  "kind": "gacha",
+  "title": "Torch, delantero de Fuego de tres estrellas",
+  "img": "official-35850.jpg",
+  "points": [
+   "Gacha destacado hasta el 27 de octubre",
+   "Ficha completa con pasivas y supertécnicas"
+  ],
+  "player": 2031
+ },
+ {
+  "date": "2026-09-29",
+  "kind": "evento",
+  "title": "Llega el equipo Caos",
+  "img": "official-36067.jpg",
+  "points": [
+   "Nueve jugadores en el tablón de conexiones",
+   "Tienda abierta hasta el 27 de octubre"
+  ],
+  "link": "#/jugadores?team=Caos"
+ },
+ {
+  "date": "2026-09-29",
+  "kind": "contenido",
+  "title": "Programa de entrenamiento permanente",
+  "img": "official-36092.jpg",
+  "points": [
+   "Misiones ligadas a los días de inicio de sesión",
+   "Reinicio diario a las 05:00 de Japón"
+  ]
+ }
+]

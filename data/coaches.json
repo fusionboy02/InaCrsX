@@ -1,0 +1,209 @@
+{
+ "layouts": {
+  "default": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 36,
+    "y": 13
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 64,
+    "y": 13
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 14,
+    "y": 37
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 38,
+    "y": 42
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 62,
+    "y": 42
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 86,
+    "y": 37
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 14,
+    "y": 65
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 38,
+    "y": 70
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 62,
+    "y": 70
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 86,
+    "y": 65
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 89
+   }
+  ]
+ },
+ "coaches": [
+  {
+   "id": 71002,
+   "name": "Hibiki Seigou",
+   "formation": "F-Raimon",
+   "layout": "default",
+   "passive": {
+    "name": "Impulso de Raimon",
+    "text": "Al inicio del partido, aumenta en 3113 la Parada de los GK con la etiqueta Raimon y en 1200 la Técnica de todos los aliados con la etiqueta Raimon.",
+    "effects": [
+     {
+      "label": "Parada +3113",
+      "pos": "GK",
+      "tag": "Raimon"
+     },
+     {
+      "label": "Técnica +1200",
+      "tag": "Raimon"
+     }
+    ]
+   },
+   "formationPassive": {
+    "text": "Aumenta en 53 el poder de las técnicas de Parada de los GK y en 53 el de las técnicas de Bloqueo de los DF.",
+    "effects": [
+     {
+      "label": "Poder de Parada +53",
+      "pos": "GK"
+     },
+     {
+      "label": "Poder de Bloqueo +53",
+      "pos": "DF"
+     }
+    ]
+   },
+   "conditions": [
+    {
+     "slot": 3,
+     "tag": "Raimon"
+    },
+    {
+     "slot": 7,
+     "tag": "Raimon"
+    },
+    {
+     "slot": 11,
+     "tag": "Raimon"
+    }
+   ],
+   "level": 10,
+   "nameEU": "Seymour Hillman",
+   "nameJP": "響木正剛"
+  },
+  {
+   "id": 71003,
+   "name": "Kageyama Reiji",
+   "formation": "F-Zona de Muerte",
+   "nameEU": "Ray Dark",
+   "nameJP": "影山零治"
+  },
+  {
+   "id": 71004,
+   "name": "Aida Chikara",
+   "formation": "F-Inazuma KFC",
+   "nameEU": "",
+   "nameJP": "会田力"
+  },
+  {
+   "id": 71005,
+   "name": "Jikiru Haito",
+   "formation": "F-Occult",
+   "nameEU": "",
+   "nameJP": ""
+  },
+  {
+   "id": 71006,
+   "name": "Tayama Kousuke",
+   "formation": "F-Nose",
+   "nameEU": "",
+   "nameJP": ""
+  },
+  {
+   "id": 71007,
+   "name": "Tomiyama Shinichirou",
+   "formation": "F-Mikage Sennou",
+   "nameEU": "",
+   "nameJP": "富山新一郎"
+  },
+  {
+   "id": 71008,
+   "name": "Maniya Saito",
+   "formation": "F-Shuyou Meito",
+   "nameEU": "",
+   "nameJP": "真二屋才人"
+  },
+  {
+   "id": 71009,
+   "name": "Igajima Senichi",
+   "formation": "F-Sengoku Igajima",
+   "nameEU": "",
+   "nameJP": "伊賀島仙一"
+  },
+  {
+   "id": 71010,
+   "name": "Nikaidou Shuugo",
+   "formation": "F-Kidokawa Seishuu",
+   "nameEU": "",
+   "nameJP": "二階堂修吾"
+  },
+  {
+   "id": 71011,
+   "name": "Kageyama Reiji",
+   "formation": "F-Zeus",
+   "nameEU": "Ray Dark",
+   "nameJP": "影山零治"
+  },
+  {
+   "id": 71012,
+   "name": "Endou Daisuke",
+   "formation": "F-Young Inazuma",
+   "nameEU": "David Evans",
+   "nameJP": "円堂大介"
+  },
+  {
+   "id": 73023,
+   "name": "Kudou Michiya",
+   "formation": "F-Inazuma Japan",
+   "nameEU": "Percival Travis",
+   "nameJP": "久遠道也"
+  },
+  {
+   "id": 71013,
+   "name": "Kira Hitomiko",
+   "formation": "F-Raimon 2",
+   "nameEU": "Lina Schiller",
+   "nameJP": "吉良瞳子"
+  }
+ ]
+}
