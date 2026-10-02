@@ -1,0 +1,49 @@
+Última actualización: 1.3.3
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Guías Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano
+CONSTRUCTOR TÁCTICO FORMACIÓN
+Elige entrenador, monta tu once sin restricciones y descubre qué condiciones y pasivas se activan.
+122 jugadores
+CONSTRUCTOR DE EQUIPO
+Formación
+Elige entrenador, coloca cualquier jugador en cualquier hueco y comprueba en directo quién activa cada requisito y recibe cada bonificación.
+0 / 11 jugadores
+Compartir equipo Copiar enlace
+Hibiki Seigou F-Raimon Kageyama Reiji F-Zona de Muerte Aida Chikara F-Inazuma KFC Jikiru Haito F-Occult Tayama Kousuke F-Nose Tomiyama Shinichirou F-Mikage Sennou Maniya Saito F-Shuyou Meito Igajima Senichi F-Sengoku Igajima Nikaidou Shuugo F-Kidokawa Seishuu Kageyama Reiji F-Zeus Endou Daisuke F-Young Inazuma Kudou Michiya F-Inazuma Japón Kira Hitomiko F-Raimon 2
+ENTRENADOR SELECCIONADO Hibiki Seigou
+F-Raimon
+Nivel del entrenador Nivel 1 Nivel 2 Nivel 3 Nivel 4 Nivel 5 Nivel 6 Nivel 7 Nivel 8 Nivel 9 Nivel 10
+PASIVA DEL ENTRENADOR Impulso de Raimon Al inicio del partido, aumenta en 3113 la Parada de los GK recomendados con la etiqueta Raimon y en 1200 la Técnica de todos los aliados con la etiqueta Raimon.
+PASIVA ACTIVA DE FORMACIÓN Activa: F-Raimon Al inicio del partido, aumenta en 53 el poder de las técnicas de Parada de los GK recomendados y en 53 el poder de las técnicas de Bloqueo de los DF recomendados.
+PLANTILLA TÁCTICA F-Raimon
+Vaciar
+FW 1 FW 2 MF 3 MF 4 MF 5 MF 6 DF 7 DF 8 DF 9 DF 10 GK 11
+Pulsa cualquier slot para añadir o cambiar un jugador. Su posición natural nunca bloquea la selección.
+ACTIVACIÓN DE LA FORMACIÓN 0 de 3 condiciones
+Coloca fichas que cumplan los requisitos marcados.
+SLOT 3 · MF Etiqueta: Raimon Slot vacío
+SLOT 7 · DF Etiqueta: Raimon Slot vacío
+SLOT 11 · GK Etiqueta: Raimon Slot vacío
+PASIVA ACTIVA DE FORMACIÓN Activa: F-Raimon
+Parada + 53
+aliado · posición recomendada [GK]
+Completa las condiciones de la formación para activar el efecto.
+Bloqueo + 53
+aliado · posición recomendada [DF]
+Completa las condiciones de la formación para activar el efecto.
+PASIVA DEL ENTRENADOR · Nivel 10 Impulso de Raimon
+Modificador de Parada + 3113
+aliado · posición recomendada [GK] · etiqueta [Raimon]
+Ningún jugador colocado recibe todavía este efecto.
+Modificador de Técnica + 1200
+aliado · etiqueta [Raimon]
+Ningún jugador colocado recibe todavía este efecto.
+PASIVAS DE LOS JUGADORES 0 de 0 activadas
+Los jugadores colocados no tienen pasivas de composición que podamos comprobar antes del partido.
+Una base de fans, para fans.
+Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
+Apoyar el proyecto
+IE CROSS DATABASE
+Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
+Guías · Inazuma Eleven Cross REDES Y APOYO 𝕏 @RR_o50
+El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
+Creador de equipos y formaciones | Inazuma Eleven Cross Database

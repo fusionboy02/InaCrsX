@@ -1,0 +1,751 @@
+Última actualización: 1.3.3
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Guías Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano
+CATÁLOGO JUGABLE JUGADORES
+Consulta estadísticas, etiquetas, pasivas, supertécnicas y zonas ideales de todos los jugadores disponibles.
+122 jugadores
+Posición Todos 122 Delanteros 35 Medios 41 Defensas 33 Porteros 13
+Elemento Todos los elementos Fuego Viento Bosque Montaña Etiqueta
+Ordenar Por defecto Nombre Poder
+CATÁLOGO JUGABLE
+Jugadores
+122 jugadores
+GK
+Raimon
+Mamoru Endou
+GK Montaña ★★
+PODER BASE Nivel 440 9034
+Abrir ficha
+DF
+Raimon
+Ichirota Kazemaru
+DF Viento ★★
+PODER BASE Nivel 440 8889
+Abrir ficha
+DF
+Raimon
+Heigorou Kabeyama
+DF Montaña ★
+PODER BASE Nivel 440 8888
+Abrir ficha
+DF
+Raimon
+Teppei Kurimatsu
+DF Fuego ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+MF
+Raimon
+Shinichi Handa
+MF Viento ★
+PODER BASE Nivel 440 7715
+Abrir ficha
+MF
+Raimon
+Ayumu Shourinji
+MF Bosque ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+MF
+Raimon
+Sakichi Shishido
+MF Fuego ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+FW
+Raimon
+Kuusuke Matsuno
+FW Viento ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+FW
+Raimon
+Gouenji Shuuya
+FW Fuego ★★
+PODER BASE Nivel 440 8887
+Abrir ficha
+FW
+Raimon
+Ryuugo Someoka
+FW Bosque ★★
+PODER BASE Nivel 440 8887
+Abrir ficha
+DF
+Raimon
+Asuka Domon
+DF Bosque ★★
+PODER BASE Nivel 440 8889
+Abrir ficha
+MF
+Raimon
+Kazuya Ichinose
+MF Bosque ★★
+PODER BASE Nivel 440 8743
+Abrir ficha
+GK
+Imperius
+Koujirou Genda
+GK Fuego ★★
+PODER BASE Nivel 440 9034
+Abrir ficha
+MF
+Imperius
+Seikami Kenya
+MF Viento ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+DF
+Imperius
+Gojou Kachi
+DF Bosque ★
+PODER BASE Nivel 440 7844
+Abrir ficha
+MF
+Imperius
+Henmi Watari
+MF Viento ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+MF
+Imperius
+Sakiyama Shuuji
+MF Fuego ★
+PODER BASE Nivel 440 7715
+Abrir ficha
+MF
+Imperius
+Horamen Shuuichirou
+MF Viento ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+FW
+Imperius
+Terakado Daiki
+FW Bosque ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+MF
+Imperius
+Yuuto Kidou
+MF Viento ★★
+PODER BASE Nivel 440 8743
+Abrir ficha
+FW
+Imperius
+Sakuma Jirou
+FW Bosque ★★
+PODER BASE Nivel 440 8815
+Abrir ficha
+DF
+Raimon
+Miyasaka Ryou
+DF Viento ★
+PODER BASE Nivel 440 7844
+Abrir ficha
+FW NUEVO !
+Caos
+Gazelle
+FW Viento ★★★
+PODER BASE Nivel 440 10.372
+Abrir ficha
+FW NUEVO !
+Caos
+Torch
+FW Fuego ★★★
+PODER BASE Nivel 440 10.458
+Abrir ficha
+GK
+Inazuma Japan
+Mamoru Endou
+GK Montaña ★★★
+PODER BASE Nivel 440 10.628
+Abrir ficha
+DF
+Inazuma Japan
+Ichirota Kazemaru
+DF Viento ★★★
+PODER BASE Nivel 440 10.457
+Abrir ficha
+DF
+Inazuma Japan
+Heigorou Kabeyama
+DF Montaña ★★★
+PODER BASE Nivel 440 10.458
+Abrir ficha
+DF
+Inazuma Japan
+Tsunaumi Jousuke
+DF Viento ★★
+PODER BASE Nivel 440 8889
+Abrir ficha
+DF
+Inazuma Japan
+Kogure Yuuya
+DF Bosque ★★
+PODER BASE Nivel 440 8889
+Abrir ficha
+DF
+Inazuma Japan
+Tobitaka Seiya
+DF Viento ★★
+PODER BASE Nivel 440 8889
+Abrir ficha
+FW
+Inazuma Japan
+Gouenji Shuuya
+FW Fuego ★★★
+PODER BASE Nivel 440 10.458
+Abrir ficha
+MF
+Inazuma Japan
+Midorikawa Ryuuji
+MF Bosque ★★
+PODER BASE Nivel 440 8742
+Abrir ficha
+MF
+Inazuma Japan
+Yuuto Kidou
+MF Viento ★★★
+PODER BASE Nivel 440 10.286
+Abrir ficha
+FW
+Inazuma Japan
+Ryuugo Someoka
+FW Bosque ★★★
+PODER BASE Nivel 440 10.457
+Abrir ficha
+GK
+Inazuma Japan
+Tachimukai Yuuki
+GK Bosque ★★★
+PODER BASE Nivel 440 10.629
+Abrir ficha
+DF
+Imperius
+Oono Densuke
+DF Montaña ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+DF
+Imperius
+Banjou Ichidou
+DF Bosque ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+DF
+Inazuma Japan
+Teppei Kurimatsu
+DF Fuego ★★
+PODER BASE Nivel 440 8889
+Abrir ficha
+FW
+Raimon
+Kageto Yamino
+FW Bosque ★★
+PODER BASE Nivel 440 8888
+Abrir ficha
+DF
+Raimon
+Jin Kageno
+DF Bosque ★
+PODER BASE Nivel 440 7844
+Abrir ficha
+FW
+Raimon
+Kakeru Megane
+FW Bosque ★
+PODER BASE Nivel 440 7842
+Abrir ficha
+FW
+Inazuma KFC
+Kisaragi Mako
+FW Bosque ★
+PODER BASE Nivel 440 7842
+Abrir ficha
+GK
+Occult
+Nata Juusan
+GK Viento ★
+PODER BASE Nivel 440 7971
+Abrir ficha
+FW
+Occult
+Yuukoku Hiroyuki
+FW Bosque ★★
+PODER BASE Nivel 440 8815
+Abrir ficha
+FW
+Salvaje
+Suizenji Chiita
+FW Viento ★
+PODER BASE Nivel 440 7842
+Abrir ficha
+GK
+Mikage Sennou
+Sugimori I
+GK Bosque ★★
+PODER BASE Nivel 440 9034
+Abrir ficha
+FW
+Mikage Sennou
+Shitatsuru Kai
+FW Fuego ★★
+PODER BASE Nivel 440 8888
+Abrir ficha
+FW
+Akiha
+Manga Hou
+FW Viento ★
+PODER BASE Nivel 440 7842
+Abrir ficha
+FW
+Sengoku Igajima
+Kirigakure Saitsugi
+FW Fuego ★★
+PODER BASE Nivel 440 8815
+Abrir ficha
+FW
+Kidokawa Seishuu
+Takekata Kachi
+FW Fuego ★★
+PODER BASE Nivel 440 8887
+Abrir ficha
+FW
+Kidokawa Seishuu
+Takekata Tomo
+FW Viento ★★
+PODER BASE Nivel 440 8888
+Abrir ficha
+FW
+Kidokawa Seishuu
+Takekata Tsutomu
+FW Montaña ★★
+PODER BASE Nivel 440 8888
+Abrir ficha
+FW
+Inazuma Japan
+Utsunomiya Toramaru
+FW Bosque ★★
+PODER BASE Nivel 440 8888
+Abrir ficha
+MF
+Inazuma Japan
+Hijikata Raiden
+MF Viento ★★
+PODER BASE Nivel 440 8889
+Abrir ficha
+FW
+Inazuma Japan
+Hiroto Kiyama
+FW Fuego ★★★
+PODER BASE Nivel 440 10.457
+Abrir ficha
+FW
+Inazuma Japan
+Fubuki Shirou
+FW Viento ★★★
+PODER BASE Nivel 440 10.458
+Abrir ficha
+MF
+Inazuma Japan
+Fudou Myouou
+MF Fuego ★★★
+PODER BASE Nivel 440 10.287
+Abrir ficha
+FW
+Inazuma Japan
+Sakuma Jirou
+FW Bosque ★★★
+PODER BASE Nivel 440 11.639
+Abrir ficha
+MF
+Raimon de la Revolución
+Matsukaze Tenma
+MF Viento ★★★
+PODER BASE Nivel 440 11.554
+Abrir ficha
+FW
+Raimon de la Revolución
+Kenjou Kyousuke
+FW Fuego ★★★
+PODER BASE Nivel 440 11.639
+Abrir ficha
+FW
+Imperius
+Gouenji Shuuya
+FW Fuego ★★★
+PODER BASE Nivel 440 11.639
+Abrir ficha
+DF
+Raimon de la Revolución
+Kinako Nanobana
+DF Fuego ★★★
+PODER BASE Nivel 440 11.639
+Abrir ficha
+FW
+Raimon de la Revolución
+Fei Rune
+FW Bosque ★★★
+PODER BASE Nivel 440 11.639
+Abrir ficha
+MF
+Selección de Japón 2026
+Mamoru Endou
+MF Montaña ★★★
+PODER BASE Nivel 440 10.286
+Abrir ficha
+MF
+Selección de Japón 2026
+Yuuto Kidou
+MF Viento ★★★
+PODER BASE Nivel 440 10.286
+Abrir ficha
+GK
+Zeus
+Hohoshi Donichi
+GK Montaña ★★
+PODER BASE Nivel 440 9034
+Abrir ficha
+DF
+Zeus
+Ahotsuyu Hikari
+DF Bosque ★
+PODER BASE Nivel 440 7844
+Abrir ficha
+DF
+Zeus
+Buhai Honoo
+DF Fuego ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+DF
+Zeus
+Kousu Ran
+DF Montaña ★
+PODER BASE Nivel 440 7777
+Abrir ficha
+DF
+Zeus
+Tesakana Geki
+DF Viento ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+MF
+Zeus
+Zaite Miyumi
+MF Viento ★
+PODER BASE Nivel 440 7715
+Abrir ficha
+MF
+Zeus
+Keime Sushou
+MF Bosque ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+MF
+Zeus
+Meitenmei Satoru
+MF Bosque ★★
+PODER BASE Nivel 440 8743
+Abrir ficha
+FW
+Zeus
+Shutsumigite Yutaka
+FW Fuego ★★
+PODER BASE Nivel 440 8887
+Abrir ficha
+MF
+Zeus
+Afuro Terumi
+MF Bosque ★★★
+PODER BASE Nivel 440 11.468
+Abrir ficha
+MF
+Zeus
+Taira Tei
+MF Fuego ★★
+PODER BASE Nivel 440 8742
+Abrir ficha
+GK
+Young Inazuma
+Hibiki Seigou
+GK Montaña ★★
+PODER BASE Nivel 440 9034
+Abrir ficha
+DF
+Young Inazuma
+Fushima Hitori
+DF Bosque ★★
+PODER BASE Nivel 440 8889
+Abrir ficha
+MF
+Young Inazuma
+Teiryou Ho
+MF Montaña ★
+PODER BASE Nivel 440 7715
+Abrir ficha
+FW
+Young Inazuma
+Tamiyama Utai
+FW Viento ★
+PODER BASE Nivel 440 7842
+Abrir ficha
+MF
+Young Inazuma
+Sugata Gen
+MF Fuego ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+DF
+Young Inazuma
+Kamimura Setsuto
+DF Viento ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+DF
+Young Inazuma
+Aida Chikara
+DF Montaña ★★
+PODER BASE Nivel 440 8889
+Abrir ficha
+MF
+Young Inazuma
+Batora Shi
+MF Bosque ★★
+PODER BASE Nivel 440 8743
+Abrir ficha
+MF
+Young Inazuma
+Chuukan You
+MF Bosque ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+MF
+Young Inazuma
+Ikari Gangorou
+MF Fuego ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+FW
+Young Inazuma
+Biryuuta Kouichi
+FW Fuego ★★
+PODER BASE Nivel 440 8887
+Abrir ficha
+DF
+Raimon de la Revolución
+Kirino Ranmaru
+DF Bosque ★★★
+PODER BASE Nivel 440 11.640
+Abrir ficha
+MF
+Raimon de la Revolución
+Shindou Takuto
+MF Bosque ★★★
+PODER BASE Nivel 440 11.469
+Abrir ficha
+DF
+Kidokawa Seishuu
+Nishigaki Mamoru
+DF Fuego ★★
+PODER BASE Nivel 440 8889
+Abrir ficha
+GK
+Raimon OB
+Hibiki Seigou
+GK Montaña ★★
+PODER BASE Nivel 440 9034
+Abrir ficha
+MF
+Tablón de conexiones
+Gouenji Yuuka
+MF Fuego ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+DF
+Tablón de conexiones
+Kabeyama Saku
+DF Montaña ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+FW
+Tablón de conexiones
+Raimon Souichirou
+FW Montaña ★
+PODER BASE Nivel 440 7842
+Abrir ficha
+GK
+Tablón de conexiones
+Onigawara Gengorou
+GK Fuego ★
+PODER BASE Nivel 440 7972
+Abrir ficha
+MF
+Tablón de conexiones
+Ootani Tsukushi
+MF Bosque ★★
+PODER BASE Nivel 440 8743
+Abrir ficha
+GK
+Raimon
+Kino Aki
+GK Montaña ★★★
+PODER BASE Nivel 440 11.811
+Abrir ficha
+MF
+Raimon
+Otonashi Haruna
+MF Viento ★★★
+PODER BASE Nivel 440 11.554
+Abrir ficha
+FW
+Raimon
+Raimon Natsumi
+FW Fuego ★★★
+PODER BASE Nivel 440 11.639
+Abrir ficha
+GK
+Gemini Storm
+Gorleo
+GK Bosque ★★
+PODER BASE Nivel 440 9034
+Abrir ficha
+DF
+Gemini Storm
+Coral
+DF Viento ★
+PODER BASE Nivel 440 7844
+Abrir ficha
+DF
+Gemini Storm
+Gigu
+DF Fuego ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+DF
+Gemini Storm
+Ganimede
+DF Montaña ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+DF
+Gemini Storm
+Karon
+DF Fuego ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+MF
+Gemini Storm
+Pandora
+MF Viento ★
+PODER BASE Nivel 440 7715
+Abrir ficha
+MF
+Gemini Storm
+Gringo
+MF Montaña ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+MF
+Gemini Storm
+Io
+MF Fuego ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+FW
+Gemini Storm
+Reem
+FW Bosque ★
+PODER BASE Nivel 440 7842
+Abrir ficha
+MF
+Gemini Storm
+Reize
+MF Bosque ★★
+PODER BASE Nivel 440 8742
+Abrir ficha
+FW
+Gemini Storm
+Diam
+FW Bosque ★
+PODER BASE Nivel 440 7842
+Abrir ficha
+MF
+The Genesis
+Ulvida
+MF Viento ★★★
+PODER BASE Nivel 440 11.469
+Abrir ficha
+MF
+SP Fixers
+Zaizen Touko
+MF Viento ★★★
+PODER BASE Nivel 440 11.469
+Abrir ficha
+MF
+Raimon
+Kidou Yuuto
+MF Viento ★★★
+PODER BASE Nivel 440 10.286
+Abrir ficha
+GK NUEVO !
+Caos
+Grent
+GK Fuego ★
+PODER BASE Nivel 440 7972
+Abrir ficha
+DF NUEVO !
+Caos
+Barra
+DF Bosque ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+DF NUEVO !
+Caos
+Clara
+DF Viento ★★
+PODER BASE Nivel 440 8889
+Abrir ficha
+DF NUEVO !
+Caos
+Gocker
+DF Montaña ★
+PODER BASE Nivel 440 7843
+Abrir ficha
+MF NUEVO !
+Caos
+Bomber
+MF Fuego ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+MF NUEVO !
+Caos
+Heat
+MF Bosque ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+MF NUEVO !
+Caos
+Droll
+MF Viento ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+MF NUEVO !
+Caos
+Rione
+MF Viento ★
+PODER BASE Nivel 440 7714
+Abrir ficha
+FW NUEVO !
+Caos
+Nepper
+FW Bosque ★★
+PODER BASE Nivel 440 8888
+Abrir ficha
+Una base de fans, para fans.
+Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
+Apoyar el proyecto
+IE CROSS DATABASE
+Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
+Guías · Inazuma Eleven Cross REDES Y APOYO 𝕏 @RR_o50
+El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
+Jugadores y estadísticas | Inazuma Eleven Cross Database
