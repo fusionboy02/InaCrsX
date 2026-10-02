@@ -31,4 +31,9 @@ jobs:
           for d in players coaches news; do if [ -d "$d" ]; then git add "$d"; fi; done
           if git diff --cached --quiet; then echo "Nada nuevo que publicar"; exit 0; fi
           git commit -m "Datos sincronizados $(date -u +'%Y-%m-%d %H:%M') UTC"
-          git push
+          # Si mientras tanto has subido algún cambio, se integra antes de publicar.
+          for intento in 1 2 3; do
+            if git pull --rebase -X theirs origin main && git push; then exit 0; fi
+            sleep 10
+          done
+          exit 1
