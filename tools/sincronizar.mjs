@@ -21,7 +21,7 @@ const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const D = f => path.join(RAIZ, 'data', f);
 const ORIGEN = process.env.ORIGEN || 'https://iecrossdatabase.pages.dev';
 const GUIA = 'https://inacross-guide.com';
-const FUENTES_GUIA = ['/pvp', '/pvp/environments/ver-1-3-3', '/limited', '/cross-simulator', '/training', '/players', '/help', '/help/beginner', '/help/tier-list', '/calendar'];
+const FUENTES_GUIA = ['/trials' ,'/pvp', '/pvp/environments/ver-1-3-3', '/limited', '/cross-simulator', '/training', '/players', '/help', '/help/beginner', '/help/tier-list', '/calendar'];
 const FUENTES_ORIGEN = ['/', '/calendario', '/tier-list', '/formacion', '/jugadores'];
 const PAUSA = 350, dormir = ms => new Promise(r => setTimeout(r, ms));
 const leerJSON = async f => JSON.parse(await readFile(D(f), 'utf8'));
