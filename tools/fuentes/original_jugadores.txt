@@ -13,133 +13,133 @@ GK
 Raimon
 Mamoru Endou
 GK Montaña ★★
-PODER BASE Nivel 440 9034
+PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Raimon
 Ichirota Kazemaru
 DF Viento ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 DF
 Raimon
 Heigorou Kabeyama
 DF Montaña ★
-PODER BASE Nivel 440 8888
+PODER BASE Nivel 440 8.888
 Abrir ficha
 DF
 Raimon
 Teppei Kurimatsu
 DF Fuego ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Raimon
 Shinichi Handa
 MF Viento ★
-PODER BASE Nivel 440 7715
+PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Raimon
 Ayumu Shourinji
 MF Bosque ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Raimon
 Sakichi Shishido
 MF Fuego ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Raimon
 Kuusuke Matsuno
 FW Viento ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 FW
 Raimon
 Gouenji Shuuya
 FW Fuego ★★
-PODER BASE Nivel 440 8887
+PODER BASE Nivel 440 8.887
 Abrir ficha
 FW
 Raimon
 Ryuugo Someoka
 FW Bosque ★★
-PODER BASE Nivel 440 8887
+PODER BASE Nivel 440 8.887
 Abrir ficha
 DF
 Raimon
 Asuka Domon
 DF Bosque ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 MF
 Raimon
 Kazuya Ichinose
 MF Bosque ★★
-PODER BASE Nivel 440 8743
+PODER BASE Nivel 440 8.743
 Abrir ficha
 GK
 Imperius
 Koujirou Genda
 GK Fuego ★★
-PODER BASE Nivel 440 9034
+PODER BASE Nivel 440 9.034
 Abrir ficha
 MF
 Imperius
 Seikami Kenya
 MF Viento ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 DF
 Imperius
 Gojou Kachi
 DF Bosque ★
-PODER BASE Nivel 440 7844
+PODER BASE Nivel 440 7.844
 Abrir ficha
 MF
 Imperius
 Henmi Watari
 MF Viento ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Imperius
 Sakiyama Shuuji
 MF Fuego ★
-PODER BASE Nivel 440 7715
+PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Imperius
 Horamen Shuuichirou
 MF Viento ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Imperius
 Terakado Daiki
 FW Bosque ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Imperius
 Yuuto Kidou
 MF Viento ★★
-PODER BASE Nivel 440 8743
+PODER BASE Nivel 440 8.743
 Abrir ficha
 FW
 Imperius
 Sakuma Jirou
 FW Bosque ★★
-PODER BASE Nivel 440 8815
+PODER BASE Nivel 440 8.815
 Abrir ficha
 DF
 Raimon
 Miyasaka Ryou
 DF Viento ★
-PODER BASE Nivel 440 7844
+PODER BASE Nivel 440 7.844
 Abrir ficha
 FW NUEVO !
 Caos
@@ -175,19 +175,19 @@ DF
 Inazuma Japan
 Tsunaumi Jousuke
 DF Viento ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 DF
 Inazuma Japan
 Kogure Yuuya
 DF Bosque ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 DF
 Inazuma Japan
 Tobitaka Seiya
 DF Viento ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 FW
 Inazuma Japan
@@ -199,7 +199,7 @@ MF
 Inazuma Japan
 Midorikawa Ryuuji
 MF Bosque ★★
-PODER BASE Nivel 440 8742
+PODER BASE Nivel 440 8.742
 Abrir ficha
 MF
 Inazuma Japan
@@ -223,115 +223,115 @@ DF
 Imperius
 Oono Densuke
 DF Montaña ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Imperius
 Banjou Ichidou
 DF Bosque ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Inazuma Japan
 Teppei Kurimatsu
 DF Fuego ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 FW
 Raimon
 Kageto Yamino
 FW Bosque ★★
-PODER BASE Nivel 440 8888
+PODER BASE Nivel 440 8.888
 Abrir ficha
 DF
 Raimon
 Jin Kageno
 DF Bosque ★
-PODER BASE Nivel 440 7844
+PODER BASE Nivel 440 7.844
 Abrir ficha
 FW
 Raimon
 Kakeru Megane
 FW Bosque ★
-PODER BASE Nivel 440 7842
+PODER BASE Nivel 440 7.842
 Abrir ficha
 FW
 Inazuma KFC
 Kisaragi Mako
 FW Bosque ★
-PODER BASE Nivel 440 7842
+PODER BASE Nivel 440 7.842
 Abrir ficha
 GK
 Occult
 Nata Juusan
 GK Viento ★
-PODER BASE Nivel 440 7971
+PODER BASE Nivel 440 7.971
 Abrir ficha
 FW
 Occult
 Yuukoku Hiroyuki
 FW Bosque ★★
-PODER BASE Nivel 440 8815
+PODER BASE Nivel 440 8.815
 Abrir ficha
 FW
 Salvaje
 Suizenji Chiita
 FW Viento ★
-PODER BASE Nivel 440 7842
+PODER BASE Nivel 440 7.842
 Abrir ficha
 GK
 Mikage Sennou
 Sugimori I
 GK Bosque ★★
-PODER BASE Nivel 440 9034
+PODER BASE Nivel 440 9.034
 Abrir ficha
 FW
 Mikage Sennou
 Shitatsuru Kai
 FW Fuego ★★
-PODER BASE Nivel 440 8888
+PODER BASE Nivel 440 8.888
 Abrir ficha
 FW
 Akiha
 Manga Hou
 FW Viento ★
-PODER BASE Nivel 440 7842
+PODER BASE Nivel 440 7.842
 Abrir ficha
 FW
 Sengoku Igajima
 Kirigakure Saitsugi
 FW Fuego ★★
-PODER BASE Nivel 440 8815
+PODER BASE Nivel 440 8.815
 Abrir ficha
 FW
 Kidokawa Seishuu
 Takekata Kachi
 FW Fuego ★★
-PODER BASE Nivel 440 8887
+PODER BASE Nivel 440 8.887
 Abrir ficha
 FW
 Kidokawa Seishuu
 Takekata Tomo
 FW Viento ★★
-PODER BASE Nivel 440 8888
+PODER BASE Nivel 440 8.888
 Abrir ficha
 FW
 Kidokawa Seishuu
 Takekata Tsutomu
 FW Montaña ★★
-PODER BASE Nivel 440 8888
+PODER BASE Nivel 440 8.888
 Abrir ficha
 FW
 Inazuma Japan
 Utsunomiya Toramaru
 FW Bosque ★★
-PODER BASE Nivel 440 8888
+PODER BASE Nivel 440 8.888
 Abrir ficha
 MF
 Inazuma Japan
 Hijikata Raiden
 MF Viento ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 FW
 Inazuma Japan
@@ -403,55 +403,55 @@ GK
 Zeus
 Hohoshi Donichi
 GK Montaña ★★
-PODER BASE Nivel 440 9034
+PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Zeus
 Ahotsuyu Hikari
 DF Bosque ★
-PODER BASE Nivel 440 7844
+PODER BASE Nivel 440 7.844
 Abrir ficha
 DF
 Zeus
 Buhai Honoo
 DF Fuego ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Zeus
 Kousu Ran
 DF Montaña ★
-PODER BASE Nivel 440 7777
+PODER BASE Nivel 440 7.777
 Abrir ficha
 DF
 Zeus
 Tesakana Geki
 DF Viento ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Zeus
 Zaite Miyumi
 MF Viento ★
-PODER BASE Nivel 440 7715
+PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Zeus
 Keime Sushou
 MF Bosque ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Zeus
 Meitenmei Satoru
 MF Bosque ★★
-PODER BASE Nivel 440 8743
+PODER BASE Nivel 440 8.743
 Abrir ficha
 FW
 Zeus
 Shutsumigite Yutaka
 FW Fuego ★★
-PODER BASE Nivel 440 8887
+PODER BASE Nivel 440 8.887
 Abrir ficha
 MF
 Zeus
@@ -463,73 +463,73 @@ MF
 Zeus
 Taira Tei
 MF Fuego ★★
-PODER BASE Nivel 440 8742
+PODER BASE Nivel 440 8.742
 Abrir ficha
 GK
 Young Inazuma
 Hibiki Seigou
 GK Montaña ★★
-PODER BASE Nivel 440 9034
+PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Young Inazuma
 Fushima Hitori
 DF Bosque ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 MF
 Young Inazuma
 Teiryou Ho
 MF Montaña ★
-PODER BASE Nivel 440 7715
+PODER BASE Nivel 440 7.715
 Abrir ficha
 FW
 Young Inazuma
 Tamiyama Utai
 FW Viento ★
-PODER BASE Nivel 440 7842
+PODER BASE Nivel 440 7.842
 Abrir ficha
 MF
 Young Inazuma
 Sugata Gen
 MF Fuego ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 DF
 Young Inazuma
 Kamimura Setsuto
 DF Viento ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Young Inazuma
 Aida Chikara
 DF Montaña ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 MF
 Young Inazuma
 Batora Shi
 MF Bosque ★★
-PODER BASE Nivel 440 8743
+PODER BASE Nivel 440 8.743
 Abrir ficha
 MF
 Young Inazuma
 Chuukan You
 MF Bosque ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Young Inazuma
 Ikari Gangorou
 MF Fuego ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Young Inazuma
 Biryuuta Kouichi
 FW Fuego ★★
-PODER BASE Nivel 440 8887
+PODER BASE Nivel 440 8.887
 Abrir ficha
 DF
 Raimon de la Revolución
@@ -547,43 +547,43 @@ DF
 Kidokawa Seishuu
 Nishigaki Mamoru
 DF Fuego ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 GK
 Raimon OB
 Hibiki Seigou
 GK Montaña ★★
-PODER BASE Nivel 440 9034
+PODER BASE Nivel 440 9.034
 Abrir ficha
 MF
 Tablón de conexiones
 Gouenji Yuuka
 MF Fuego ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 DF
 Tablón de conexiones
 Kabeyama Saku
 DF Montaña ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 FW
 Tablón de conexiones
 Raimon Souichirou
 FW Montaña ★
-PODER BASE Nivel 440 7842
+PODER BASE Nivel 440 7.842
 Abrir ficha
 GK
 Tablón de conexiones
 Onigawara Gengorou
 GK Fuego ★
-PODER BASE Nivel 440 7972
+PODER BASE Nivel 440 7.972
 Abrir ficha
 MF
 Tablón de conexiones
 Ootani Tsukushi
 MF Bosque ★★
-PODER BASE Nivel 440 8743
+PODER BASE Nivel 440 8.743
 Abrir ficha
 GK
 Raimon
@@ -607,67 +607,67 @@ GK
 Gemini Storm
 Gorleo
 GK Bosque ★★
-PODER BASE Nivel 440 9034
+PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Gemini Storm
 Coral
 DF Viento ★
-PODER BASE Nivel 440 7844
+PODER BASE Nivel 440 7.844
 Abrir ficha
 DF
 Gemini Storm
 Gigu
 DF Fuego ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Gemini Storm
 Ganimede
 DF Montaña ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Gemini Storm
 Karon
 DF Fuego ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Gemini Storm
 Pandora
 MF Viento ★
-PODER BASE Nivel 440 7715
+PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Gemini Storm
 Gringo
 MF Montaña ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Gemini Storm
 Io
 MF Fuego ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Gemini Storm
 Reem
 FW Bosque ★
-PODER BASE Nivel 440 7842
+PODER BASE Nivel 440 7.842
 Abrir ficha
 MF
 Gemini Storm
 Reize
 MF Bosque ★★
-PODER BASE Nivel 440 8742
+PODER BASE Nivel 440 8.742
 Abrir ficha
 FW
 Gemini Storm
 Diam
 FW Bosque ★
-PODER BASE Nivel 440 7842
+PODER BASE Nivel 440 7.842
 Abrir ficha
 MF
 The Genesis
@@ -691,61 +691,61 @@ GK NUEVO !
 Caos
 Grent
 GK Fuego ★
-PODER BASE Nivel 440 7972
+PODER BASE Nivel 440 7.972
 Abrir ficha
 DF NUEVO !
 Caos
 Barra
 DF Bosque ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 DF NUEVO !
 Caos
 Clara
 DF Viento ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 DF NUEVO !
 Caos
 Gocker
 DF Montaña ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 MF NUEVO !
 Caos
 Bomber
 MF Fuego ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Heat
 MF Bosque ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Droll
 MF Viento ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Rione
 MF Viento ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 FW NUEVO !
 Caos
 Nepper
 FW Bosque ★★
-PODER BASE Nivel 440 8888
+PODER BASE Nivel 440 8.888
 Abrir ficha
 Una base de fans, para fans.
 Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
 Apoyar el proyecto
 IE CROSS DATABASE
 Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
-Guías · Inazuma Eleven Cross REDES Y APOYO 𝕏 @RR_o50
+Guías · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
 El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
 Jugadores y estadísticas | Inazuma Eleven Cross Database

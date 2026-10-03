@@ -31,10 +31,10 @@ Bloqueo + 53
 aliado · posición recomendada [DF]
 Completa las condiciones de la formación para activar el efecto.
 PASIVA DEL ENTRENADOR · Nivel 10 Impulso de Raimon
-Modificador de Parada + 3113
+Modificador de Parada + 3.113
 aliado · posición recomendada [GK] · etiqueta [Raimon]
 Ningún jugador colocado recibe todavía este efecto.
-Modificador de Técnica + 1200
+Modificador de Técnica + 1.200
 aliado · etiqueta [Raimon]
 Ningún jugador colocado recibe todavía este efecto.
 PASIVAS DE LOS JUGADORES 0 de 0 activadas
@@ -44,6 +44,6 @@ Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus
 Apoyar el proyecto
 IE CROSS DATABASE
 Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
-Guías · Inazuma Eleven Cross REDES Y APOYO 𝕏 @RR_o50
+Guías · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
 El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
 Creador de equipos y formaciones | Inazuma Eleven Cross Database

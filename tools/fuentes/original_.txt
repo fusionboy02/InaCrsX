@@ -1,7 +1,7 @@
 Última actualización: 1.3.3
 IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Guías Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano
 DATOS · NOTICIAS · TIER LIST INAZUMA ELEVEN CROSS DATABASE
-La base de datos fan de Inazuma Eleven Cross: compara estadísticas de jugadores, consulta pasivas y supertécnicas, revisa la tier list y crea tu equipo.
+La base de datos fan de Inazuma Eleven Cross, también conocida como IE Cross DB: compara estadísticas de jugadores, consulta pasivas y supertécnicas, revisa la tier list y crea tu equipo.
 Buscar jugador Ver catálogo Tier List Crea tu formación Tienda
 122 jugadores
 ACTUALIZACIÓN 29 SEP
@@ -26,55 +26,55 @@ GK NUEVO !
 Caos
 Grent
 GK Fuego ★
-PODER BASE Nivel 440 7972
+PODER BASE Nivel 440 7.972
 Abrir ficha
 DF NUEVO !
 Caos
 Barra
 DF Bosque ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 DF NUEVO !
 Caos
 Clara
 DF Viento ★★
-PODER BASE Nivel 440 8889
+PODER BASE Nivel 440 8.889
 Abrir ficha
 DF NUEVO !
 Caos
 Gocker
 DF Montaña ★
-PODER BASE Nivel 440 7843
+PODER BASE Nivel 440 7.843
 Abrir ficha
 MF NUEVO !
 Caos
 Bomber
 MF Fuego ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Heat
 MF Bosque ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Droll
 MF Viento ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Rione
 MF Viento ★
-PODER BASE Nivel 440 7714
+PODER BASE Nivel 440 7.714
 Abrir ficha
 FW NUEVO !
 Caos
 Nepper
 FW Bosque ★★
-PODER BASE Nivel 440 8888
+PODER BASE Nivel 440 8.888
 Abrir ficha
 ÚLTIMA HORA
 Últimas noticias
@@ -113,7 +113,7 @@ Busca por nombre japonés, nombre occidental, equipo o etiqueta.
 4 posiciones 244 técnicas equipadas
 Abrir jugadores CONSTRUCTOR TÁCTICO Crea tu formación
 Elige entrenador, coloca once jugadores y comprueba todas las bonificaciones.
-12 entrenadores 11 slots libres
+13 entrenadores 11 slots libres
 Crear plantilla
 INAZUMA ELEVEN CROSS
 Guías
@@ -132,6 +132,6 @@ Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus
 Apoyar el proyecto
 IE CROSS DATABASE
 Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
-Guías · Inazuma Eleven Cross REDES Y APOYO 𝕏 @RR_o50
+Guías · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
 El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
-Inazuma Eleven Cross Database | Jugadores, Tier List y Wiki
+Inazuma Eleven Cross Database | Jugadores y Tier List
