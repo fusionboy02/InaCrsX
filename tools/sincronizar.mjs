@@ -22,7 +22,7 @@ const D = f => path.join(RAIZ, 'data', f);
 const ORIGEN = process.env.ORIGEN || 'https://iecrossdatabase.pages.dev';
 const GUIA = 'https://inacross-guide.com';
 const FUENTES_GUIA = ['/trials', '/club-trials', '/pvp', '/pvp/environments/ver-1-3-3', '/limited', '/cross-simulator', '/training', '/players', '/help', '/help/beginner', '/help/tier-list', '/calendar'];
-const FUENTES_ORIGEN = ['/', '/calendario', '/tier-list', '/formacion', '/jugadores'];
+const FUENTES_ORIGEN = ['/', '/calendario', '/tier-list', '/formacion', '/jugadores', '/jugador/torch-2031', '/jugador/kino-aki-1166', '/jugador/afuro-terumi-1164'];
 const PAUSA = 350, dormir = ms => new Promise(r => setTimeout(r, ms));
 const leerJSON = async f => JSON.parse(await readFile(D(f), 'utf8'));
 const igual = (a, b) => JSON.stringify(a) === JSON.stringify(b);
@@ -84,50 +84,59 @@ async function sincronizarJugadores(){
 
 /* ---------------- 2. inacross-guide: equipos de pruebas ---------------- */
 const EL_JP = { '山':'M', '風':'V', '林':'B', '火':'F' };
-export function leerPruebas(texto, dic){
-  const out = [], pendientes = new Set();
-  const cab = /(攻撃|守備)・(山|風|林|火)の試練1〜10位/g;
-  const marcas = [...texto.matchAll(cab)];
+const SUFIJO_EQUIPO = { '帝国':'Imperius', 'イナズマジャパン':'Inazuma Japan', '雷門':'Raimon', 'ゼウス':'Zeus', 'カオス':'Caos' };
+export function buscarJugador(nombre, dic, players){
+  if (dic.jugadores[nombre]) return dic.jugadores[nombre];
+  if (dic.cortos[nombre]) return dic.cortos[nombre];
+  const m = nombre.match(/^(.+?)（(.+)）$/), base = m ? m[1] : nombre, eq = m ? SUFIJO_EQUIPO[m[2]] : null;
+  let c = players.filter(p => p.nameJP === base);
+  if (eq) c = c.filter(p => p.team === eq);
+  c.sort((x, y) => y.stars - x.stars || y.power - x.power);
+  return c[0]?.id || null;
+}
+export function leerPruebas(texto, dic, players = []){
+  const out = [], pendientes = new Set(), porId = new Map(players.map(p => [p.id, p]));
+  const marcas = [...texto.matchAll(/(攻撃|守備)・(山|風|林|火)\s*の試練\s*1〜\s*10\s*位/g)];
   marcas.forEach((m, k) => {
-    const trozo = texto.slice(m.index, k + 1 < marcas.length ? marcas[k + 1].index : undefined);
+    const trozo = texto.slice(m.index + m[0].length, k + 1 < marcas.length ? marcas[k + 1].index : undefined);
     const mode = m[1] === '攻撃' ? 'ataque' : 'defensa', el = EL_JP[m[2]];
-    const lineas = trozo.split('\n').map(s => s.trim());
     let rank = null, titulo = '';
-    for (const l of lineas){
-      const r = l.match(/^(?:\d+\.\s*)?(\d+)位(.*)$/); if (r){ rank = Number(r[1]); titulo = r[2]; continue; }
-      const piezas = l.split('→').map(s => s.trim());
-      if (rank && piezas.length === 5 && piezas.every(s => /「.+」/.test(s))){
-        const lineup = piezas.map(s => {
-          const [, pj, tj] = s.match(/^(.+?)「(.+)」$/);
-          const id = dic.jugadores[pj];
-          const tech = dic.tecnicas[tj];
-          if (!id) pendientes.add('jugador: ' + pj);
-          if (!tech) pendientes.add('técnica: ' + tj);
-          const e = { id: id || null, el: tech ? tech[1] : null, tech: tech ? tech[0] : tj, techJP: tj };
-          if (dic.manuales.includes(`${pj}|${tj}`)) e.manual = true;
-          return e;
-        });
-        // Los nombres van separados por «・», pero algunos lo contienen (フェイ・ルーン): se unen los trozos que forman un nombre conocido.
-        const trozos = ((titulo.match(/（(.+?)入り）/) || [])[1] || '').split('・'), con = [];
-        for (let a = 0; a < trozos.length;){
-          let b = trozos.length;
-          for (; b > a; b--){ const n = trozos.slice(a, b).join('・'); const id = dic.cortos[n] || dic.jugadores[n]; if (id){ con.push(id); break; } }
-          a = b > a ? b : a + 1;
-        }
-        const etiqueta = Object.entries(dic.etiquetas).find(([jp]) => titulo.includes(jp));
-        const item = { el, mode, rank, with: con, lineup };
-        if (etiqueta) item.label = etiqueta[1];
-        out.push(item); rank = null;
+    for (const l0 of trozo.split('\n')){
+      const l = l0.trim();
+      const r = l.match(/(?:^|⌄\s*)(\d+)\s*位\s*(.+)$/);
+      if (r && !l.includes('「')){ rank = Number(r[1]); titulo = r[2]; continue; }
+      const piezas = l.split(/\s*→\s*/);
+      if (!rank || piezas.length !== 5 || !piezas.every(x => /^.+「.+」$/.test(x))) continue;
+      const lineup = piezas.map(x => {
+        const [, pj, tj] = x.match(/^(.+?)「(.+)」$/);
+        const id = buscarJugador(pj, dic, players);
+        const tr = dic.tecnicas[tj];
+        if (!id) pendientes.add('jugador: ' + pj);
+        if (!tr) pendientes.add('técnica: ' + tj);
+        const propia = id && tr ? (porId.get(id)?.detail?.techniques || []).find(t => t.name === tr[0]) : null;
+        let tech = tr ? tr[0] : tj, tel = propia?.el || (tr ? tr[1] : porId.get(id)?.el || null);
+        const e = { id, el: tel, tech, techJP: tj };
+        if (dic.manuales.includes(`${pj}|${tj}`) || dic.manuales.includes(`${(pj.match(/^(.+?)（/)||[])[1]}|${tj}`)) e.manual = true;
+        return e;
+      });
+      const trozos = ((titulo.match(/（(.+)入り）/) || [])[1] || '').split('・'), con = [];
+      for (let a = 0; a < trozos.length;){
+        let b = trozos.length;
+        for (; b > a; b--){ const id = buscarJugador(trozos.slice(a, b).join('・'), dic, players); if (id){ con.push(id); break; } }
+        a = b > a ? b : a + 1;
       }
+      const etiqueta = Object.entries(dic.etiquetas).find(([jp]) => titulo.includes(jp));
+      const item = { el, mode, rank, with: con, lineup };
+      if (etiqueta) item.label = etiqueta[1];
+      out.push(item); rank = null;
     }
   });
-  // Elemento de técnicas desconocidas: el del propio jugador (se marcan como pendientes)
   return { trials: out, pendientes: [...pendientes] };
 }
 async function sincronizarPruebas(players){
   const dic = await leerJSON('diccionario.json');
   const texto = htmlATexto(await bajar(GUIA + '/trials'));
-  const { trials, pendientes } = leerPruebas(texto, dic);
+  const { trials, pendientes } = leerPruebas(texto, dic, players);
   const pj = new Map(players.map(p => [p.id, p]));
   trials.forEach(t => t.lineup.forEach(m => { if (!m.el && m.id) m.el = pj.get(m.id)?.el || 'F'; }));
   const validos = trials.filter(t => t.lineup.every(m => m.id));
@@ -138,16 +147,35 @@ async function sincronizarPruebas(players){
 
 /* ---------------- 3. Copias de texto de las demás páginas ---------------- */
 async function guardarFuentes(){
-  const dir = path.join(RAIZ, 'tools', 'fuentes'); await mkdir(dir, { recursive: true });
+  const dir = path.join(RAIZ, 'tools', 'fuentes'), raw = path.join(dir, 'html');
+  await mkdir(raw, { recursive: true });
+  const scripts = new Set();
   for (const [base, rutas, pref] of [[GUIA, FUENTES_GUIA, 'inacross'], [ORIGEN, FUENTES_ORIGEN, 'original']]){
     for (const r of rutas){
-      try{ await writeFile(path.join(dir, `${pref}${r.replace(/\//g, '_') || '_inicio'}.txt`), htmlATexto(await bajar(base + r))); }
-      catch (e){ log(`  No se pudo guardar ${base + r}: ${e.message}`); }
+      try{
+        const html = await bajar(base + r), nombre = `${pref}${r.replace(/\//g, '_') || '_inicio'}`;
+        await writeFile(path.join(dir, nombre + '.txt'), htmlATexto(html));
+        if (pref === 'original'){
+          await writeFile(path.join(raw, nombre + '.html'), html);
+          for (const m of html.matchAll(/(?:src|href)="(\/[^"]+\.(?:m?js|json))"/g)) scripts.add(m[1]);
+        }
+      } catch (e){ log(`  No se pudo guardar ${base + r}: ${e.message}`); }
       await dormir(PAUSA);
     }
   }
+  // Scripts y datos que usa la web original (ahí están los entrenadores y sus formaciones)
+  const vistos = new Set();
+  for (const s of scripts){
+    if (vistos.has(s) || vistos.size > 60) continue; vistos.add(s);
+    try{
+      const js = await bajar(ORIGEN + s);
+      await writeFile(path.join(raw, s.replace(/^\//, '').replace(/\//g, '__')), js);
+      for (const m of js.matchAll(/["'`](\/[\w\-/.]+\.(?:json|m?js))["'`]/g)) if (!vistos.has(m[1])) scripts.add(m[1]);
+    } catch {}
+    await dormir(150);
+  }
+  log(`Fuentes: ${vistos.size} scripts y datos de la web original guardados para revisión.`);
 }
-
 
 /* ---------------- 4. Copia de imágenes en este repositorio ---------------- */
 // Así la web nueva tiene sus propias fotos aunque la original desaparezca. Solo baja las que faltan.
@@ -189,7 +217,11 @@ async function main(){
   try{
     const { trials, pendientes } = await sincronizarPruebas(players);
     const guides = await leerJSON('guides.json');
-    if (!igual(guides.trials, trials)){ guides.trials = trials; await writeFile(D('guides.json'), JSON.stringify(guides, null, 1)); cambios = true; }
+    if (!igual(guides.trials, trials)){
+      // Las notas traducidas de un primer puesto se retiran si ese primer puesto ha cambiado.
+      const firma = (lista, k) => JSON.stringify((lista || []).find(t => `${t.el}-${t.mode}` === k && t.rank === 1)?.lineup?.map(m => m.id));
+      Object.keys(guides.trialNotes || {}).forEach(k => { if (firma(guides.trials, k) !== firma(trials, k)) delete guides.trialNotes[k]; });
+      guides.trials = trials; await writeFile(D('guides.json'), JSON.stringify(guides, null, 1)); cambios = true; }
     await writeFile(D('pendientes.json'), JSON.stringify({ fecha: new Date().toISOString(), pendientes }, null, 1));
   } catch (e){ log('Pruebas sin cambios: ' + e.message); }
   await guardarFuentes();
