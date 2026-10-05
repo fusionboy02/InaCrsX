@@ -695,7 +695,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "A toda máquina",
+     "name": "Superaceleración",
      "unlock": 1,
      "type": "Regate",
      "el": "M",
@@ -4341,7 +4341,7 @@
      }
     },
     {
-     "name": "Disparo dual",
+     "name": "Remate combinado",
      "unlock": 31,
      "type": "Tiro",
      "el": "F",
@@ -8241,7 +8241,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "Regate ilusorio",
+     "name": "Regate espejismo",
      "unlock": 1,
      "type": "Regate",
      "el": "B",
@@ -9223,7 +9223,7 @@
      }
     },
     {
-     "name": "A toda máquina",
+     "name": "Superaceleración",
      "unlock": 31,
      "type": "Regate",
      "el": "M",
@@ -9669,7 +9669,7 @@
      }
     },
     {
-     "name": "Espíritu vengativo",
+     "name": "Manos fantasmagóricas",
      "unlock": 31,
      "type": "Bloqueo",
      "el": "B",
@@ -9890,7 +9890,7 @@
      }
     },
     {
-     "name": "A toda máquina",
+     "name": "Superaceleración",
      "unlock": 31,
      "type": "Regate",
      "el": "M",
@@ -10465,7 +10465,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "Murciélago valiente",
+     "name": "Bateo total",
      "unlock": 1,
      "type": "Tiro",
      "el": "F",
@@ -10559,7 +10559,7 @@
      }
     },
     {
-     "name": "Gorila en la niebla",
+     "name": "Confusión",
      "unlock": 31,
      "type": "Regate",
      "el": "M",
@@ -13657,7 +13657,7 @@
      }
     },
     {
-     "name": "Torbellino de celos (Fuegos artificiales)",
+     "name": "Tiro amasado (Fuegos artificiales)",
      "unlock": 31,
      "type": "Tiro",
      "el": "F",
@@ -13878,7 +13878,7 @@
      }
     },
     {
-     "name": "Paseo celestial (Fuegos artificiales)",
+     "name": "Pasos aéreos (Fuegos artificiales)",
      "unlock": 31,
      "type": "Regate",
      "el": "M",
@@ -14672,7 +14672,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "Apisonadora",
+     "name": "Pisotón de justicia",
      "unlock": 1,
      "type": "Bloqueo",
      "el": "F",
@@ -14989,7 +14989,7 @@
      }
     },
     {
-     "name": "Apisonadora",
+     "name": "Pisotón de justicia",
      "unlock": 31,
      "type": "Bloqueo",
      "el": "F",
@@ -15116,7 +15116,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "Apisonadora",
+     "name": "Pisotón de justicia",
      "unlock": 1,
      "type": "Bloqueo",
      "el": "F",
@@ -15877,7 +15877,7 @@
      }
     },
     {
-     "name": "Apisonadora",
+     "name": "Pisotón de justicia",
      "unlock": 31,
      "type": "Bloqueo",
      "el": "F",
@@ -17655,7 +17655,7 @@
      }
     },
     {
-     "name": "Caída de relámpago",
+     "name": "Trampolín relámpago",
      "unlock": 31,
      "type": "Tiro",
      "el": "V",
@@ -17782,7 +17782,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "Avance flamígero",
+     "name": "Pájaro de fuego",
      "unlock": 1,
      "type": "Tiro",
      "el": "F",
@@ -19108,7 +19108,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "Avance flamígero",
+     "name": "Pájaro de fuego",
      "unlock": 1,
      "type": "Tiro",
      "el": "F",
@@ -19865,7 +19865,7 @@
      }
     },
     {
-     "name": "A toda máquina",
+     "name": "Superaceleración",
      "unlock": 31,
      "type": "Regate",
      "el": "M",
@@ -20530,7 +20530,7 @@
      }
     },
     {
-     "name": "A toda máquina",
+     "name": "Superaceleración",
      "unlock": 31,
      "type": "Regate",
      "el": "M",
@@ -22212,7 +22212,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "Cinturón de asteroides",
+     "name": "Cinto astral",
      "unlock": 1,
      "type": "Bloqueo",
      "el": "B",
@@ -22750,7 +22750,7 @@
      }
     },
     {
-     "name": "Protones Ganímedes",
+     "name": "Rayo de Ganímedes",
      "unlock": 31,
      "type": "Tiro",
      "el": "B",
@@ -22973,7 +22973,7 @@
      }
     },
     {
-     "name": "Cinturón de asteroides",
+     "name": "Cinto astral",
      "unlock": 31,
      "type": "Bloqueo",
      "el": "B",
@@ -23861,7 +23861,7 @@
      }
     },
     {
-     "name": "Explosión universo",
+     "name": "Disparo cósmico",
      "unlock": 31,
      "type": "Tiro",
      "el": "B",
@@ -24211,7 +24211,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "Explosión universo",
+     "name": "Disparo cósmico",
      "unlock": 1,
      "type": "Tiro",
      "el": "B",
@@ -24434,7 +24434,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "Lluvia de meteoritos",
+     "name": "Lluvia de meteoros",
      "unlock": 1,
      "type": "Regate",
      "el": "F",
@@ -24655,7 +24655,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "La torre",
+     "name": "Torre inexpugnable",
      "unlock": 1,
      "type": "Bloqueo",
      "el": "V",
@@ -25416,7 +25416,7 @@
      }
     },
     {
-     "name": "Lluvia de meteoritos",
+     "name": "Lluvia de meteoros",
      "unlock": 31,
      "type": "Regate",
      "el": "F",
@@ -26083,7 +26083,7 @@
      }
     },
     {
-     "name": "Velo de fuego",
+     "name": "Pantalla ígnea",
      "unlock": 31,
      "type": "Regate",
      "el": "F",
@@ -26210,7 +26210,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "Lluvia de meteoritos",
+     "name": "Lluvia de meteoros",
      "unlock": 1,
      "type": "Regate",
      "el": "F",
@@ -26877,7 +26877,7 @@
    "passives": [],
    "techniques": [
     {
-     "name": "Velo de fuego",
+     "name": "Pantalla ígnea",
      "unlock": 1,
      "type": "Regate",
      "el": "F",
