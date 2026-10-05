@@ -500,6 +500,10 @@ a,button,label{touch-action:manipulation}
 .numbox{width:70px;min-height:38px;border:1px solid var(--line);border-radius:6px;background:var(--surface-2);text-align:center}
 .slider-row output{min-width:2ch;font-size:1.2rem}
 @media (max-width:560px){.slider-row{grid-template-columns:1fr auto}.slider-row>span{grid-column:1 / -1}}
+.pvp-pas{background:var(--surface-2);border-radius:8px;padding:10px 12px;font-size:.92rem}
+.pvp-more summary{cursor:pointer;font-weight:700;color:var(--raimon);padding:4px 0}
+.pvp-more h4{margin:12px 0 2px;font-size:.98rem}
+.pvp-more p{font-size:.93rem;color:var(--ink-2)}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -2118,17 +2122,19 @@ function viewDuels(r){
   const list = all.filter(t => !ver || t.version === ver);
   const tiers = [...new Set(list.map(t=>t.tier||'—'))];
   app.innerHTML = `<div class="wrap">
-    <header class="page-head"><h1>Duelos</h1><p>Formaciones que funcionan en los duelos contra otros jugadores, ordenadas por nivel. Puedes hacer cinco duelos gratis al día; las recompensas crecen al subir de rango y al final de cada temporada.</p></header>
+    <header class="page-head"><h1>Duelos</h1><p>Formaciones que funcionan en los duelos contra otros jugadores, con su explicación y cómo jugarlas. Ábrelas en el creador para ver qué condiciones y pasivas activan, o cambia a quien no tengas.</p></header>
     ${versions.length > 1 ? `<div class="tabs">${versions.map(v=>`<a class="chip" href="#/duelos?v=${encodeURIComponent(v)}" aria-pressed="${v===ver}">Versión ${esc(v)}</a>`).join('')}</div>` : ''}
-    ${list.length ? tiers.map(tier => `<section class="section" style="padding-top:18px"><div class="section-head"><h2>Nivel ${esc(tier)}</h2></div>
+    ${list.length ? tiers.map(tier => `<section class="section" style="padding-top:18px">${tiers.length>1?`<div class="section-head"><h2>${tier==='Recomendada'?'Formaciones recomendadas':'Nivel '+esc(tier)}</h2></div>`:''}
       <div class="recs">${list.filter(t=>(t.tier||'—')===tier).map((t,k) => {
         const coach = DB.coaches.find(c=>c.id===t.coach); const full = (t.slots||[]).filter(Boolean).length >= 11;
         const ids = (full ? t.slots : (t.key||t.slots||[])).filter(Boolean); const miss = missingOf(ids);
         return `<article class="panel rec" style="--i:${k}"><header class="rec-head"><div><h3>${esc(t.title || 'Formación')}</h3>
           <div class="meta-row">${coach?`<span class="tag">${esc(coachName(coach))}, ${esc(coach.formation)}</span>`:''}${t.shape?`<span class="tag">${esc(t.shape)}</span>`:''}${miss.length?`<span class="tag bad">Te faltan ${miss.length}</span>`:''}</div></div></header>
           ${t.note?`<p class="rec-note">${esc(t.note)}</p>`:''}
+          ${t.coachPassive||t.formationPassive||t.requires ? `<div class="pvp-pas">${t.coachPassive?`<p><b>${esc(t.coachPassive.title)}</b></p><ul class="bullets">${t.coachPassive.items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${t.formationPassive?`<p style="margin-top:8px">${esc(t.formationPassive)}</p>`:''}${t.requires?`<p class="note">${esc(t.requires)}</p>`:''}</div>` : ''}
           <p class="kv">${full ? 'Alineación' : 'Jugadores clave'}</p>
           <div class="squad">${ids.map(id=>DB.byId.get(id)).filter(Boolean).map(p=>`<a class="tchip" href="#/jugador/${p.id}" data-el="${p.el}">${portrait(p)}<b>${esc(dn(p))}</b><small>${p.pos}${isOwned(p.id)||!Object.keys(owned).length?'':', no lo tienes'}</small></a>`).join('')}</div>
+          ${(t.points||[]).length ? `<details class="pvp-more"><summary>Cómo funciona y cómo jugarla</summary>${t.points.map(([h,x])=>`<h4>${esc(h)}</h4><p>${esc(x)}</p>`).join('')}${(t.alternatives||[]).length?`<h4>Suplentes</h4>${t.alternatives.map(([a,b,x])=>`<p><b>${esc(a)} → ${esc(b)}</b>: ${esc(x)}</p>`).join('')}`:''}</details>` : ''}
           ${full ? `<button class="btn btn-sm" data-act="pvp-open" data-rec="${all.indexOf(t)}">Abrir en el creador de formaciones</button>` : `<button class="btn btn-ghost btn-sm" data-act="pvp-coach" data-rec="${all.indexOf(t)}">Empezar esta formación en el creador</button>`}</article>`; }).join('')}</div></section>`).join('') + creditLine('pvp')
       : emptyState('Todavía no hay formaciones de duelos publicadas', 'Aparecerán aquí en cuanto se añadan a los datos. Mientras tanto, monta la tuya en el creador de formaciones.', '<a class="btn btn-ghost btn-sm" href="#/formacion">Ir al creador</a>')}
   </div>`;
