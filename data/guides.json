@@ -3351,7 +3351,7 @@
     1168,
     10002,
     4003,
-    1170,
+    2044,
     1166
    ],
    "coachPassive": {
@@ -3395,7 +3395,7 @@
    "note": "Fei es el goleador. Cada tiro rival que paras refuerza a los FW de Bosque, y los regates y la debilitación del portero rival de Gazelle completan el ataque.",
    "slots": [
     10003,
-    1170,
+    2044,
     2027,
     2029,
     4008,
@@ -3455,7 +3455,7 @@
     10002,
     1013,
     4003,
-    1170,
+    2044,
     1166
    ],
    "coachPassive": {
@@ -3502,7 +3502,7 @@
    "note": "Nikaidou refuerza los tiros de Torch y Tsurugi; Torch se mejora a sí mismo y Gazelle debilita al portero rival a la vez.",
    "slots": [
     4010,
-    1170,
+    2044,
     2031,
     2027,
     1169,
@@ -3583,7 +3583,654 @@
  ],
  "limited": [],
  "crossSim": [],
- "training": [],
+ "training": [
+  {
+   "id": 3008,
+   "techs": [
+    "Campo de fuerza",
+    "Avance flamígero"
+   ],
+   "manuals": [
+    "Avance flamígero"
+   ],
+   "tp": null,
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte)",
+     "top": true
+    },
+    {
+     "text": "Poder de regate+ <Bosque> o Poder de regate+ <Fuego>",
+     "top": true
+    },
+    {
+     "text": "Técnica+ o Poder de regate+",
+     "top": false
+    }
+   ],
+   "note": "TP+ (2.ª parte) asegura usos de sus regates. Si juega con su Killer Fields (Bosque), pon Poder de regate+ <Bosque>; si le enseñas con manual el regate de Fuego, Poder de regate+ <Fuego>. El último hueco, Técnica+ o Poder de regate+. Su otro regate tiene un 30 % de falta, así que no se recomienda usarlo."
+  },
+  {
+   "id": 1167,
+   "techs": [
+    "Espejismo de balón"
+   ],
+   "manuals": [],
+   "tp": "120",
+   "picks": [
+    {
+     "text": "Poder de regate+ <Bosque>",
+     "top": true
+    },
+    {
+     "text": "Poder de regate+",
+     "top": false
+    },
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": false
+    }
+   ],
+   "note": "Con 120 de TP puede usar su regate tres veces por partido. Desde el inicio mejora los regates de los MF aliados y debilita al rival cada vez que regatea con éxito, así que lo importante es que el regate salga: primero Poder de regate+ <Bosque>, luego Poder de regate+, y el último hueco para TP."
+  },
+  {
+   "id": 1170,
+   "techs": [
+    "Mano celestial"
+   ],
+   "manuals": [],
+   "tp": "120",
+   "picks": [
+    {
+     "text": "Poder de parada+ <Montaña>",
+     "top": true
+    },
+    {
+     "text": "Parada+",
+     "top": false
+    },
+    {
+     "text": "Poder de parada+",
+     "top": false
+    }
+   ],
+   "note": "TP máximo+ da 110 de TP a nivel 1, 120 a nivel 2 y 130 a nivel 3. Mano celestial cuesta 40, así que desde el nivel 2 ya le llegan tres usos y no necesita entrenamiento de TP (a nivel 1 sí le falta). Prioriza Poder de parada+ <Montaña>; los otros dos huecos, Parada+ y Poder de parada+, sin necesidad de afinar mucho."
+  },
+  {
+   "id": 3016,
+   "techs": [
+    "Pingüino emperador n.º 2"
+   ],
+   "manuals": [],
+   "tp": "120",
+   "picks": [
+    {
+     "text": "Poder de tiro+ <Bosque>",
+     "top": true
+    },
+    {
+     "text": "Poder de tiro+",
+     "top": true
+    },
+    {
+     "text": "Tiro+ o TP+ (2.ª parte) o TP máximo+",
+     "top": false
+    }
+   ],
+   "note": "Su pasiva de despertar abarata Pingüino emperador n.º 2 si hay tres o más aliados de Bosque. Si con eso ya llega a tres tiros, no hace falta más TP. Poder de tiro+ <Bosque> y Poder de tiro+ son obligatorios; el último, Tiro+, o TP solo si no le llega para tres tiros."
+  },
+  {
+   "id": 1166,
+   "techs": [
+    "Mano celestial"
+   ],
+   "manuals": [],
+   "tp": "120",
+   "picks": [
+    {
+     "text": "Poder de parada+ <Montaña>",
+     "top": true
+    },
+    {
+     "text": "Parada+",
+     "top": false
+    },
+    {
+     "text": "Poder de parada+",
+     "top": false
+    }
+   ],
+   "note": "Con su pasiva de rango ADVANCED+ Mano celestial cuesta menos, así que con 120 de TP no necesita entrenamiento de TP. Prioriza Poder de parada+ <Montaña> y completa con Parada+ y Poder de parada+."
+  },
+  {
+   "id": 1168,
+   "techs": [],
+   "manuals": [],
+   "tp": null,
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte)",
+     "top": false
+    },
+    {
+     "text": "TP máximo+",
+     "top": false
+    },
+    {
+     "text": "Poder de regate+",
+     "top": false
+    }
+   ],
+   "note": "Natsumi rinde sobre todo por sus mejoras al equipo, así que no hace falta afinar su entrenamiento. Si acaso, TP para tirar más veces y Poder de regate+ para conducir. Su tiro no es fuerte: no merece la pena entrenarlo."
+  },
+  {
+   "id": 4003,
+   "techs": [
+    "Niebla mística"
+   ],
+   "manuals": [],
+   "tp": "150",
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    },
+    {
+     "text": "Poder de bloqueo+ <Bosque>",
+     "top": true
+    },
+    {
+     "text": "Poder de bloqueo+",
+     "top": false
+    }
+   ],
+   "note": "Con 150 de TP puede usar Niebla mística tres veces por partido. Lo clave es TP y Poder de bloqueo+ <Bosque>; el último hueco, Poder de bloqueo+."
+  },
+  {
+   "id": 4009,
+   "techs": [],
+   "manuals": [],
+   "tp": null,
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    },
+    {
+     "text": "Poder de regate+ <Bosque>",
+     "top": true
+    },
+    {
+     "text": "Poder de regate+ o Técnica+",
+     "top": false
+    }
+   ],
+   "note": "Depende de dónde juegue. De MF de banda: TP para tener técnicas en la segunda parte, Poder de regate+ <Bosque> para superar rivales y, en el último hueco, Poder de regate+ si buscas potencia o Técnica+ para los duelos. Si lo usas de DF para dar mejoras, como en las formaciones de duelos, el entrenamiento importa poco."
+  },
+  {
+   "id": 2044,
+   "techs": [
+    "Mano celestial"
+   ],
+   "manuals": [],
+   "tp": null,
+   "picks": [
+    {
+     "text": "Poder de parada+",
+     "top": true
+    },
+    {
+     "text": "Poder de parada+ <Montaña>",
+     "top": true
+    },
+    {
+     "text": "Parada+",
+     "top": false
+    }
+   ],
+   "note": "Su pasiva abarata Mano celestial, que ya cuesta poco, así que no necesita TP. Obligatorios Poder de parada+ y Poder de parada+ <Montaña>; el tercero, preferiblemente Parada+."
+  },
+  {
+   "id": 10002,
+   "techs": [
+    "もちもち黄粉餅"
+   ],
+   "manuals": [],
+   "tp": "160",
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte)",
+     "top": true
+    },
+    {
+     "text": "Poder de bloqueo+ <Fuego>",
+     "top": true
+    },
+    {
+     "text": "Poder de bloqueo+",
+     "top": false
+    }
+   ],
+   "note": "Con su pasiva de despertar y TP+ (2.ª parte) llega a 160 de TP y puede usar su bloqueo cuatro veces por partido. Clave: TP+ (2.ª parte) y Poder de bloqueo+ <Fuego>; el último, Poder de bloqueo+."
+  },
+  {
+   "id": 10003,
+   "techs": [
+    "バウンサーラビット"
+   ],
+   "manuals": [],
+   "tp": "135",
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    },
+    {
+     "text": "Poder de tiro+ <Bosque>",
+     "top": true
+    },
+    {
+     "text": "Tiro+ o Poder de tiro+",
+     "top": false
+    }
+   ],
+   "note": "Con 135 de TP puede tirar Remate rebotado tres veces por partido. También es clave Poder de tiro+ <Bosque>; el último hueco, Tiro+ o Poder de tiro+."
+  },
+  {
+   "id": 10001,
+   "techs": [
+    "Pingüino infernal"
+   ],
+   "manuals": [],
+   "tp": "165",
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte)",
+     "top": true
+    },
+    {
+     "text": "Poder de tiro+ <Fuego>",
+     "top": true
+    },
+    {
+     "text": "Poder de tiro+ o Tiro+",
+     "top": false
+    }
+   ],
+   "note": "Es muy importante llegar a 165 de TP con TP+ (2.ª parte) para tirar Pingüino infernal tres veces. Poder de tiro+ <Fuego> es obligatorio; el último, Poder de tiro+ o, si no lo tienes, Tiro+."
+  },
+  {
+   "id": 1164,
+   "techs": [
+    "Hora celestial",
+    "Sabiduría divina"
+   ],
+   "manuals": [],
+   "tp": "160",
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte)",
+     "top": true
+    },
+    {
+     "text": "Poder de regate+ <Viento>",
+     "top": true
+    },
+    {
+     "text": "Poder de tiro+ o TP máximo+",
+     "top": false
+    }
+   ],
+   "note": "Con 160 de TP puede usar dos veces su regate y dos veces su tiro. Lo importante es TP+ (2.ª parte) y Poder de regate+ <Viento> para avanzar sin que lo bloqueen; el último hueco, Poder de tiro+ para el remate o TP máximo+ para más estabilidad."
+  },
+  {
+   "id": 3017,
+   "techs": [
+    "Megadragón"
+   ],
+   "manuals": [],
+   "tp": "150",
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    },
+    {
+     "text": "Poder de tiro+ <Bosque>",
+     "top": true
+    },
+    {
+     "text": "Poder de tiro+ o Tiro+",
+     "top": false
+    }
+   ],
+   "note": "Su pasiva le hace encadenar tiros con facilidad, así que tira mucho: con 150 de TP asegura al menos tres tiros de su técnica principal. Poder de tiro+ <Bosque> sube mucho su potencia; el último hueco, Poder de tiro+ o Tiro+, que también sirve en las pruebas."
+  },
+  {
+   "id": 3012,
+   "techs": [],
+   "manuals": [],
+   "tp": null,
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    },
+    {
+     "text": "Poder de regate+ <Viento>",
+     "top": true
+    },
+    {
+     "text": "Poder de bloqueo+",
+     "top": false
+    }
+   ],
+   "note": "Normalmente juega de MF de banda, donde importa el número de técnicas: TP y Poder de regate+ <Viento> para que no le quiten el balón. El último hueco, Poder de bloqueo+ para su bloqueo de sumo."
+  },
+  {
+   "id": 3018,
+   "techs": [
+    "Cañón de meteoritos",
+    "Descenso estelar"
+   ],
+   "manuals": [],
+   "tp": "150",
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    },
+    {
+     "text": "Poder de tiro+ <Fuego>",
+     "top": true
+    },
+    {
+     "text": "Poder de tiro+ o Tiro+",
+     "top": false
+    }
+   ],
+   "note": "Versión básica: TP para tirar tres veces su tiro principal (150 o más), Poder de tiro+ <Fuego> y el último hueco Poder de tiro+ o Tiro+. Versión avanzada con 145 de TP: con TP máximo+ nivel 3 y la pasiva que abarata Descenso estelar a 40, una vez esa técnica y dos veces la otra. Es más fuerte, pero reunir las pasivas es difícil."
+  },
+  {
+   "id": 3007,
+   "techs": [
+    "Golpe de vacío"
+   ],
+   "manuals": [],
+   "tp": "150",
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    },
+    {
+     "text": "Bloqueo+",
+     "top": false
+    },
+    {
+     "text": "Poder de bloqueo+ <Viento>",
+     "top": true
+    }
+   ],
+   "note": "Lo clave es TP, para usar Golpe de vacío tres veces por partido, y Poder de bloqueo+ <Viento>. Bloqueo+ como complemento."
+  },
+  {
+   "id": 3006,
+   "techs": [
+    "Campo torbellino",
+    "Torbellino dragón"
+   ],
+   "manuals": [],
+   "tp": "150",
+   "picks": [
+    {
+     "text": "Poder de bloqueo+ <Viento>",
+     "top": true
+    },
+    {
+     "text": "Bloqueo+",
+     "top": false
+    },
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    }
+   ],
+   "note": "Lo clave es TP, para usar tres veces Campo torbellino y una vez su otra técnica, y Poder de bloqueo+ <Viento>. Bloqueo+ como complemento."
+  },
+  {
+   "id": 10005,
+   "techs": [],
+   "manuals": [
+    "Hora celestial",
+    "Entrada huracán"
+   ],
+   "tp": null,
+   "picks": [
+    {
+     "text": "Poder de regate+ <Viento>",
+     "top": true
+    },
+    {
+     "text": "TP máximo+",
+     "top": true
+    },
+    {
+     "text": "TP+ (2.ª parte)",
+     "top": true
+    }
+   ],
+   "note": "Se recomiendan regates con poca probabilidad de falta (5 %). De MF de banda importa cuántas técnicas usa: no hay un objetivo fijo de TP, cuanto más mejor. Y Poder de regate+ <Viento> para que no lo bloqueen."
+  },
+  {
+   "id": 4008,
+   "techs": [],
+   "manuals": [
+    "Corte giratorio",
+    "プロファイルゾーン"
+   ],
+   "tp": null,
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte)",
+     "top": true
+    },
+    {
+     "text": "TP máximo+",
+     "top": false
+    },
+    {
+     "text": "Poder de bloqueo+",
+     "top": false
+    }
+   ],
+   "note": "De MF de banda lo importante es el TP (sin objetivo fijo): TP+ (2.ª parte) y TP máximo+. Tenma ya regatea muy bien, así que en vez de Poder de regate+ conviene Poder de bloqueo+ para defender."
+  },
+  {
+   "id": 3010,
+   "techs": [
+    "Torbellino de fuego",
+    "Tornado de fuego"
+   ],
+   "manuals": [],
+   "tp": "160",
+   "picks": [
+    {
+     "text": "Poder de tiro+ <Fuego>",
+     "top": true
+    },
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": false
+    },
+    {
+     "text": "Tiro+ o Poder de tiro+",
+     "top": false
+    }
+   ],
+   "note": "Primero Poder de tiro+ <Fuego> para sus dos tiros. Después TP hasta 160 para tirar dos veces Torbellino de fuego y una Tornado de fuego. El último hueco, Tiro+ o Poder de tiro+. Si juega en pareja con Tsurugi tendrá más ocasiones de tiro, así que el TP gana importancia."
+  },
+  {
+   "id": 3003,
+   "techs": [
+    "La montaña"
+   ],
+   "manuals": [],
+   "tp": "150",
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    },
+    {
+     "text": "Poder de bloqueo+ <Montaña>",
+     "top": true
+    },
+    {
+     "text": "Bloqueo+",
+     "top": false
+    }
+   ],
+   "note": "Lo más importante es el TP, para usar La montaña tres veces por partido. Además Poder de bloqueo+ <Montaña>, y Bloqueo+ como complemento."
+  },
+  {
+   "id": 10004,
+   "techs": [],
+   "manuals": [],
+   "tp": null,
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    },
+    {
+     "text": "Poder de regate+ <Viento>",
+     "top": true
+    },
+    {
+     "text": "Poder de tiro+",
+     "top": false
+    }
+   ],
+   "note": "Primero TP para regatear varias veces en la segunda parte. Endou es de Montaña y su regate de Viento no coincide en elemento, así que Poder de regate+ <Viento> es importante. Para rematar, Poder de tiro+."
+  },
+  {
+   "id": 3020,
+   "techs": [
+    "Manos infinitas"
+   ],
+   "manuals": [],
+   "tp": "160",
+   "picks": [
+    {
+     "text": "TP+ (2.ª parte)",
+     "top": true
+    },
+    {
+     "text": "Poder de parada+ <Bosque>",
+     "top": true
+    },
+    {
+     "text": "TP máximo+",
+     "top": true
+    }
+   ],
+   "note": "Con TP+ (2.ª parte) puede usar Manos infinitas dos veces y Mano celestial una. Si consigues 180 de TP, Manos infinitas tres veces. Poder de parada+ <Bosque> para parar también los tiros fuertes."
+  },
+  {
+   "id": 3009,
+   "techs": [
+    "Aullido de lobo",
+    "Ventisca eterna"
+   ],
+   "manuals": [],
+   "tp": "160",
+   "picks": [
+    {
+     "text": "Poder de tiro+",
+     "top": false
+    },
+    {
+     "text": "Poder de tiro+ <Viento>",
+     "top": true
+    },
+    {
+     "text": "TP+ (2.ª parte)",
+     "top": true
+    }
+   ],
+   "note": "Lo importante es TP+ (2.ª parte) y Poder de tiro+ <Viento>: así tira dos veces su primera técnica y una la segunda. El último hueco, Poder de tiro+; si prefieres más tiros, cámbialo por TP máximo+ para tirar tres veces la primera."
+  },
+  {
+   "id": 1017,
+   "techs": [
+    "Escudo de fuerza total"
+   ],
+   "manuals": [],
+   "tp": "150",
+   "picks": [
+    {
+     "text": "Poder de parada+",
+     "top": true
+    },
+    {
+     "text": "Poder de parada+ <Fuego>",
+     "top": true
+    },
+    {
+     "text": "TP+ (2.ª parte)",
+     "top": false
+    }
+   ],
+   "note": "Con el despertar completo Genda ya tiene 150 de TP y usa Escudo de fuerza total tres veces, así que no necesita TP. Prioriza Poder de parada+ y Poder de parada+ <Fuego>; el último, TP+ (2.ª parte) para el final del partido."
+  },
+  {
+   "id": 3002,
+   "techs": [],
+   "manuals": [
+    "Corte giratorio"
+   ],
+   "tp": null,
+   "picks": [
+    {
+     "text": "Poder de regate+",
+     "top": false
+    },
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    },
+    {
+     "text": "Poder de bloqueo+ <Viento>",
+     "top": true
+    }
+   ],
+   "note": "Se le enseña con manual una técnica de Viento que bloquea tiros. Interesa Poder de bloqueo+ <Viento> y, como usa muchas técnicas, TP para no quedarse sin ellas. Poder de regate+ para subir al ataque."
+  },
+  {
+   "id": 4010,
+   "techs": [
+    "Aguijón letal"
+   ],
+   "manuals": [],
+   "tp": "150",
+   "picks": [
+    {
+     "text": "Poder de tiro+ <Fuego>",
+     "top": true
+    },
+    {
+     "text": "TP+ (2.ª parte) o TP máximo+",
+     "top": true
+    },
+    {
+     "text": "Tiro+ o Poder de tiro+",
+     "top": false
+    }
+   ],
+   "note": "Muy importante llegar a 150 de TP para tirar Aguijón letal tres veces por partido, y Poder de tiro+ <Fuego> es obligatorio. El último hueco, Tiro+ o Poder de tiro+."
+  }
+ ],
  "trialNotes": {
   "M-defensa": "El primero no tiene ventaja de escenario y cierra con la Mano celestial de Kino. Prioriza que los cinco reciban apoyo, incluida Kino, y las dos cadenas de Bosque y Montaña, por delante de usar técnicas con ventaja.",
   "V-defensa": "Domon, Kirino y Tachimukai tienen ventaja de escenario y Tachimukai cierra con Mano infinita. Encadena las tres técnicas de Bosque con ventaja y combina dos cadenas con el apoyo a los aliados.",
@@ -3596,7 +4243,8 @@
   "author": "Tesla (@tsla_game)",
   "url": "https://inacross-guide.com",
   "trials": "Ranking calculado por inacross-guide con su simulador de pruebas: 111 jugadores registrados a 19 de septiembre de 2026, modo Endless y efectos de escenario activados. Comprobado en el juego el 31 de agosto (versión 1.2.3). El orden puede cambiar según el despertar, el nivel de las técnicas, los manuales y el entrenamiento; en ataque se exploró un conjunto de candidatos, así que no garantiza el máximo absoluto.",
-  "pvp": "Formaciones de inacross-guide: versión 1.3.3 comprobada en el juego el 1 de octubre de 2026 (artículo del 3 de octubre); versión 1.3.2, el 16 de septiembre. La colocación es un ejemplo: ajusta los DF según los delanteros rivales."
+  "pvp": "Formaciones de inacross-guide: versión 1.3.3 comprobada en el juego el 1 de octubre de 2026 (artículo del 3 de octubre); versión 1.3.2, el 16 de septiembre. La colocación es un ejemplo: ajusta los DF según los delanteros rivales.",
+  "training": "Recomendaciones de entrenamiento de inacross-guide, comprobadas en el juego el 5 de septiembre de 2026 (versión 1.2.3). El TP recomendado parte de los 100 de base más las pasivas."
  },
  "techNote": "Los nombres de técnicas de los equipos recomendados están traducidos del japonés; el original aparece al pasar por encima."
 }
