@@ -3338,6 +3338,216 @@
  ],
  "pvp": [
   {
+   "tier": "Recomendada",
+   "version": "1.3.3",
+   "coach": 71013,
+   "shape": "4-4-2",
+   "title": "Hitomiko, eje Viento",
+   "note": "Gazelle es el goleador. Las fintas de los MF y los tiros parados van acumulando poder hasta que Gazelle remata. Tachimukai juega de delantero.",
+   "slots": [
+    3020,
+    2030,
+    2027,
+    2029,
+    1169,
+    1168,
+    2042,
+    1170,
+    10002,
+    4003,
+    1166
+   ],
+   "coachPassive": {
+    "title": "Pasiva del entrenador (al inicio del partido, entrenador nivel 10)",
+    "items": [
+     "Aliados de Bosque y Viento: +70 al poder de sus técnicas de tiro.",
+     "Aliados en posición recomendada MF: +60 al poder de sus técnicas de regate."
+    ]
+   },
+   "formationPassive": "Pasiva de formación: cada vez que paran un tiro de tu equipo, los aliados de Bosque y Viento ganan +40 de poder de técnica. Se acumula y termina cuando tu equipo marca.",
+   "requires": "Para aprovechar los efectos acumulativos: Gazelle, Ulvida y Natsumi en rango ADVANCED+.",
+   "points": [
+    [
+     "Las fintas de los MF alimentan a Gazelle",
+     "Cada regate con éxito de un MF activa a la vez la mejora de tiro de FW de Ulvida y la de Heat, y los regates del propio Kidou también suben el tiro de los FW. Gazelle, Heat y Rione cumplen la condición de tres jugadores de Caos, que activa la mejora de Heat y la bajada de parada del portero rival de Rione."
+    ],
+    [
+     "Un tiro parado hace más fuerte el siguiente",
+     "Cuando paran un tiro tuyo, además de la pasiva de formación, Natsumi y Ulvida refuerzan el tiro de los FW. Y cuando falla un bloqueo de tiro de un DF rival, Gazelle baja el poder de las técnicas del portero rival. Todo esto termina al marcar, así que la idea es encadenar ataques hasta el gol."
+    ],
+    [
+     "Un portero de Bosque lento como delantero",
+     "Con otros delanteros junto a Gazelle salían demasiados tiros no deseados. Un portero de Bosque lento, que apenas tira, evita ese problema; por eso juega Tachimukai."
+    ],
+    [
+     "Coloca los DF según los delanteros rivales",
+     "La posición de los defensas no es fija: busca que tus defensores se emparejen con los delanteros más peligrosos del rival."
+    ],
+    [
+     "Si Gazelle aún tiene poco despertar",
+     "Enseña a Tachimukai Veleta de fuego con un manual para que haga tiros lejanos flojos y dé tiempo a que se acumulen las mejoras."
+    ]
+   ]
+  },
+  {
+   "tier": "Recomendada",
+   "version": "1.3.3",
+   "coach": 71013,
+   "shape": "4-4-2",
+   "title": "Hitomiko, eje Bosque",
+   "note": "Fei es el goleador. Cada tiro rival que paras refuerza a los FW de Bosque, y los regates y la debilitación del portero rival de Gazelle completan el ataque.",
+   "slots": [
+    10003,
+    1170,
+    2027,
+    2029,
+    1169,
+    2030,
+    4008,
+    1013,
+    10002,
+    4003,
+    1166
+   ],
+   "coachPassive": {
+    "title": "Pasiva del entrenador (al inicio del partido, entrenador nivel 10)",
+    "items": [
+     "Aliados de Bosque y Viento: +70 al poder de sus técnicas de tiro.",
+     "Aliados en posición recomendada MF: +60 al poder de sus técnicas de regate."
+    ]
+   },
+   "formationPassive": "Pasiva de formación: cada vez que paran un tiro de tu equipo, los aliados de Bosque y Viento ganan +40 de poder de técnica. Se acumula y termina cuando tu equipo marca.",
+   "requires": "Para aprovechar los efectos acumulativos: Gazelle en rango ADVANCED+.",
+   "points": [
+    [
+     "Parar tiros refuerza dos veces a Fei",
+     "Cada vez que tu equipo para un tiro rival, la pasiva de Fei mejora los tiros de Bosque de los FW de Bosque y la de Kidou mejora el tiro de los FW. La mejora de Fei termina cuando marca él y la de Kidou cuando marca cualquiera."
+    ],
+    [
+     "Regates y portero rival debilitado",
+     "Los regates de Tenma y la mejora ligada de Heat suben el poder de tiro de los FW, y los regates de Kidou suben el tiro de los FW. Gazelle, aun jugando de DF, debilita al portero rival cada vez que falla un bloqueo de tiro de un DF rival."
+    ],
+    [
+     "Condiciones de Raimon, Caos y Bosque",
+     "Kidou, Domon y Aki suman tres de Raimon, que refuerzan la parada de Aki y las técnicas de bloqueo de Domon. Gazelle, Heat y Rione suman tres de Caos, y Fei, Heat, Domon y Kirino tres o más de Bosque, con lo que se activan el apoyo a los FW, la debilitación del portero rival y el apoyo defensivo de Kirino."
+    ],
+    [
+     "Coloca los DF según los delanteros rivales",
+     "Haz que Kinako, Kirino y Domon se emparejen con los delanteros fuertes del rival: parar tiros también da poder a Fei."
+    ],
+    [
+     "Si cambias jugadores, mantén las condiciones",
+     "La pasiva de formación pide Bosque en la punta izquierda, Viento en el puesto central de Tenma y Bosque o Viento en el puesto derecho de Kidou. Con suplentes, respeta esas casillas y las condiciones de tres de Raimon y de Caos."
+    ]
+   ]
+  },
+  {
+   "tier": "Recomendada",
+   "version": "1.3.3",
+   "coach": 71013,
+   "shape": "4-4-2",
+   "title": "Fei y Gazelle, ataque total",
+   "note": "Pensada para Fei y Gazelle con el despertar completo: dos delanteros que, con cada tiro, van debilitando al portero rival, mientras la mejora de Raimon sostiene la defensa.",
+   "slots": [
+    10003,
+    2030,
+    2042,
+    2029,
+    1167,
+    10002,
+    4008,
+    1170,
+    1013,
+    4003,
+    1166
+   ],
+   "coachPassive": {
+    "title": "Pasiva del entrenador (al inicio del partido, entrenador nivel 10)",
+    "items": [
+     "Aliados de Bosque y Viento: +70 al poder de sus técnicas de tiro.",
+     "Aliados en posición recomendada MF: +60 al poder de sus técnicas de regate."
+    ]
+   },
+   "formationPassive": "Pasiva de formación: cada vez que paran un tiro de tu equipo, los aliados de Bosque y Viento ganan +40 de poder de técnica. Se acumula y termina cuando tu equipo marca.",
+   "requires": "Para aprovechar los efectos acumulativos: Ulvida en rango ADVANCED+.",
+   "points": [
+    [
+     "Cada tiro debilita al portero rival",
+     "Con tiros de cualquiera de los dos FW, cada vez que atraviesan el bloqueo de un DF rival la pasiva de Gazelle baja el poder de las técnicas del portero. Si no marcas al principio, la debilitación se sigue acumulando hasta el gol."
+    ],
+    [
+     "Los regates de los MF refuerzan a Fei y Gazelle",
+     "Los regates con éxito de los MF acumulan la mejora de tiro de FW de Ulvida, y los de Tenma suben el poder de tiro de los FW. Si paran un tiro, la pasiva de formación refuerza Bosque y Viento, y Ulvida también mejora el tiro de Viento de Gazelle."
+    ],
+    [
+     "Defensa de Raimon que alimenta el ataque",
+     "Otonashi, Domon y Aki suman tres de Raimon y refuerzan la parada de Aki y el bloqueo de Domon. Fei, Domon y Kirino suman tres de Bosque y activan el apoyo defensivo de Kirino. Parar un tiro rival refuerza los tiros de Bosque de Fei."
+    ],
+    [
+     "Rione: regate de Viento y portero de Montaña",
+     "Mejora los regates de Viento de los MF y, con cada regate con éxito de un MF, debilita las técnicas de Montaña del portero rival. Aquí solo hay dos de Caos, así que no se activa la bajada de parada por tres de Caos."
+    ]
+   ],
+   "alternatives": [
+    [
+     "Otonashi Haruna",
+     "Kidou Yuuto (Raimon)",
+     "Mantiene los tres de Raimon y el Viento en el MF derecho. Sus regates refuerzan el tiro de los FW y, en rango ADVANCED+, también las paradas de tu equipo."
+    ]
+   ]
+  },
+  {
+   "tier": "Recomendada",
+   "version": "1.3.3",
+   "coach": 71010,
+   "shape": "4-3-3",
+   "title": "Torch y Gazelle juntos (versión Nikaidou)",
+   "note": "Nikaidou refuerza los tiros de Torch y Tsurugi; Torch se mejora a sí mismo y Gazelle debilita al portero rival a la vez.",
+   "slots": [
+    2031,
+    1170,
+    4010,
+    2029,
+    1169,
+    2027,
+    1013,
+    4003,
+    10002,
+    2030,
+    1166
+   ],
+   "coachPassive": {
+    "title": "Pasiva del entrenador (al inicio del partido, entrenador nivel 10)",
+    "items": [
+     "Aliados en posición recomendada FW: +60 al poder de sus técnicas de tiro.",
+     "Aliados delanteros centro: +85 al poder de sus técnicas de tiro."
+    ]
+   },
+   "requires": "Para aprovechar los efectos acumulativos: Torch y Gazelle en rango ADVANCED+.",
+   "points": [
+    [
+     "Torch y Tsurugi buscan el gol",
+     "Tsurugi recibe las dos mejoras del entrenador, la de FW y la de delantero centro. Torch no recibe la de delantero centro, pero tiene la resonancia de tres de Fuego y su propia mejora de tiro de Fuego. Un gol de Tsurugi refuerza además los tiros de Fuego de los FW, Torch incluido."
+    ],
+    [
+     "Mejoras y debilitaciones a la vez",
+     "Cada vez que falla un bloqueo de tiro de un DF rival, sube el poder de tiro de Torch y Gazelle baja el de las técnicas del portero rival. Ambas cosas terminan cuando tu equipo marca."
+    ],
+    [
+     "Regates y paradas también suman",
+     "Los regates de los MF mejoran los tiros de Tsurugi y de Heat, y Rione debilita las técnicas de Montaña del portero rival (no se acumula). Kidou refuerza el tiro de los FW con sus regates y cuando tu equipo para un tiro."
+    ],
+    [
+     "Tres de Raimon para la defensa",
+     "Kidou (Raimon), Domon y Aki refuerzan la parada de Aki y el bloqueo de Domon. Si usas suplentes, mantén los tres de Raimon."
+    ],
+    [
+     "Kirino de central para ayudar a Aki",
+     "Kirino, Domon y Heat suman tres de Bosque y activan el bloqueo de Bosque de Kirino y la mejora de parada del portero. Pon a Domon de lateral izquierdo y a Kirino de central, y ajusta los laterales según los delanteros rivales. Al cambiar jugadores, mantén los tres de Caos y los tres de Fuego de Torch."
+    ]
+   ]
+  },
+  {
    "tier": "SS",
    "version": "1.3.2",
    "coach": 71013,
@@ -3390,7 +3600,7 @@
   "author": "Tesla (@tsla_game)",
   "url": "https://inacross-guide.com",
   "trials": "Ranking calculado por inacross-guide con su simulador de pruebas: 111 jugadores registrados a 19 de septiembre de 2026, modo Endless y efectos de escenario activados. Comprobado en el juego el 31 de agosto (versión 1.2.3). El orden puede cambiar según el despertar, el nivel de las técnicas, los manuales y el entrenamiento; en ataque se exploró un conjunto de candidatos, así que no garantiza el máximo absoluto.",
-  "pvp": "Formaciones de nivel SS de inacross-guide, comprobadas en el juego el 16 de septiembre de 2026 (versión 1.3.2)."
+  "pvp": "Formaciones de inacross-guide: versión 1.3.3 comprobada en el juego el 1 de octubre de 2026 (artículo del 3 de octubre); versión 1.3.2, el 16 de septiembre. La colocación es un ejemplo: ajusta los DF según los delanteros rivales."
  },
  "techNote": "Los nombres de técnicas de los equipos recomendados están traducidos del japonés; el original aparece al pasar por encima."
 }
