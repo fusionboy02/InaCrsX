@@ -4,6 +4,7 @@ Inicio Jugadores Afuro Terumi
 MF
 Zeus
 Afuro Terumi
+Nombre occidental: Byron Love
 MF Bosque ★★★ Mediapunta Inazuma Eleven 1
 PODER BASE 11.468 Nivel 440 · máximo
 Estadísticas
@@ -66,6 +67,9 @@ Regate Viento
 | Falta | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 %
 | Crítico | 2 % | 2 % | 2 % | 2 % | 5 % | 5 % | 5 % | 5 % | 5 % | 8 %
 | Bonus crítico | 10 % | 10 % | 10 % | 10 % | 13 % | 13 % | 13 % | 13 % | 13 % | 16 %
+Mismo equipo
+Zeus
+GK Hohoshi Donichi DF Ahotsuyu Hikari DF Buhai Honoo DF Kousu Ran DF Tesakana Geki MF Zaite Miyumi MF Keime Sushou MF Meitenmei Satoru FW Shutsumigite Yutaka MF Taira Tei
 Una base de fans, para fans.
 Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
 Apoyar el proyecto
@@ -73,4 +77,4 @@ IE CROSS DATABASE
 Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
 Guías · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
 El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
-Afuro Terumi — Estadísticas y técnicas | Inazuma Eleven Cross
+Afuro Terumi (Byron Love) | Inazuma Eleven Cross — Estadísticas y técnicas

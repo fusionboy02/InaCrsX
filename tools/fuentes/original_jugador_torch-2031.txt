@@ -4,6 +4,7 @@ Inicio Jugadores Torch
 FW NUEVO !
 Caos
 Torch
+Nombre occidental: Claude Beacons
 FW Fuego ★★★ Segundo delantero Inazuma Eleven 2
 PODER BASE 10.458 Nivel 440 · máximo
 Estadísticas
@@ -66,6 +67,9 @@ Tiro Fuego Tiro largo: no Cadena
 | Falta | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 %
 | Crítico | 6 % | 6 % | 6 % | 6 % | 9 % | 9 % | 9 % | 9 % | 9 % | 12 %
 | Bonus crítico | 10 % | 10 % | 10 % | 10 % | 13 % | 13 % | 13 % | 13 % | 13 % | 16 %
+Mismo equipo
+Caos
+FW Gazelle GK Grent DF Barra DF Clara DF Gocker MF Bomber MF Heat MF Droll MF Rione FW Nepper
 Una base de fans, para fans.
 Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
 Apoyar el proyecto
@@ -73,4 +77,4 @@ IE CROSS DATABASE
 Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
 Guías · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
 El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
-Torch — Estadísticas y técnicas | Inazuma Eleven Cross
+Torch (Claude Beacons) | Inazuma Eleven Cross — Estadísticas y técnicas
