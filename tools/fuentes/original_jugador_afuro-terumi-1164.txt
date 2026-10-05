@@ -1,0 +1,76 @@
+Última actualización: 1.3.3
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Guías Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+Inicio Jugadores Afuro Terumi
+MF
+Zeus
+Afuro Terumi
+MF Bosque ★★★ Mediapunta Inazuma Eleven 1
+PODER BASE 11.468 Nivel 440 · máximo
+Estadísticas
+NIV. 440
+⚽ Tiro 3.512
+✦ Técnica 4.350
+▣ Bloqueo 2.164
+✋ Parada 1.442
+Velocidad 6 TP 100
+Zonas ideales
+1 A 2 3 4 S 5 6 B 7 8 9 10 11
+S +15% A +10% B +5%
+Etiquetas
+3
+Las pasivas de cohesión utilizan estas etiquetas para reconocer a sus aliados.
+Zeus Mediapunta Inazuma Eleven 1
+Pasivas
+5 activas
+STACK: el efecto se acumula cada vez que se activa, normalmente hasta que marca tu equipo o el propio jugador.
+Nivel Poder de tiro+
+NIV. 15
+Al inicio del partido, aumenta el poder de las técnicas de tiro propias en 88.
+Se desbloquea al nivel 431
+Nivel Técnica+
+NIV. 14
+Al inicio del partido, aumenta la Técnica propia en 2016.
+Se desbloquea al nivel 411
+Nivel [Racha / Acum.] Poder de tiro+ STACK
+NIV. 14
+Cada vez que una técnica propia de regate tiene éxito, aumenta el poder de las técnicas de tiro propias en 98. El efecto termina cuando tu equipo marca un gol.
+Se desbloquea al nivel 421
+Despertar TP máximo+
+NIV. 3
+Al inicio del partido, aumenta el TP máximo propio en 30.
+Despertar 8
+Despertar Poder de Hora celestial+ (mejorada)
+NIV. 3
+Al inicio del partido, aumenta el poder de su técnica Hora celestial en 43 y reduce su coste de TP en 30.
+Despertar 9
+Supertécnicas
+Sabiduría divina
+Nivel 1
+Tiro Viento Tiro largo: sí Cadena
+| | Nivel | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+| Poder | 92 | 97 | 102 | 107 | 112 | 117 | 122 | 127 | 132 | 137
+| Coste TP | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50
+| Rango | 29 | 29 | 29 | 29 | 29 | 29 | 29 | 29 | 29 | 29
+| Recarga | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3
+| Falta | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 %
+| Crítico | 3 % | 3 % | 3 % | 3 % | 6 % | 6 % | 6 % | 6 % | 6 % | 9 %
+| Bonus crítico | 8 % | 8 % | 8 % | 8 % | 11 % | 11 % | 11 % | 11 % | 11 % | 14 %
+Hora celestial
+Nivel 31
+Regate Viento
+| | Nivel | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+| Poder | 140 | 145 | 150 | 155 | 160 | 165 | 170 | 175 | 180 | 185
+| Coste TP | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50
+| Rango | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2
+| Recarga | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3
+| Falta | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 %
+| Crítico | 2 % | 2 % | 2 % | 2 % | 5 % | 5 % | 5 % | 5 % | 5 % | 8 %
+| Bonus crítico | 10 % | 10 % | 10 % | 10 % | 13 % | 13 % | 13 % | 13 % | 13 % | 16 %
+Una base de fans, para fans.
+Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
+Apoyar el proyecto
+IE CROSS DATABASE
+Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
+Guías · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
+El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
+Afuro Terumi — Estadísticas y técnicas | Inazuma Eleven Cross

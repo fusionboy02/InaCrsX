@@ -5,64 +5,9 @@
    "mode": "ataque",
    "rank": 1,
    "with": [
-    4009,
-    3016
+    2031
    ],
    "lineup": [
-    {
-     "id": 4009,
-     "el": "B",
-     "tech": "Fortissimo",
-     "techJP": "フォルテシモ"
-    },
-    {
-     "id": 10003,
-     "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
-     "techJP": "バウンサーラビット（花火）"
-    },
-    {
-     "id": 3016,
-     "el": "B",
-     "tech": "Pingüino Emperador N.º 2",
-     "techJP": "皇帝ペンギン2号"
-    },
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Caída mortal",
-     "techJP": "デスドロップ"
-    }
-   ]
-  },
-  {
-   "el": "M",
-   "mode": "ataque",
-   "rank": 2,
-   "with": [
-    3016,
-    10003
-   ],
-   "lineup": [
-    {
-     "id": 10003,
-     "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
-     "techJP": "バウンサーラビット（花火）"
-    },
-    {
-     "id": 3016,
-     "el": "B",
-     "tech": "Pingüino Emperador N.º 2",
-     "techJP": "皇帝ペンギン2号"
-    },
     {
      "id": 1168,
      "el": "F",
@@ -77,20 +22,33 @@
      "techJP": "インフェルノペンギン"
     },
     {
+     "id": 3010,
+     "el": "F",
+     "tech": "Torbellino de fuego",
+     "techJP": "爆熱スクリュー"
+    },
+    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
-   ]
+   ],
+   "label": "Cuatro cadenas"
   },
   {
    "el": "M",
    "mode": "ataque",
-   "rank": 3,
+   "rank": 2,
    "with": [
     3018,
-    3010
+    10001
    ],
    "lineup": [
     {
@@ -109,30 +67,30 @@
     {
      "id": 3018,
      "el": "F",
-     "tech": "Caída celestial",
+     "tech": "Descenso estelar",
      "techJP": "天空落とし"
-    },
-    {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
     },
     {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
   {
    "el": "M",
    "mode": "ataque",
-   "rank": 4,
+   "rank": 3,
    "with": [
-    3010,
-    4008
+    2030,
+    10001
    ],
    "lineup": [
     {
@@ -149,10 +107,46 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
+     "id": 4010,
      "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
+     "id": 2030,
+     "el": "V",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 4,
+   "with": [
+    4008,
+    10001
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
     },
     {
      "id": 4010,
@@ -161,9 +155,15 @@
      "techJP": "デスドロップ"
     },
     {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
      "id": 4008,
      "el": "V",
-     "tech": "Viento Mach",
+     "tech": "Tiro vendaval",
      "techJP": "マッハウィンド"
     }
    ]
@@ -173,22 +173,10 @@
    "mode": "ataque",
    "rank": 5,
    "with": [
-    3016,
-    10003
+    2052,
+    10001
    ],
    "lineup": [
-    {
-     "id": 10003,
-     "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
-     "techJP": "バウンサーラビット（花火）"
-    },
-    {
-     "id": 3016,
-     "el": "B",
-     "tech": "Pingüino Emperador N.º 2",
-     "techJP": "皇帝ペンギン2号"
-    },
     {
      "id": 1168,
      "el": "F",
@@ -197,16 +185,28 @@
      "manual": true
     },
     {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
     },
     {
-     "id": 4008,
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
+     "id": 2052,
      "el": "V",
-     "tech": "Viento Mach",
-     "techJP": "マッハウィンド"
+     "tech": "Caída de relámpago",
+     "techJP": "イナズマ落とし"
     }
    ]
   },
@@ -215,8 +215,8 @@
    "mode": "ataque",
    "rank": 6,
    "with": [
-    3018,
-    4008
+    4008,
+    2030
    ],
    "lineup": [
     {
@@ -227,28 +227,28 @@
      "manual": true
     },
     {
-     "id": 10001,
-     "el": "F",
-     "tech": "Pingüino infernal",
-     "techJP": "インフェルノペンギン"
-    },
-    {
-     "id": 3018,
-     "el": "F",
-     "tech": "Caída celestial",
-     "techJP": "天空落とし"
-    },
-    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
     },
     {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
      "id": 4008,
      "el": "V",
-     "tech": "Viento Mach",
+     "tech": "Tiro vendaval",
      "techJP": "マッハウィンド"
+    },
+    {
+     "id": 2030,
+     "el": "V",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -257,20 +257,14 @@
    "mode": "ataque",
    "rank": 7,
    "with": [
-    4009,
-    10003
+    10003,
+    10001
    ],
    "lineup": [
     {
-     "id": 4009,
-     "el": "B",
-     "tech": "Fortissimo",
-     "techJP": "フォルテシモ"
-    },
-    {
      "id": 10003,
      "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
+     "tech": "Remate rebotado (Fuegos artificiales)",
      "techJP": "バウンサーラビット（花火）"
     },
     {
@@ -291,6 +285,12 @@
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -299,33 +299,21 @@
    "mode": "ataque",
    "rank": 8,
    "with": [
-    4009,
-    3016
+    3016,
+    10003
    ],
    "lineup": [
     {
-     "id": 4009,
-     "el": "B",
-     "tech": "Fortissimo",
-     "techJP": "フォルテシモ"
-    },
-    {
      "id": 10003,
      "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
+     "tech": "Remate rebotado (Fuegos artificiales)",
      "techJP": "バウンサーラビット（花火）"
     },
     {
      "id": 3016,
      "el": "B",
-     "tech": "Pingüino Emperador N.º 2",
+     "tech": "Pingüino emperador n.º 2",
      "techJP": "皇帝ペンギン2号"
-    },
-    {
-     "id": 4008,
-     "el": "V",
-     "tech": "Viento Mach",
-     "techJP": "マッハウィンド"
     },
     {
      "id": 1168,
@@ -333,6 +321,18 @@
      "tech": "Tornado de fuego",
      "techJP": "ファイアトルネード",
      "manual": true
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -341,8 +341,8 @@
    "mode": "ataque",
    "rank": 9,
    "with": [
-    2052,
-    4008
+    1152,
+    10001
    ],
    "lineup": [
     {
@@ -351,6 +351,12 @@
      "tech": "Tornado de fuego",
      "techJP": "ファイアトルネード",
      "manual": true
+    },
+    {
+     "id": 1152,
+     "el": "F",
+     "tech": "Triángulo Z",
+     "techJP": "トライアングルZ"
     },
     {
      "id": 10001,
@@ -365,16 +371,10 @@
      "techJP": "デスドロップ"
     },
     {
-     "id": 4008,
-     "el": "V",
-     "tech": "Viento Mach",
-     "techJP": "マッハウィンド"
-    },
-    {
-     "id": 2052,
-     "el": "V",
-     "tech": "Caída relámpago",
-     "techJP": "イナズマ落とし"
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -383,28 +383,15 @@
    "mode": "ataque",
    "rank": 10,
    "with": [
-    2052,
-    3010
+    4008,
+    2030
    ],
    "lineup": [
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
     {
      "id": 10001,
      "el": "F",
      "tech": "Pingüino infernal",
      "techJP": "インフェルノペンギン"
-    },
-    {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
     },
     {
      "id": 4010,
@@ -413,10 +400,22 @@
      "techJP": "デスドロップ"
     },
     {
-     "id": 2052,
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
+     "id": 4008,
      "el": "V",
-     "tech": "Caída relámpago",
-     "techJP": "イナズマ落とし"
+     "tech": "Tiro vendaval",
+     "techJP": "マッハウィンド"
+    },
+    {
+     "id": 2030,
+     "el": "V",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -425,64 +424,9 @@
    "mode": "ataque",
    "rank": 1,
    "with": [
-    4009,
-    3016
+    2031
    ],
    "lineup": [
-    {
-     "id": 4009,
-     "el": "B",
-     "tech": "Fortissimo",
-     "techJP": "フォルテシモ"
-    },
-    {
-     "id": 10003,
-     "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
-     "techJP": "バウンサーラビット（花火）"
-    },
-    {
-     "id": 3016,
-     "el": "B",
-     "tech": "Pingüino Emperador N.º 2",
-     "techJP": "皇帝ペンギン2号"
-    },
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Caída mortal",
-     "techJP": "デスドロップ"
-    }
-   ]
-  },
-  {
-   "el": "V",
-   "mode": "ataque",
-   "rank": 2,
-   "with": [
-    10001,
-    3016
-   ],
-   "lineup": [
-    {
-     "id": 10003,
-     "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
-     "techJP": "バウンサーラビット（花火）"
-    },
-    {
-     "id": 3016,
-     "el": "B",
-     "tech": "Pingüino Emperador N.º 2",
-     "techJP": "皇帝ペンギン2号"
-    },
     {
      "id": 1168,
      "el": "F",
@@ -497,20 +441,33 @@
      "techJP": "インフェルノペンギン"
     },
     {
+     "id": 3010,
+     "el": "F",
+     "tech": "Torbellino de fuego",
+     "techJP": "爆熱スクリュー"
+    },
+    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
-   ]
+   ],
+   "label": "Cuatro cadenas"
   },
   {
    "el": "V",
    "mode": "ataque",
-   "rank": 3,
+   "rank": 2,
    "with": [
     3018,
-    3010
+    10001
    ],
    "lineup": [
     {
@@ -529,20 +486,62 @@
     {
      "id": 3018,
      "el": "F",
-     "tech": "Caída celestial",
+     "tech": "Descenso estelar",
      "techJP": "天空落とし"
-    },
-    {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
     },
     {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 3,
+   "with": [
+    10003,
+    3016
+   ],
+   "lineup": [
+    {
+     "id": 10003,
+     "el": "B",
+     "tech": "Remate rebotado (Fuegos artificiales)",
+     "techJP": "バウンサーラビット（花火）"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino emperador n.º 2",
+     "techJP": "皇帝ペンギン2号"
+    },
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -551,20 +550,14 @@
    "mode": "ataque",
    "rank": 4,
    "with": [
-    4009,
+    10003,
     10001
    ],
    "lineup": [
     {
-     "id": 4009,
-     "el": "B",
-     "tech": "Fortissimo",
-     "techJP": "フォルテシモ"
-    },
-    {
      "id": 10003,
      "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
+     "tech": "Remate rebotado (Fuegos artificiales)",
      "techJP": "バウンサーラビット（花火）"
     },
     {
@@ -585,6 +578,12 @@
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -593,111 +592,16 @@
    "mode": "ataque",
    "rank": 5,
    "with": [
-    3010,
-    3016
-   ],
-   "lineup": [
-    {
-     "id": 10003,
-     "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
-     "techJP": "バウンサーラビット（花火）"
-    },
-    {
-     "id": 3016,
-     "el": "B",
-     "tech": "Pingüino Emperador N.º 2",
-     "techJP": "皇帝ペンギン2号"
-    },
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Caída mortal",
-     "techJP": "デスドロップ"
-    }
-   ]
-  },
-  {
-   "el": "V",
-   "mode": "ataque",
-   "rank": 6,
-   "with": [
-    1040,
-    4009
-   ],
-   "lineup": [
-    {
-     "id": 4009,
-     "el": "B",
-     "tech": "Fortissimo",
-     "techJP": "フォルテシモ"
-    },
-    {
-     "id": 1040,
-     "el": "B",
-     "tech": "Tornado oscuro",
-     "techJP": "ダークトルネード"
-    },
-    {
-     "id": 10003,
-     "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
-     "techJP": "バウンサーラビット（花火）"
-    },
-    {
-     "id": 3016,
-     "el": "B",
-     "tech": "Pingüino Emperador N.º 2",
-     "techJP": "皇帝ペンギン2号"
-    },
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    }
-   ]
-  },
-  {
-   "el": "V",
-   "mode": "ataque",
-   "rank": 7,
-   "with": [
-    4009,
+    4008,
     10001
    ],
    "lineup": [
     {
-     "id": 4009,
-     "el": "B",
-     "tech": "Fortissimo",
-     "techJP": "フォルテシモ"
-    },
-    {
-     "id": 10003,
-     "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
-     "techJP": "バウンサーラビット（花火）"
-    },
-    {
-     "id": 3016,
-     "el": "B",
-     "tech": "Pingüino Emperador N.º 2",
-     "techJP": "皇帝ペンギン2号"
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
     },
     {
      "id": 10001,
@@ -710,6 +614,102 @@
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
+     "id": 4008,
+     "el": "V",
+     "tech": "Tiro vendaval",
+     "techJP": "マッハウィンド"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 6,
+   "with": [
+    3016,
+    10001
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino emperador n.º 2",
+     "techJP": "皇帝ペンギン2号"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 7,
+   "with": [
+    1152,
+    10001
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 1152,
+     "el": "F",
+     "tech": "Triángulo Z",
+     "techJP": "トライアングルZ"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -718,26 +718,26 @@
    "mode": "ataque",
    "rank": 8,
    "with": [
-    1040,
-    3016
+    4009,
+    10003
    ],
    "lineup": [
     {
-     "id": 1040,
+     "id": 4009,
      "el": "B",
-     "tech": "Tornado oscuro",
-     "techJP": "ダークトルネード"
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
     },
     {
      "id": 10003,
      "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
+     "tech": "Remate rebotado (Fuegos artificiales)",
      "techJP": "バウンサーラビット（花火）"
     },
     {
      "id": 3016,
      "el": "B",
-     "tech": "Pingüino Emperador N.º 2",
+     "tech": "Pingüino emperador n.º 2",
      "techJP": "皇帝ペンギン2号"
     },
     {
@@ -748,10 +748,10 @@
      "manual": true
     },
     {
-     "id": 4010,
+     "id": 2031,
      "el": "F",
-     "tech": "Caída mortal",
-     "techJP": "デスドロップ"
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -771,18 +771,6 @@
      "techJP": "フォルテシモ"
     },
     {
-     "id": 10003,
-     "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
-     "techJP": "バウンサーラビット（花火）"
-    },
-    {
-     "id": 3016,
-     "el": "B",
-     "tech": "Pingüino Emperador N.º 2",
-     "techJP": "皇帝ペンギン2号"
-    },
-    {
      "id": 1168,
      "el": "F",
      "tech": "Tornado de fuego",
@@ -794,6 +782,18 @@
      "el": "F",
      "tech": "Pingüino infernal",
      "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -802,22 +802,21 @@
    "mode": "ataque",
    "rank": 10,
    "with": [
-    3010,
-    10001
+    10003,
+    3016
    ],
    "lineup": [
     {
      "id": 10003,
      "el": "B",
-     "tech": "Conejo saltarín (fuegos artificiales)",
+     "tech": "Remate rebotado (Fuegos artificiales)",
      "techJP": "バウンサーラビット（花火）"
     },
     {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
+     "id": 3016,
+     "el": "B",
+     "tech": "Pingüino emperador n.º 2",
+     "techJP": "皇帝ペンギン2号"
     },
     {
      "id": 10001,
@@ -826,16 +825,16 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -844,7 +843,7 @@
    "mode": "ataque",
    "rank": 1,
    "with": [
-    10001
+    2031
    ],
    "lineup": [
     {
@@ -861,15 +860,9 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3018,
-     "el": "F",
-     "tech": "Caída celestial",
-     "techJP": "天空落とし"
-    },
-    {
      "id": 3010,
      "el": "F",
-     "tech": "Tornillo explosivo",
+     "tech": "Torbellino de fuego",
      "techJP": "爆熱スクリュー"
     },
     {
@@ -877,6 +870,12 @@
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ],
    "label": "Cuatro cadenas"
@@ -886,8 +885,50 @@
    "mode": "ataque",
    "rank": 2,
    "with": [
+    3018,
+    1168
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3018,
+     "el": "F",
+     "tech": "Descenso estelar",
+     "techJP": "天空落とし"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 3,
+   "with": [
     1152,
-    3010
+    1168
    ],
    "lineup": [
     {
@@ -910,26 +951,26 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
   {
    "el": "B",
    "mode": "ataque",
-   "rank": 3,
+   "rank": 4,
    "with": [
     1110,
-    3010
+    1168
    ],
    "lineup": [
     {
@@ -952,41 +993,28 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
   {
    "el": "B",
    "mode": "ataque",
-   "rank": 4,
+   "rank": 5,
    "with": [
-    1152,
-    3018
+    3018,
+    3010
    ],
    "lineup": [
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 1152,
-     "el": "F",
-     "tech": "Triángulo Z",
-     "techJP": "トライアングルZ"
-    },
     {
      "id": 10001,
      "el": "F",
@@ -996,43 +1024,13 @@
     {
      "id": 3018,
      "el": "F",
-     "tech": "Caída celestial",
+     "tech": "Descenso estelar",
      "techJP": "天空落とし"
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Caída mortal",
-     "techJP": "デスドロップ"
-    }
-   ]
-  },
-  {
-   "el": "B",
-   "mode": "ataque",
-   "rank": 5,
-   "with": [
-    4009,
-    3010
-   ],
-   "lineup": [
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 10001,
-     "el": "F",
-     "tech": "Pingüino infernal",
-     "techJP": "インフェルノペンギン"
     },
     {
      "id": 3010,
      "el": "F",
-     "tech": "Tornillo explosivo",
+     "tech": "Torbellino de fuego",
      "techJP": "爆熱スクリュー"
     },
     {
@@ -1042,10 +1040,10 @@
      "techJP": "デスドロップ"
     },
     {
-     "id": 4009,
-     "el": "B",
-     "tech": "Fortissimo",
-     "techJP": "フォルテシモ"
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -1055,7 +1053,7 @@
    "rank": 6,
    "with": [
     4008,
-    3010
+    1168
    ],
    "lineup": [
     {
@@ -1072,21 +1070,21 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
     },
     {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
      "id": 4008,
      "el": "V",
-     "tech": "Viento Mach",
+     "tech": "Tiro vendaval",
      "techJP": "マッハウィンド"
     }
    ]
@@ -1096,92 +1094,8 @@
    "mode": "ataque",
    "rank": 7,
    "with": [
-    1110,
-    3018
-   ],
-   "lineup": [
-    {
-     "id": 1110,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード"
-    },
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 10001,
-     "el": "F",
-     "tech": "Pingüino infernal",
-     "techJP": "インフェルノペンギン"
-    },
-    {
-     "id": 3018,
-     "el": "F",
-     "tech": "Caída celestial",
-     "techJP": "天空落とし"
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Caída mortal",
-     "techJP": "デスドロップ"
-    }
-   ]
-  },
-  {
-   "el": "B",
-   "mode": "ataque",
-   "rank": 8,
-   "with": [
-    3011,
-    3010
-   ],
-   "lineup": [
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 10001,
-     "el": "F",
-     "tech": "Pingüino infernal",
-     "techJP": "インフェルノペンギン"
-    },
-    {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Caída mortal",
-     "techJP": "デスドロップ"
-    },
-    {
-     "id": 3011,
-     "el": "M",
-     "tech": "Impulso del tigre",
-     "techJP": "タイガードライブ"
-    }
-   ]
-  },
-  {
-   "el": "B",
-   "mode": "ataque",
-   "rank": 9,
-   "with": [
     2054,
-    3010
+    1168
    ],
    "lineup": [
     {
@@ -1204,16 +1118,100 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
+     "id": 4010,
      "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 8,
+   "with": [
+    4009,
+    1168
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
     },
     {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
+     "id": 4009,
+     "el": "B",
+     "tech": "Fortissimo",
+     "techJP": "フォルテシモ"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 9,
+   "with": [
+    3011,
+    1168
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
+     "id": 3011,
+     "el": "M",
+     "tech": "Remate del tigre",
+     "techJP": "タイガードライブ"
     }
    ]
   },
@@ -1223,7 +1221,7 @@
    "rank": 10,
    "with": [
     1153,
-    3010
+    1168
    ],
    "lineup": [
     {
@@ -1246,16 +1244,16 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -1264,6 +1262,49 @@
    "mode": "ataque",
    "rank": 1,
    "with": [
+    2031
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Torbellino de fuego",
+     "techJP": "爆熱スクリュー"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    }
+   ],
+   "label": "Cuatro cadenas"
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 2,
+   "with": [
+    3018,
     1168
    ],
    "lineup": [
@@ -1283,31 +1324,30 @@
     {
      "id": 3018,
      "el": "F",
-     "tech": "Caída celestial",
+     "tech": "Descenso estelar",
      "techJP": "天空落とし"
-    },
-    {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
     },
     {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
-   ],
-   "label": "Cuatro cadenas"
+   ]
   },
   {
    "el": "F",
    "mode": "ataque",
-   "rank": 2,
+   "rank": 3,
    "with": [
     4008,
-    3010
+    1168
    ],
    "lineup": [
     {
@@ -1324,21 +1364,21 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
     },
     {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
      "id": 4008,
      "el": "V",
-     "tech": "Viento Mach",
+     "tech": "Tiro vendaval",
      "techJP": "マッハウィンド"
     }
    ]
@@ -1346,10 +1386,10 @@
   {
    "el": "F",
    "mode": "ataque",
-   "rank": 3,
+   "rank": 4,
    "with": [
     1152,
-    3010
+    1168
    ],
    "lineup": [
     {
@@ -1372,26 +1412,26 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
   {
    "el": "F",
    "mode": "ataque",
-   "rank": 4,
+   "rank": 5,
    "with": [
     3011,
-    3010
+    1168
    ],
    "lineup": [
     {
@@ -1408,21 +1448,21 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
     },
     {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
      "id": 3011,
      "el": "M",
-     "tech": "Impulso del tigre",
+     "tech": "Remate del tigre",
      "techJP": "タイガードライブ"
     }
    ]
@@ -1430,10 +1470,10 @@
   {
    "el": "F",
    "mode": "ataque",
-   "rank": 5,
+   "rank": 6,
    "with": [
     1110,
-    3010
+    1168
    ],
    "lineup": [
     {
@@ -1456,58 +1496,16 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Caída mortal",
-     "techJP": "デスドロップ"
-    }
-   ]
-  },
-  {
-   "el": "F",
-   "mode": "ataque",
-   "rank": 6,
-   "with": [
-    4008,
-    3018
-   ],
-   "lineup": [
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 10001,
-     "el": "F",
-     "tech": "Pingüino infernal",
-     "techJP": "インフェルノペンギン"
-    },
-    {
-     "id": 3018,
-     "el": "F",
-     "tech": "Caída celestial",
-     "techJP": "天空落とし"
-    },
-    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
     },
     {
-     "id": 4008,
-     "el": "V",
-     "tech": "Viento Mach",
-     "techJP": "マッハウィンド"
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -1516,8 +1514,8 @@
    "mode": "ataque",
    "rank": 7,
    "with": [
-    1152,
-    3018
+    2030,
+    1168
    ],
    "lineup": [
     {
@@ -1528,11 +1526,40 @@
      "manual": true
     },
     {
-     "id": 1152,
+     "id": 10001,
      "el": "F",
-     "tech": "Triángulo Z",
-     "techJP": "トライアングルZ"
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
     },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
+     "id": 2030,
+     "el": "V",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 8,
+   "with": [
+    3018,
+    3010
+   ],
+   "lineup": [
     {
      "id": 10001,
      "el": "F",
@@ -1542,24 +1569,78 @@
     {
      "id": 3018,
      "el": "F",
-     "tech": "Caída celestial",
+     "tech": "Descenso estelar",
      "techJP": "天空落とし"
+    },
+    {
+     "id": 3010,
+     "el": "F",
+     "tech": "Torbellino de fuego",
+     "techJP": "爆熱スクリュー"
     },
     {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
   {
    "el": "F",
    "mode": "ataque",
-   "rank": 8,
+   "rank": 9,
+   "with": [
+    2052,
+    1168
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Caída mortal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    },
+    {
+     "id": 2052,
+     "el": "V",
+     "tech": "Caída de relámpago",
+     "techJP": "イナズマ落とし"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 10,
    "with": [
     4009,
-    3010
+    1168
    ],
    "lineup": [
     {
@@ -1582,100 +1663,16 @@
      "techJP": "インフェルノペンギン"
     },
     {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Caída mortal",
-     "techJP": "デスドロップ"
-    }
-   ]
-  },
-  {
-   "el": "F",
-   "mode": "ataque",
-   "rank": 9,
-   "with": [
-    3011,
-    3018
-   ],
-   "lineup": [
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 10001,
-     "el": "F",
-     "tech": "Pingüino infernal",
-     "techJP": "インフェルノペンギン"
-    },
-    {
-     "id": 3018,
-     "el": "F",
-     "tech": "Caída celestial",
-     "techJP": "天空落とし"
-    },
-    {
      "id": 4010,
      "el": "F",
      "tech": "Caída mortal",
      "techJP": "デスドロップ"
     },
     {
-     "id": 3011,
-     "el": "M",
-     "tech": "Impulso del tigre",
-     "techJP": "タイガードライブ"
-    }
-   ]
-  },
-  {
-   "el": "F",
-   "mode": "ataque",
-   "rank": 10,
-   "with": [
-    2052,
-    3010
-   ],
-   "lineup": [
-    {
-     "id": 1168,
+     "id": 2031,
      "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 10001,
-     "el": "F",
-     "tech": "Pingüino infernal",
-     "techJP": "インフェルノペンギン"
-    },
-    {
-     "id": 3010,
-     "el": "F",
-     "tech": "Tornillo explosivo",
-     "techJP": "爆熱スクリュー"
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Caída mortal",
-     "techJP": "デスドロップ"
-    },
-    {
-     "id": 2052,
-     "el": "V",
-     "tech": "Caída relámpago",
-     "techJP": "イナズマ落とし"
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -1697,13 +1694,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -1733,19 +1730,19 @@
     {
      "id": 3007,
      "el": "V",
-     "tech": "Demonio del vacío",
+     "tech": "Golpe de vacío",
      "techJP": "真空魔"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -1780,13 +1777,13 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -1815,13 +1812,13 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -1856,13 +1853,13 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -1897,19 +1894,19 @@
     {
      "id": 3006,
      "el": "V",
-     "tech": "Formación torbellino",
+     "tech": "Campo torbellino",
      "techJP": "旋風陣"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -1944,7 +1941,7 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -1957,13 +1954,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 3020,
      "el": "B",
-     "tech": "Mano infinita",
+     "tech": "Manos infinitas",
      "techJP": "ムゲン・ザ・ハンド"
     }
    ]
@@ -1987,13 +1984,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2035,19 +2032,19 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 1017,
      "el": "F",
-     "tech": "Escudo de potencia máxima",
+     "tech": "Escudo de fuerza total",
      "techJP": "フルパワーシールド"
     }
    ]
@@ -2064,7 +2061,7 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2076,7 +2073,7 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -2110,7 +2107,7 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2123,13 +2120,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 3020,
      "el": "B",
-     "tech": "Mano infinita",
+     "tech": "Manos infinitas",
      "techJP": "ムゲン・ザ・ハンド"
     }
    ]
@@ -2153,13 +2150,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2201,19 +2198,19 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 1017,
      "el": "F",
-     "tech": "Escudo de potencia máxima",
+     "tech": "Escudo de fuerza total",
      "techJP": "フルパワーシールド"
     }
    ]
@@ -2236,7 +2233,7 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2249,7 +2246,7 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -2272,13 +2269,13 @@
     {
      "id": 1158,
      "el": "F",
-     "tech": "Martillo del juicio",
+     "tech": "Apisonadora",
      "techJP": "裁きの鉄槌"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2291,13 +2288,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 3020,
      "el": "B",
-     "tech": "Mano infinita",
+     "tech": "Manos infinitas",
      "techJP": "ムゲン・ザ・ハンド"
     }
    ]
@@ -2314,7 +2311,7 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2327,7 +2324,7 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -2339,7 +2336,7 @@
     {
      "id": 3020,
      "el": "B",
-     "tech": "Mano infinita",
+     "tech": "Manos infinitas",
      "techJP": "ムゲン・ザ・ハンド"
     }
    ]
@@ -2356,13 +2353,13 @@
     {
      "id": 3007,
      "el": "V",
-     "tech": "Demonio del vacío",
+     "tech": "Golpe de vacío",
      "techJP": "真空魔"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2375,13 +2372,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 3020,
      "el": "B",
-     "tech": "Mano infinita",
+     "tech": "Manos infinitas",
      "techJP": "ムゲン・ザ・ハンド"
     }
    ]
@@ -2398,13 +2395,13 @@
     {
      "id": 2002,
      "el": "F",
-     "tech": "Súper pisotón de sumo",
+     "tech": "Super pisotón de sumo",
      "techJP": "スーパー四股踏み"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2417,13 +2414,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 3020,
      "el": "B",
-     "tech": "Mano infinita",
+     "tech": "Manos infinitas",
      "techJP": "ムゲン・ザ・ハンド"
     }
    ]
@@ -2440,13 +2437,13 @@
     {
      "id": 1158,
      "el": "F",
-     "tech": "Martillo del juicio",
+     "tech": "Apisonadora",
      "techJP": "裁きの鉄槌"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2458,13 +2455,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 3020,
      "el": "B",
-     "tech": "Mano infinita",
+     "tech": "Manos infinitas",
      "techJP": "ムゲン・ザ・ハンド"
     }
    ]
@@ -2487,7 +2484,7 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2499,13 +2496,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 3020,
      "el": "B",
-     "tech": "Mano infinita",
+     "tech": "Manos infinitas",
      "techJP": "ムゲン・ザ・ハンド"
     }
    ]
@@ -2534,19 +2531,19 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 1017,
      "el": "F",
-     "tech": "Escudo de potencia máxima",
+     "tech": "Escudo de fuerza total",
      "techJP": "フルパワーシールド"
     }
    ],
@@ -2570,25 +2567,25 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 1158,
      "el": "F",
-     "tech": "Martillo del juicio",
+     "tech": "Apisonadora",
      "techJP": "裁きの鉄槌"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 1017,
      "el": "F",
-     "tech": "Escudo de potencia máxima",
+     "tech": "Escudo de fuerza total",
      "techJP": "フルパワーシールド"
     }
    ]
@@ -2612,13 +2609,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2647,19 +2644,19 @@
     {
      "id": 1158,
      "el": "F",
-     "tech": "Martillo del juicio",
+     "tech": "Apisonadora",
      "techJP": "裁きの鉄槌"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -2695,25 +2692,25 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 1158,
      "el": "F",
-     "tech": "Martillo del juicio",
+     "tech": "Apisonadora",
      "techJP": "裁きの鉄槌"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 1017,
      "el": "F",
-     "tech": "Escudo de potencia máxima",
+     "tech": "Escudo de fuerza total",
      "techJP": "フルパワーシールド"
     }
    ]
@@ -2736,25 +2733,25 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 2002,
      "el": "F",
-     "tech": "Súper pisotón de sumo",
+     "tech": "Super pisotón de sumo",
      "techJP": "スーパー四股踏み"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 1017,
      "el": "F",
-     "tech": "Escudo de potencia máxima",
+     "tech": "Escudo de fuerza total",
      "techJP": "フルパワーシールド"
     }
    ]
@@ -2777,25 +2774,25 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 1156,
      "el": "F",
-     "tech": "Martillo del juicio",
+     "tech": "Apisonadora",
      "techJP": "裁きの鉄槌"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 1017,
      "el": "F",
-     "tech": "Escudo de potencia máxima",
+     "tech": "Escudo de fuerza total",
      "techJP": "フルパワーシールド"
     }
    ]
@@ -2812,7 +2809,7 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -2830,13 +2827,13 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 1017,
      "el": "F",
-     "tech": "Escudo de potencia máxima",
+     "tech": "Escudo de fuerza total",
      "techJP": "フルパワーシールド"
     }
    ]
@@ -2853,19 +2850,19 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 2002,
      "el": "F",
-     "tech": "Súper pisotón de sumo",
+     "tech": "Super pisotón de sumo",
      "techJP": "スーパー四股踏み"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2901,25 +2898,25 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 2002,
      "el": "F",
-     "tech": "Súper pisotón de sumo",
+     "tech": "Super pisotón de sumo",
      "techJP": "スーパー四股踏み"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 1017,
      "el": "F",
-     "tech": "Escudo de potencia máxima",
+     "tech": "Escudo de fuerza total",
      "techJP": "フルパワーシールド"
     }
    ]
@@ -2942,13 +2939,13 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -2978,13 +2975,13 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -3019,13 +3016,13 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -3060,13 +3057,13 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -3107,13 +3104,13 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -3142,13 +3139,13 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -3183,19 +3180,19 @@
     {
      "id": 3007,
      "el": "V",
-     "tech": "Demonio del vacío",
+     "tech": "Golpe de vacío",
      "techJP": "真空魔"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -3224,19 +3221,19 @@
     {
      "id": 1156,
      "el": "F",
-     "tech": "Martillo del juicio",
+     "tech": "Apisonadora",
      "techJP": "裁きの鉄槌"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -3265,7 +3262,7 @@
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
@@ -3277,7 +3274,7 @@
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -3306,19 +3303,19 @@
     {
      "id": 3006,
      "el": "V",
-     "tech": "Formación torbellino",
+     "tech": "Campo torbellino",
      "techJP": "旋風陣"
     },
     {
      "id": 10002,
      "el": "F",
-     "tech": "Mochi de kinako (fuegos artificiales)",
+     "tech": "Grumo pegapasta (Fuegos artificiales)",
      "techJP": "もちもち黄粉餅（花火）"
     },
     {
      "id": 4003,
      "el": "B",
-     "tech": "Niebla profunda",
+     "tech": "Niebla mística",
      "techJP": "ディープミスト"
     },
     {
@@ -3591,8 +3588,7 @@
   "M-defensa": "El primero no tiene ventaja de escenario y cierra con la Mano celestial de Kino. Prioriza que los cinco reciban apoyo, incluida Kino, y las dos cadenas de Bosque y Montaña, por delante de usar técnicas con ventaja.",
   "V-defensa": "Domon, Kirino y Tachimukai tienen ventaja de escenario y Tachimukai cierra con Mano infinita. Encadena las tres técnicas de Bosque con ventaja y combina dos cadenas con el apoyo a los aliados.",
   "B-defensa": "Kinako y Genda tienen ventaja de escenario y Genda cierra con Escudo de potencia máxima. Concentra el bonus de Fuego en los dos últimos puestos, los de más potencia.",
-  "F-defensa": "Kabeyama y Kino tienen ventaja de escenario y Kino cierra con Mano celestial. Suma ventaja y cadena en las dos técnicas de Montaña finales para aprovechar la potencia de Kino.",
-  "M-ataque": "Shindou, Fei y Sakuma (Inazuma Japan) encadenan tres técnicas de Bosque y Natsumi y Tsurugi rematan con dos de Fuego. Natsumi usa Tornado de fuego aprendido con manual. No hay ventaja de escenario, pero la mejora general de Shindou y los apoyos a Bosque y Fuego permiten encadenar tres veces."
+  "F-defensa": "Kabeyama y Kino tienen ventaja de escenario y Kino cierra con Mano celestial. Suma ventaja y cadena en las dos técnicas de Montaña finales para aprovechar la potencia de Kino."
  },
  "trialDefenseCommon": "En las cuatro defensas el primer puesto parte de la misma base: Domon aprende Cinturón de asteroides con manual y se combinan los apoyos de Domon, Kirino, Kinako y Kabeyama.",
  "credits": {

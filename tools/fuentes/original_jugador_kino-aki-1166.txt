@@ -1,0 +1,76 @@
+Última actualización: 1.3.3
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Guías Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+Inicio Jugadores Kino Aki
+GK
+Raimon
+Kino Aki
+GK Montaña ★★★ Portero Inazuma Eleven 1
+PODER BASE 11.811 Nivel 440 · máximo
+Estadísticas
+NIV. 440
+⚽ Tiro 1.949
+✦ Técnica 2.234
+▣ Bloqueo 2.979
+✋ Parada 4.649
+Velocidad 2 TP 100
+Zonas ideales
+1 2 3 4 5 6 7 B 8 9 A 10 S 11
+S +15% A +10% B +5%
+Etiquetas
+3
+Las pasivas de cohesión utilizan estas etiquetas para reconocer a sus aliados.
+Raimon Portero Inazuma Eleven 1
+Pasivas
+5 activas
+STACK: el efecto se acumula cada vez que se activa, normalmente hasta que marca tu equipo o el propio jugador.
+Nivel [Cohesión] Parada+
+NIV. 15
+Al inicio del partido, si hay al menos 3 aliados con la etiqueta Raimon, aumenta la Parada propia en 3763.
+Se desbloquea al nivel 431
+Nivel Parada+
+NIV. 14
+Al inicio del partido, aumenta la Parada propia en 2016.
+Se desbloquea al nivel 411
+Nivel [Auxilio / Acum.] Poder de parada+ STACK
+NIV. 14
+Cada vez que falla un bloqueo de tiro de un aliado, aumenta el poder de las técnicas de parada propias en 55. El efecto termina cuando tu equipo marca un gol.
+Se desbloquea al nivel 421
+Despertar TP máximo+
+NIV. 3
+Al inicio del partido, aumenta el TP máximo propio en 30.
+Despertar 8
+Despertar Poder de Mano celestial+ (mejorada)
+NIV. 3
+Al inicio del partido, aumenta el poder de su técnica Mano celestial de Montaña en 117 y reduce su coste de TP en 5.
+Despertar 9
+Supertécnicas
+Despeje de fuego
+Nivel 1
+Parada Fuego Bloquea tiros
+| | Nivel | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+| Poder | 90 | 95 | 100 | 105 | 110 | 115 | 120 | 125 | 130 | 135
+| Coste TP | 30 | 30 | 30 | 30 | 30 | 30 | 30 | 30 | 30 | 30
+| Rango | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+| Recarga | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3
+| Falta | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 %
+| Crítico | 15 % | 15 % | 15 % | 15 % | 18 % | 18 % | 18 % | 18 % | 18 % | 21 %
+| Bonus crítico | 21 % | 21 % | 21 % | 21 % | 24 % | 24 % | 24 % | 24 % | 24 % | 27 %
+Mano celestial
+Nivel 31
+Parada Montaña Bloquea tiros
+| | Nivel | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+| Poder | 78 | 83 | 88 | 93 | 98 | 103 | 108 | 113 | 118 | 123
+| Coste TP | 40 | 40 | 40 | 40 | 40 | 40 | 40 | 40 | 40 | 40
+| Rango | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+| Recarga | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3
+| Falta | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 %
+| Crítico | 5 % | 5 % | 5 % | 5 % | 8 % | 8 % | 8 % | 8 % | 8 % | 11 %
+| Bonus crítico | 13 % | 13 % | 13 % | 13 % | 16 % | 16 % | 16 % | 16 % | 16 % | 19 %
+Una base de fans, para fans.
+Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
+Apoyar el proyecto
+IE CROSS DATABASE
+Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
+Guías · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
+El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
+Kino Aki — Estadísticas y técnicas | Inazuma Eleven Cross

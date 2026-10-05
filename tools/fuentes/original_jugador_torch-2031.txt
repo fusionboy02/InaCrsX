@@ -1,0 +1,76 @@
+Última actualización: 1.3.3
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Guías Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+Inicio Jugadores Torch
+FW NUEVO !
+Caos
+Torch
+FW Fuego ★★★ Segundo delantero Inazuma Eleven 2
+PODER BASE 10.458 Nivel 440 · máximo
+Estadísticas
+NIV. 440
+⚽ Tiro 3.776
+✦ Técnica 3.120
+▣ Bloqueo 2.134
+✋ Parada 1.428
+Velocidad 4 TP 100
+Zonas ideales
+A 1 S 2 3 4 B 5 6 7 8 9 10 11
+S +15% A +10% B +5%
+Etiquetas
+3
+Las pasivas de cohesión utilizan estas etiquetas para reconocer a sus aliados.
+Caos Segundo delantero Inazuma Eleven 2
+Pasivas
+5 activas
+STACK: el efecto se acumula cada vez que se activa, normalmente hasta que marca tu equipo o el propio jugador.
+Nivel [Resonancia] Poder de tiro+ <Fuego>
+NIV. 15
+Si hay al menos 3 aliados de Fuego, aumenta el poder de las técnicas de tiro de Fuego propias en 110.
+Se desbloquea al nivel 431
+Nivel Tiro+
+NIV. 14
+Al inicio del partido, aumenta el Tiro propio en 2016.
+Se desbloquea al nivel 411
+Nivel Poder de tiro+ <Fuego> / Tiro de FW+
+NIV. 14
+Al inicio del partido, aumenta el poder de las técnicas de tiro de Fuego propias en 74 y el Tiro de los FW aliados en 1063.
+Se desbloquea al nivel 421
+Despertar TP máximo+
+NIV. 3
+Al inicio del partido, aumenta el TP máximo propio en 30.
+Despertar 8
+Despertar [Oportunidad / Acum.] Poder de tiro+ STACK
+NIV. 3
+Cada vez que falla un bloqueo de tiro de un DF rival, aumenta el poder de las técnicas de tiro propias en 97. El efecto termina cuando tu equipo marca un gol.
+Despertar 9
+Supertécnicas
+Llamarada atómica
+Nivel 1
+Tiro Fuego Tiro largo: no Cadena
+| | Nivel | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+| Poder | 119 | 124 | 129 | 134 | 139 | 144 | 149 | 154 | 159 | 164
+| Coste TP | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50
+| Rango | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20
+| Recarga | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3
+| Falta | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 %
+| Crítico | 5 % | 5 % | 5 % | 5 % | 8 % | 8 % | 8 % | 8 % | 8 % | 11 %
+| Bonus crítico | 10 % | 10 % | 10 % | 10 % | 13 % | 13 % | 13 % | 13 % | 13 % | 16 %
+Ventisca de fuego
+Nivel 31
+Tiro Fuego Tiro largo: no Cadena
+| | Nivel | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+| Poder | 150 | 155 | 160 | 165 | 170 | 175 | 180 | 185 | 190 | 195
+| Coste TP | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 60
+| Rango | 19 | 19 | 19 | 19 | 19 | 19 | 19 | 19 | 19 | 19
+| Recarga | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3
+| Falta | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 %
+| Crítico | 6 % | 6 % | 6 % | 6 % | 9 % | 9 % | 9 % | 9 % | 9 % | 12 %
+| Bonus crítico | 10 % | 10 % | 10 % | 10 % | 13 % | 13 % | 13 % | 13 % | 13 % | 16 %
+Una base de fans, para fans.
+Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
+Apoyar el proyecto
+IE CROSS DATABASE
+Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
+Guías · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
+El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
+Torch — Estadísticas y técnicas | Inazuma Eleven Cross
