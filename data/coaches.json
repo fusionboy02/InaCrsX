@@ -1,73 +1,5 @@
 {
  "layouts": {
-  "default": [
-   {
-    "n": 1,
-    "pos": "FW",
-    "x": 36,
-    "y": 13
-   },
-   {
-    "n": 2,
-    "pos": "FW",
-    "x": 64,
-    "y": 13
-   },
-   {
-    "n": 3,
-    "pos": "MF",
-    "x": 14,
-    "y": 37
-   },
-   {
-    "n": 4,
-    "pos": "MF",
-    "x": 38,
-    "y": 42
-   },
-   {
-    "n": 5,
-    "pos": "MF",
-    "x": 62,
-    "y": 42
-   },
-   {
-    "n": 6,
-    "pos": "MF",
-    "x": 86,
-    "y": 37
-   },
-   {
-    "n": 7,
-    "pos": "DF",
-    "x": 14,
-    "y": 65
-   },
-   {
-    "n": 8,
-    "pos": "DF",
-    "x": 38,
-    "y": 70
-   },
-   {
-    "n": 9,
-    "pos": "DF",
-    "x": 62,
-    "y": 70
-   },
-   {
-    "n": 10,
-    "pos": "DF",
-    "x": 86,
-    "y": 65
-   },
-   {
-    "n": 11,
-    "pos": "GK",
-    "x": 50,
-    "y": 89
-   }
-  ],
   "433": [
    {
     "n": 1,
@@ -135,144 +67,5078 @@
     "x": 50,
     "y": 89
    }
+  ],
+  "80001": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 39,
+    "y": 17
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 64,
+    "y": 17
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 39,
+    "y": 47
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 63,
+    "y": 47
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 15,
+    "y": 37
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 87,
+    "y": 37
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 14,
+    "y": 62
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 87,
+    "y": 61
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 37,
+    "y": 70
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 63,
+    "y": 70
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 90
+   }
+  ],
+  "80002": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 32,
+    "y": 16
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 68,
+    "y": 16
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 13,
+    "y": 34
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 87,
+    "y": 34
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 50,
+    "y": 34
+   },
+   {
+    "n": 6,
+    "pos": "DF",
+    "x": 18,
+    "y": 57
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 50,
+    "y": 54
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 82,
+    "y": 57
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 36,
+    "y": 74
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 64,
+    "y": 74
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 91
+   }
+  ],
+  "80004": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 35,
+    "y": 16
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 70,
+    "y": 16
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 16,
+    "y": 36
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 85,
+    "y": 36
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 50,
+    "y": 38
+   },
+   {
+    "n": 6,
+    "pos": "DF",
+    "x": 21,
+    "y": 60
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 50,
+    "y": 58
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 79,
+    "y": 60
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 25,
+    "y": 81
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 75,
+    "y": 81
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 91
+   }
+  ],
+  "80005": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 50,
+    "y": 14
+   },
+   {
+    "n": 2,
+    "pos": "MF",
+    "x": 67,
+    "y": 31
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 33,
+    "y": 31
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 79,
+    "y": 48
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 50,
+    "y": 48
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 21,
+    "y": 48
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 87,
+    "y": 69
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 63,
+    "y": 69
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 37,
+    "y": 69
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 13,
+    "y": 69
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 90
+   }
+  ],
+  "80006": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 51,
+    "y": 16
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 77,
+    "y": 16
+   },
+   {
+    "n": 3,
+    "pos": "FW",
+    "x": 25,
+    "y": 16
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 66,
+    "y": 36
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 34,
+    "y": 36
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 14,
+    "y": 56
+   },
+   {
+    "n": 7,
+    "pos": "MF",
+    "x": 83,
+    "y": 56
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 52,
+    "y": 63
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 25,
+    "y": 76
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 79,
+    "y": 76
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 91
+   }
+  ],
+  "80007": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 37,
+    "y": 14
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 63,
+    "y": 14
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 17,
+    "y": 31
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 37,
+    "y": 48
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 63,
+    "y": 48
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 83,
+    "y": 31
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 12,
+    "y": 69
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 88,
+    "y": 69
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 37,
+    "y": 69
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 63,
+    "y": 69
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 90
+   }
+  ],
+  "80008": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 22,
+    "y": 19
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 50,
+    "y": 16
+   },
+   {
+    "n": 3,
+    "pos": "FW",
+    "x": 80,
+    "y": 20
+   },
+   {
+    "n": 4,
+    "pos": "FW",
+    "x": 66,
+    "y": 39
+   },
+   {
+    "n": 5,
+    "pos": "FW",
+    "x": 38,
+    "y": 39
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 52,
+    "y": 61
+   },
+   {
+    "n": 7,
+    "pos": "MF",
+    "x": 22,
+    "y": 61
+   },
+   {
+    "n": 8,
+    "pos": "MF",
+    "x": 84,
+    "y": 61
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 74,
+    "y": 81
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 27,
+    "y": 81
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 91
+   }
+  ],
+  "80009": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 81,
+    "y": 18
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 23,
+    "y": 18
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 79,
+    "y": 36
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 25,
+    "y": 36
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 79,
+    "y": 55
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 26,
+    "y": 55
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 20,
+    "y": 77
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 83,
+    "y": 77
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 52,
+    "y": 56
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 51,
+    "y": 76
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 91
+   }
+  ],
+  "80010": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 80,
+    "y": 18
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 52,
+    "y": 18
+   },
+   {
+    "n": 3,
+    "pos": "FW",
+    "x": 24,
+    "y": 18
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 77,
+    "y": 46
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 50,
+    "y": 45
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 22,
+    "y": 45
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 16,
+    "y": 72
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 89,
+    "y": 72
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 41,
+    "y": 72
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 68,
+    "y": 72
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 91
+   }
+  ],
+  "80011": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 50,
+    "y": 14
+   },
+   {
+    "n": 2,
+    "pos": "MF",
+    "x": 18,
+    "y": 19
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 24,
+    "y": 39
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 50,
+    "y": 35
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 76,
+    "y": 39
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 82,
+    "y": 19
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 20,
+    "y": 59
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 80,
+    "y": 59
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 31,
+    "y": 79
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 69,
+    "y": 79
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 91
+   }
+  ],
+  "80012": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 33,
+    "y": 15
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 69,
+    "y": 15
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 19,
+    "y": 35
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 85,
+    "y": 35
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 51,
+    "y": 38
+   },
+   {
+    "n": 6,
+    "pos": "DF",
+    "x": 17,
+    "y": 57
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 51,
+    "y": 58
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 83,
+    "y": 57
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 25,
+    "y": 80
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 77,
+    "y": 80
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 91
+   }
+  ],
+  "80013": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 29,
+    "y": 13
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 71,
+    "y": 13
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 50,
+    "y": 26
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 31,
+    "y": 44
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 50,
+    "y": 62
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 69,
+    "y": 44
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 21,
+    "y": 62
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 28,
+    "y": 81
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 72,
+    "y": 81
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 79,
+    "y": 62
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 91
+   }
+  ],
+  "80085": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 39,
+    "y": 18
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 64,
+    "y": 18
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 39,
+    "y": 46
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 64,
+    "y": 46
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 17,
+    "y": 36
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 88,
+    "y": 37
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 13,
+    "y": 62
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 88,
+    "y": 62
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 38,
+    "y": 69
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 63,
+    "y": 69
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 90
+   }
+  ],
+  "default": [
+   {
+    "n": 1,
+    "pos": "FW",
+    "x": 36,
+    "y": 13
+   },
+   {
+    "n": 2,
+    "pos": "FW",
+    "x": 64,
+    "y": 13
+   },
+   {
+    "n": 3,
+    "pos": "MF",
+    "x": 14,
+    "y": 37
+   },
+   {
+    "n": 4,
+    "pos": "MF",
+    "x": 38,
+    "y": 42
+   },
+   {
+    "n": 5,
+    "pos": "MF",
+    "x": 62,
+    "y": 42
+   },
+   {
+    "n": 6,
+    "pos": "MF",
+    "x": 86,
+    "y": 37
+   },
+   {
+    "n": 7,
+    "pos": "DF",
+    "x": 14,
+    "y": 65
+   },
+   {
+    "n": 8,
+    "pos": "DF",
+    "x": 38,
+    "y": 70
+   },
+   {
+    "n": 9,
+    "pos": "DF",
+    "x": 62,
+    "y": 70
+   },
+   {
+    "n": 10,
+    "pos": "DF",
+    "x": 86,
+    "y": 65
+   },
+   {
+    "n": 11,
+    "pos": "GK",
+    "x": 50,
+    "y": 89
+   }
   ]
  },
  "coaches": [
   {
    "id": 71002,
    "name": "Hibiki Seigou",
+   "nameEU": "Seymour Hillman",
+   "nameJP": "響木正剛",
    "formation": "F-Raimon",
-   "layout": "default",
-   "passive": {
-    "name": "Impulso de Raimon",
-    "text": "Al inicio del partido, aumenta en 3113 la Parada de los GK con la etiqueta Raimon y en 1200 la Técnica de todos los aliados con la etiqueta Raimon.",
-    "effects": [
-     {
-      "label": "Parada +3113",
-      "pos": "GK",
-      "tag": "Raimon"
-     },
-     {
-      "label": "Técnica +1200",
-      "tag": "Raimon"
-     }
-    ]
-   },
-   "formationPassive": {
-    "text": "Aumenta en 53 el poder de las técnicas de Parada de los GK y en 53 el de las técnicas de Bloqueo de los DF.",
-    "effects": [
-     {
-      "label": "Poder de Parada +53",
-      "pos": "GK"
-     },
-     {
-      "label": "Poder de Bloqueo +53",
-      "pos": "DF"
-     }
-    ]
-   },
+   "layout": "80001",
    "conditions": [
     {
      "slot": 3,
-     "tag": "Raimon"
+     "type": "Etiqueta",
+     "value": "Raimon"
     },
     {
      "slot": 7,
-     "tag": "Raimon"
+     "type": "Etiqueta",
+     "value": "Raimon"
     },
     {
      "slot": 11,
-     "tag": "Raimon"
+     "type": "Etiqueta",
+     "value": "Raimon"
     }
    ],
-   "level": 10,
-   "nameEU": "Seymour Hillman",
-   "nameJP": "響木正剛"
+   "passive": {
+    "name": "Impulso de Raimon",
+    "text": "Al inicio del partido, aumenta en 3113 la Parada de los GK recomendados con la etiqueta Raimon y en 1200 la Técnica de todos los aliados con la etiqueta Raimon.",
+    "effects": [
+     {
+      "label": "Parada +3113",
+      "value": 3113,
+      "pos": "GK",
+      "tag": "Raimon",
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Técnica +1200",
+      "value": 1200,
+      "pos": null,
+      "tag": "Raimon",
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de Raimon",
+     "text": "Al inicio del partido, aumenta en 311 la Parada de los GK recomendados con la etiqueta Raimon y en 120 la Técnica de todos los aliados con la etiqueta Raimon.",
+     "effects": [
+      {
+       "label": "Parada +311",
+       "value": 311,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +120",
+       "value": 120,
+       "pos": null,
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de Raimon",
+     "text": "Al inicio del partido, aumenta en 622 la Parada de los GK recomendados con la etiqueta Raimon y en 240 la Técnica de todos los aliados con la etiqueta Raimon.",
+     "effects": [
+      {
+       "label": "Parada +622",
+       "value": 622,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +240",
+       "value": 240,
+       "pos": null,
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de Raimon",
+     "text": "Al inicio del partido, aumenta en 933 la Parada de los GK recomendados con la etiqueta Raimon y en 360 la Técnica de todos los aliados con la etiqueta Raimon.",
+     "effects": [
+      {
+       "label": "Parada +933",
+       "value": 933,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +360",
+       "value": 360,
+       "pos": null,
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de Raimon",
+     "text": "Al inicio del partido, aumenta en 1245 la Parada de los GK recomendados con la etiqueta Raimon y en 480 la Técnica de todos los aliados con la etiqueta Raimon.",
+     "effects": [
+      {
+       "label": "Parada +1245",
+       "value": 1245,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +480",
+       "value": 480,
+       "pos": null,
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de Raimon",
+     "text": "Al inicio del partido, aumenta en 1556 la Parada de los GK recomendados con la etiqueta Raimon y en 600 la Técnica de todos los aliados con la etiqueta Raimon.",
+     "effects": [
+      {
+       "label": "Parada +1556",
+       "value": 1556,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +600",
+       "value": 600,
+       "pos": null,
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de Raimon",
+     "text": "Al inicio del partido, aumenta en 1867 la Parada de los GK recomendados con la etiqueta Raimon y en 720 la Técnica de todos los aliados con la etiqueta Raimon.",
+     "effects": [
+      {
+       "label": "Parada +1867",
+       "value": 1867,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +720",
+       "value": 720,
+       "pos": null,
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de Raimon",
+     "text": "Al inicio del partido, aumenta en 2179 la Parada de los GK recomendados con la etiqueta Raimon y en 840 la Técnica de todos los aliados con la etiqueta Raimon.",
+     "effects": [
+      {
+       "label": "Parada +2179",
+       "value": 2179,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +840",
+       "value": 840,
+       "pos": null,
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de Raimon",
+     "text": "Al inicio del partido, aumenta en 2490 la Parada de los GK recomendados con la etiqueta Raimon y en 960 la Técnica de todos los aliados con la etiqueta Raimon.",
+     "effects": [
+      {
+       "label": "Parada +2490",
+       "value": 2490,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +960",
+       "value": 960,
+       "pos": null,
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de Raimon",
+     "text": "Al inicio del partido, aumenta en 2801 la Parada de los GK recomendados con la etiqueta Raimon y en 1080 la Técnica de todos los aliados con la etiqueta Raimon.",
+     "effects": [
+      {
+       "label": "Parada +2801",
+       "value": 2801,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +1080",
+       "value": 1080,
+       "pos": null,
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de Raimon",
+     "text": "Al inicio del partido, aumenta en 3113 la Parada de los GK recomendados con la etiqueta Raimon y en 1200 la Técnica de todos los aliados con la etiqueta Raimon.",
+     "effects": [
+      {
+       "label": "Parada +3113",
+       "value": 3113,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +1200",
+       "value": 1200,
+       "pos": null,
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Raimon",
+    "text": "Al inicio del partido, aumenta en 53 el poder de las técnicas de Parada de los GK recomendados y en 53 el poder de las técnicas de Bloqueo de los DF recomendados.",
+    "effects": [
+     {
+      "label": "Poder de técnica +53",
+      "value": 53,
+      "pos": "GK",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Poder de técnica +53",
+      "value": 53,
+      "pos": "DF",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 71003,
    "name": "Kageyama Reiji",
-   "formation": "F-Zona de Muerte",
    "nameEU": "Ray Dark",
-   "nameJP": "影山零治"
+   "nameJP": "影山零治",
+   "formation": "F-Zona de Muerte",
+   "layout": "80002",
+   "conditions": [
+    {
+     "slot": 2,
+     "type": "Etiqueta",
+     "value": "Teikoku"
+    },
+    {
+     "slot": 5,
+     "type": "Etiqueta",
+     "value": "Teikoku"
+    },
+    {
+     "slot": 7,
+     "type": "Etiqueta",
+     "value": "Teikoku"
+    }
+   ],
+   "passive": {
+    "name": "Impulso de poder de Creadores de juego",
+    "text": "Al inicio del partido, aumenta en 59 el poder de las técnicas de Tiro y en 59 el de las técnicas de Regate de los aliados con la etiqueta Creador de juego.",
+    "effects": [
+     {
+      "label": "Poder de técnica +59",
+      "value": 59,
+      "pos": null,
+      "tag": "Creador de juego",
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Poder de técnica +59",
+      "value": 59,
+      "pos": null,
+      "tag": "Creador de juego",
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de poder de Creadores de juego",
+     "text": "Al inicio del partido, aumenta en 5 el poder de las técnicas de Tiro y en 5 el de las técnicas de Regate de los aliados con la etiqueta Creador de juego.",
+     "effects": [
+      {
+       "label": "Poder de técnica +5",
+       "value": 5,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +5",
+       "value": 5,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de poder de Creadores de juego",
+     "text": "Al inicio del partido, aumenta en 11 el poder de las técnicas de Tiro y en 11 el de las técnicas de Regate de los aliados con la etiqueta Creador de juego.",
+     "effects": [
+      {
+       "label": "Poder de técnica +11",
+       "value": 11,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +11",
+       "value": 11,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de poder de Creadores de juego",
+     "text": "Al inicio del partido, aumenta en 17 el poder de las técnicas de Tiro y en 17 el de las técnicas de Regate de los aliados con la etiqueta Creador de juego.",
+     "effects": [
+      {
+       "label": "Poder de técnica +17",
+       "value": 17,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +17",
+       "value": 17,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de poder de Creadores de juego",
+     "text": "Al inicio del partido, aumenta en 23 el poder de las técnicas de Tiro y en 23 el de las técnicas de Regate de los aliados con la etiqueta Creador de juego.",
+     "effects": [
+      {
+       "label": "Poder de técnica +23",
+       "value": 23,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +23",
+       "value": 23,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de poder de Creadores de juego",
+     "text": "Al inicio del partido, aumenta en 29 el poder de las técnicas de Tiro y en 29 el de las técnicas de Regate de los aliados con la etiqueta Creador de juego.",
+     "effects": [
+      {
+       "label": "Poder de técnica +29",
+       "value": 29,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +29",
+       "value": 29,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de poder de Creadores de juego",
+     "text": "Al inicio del partido, aumenta en 35 el poder de las técnicas de Tiro y en 35 el de las técnicas de Regate de los aliados con la etiqueta Creador de juego.",
+     "effects": [
+      {
+       "label": "Poder de técnica +35",
+       "value": 35,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +35",
+       "value": 35,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de poder de Creadores de juego",
+     "text": "Al inicio del partido, aumenta en 41 el poder de las técnicas de Tiro y en 41 el de las técnicas de Regate de los aliados con la etiqueta Creador de juego.",
+     "effects": [
+      {
+       "label": "Poder de técnica +41",
+       "value": 41,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +41",
+       "value": 41,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de poder de Creadores de juego",
+     "text": "Al inicio del partido, aumenta en 47 el poder de las técnicas de Tiro y en 47 el de las técnicas de Regate de los aliados con la etiqueta Creador de juego.",
+     "effects": [
+      {
+       "label": "Poder de técnica +47",
+       "value": 47,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +47",
+       "value": 47,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de poder de Creadores de juego",
+     "text": "Al inicio del partido, aumenta en 53 el poder de las técnicas de Tiro y en 53 el de las técnicas de Regate de los aliados con la etiqueta Creador de juego.",
+     "effects": [
+      {
+       "label": "Poder de técnica +53",
+       "value": 53,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +53",
+       "value": 53,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de poder de Creadores de juego",
+     "text": "Al inicio del partido, aumenta en 59 el poder de las técnicas de Tiro y en 59 el de las técnicas de Regate de los aliados con la etiqueta Creador de juego.",
+     "effects": [
+      {
+       "label": "Poder de técnica +59",
+       "value": 59,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +59",
+       "value": 59,
+       "pos": null,
+       "tag": "Creador de juego",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Teikoku",
+    "text": "Al inicio del partido, aumenta en 600 el Tiro de los FW recomendados y en 600 el Bloqueo de los DF recomendados.",
+    "effects": [
+     {
+      "label": "Tiro +600",
+      "value": 600,
+      "pos": "FW",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Bloqueo +600",
+      "value": 600,
+      "pos": "DF",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 71004,
    "name": "Aida Chikara",
-   "formation": "F-Inazuma KFC",
    "nameEU": "",
-   "nameJP": "会田力"
+   "nameJP": "会田力",
+   "formation": "F-Inazuma KFC",
+   "layout": "80004",
+   "conditions": [
+    {
+     "slot": 2,
+     "type": "Etiqueta",
+     "value": "Inazuma KFC"
+    },
+    {
+     "slot": 7,
+     "type": "Etiqueta",
+     "value": "Inazuma KFC, Raimon"
+    },
+    {
+     "slot": 11,
+     "type": "Etiqueta",
+     "value": "Inazuma KFC, Raimon"
+    }
+   ],
+   "passive": {
+    "name": "Impulso de Raimon e Inazuma KFC",
+    "text": "Al inicio del partido, aumenta en 3300 el Tiro de los FW recomendados y en 3000 la Parada de los GK recomendados que tengan las etiquetas Raimon o Inazuma KFC.",
+    "effects": [
+     {
+      "label": "Tiro +3300",
+      "value": 3300,
+      "pos": "FW",
+      "tag": "Raimon",
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Parada +3000",
+      "value": 3000,
+      "pos": "GK",
+      "tag": "Raimon",
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de Raimon e Inazuma KFC",
+     "text": "Al inicio del partido, aumenta en 330 el Tiro de los FW recomendados y en 300 la Parada de los GK recomendados que tengan las etiquetas Raimon o Inazuma KFC.",
+     "effects": [
+      {
+       "label": "Tiro +330",
+       "value": 330,
+       "pos": "FW",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Parada +300",
+       "value": 300,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de Raimon e Inazuma KFC",
+     "text": "Al inicio del partido, aumenta en 660 el Tiro de los FW recomendados y en 600 la Parada de los GK recomendados que tengan las etiquetas Raimon o Inazuma KFC.",
+     "effects": [
+      {
+       "label": "Tiro +660",
+       "value": 660,
+       "pos": "FW",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Parada +600",
+       "value": 600,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de Raimon e Inazuma KFC",
+     "text": "Al inicio del partido, aumenta en 990 el Tiro de los FW recomendados y en 900 la Parada de los GK recomendados que tengan las etiquetas Raimon o Inazuma KFC.",
+     "effects": [
+      {
+       "label": "Tiro +990",
+       "value": 990,
+       "pos": "FW",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Parada +900",
+       "value": 900,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de Raimon e Inazuma KFC",
+     "text": "Al inicio del partido, aumenta en 1320 el Tiro de los FW recomendados y en 1200 la Parada de los GK recomendados que tengan las etiquetas Raimon o Inazuma KFC.",
+     "effects": [
+      {
+       "label": "Tiro +1320",
+       "value": 1320,
+       "pos": "FW",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Parada +1200",
+       "value": 1200,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de Raimon e Inazuma KFC",
+     "text": "Al inicio del partido, aumenta en 1650 el Tiro de los FW recomendados y en 1500 la Parada de los GK recomendados que tengan las etiquetas Raimon o Inazuma KFC.",
+     "effects": [
+      {
+       "label": "Tiro +1650",
+       "value": 1650,
+       "pos": "FW",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Parada +1500",
+       "value": 1500,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de Raimon e Inazuma KFC",
+     "text": "Al inicio del partido, aumenta en 1980 el Tiro de los FW recomendados y en 1800 la Parada de los GK recomendados que tengan las etiquetas Raimon o Inazuma KFC.",
+     "effects": [
+      {
+       "label": "Tiro +1980",
+       "value": 1980,
+       "pos": "FW",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Parada +1800",
+       "value": 1800,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de Raimon e Inazuma KFC",
+     "text": "Al inicio del partido, aumenta en 2310 el Tiro de los FW recomendados y en 2100 la Parada de los GK recomendados que tengan las etiquetas Raimon o Inazuma KFC.",
+     "effects": [
+      {
+       "label": "Tiro +2310",
+       "value": 2310,
+       "pos": "FW",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Parada +2100",
+       "value": 2100,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de Raimon e Inazuma KFC",
+     "text": "Al inicio del partido, aumenta en 2640 el Tiro de los FW recomendados y en 2400 la Parada de los GK recomendados que tengan las etiquetas Raimon o Inazuma KFC.",
+     "effects": [
+      {
+       "label": "Tiro +2640",
+       "value": 2640,
+       "pos": "FW",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Parada +2400",
+       "value": 2400,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de Raimon e Inazuma KFC",
+     "text": "Al inicio del partido, aumenta en 2970 el Tiro de los FW recomendados y en 2700 la Parada de los GK recomendados que tengan las etiquetas Raimon o Inazuma KFC.",
+     "effects": [
+      {
+       "label": "Tiro +2970",
+       "value": 2970,
+       "pos": "FW",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Parada +2700",
+       "value": 2700,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de Raimon e Inazuma KFC",
+     "text": "Al inicio del partido, aumenta en 3300 el Tiro de los FW recomendados y en 3000 la Parada de los GK recomendados que tengan las etiquetas Raimon o Inazuma KFC.",
+     "effects": [
+      {
+       "label": "Tiro +3300",
+       "value": 3300,
+       "pos": "FW",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Parada +3000",
+       "value": 3000,
+       "pos": "GK",
+       "tag": "Raimon",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Inazuma KFC",
+    "text": "Al inicio del partido, aumenta en 22 el poder de las técnicas de Tiro de los aliados de Bosque y en 20 el poder de las técnicas de Bloqueo de los aliados de Montaña.",
+    "effects": [
+     {
+      "label": "Poder de técnica +22",
+      "value": 22,
+      "pos": null,
+      "tag": null,
+      "els": [
+       "B"
+      ],
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Poder de técnica +20",
+      "value": 20,
+      "pos": null,
+      "tag": null,
+      "els": [
+       "M"
+      ],
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 71005,
    "name": "Jikiru Haito",
-   "formation": "F-Occult",
    "nameEU": "",
-   "nameJP": ""
+   "nameJP": "地木流灰人",
+   "formation": "F-Occult",
+   "layout": "80005",
+   "conditions": [
+    {
+     "slot": 1,
+     "type": "Elemento",
+     "value": "Bosque"
+    },
+    {
+     "slot": 2,
+     "type": "Posición natural",
+     "value": "MF"
+    },
+    {
+     "slot": 3,
+     "type": "Posición natural",
+     "value": "MF"
+    }
+   ],
+   "passive": {
+    "name": "Debilitación del portero",
+    "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, reduce en 600 la Parada del GK rival. El efecto termina cuando tu equipo marca un gol.",
+    "effects": [
+     {
+      "label": "Parada −600",
+      "value": -600,
+      "pos": null,
+      "tag": null,
+      "els": null,
+      "rival": true,
+      "stack": true
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Debilitación del portero",
+     "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, reduce en 60 la Parada del GK rival. El efecto termina cuando tu equipo marca un gol.",
+     "effects": [
+      {
+       "label": "Parada −60",
+       "value": -60,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": true,
+       "stack": true
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Debilitación del portero",
+     "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, reduce en 120 la Parada del GK rival. El efecto termina cuando tu equipo marca un gol.",
+     "effects": [
+      {
+       "label": "Parada −120",
+       "value": -120,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": true,
+       "stack": true
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Debilitación del portero",
+     "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, reduce en 180 la Parada del GK rival. El efecto termina cuando tu equipo marca un gol.",
+     "effects": [
+      {
+       "label": "Parada −180",
+       "value": -180,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": true,
+       "stack": true
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Debilitación del portero",
+     "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, reduce en 240 la Parada del GK rival. El efecto termina cuando tu equipo marca un gol.",
+     "effects": [
+      {
+       "label": "Parada −240",
+       "value": -240,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": true,
+       "stack": true
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Debilitación del portero",
+     "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, reduce en 300 la Parada del GK rival. El efecto termina cuando tu equipo marca un gol.",
+     "effects": [
+      {
+       "label": "Parada −300",
+       "value": -300,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": true,
+       "stack": true
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Debilitación del portero",
+     "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, reduce en 360 la Parada del GK rival. El efecto termina cuando tu equipo marca un gol.",
+     "effects": [
+      {
+       "label": "Parada −360",
+       "value": -360,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": true,
+       "stack": true
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Debilitación del portero",
+     "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, reduce en 420 la Parada del GK rival. El efecto termina cuando tu equipo marca un gol.",
+     "effects": [
+      {
+       "label": "Parada −420",
+       "value": -420,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": true,
+       "stack": true
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Debilitación del portero",
+     "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, reduce en 480 la Parada del GK rival. El efecto termina cuando tu equipo marca un gol.",
+     "effects": [
+      {
+       "label": "Parada −480",
+       "value": -480,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": true,
+       "stack": true
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Debilitación del portero",
+     "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, reduce en 540 la Parada del GK rival. El efecto termina cuando tu equipo marca un gol.",
+     "effects": [
+      {
+       "label": "Parada −540",
+       "value": -540,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": true,
+       "stack": true
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Debilitación del portero",
+     "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, reduce en 600 la Parada del GK rival. El efecto termina cuando tu equipo marca un gol.",
+     "effects": [
+      {
+       "label": "Parada −600",
+       "value": -600,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": true,
+       "stack": true
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Occult",
+    "text": "Al inicio del partido, aumenta en 2000 la Técnica de los MF recomendados y en 1200 el Bloqueo de los DF recomendados.",
+    "effects": [
+     {
+      "label": "Técnica +2000",
+      "value": 2000,
+      "pos": "MF",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Bloqueo +1200",
+      "value": 1200,
+      "pos": "DF",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 71006,
    "name": "Tayama Kousuke",
-   "formation": "F-Nose",
    "nameEU": "",
-   "nameJP": ""
+   "nameJP": "他山幸助",
+   "formation": "F-Nose",
+   "layout": "80006",
+   "conditions": [
+    {
+     "slot": 3,
+     "type": "Elemento",
+     "value": "Viento"
+    },
+    {
+     "slot": 6,
+     "type": "Elemento",
+     "value": "Viento"
+    },
+    {
+     "slot": 7,
+     "type": "Elemento",
+     "value": "Viento"
+    }
+   ],
+   "passive": {
+    "name": "Impulso de poder de Viento",
+    "text": "Al inicio del partido, aumenta en 40 el poder de las técnicas de Viento de todos los aliados.",
+    "effects": [
+     {
+      "label": "Poder de técnica +40",
+      "value": 40,
+      "pos": null,
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de poder de Viento",
+     "text": "Al inicio del partido, aumenta en 4 el poder de las técnicas de Viento de todos los aliados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +4",
+       "value": 4,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de poder de Viento",
+     "text": "Al inicio del partido, aumenta en 8 el poder de las técnicas de Viento de todos los aliados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +8",
+       "value": 8,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de poder de Viento",
+     "text": "Al inicio del partido, aumenta en 12 el poder de las técnicas de Viento de todos los aliados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +12",
+       "value": 12,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de poder de Viento",
+     "text": "Al inicio del partido, aumenta en 16 el poder de las técnicas de Viento de todos los aliados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +16",
+       "value": 16,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de poder de Viento",
+     "text": "Al inicio del partido, aumenta en 20 el poder de las técnicas de Viento de todos los aliados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +20",
+       "value": 20,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de poder de Viento",
+     "text": "Al inicio del partido, aumenta en 24 el poder de las técnicas de Viento de todos los aliados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +24",
+       "value": 24,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de poder de Viento",
+     "text": "Al inicio del partido, aumenta en 28 el poder de las técnicas de Viento de todos los aliados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +28",
+       "value": 28,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de poder de Viento",
+     "text": "Al inicio del partido, aumenta en 32 el poder de las técnicas de Viento de todos los aliados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +32",
+       "value": 32,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de poder de Viento",
+     "text": "Al inicio del partido, aumenta en 36 el poder de las técnicas de Viento de todos los aliados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +36",
+       "value": 36,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de poder de Viento",
+     "text": "Al inicio del partido, aumenta en 40 el poder de las técnicas de Viento de todos los aliados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +40",
+       "value": 40,
+       "pos": null,
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Nose",
+    "text": "Al inicio del partido, aumenta en 900 el Tiro y en 900 la Técnica de los aliados de Viento.",
+    "effects": [
+     {
+      "label": "Tiro +900",
+      "value": 900,
+      "pos": null,
+      "tag": null,
+      "els": [
+       "V"
+      ],
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Técnica +900",
+      "value": 900,
+      "pos": null,
+      "tag": null,
+      "els": [
+       "V"
+      ],
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 71007,
    "name": "Tomiyama Shinichirou",
-   "formation": "F-Mikage Sennou",
    "nameEU": "",
-   "nameJP": "富山新一郎"
+   "nameJP": "富山新一郎",
+   "formation": "F-Mikage Sennou",
+   "layout": "80007",
+   "conditions": [
+    {
+     "slot": 2,
+     "type": "Elemento",
+     "value": "Fuego"
+    },
+    {
+     "slot": 6,
+     "type": "Posición natural",
+     "value": "MF"
+    },
+    {
+     "slot": 11,
+     "type": "Elemento",
+     "value": "Bosque"
+    }
+   ],
+   "passive": {
+    "name": "Impulso de poder de FW y GK",
+    "text": "Al inicio del partido, aumenta en 80 el poder de las técnicas de Tiro de los FW recomendados de Fuego y en 80 el poder de las técnicas de Parada de los GK recomendados de Bosque.",
+    "effects": [
+     {
+      "label": "Poder de técnica +80",
+      "value": 80,
+      "pos": "FW",
+      "tag": null,
+      "els": [
+       "F"
+      ],
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Poder de técnica +80",
+      "value": 80,
+      "pos": "GK",
+      "tag": null,
+      "els": [
+       "B"
+      ],
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de poder de FW y GK",
+     "text": "Al inicio del partido, aumenta en 8 el poder de las técnicas de Tiro de los FW recomendados de Fuego y en 8 el poder de las técnicas de Parada de los GK recomendados de Bosque.",
+     "effects": [
+      {
+       "label": "Poder de técnica +8",
+       "value": 8,
+       "pos": "FW",
+       "tag": null,
+       "els": [
+        "F"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +8",
+       "value": 8,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de poder de FW y GK",
+     "text": "Al inicio del partido, aumenta en 16 el poder de las técnicas de Tiro de los FW recomendados de Fuego y en 16 el poder de las técnicas de Parada de los GK recomendados de Bosque.",
+     "effects": [
+      {
+       "label": "Poder de técnica +16",
+       "value": 16,
+       "pos": "FW",
+       "tag": null,
+       "els": [
+        "F"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +16",
+       "value": 16,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de poder de FW y GK",
+     "text": "Al inicio del partido, aumenta en 24 el poder de las técnicas de Tiro de los FW recomendados de Fuego y en 24 el poder de las técnicas de Parada de los GK recomendados de Bosque.",
+     "effects": [
+      {
+       "label": "Poder de técnica +24",
+       "value": 24,
+       "pos": "FW",
+       "tag": null,
+       "els": [
+        "F"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +24",
+       "value": 24,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de poder de FW y GK",
+     "text": "Al inicio del partido, aumenta en 32 el poder de las técnicas de Tiro de los FW recomendados de Fuego y en 32 el poder de las técnicas de Parada de los GK recomendados de Bosque.",
+     "effects": [
+      {
+       "label": "Poder de técnica +32",
+       "value": 32,
+       "pos": "FW",
+       "tag": null,
+       "els": [
+        "F"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +32",
+       "value": 32,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de poder de FW y GK",
+     "text": "Al inicio del partido, aumenta en 40 el poder de las técnicas de Tiro de los FW recomendados de Fuego y en 40 el poder de las técnicas de Parada de los GK recomendados de Bosque.",
+     "effects": [
+      {
+       "label": "Poder de técnica +40",
+       "value": 40,
+       "pos": "FW",
+       "tag": null,
+       "els": [
+        "F"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +40",
+       "value": 40,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de poder de FW y GK",
+     "text": "Al inicio del partido, aumenta en 48 el poder de las técnicas de Tiro de los FW recomendados de Fuego y en 48 el poder de las técnicas de Parada de los GK recomendados de Bosque.",
+     "effects": [
+      {
+       "label": "Poder de técnica +48",
+       "value": 48,
+       "pos": "FW",
+       "tag": null,
+       "els": [
+        "F"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +48",
+       "value": 48,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de poder de FW y GK",
+     "text": "Al inicio del partido, aumenta en 56 el poder de las técnicas de Tiro de los FW recomendados de Fuego y en 56 el poder de las técnicas de Parada de los GK recomendados de Bosque.",
+     "effects": [
+      {
+       "label": "Poder de técnica +56",
+       "value": 56,
+       "pos": "FW",
+       "tag": null,
+       "els": [
+        "F"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +56",
+       "value": 56,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de poder de FW y GK",
+     "text": "Al inicio del partido, aumenta en 64 el poder de las técnicas de Tiro de los FW recomendados de Fuego y en 64 el poder de las técnicas de Parada de los GK recomendados de Bosque.",
+     "effects": [
+      {
+       "label": "Poder de técnica +64",
+       "value": 64,
+       "pos": "FW",
+       "tag": null,
+       "els": [
+        "F"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +64",
+       "value": 64,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de poder de FW y GK",
+     "text": "Al inicio del partido, aumenta en 72 el poder de las técnicas de Tiro de los FW recomendados de Fuego y en 72 el poder de las técnicas de Parada de los GK recomendados de Bosque.",
+     "effects": [
+      {
+       "label": "Poder de técnica +72",
+       "value": 72,
+       "pos": "FW",
+       "tag": null,
+       "els": [
+        "F"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +72",
+       "value": 72,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de poder de FW y GK",
+     "text": "Al inicio del partido, aumenta en 80 el poder de las técnicas de Tiro de los FW recomendados de Fuego y en 80 el poder de las técnicas de Parada de los GK recomendados de Bosque.",
+     "effects": [
+      {
+       "label": "Poder de técnica +80",
+       "value": 80,
+       "pos": "FW",
+       "tag": null,
+       "els": [
+        "F"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +80",
+       "value": 80,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Mikage Sennou",
+    "text": "Al inicio del partido, aumenta en 30 el poder de las técnicas de los aliados de Fuego y en 30 el de los aliados de Bosque.",
+    "effects": [
+     {
+      "label": "Poder de técnica +30",
+      "value": 30,
+      "pos": null,
+      "tag": null,
+      "els": [
+       "F"
+      ],
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Poder de técnica +30",
+      "value": 30,
+      "pos": null,
+      "tag": null,
+      "els": [
+       "B"
+      ],
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 71008,
    "name": "Maniya Saito",
-   "formation": "F-Shuyou Meito",
    "nameEU": "",
-   "nameJP": "真二屋才人"
+   "nameJP": "真二屋才人",
+   "formation": "F-Shuyou Meito",
+   "layout": "80008",
+   "conditions": [
+    {
+     "slot": 2,
+     "type": "Etiqueta",
+     "value": "Akiha"
+    },
+    {
+     "slot": 4,
+     "type": "Etiqueta",
+     "value": "Segundo delantero"
+    },
+    {
+     "slot": 5,
+     "type": "Etiqueta",
+     "value": "Segundo delantero"
+    }
+   ],
+   "passive": {
+    "name": "Impulso de FW y MF",
+    "text": "Al inicio de la segunda parte, aumenta en 4200 el Tiro de los FW recomendados y en 4200 la Técnica de los MF recomendados.",
+    "effects": [
+     {
+      "label": "Tiro +4200",
+      "value": 4200,
+      "pos": "FW",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Técnica +4200",
+      "value": 4200,
+      "pos": "MF",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de FW y MF",
+     "text": "Al inicio de la segunda parte, aumenta en 420 el Tiro de los FW recomendados y en 420 la Técnica de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Tiro +420",
+       "value": 420,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +420",
+       "value": 420,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de FW y MF",
+     "text": "Al inicio de la segunda parte, aumenta en 840 el Tiro de los FW recomendados y en 840 la Técnica de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Tiro +840",
+       "value": 840,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +840",
+       "value": 840,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de FW y MF",
+     "text": "Al inicio de la segunda parte, aumenta en 1260 el Tiro de los FW recomendados y en 1260 la Técnica de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Tiro +1260",
+       "value": 1260,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +1260",
+       "value": 1260,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de FW y MF",
+     "text": "Al inicio de la segunda parte, aumenta en 1680 el Tiro de los FW recomendados y en 1680 la Técnica de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Tiro +1680",
+       "value": 1680,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +1680",
+       "value": 1680,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de FW y MF",
+     "text": "Al inicio de la segunda parte, aumenta en 2100 el Tiro de los FW recomendados y en 2100 la Técnica de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Tiro +2100",
+       "value": 2100,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +2100",
+       "value": 2100,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de FW y MF",
+     "text": "Al inicio de la segunda parte, aumenta en 2520 el Tiro de los FW recomendados y en 2520 la Técnica de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Tiro +2520",
+       "value": 2520,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +2520",
+       "value": 2520,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de FW y MF",
+     "text": "Al inicio de la segunda parte, aumenta en 2940 el Tiro de los FW recomendados y en 2940 la Técnica de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Tiro +2940",
+       "value": 2940,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +2940",
+       "value": 2940,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de FW y MF",
+     "text": "Al inicio de la segunda parte, aumenta en 3360 el Tiro de los FW recomendados y en 3360 la Técnica de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Tiro +3360",
+       "value": 3360,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +3360",
+       "value": 3360,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de FW y MF",
+     "text": "Al inicio de la segunda parte, aumenta en 3780 el Tiro de los FW recomendados y en 3780 la Técnica de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Tiro +3780",
+       "value": 3780,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +3780",
+       "value": 3780,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de FW y MF",
+     "text": "Al inicio de la segunda parte, aumenta en 4200 el Tiro de los FW recomendados y en 4200 la Técnica de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Tiro +4200",
+       "value": 4200,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +4200",
+       "value": 4200,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Shuyou Meito",
+    "text": "Al inicio de la segunda parte, aumenta en 2700 el Bloqueo de los DF recomendados y en 2700 la Parada de los GK recomendados.",
+    "effects": [
+     {
+      "label": "Bloqueo +2700",
+      "value": 2700,
+      "pos": "DF",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Parada +2700",
+      "value": 2700,
+      "pos": "GK",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 71009,
    "name": "Igajima Senichi",
-   "formation": "F-Sengoku Igajima",
    "nameEU": "",
-   "nameJP": "伊賀島仙一"
+   "nameJP": "伊賀島仙一",
+   "formation": "F-Sengoku Igajima",
+   "layout": "80009",
+   "conditions": [
+    {
+     "slot": 1,
+     "type": "Etiqueta",
+     "value": "Sengoku Igajima"
+    },
+    {
+     "slot": 5,
+     "type": "Etiqueta",
+     "value": "Medio defensivo"
+    },
+    {
+     "slot": 10,
+     "type": "Etiqueta",
+     "value": "Stopper"
+    }
+   ],
+   "passive": {
+    "name": "Impulso de Medio defensivo y Stopper",
+    "text": "Al inicio del partido, aumenta en 2250 el Bloqueo y en 2250 la Técnica de los aliados con las etiquetas Medio defensivo o Stopper.",
+    "effects": [
+     {
+      "label": "Bloqueo +2250",
+      "value": 2250,
+      "pos": null,
+      "tag": "Medio defensivo",
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Técnica +2250",
+      "value": 2250,
+      "pos": null,
+      "tag": "Medio defensivo",
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de Medio defensivo y Stopper",
+     "text": "Al inicio del partido, aumenta en 225 el Bloqueo y en 225 la Técnica de los aliados con las etiquetas Medio defensivo o Stopper.",
+     "effects": [
+      {
+       "label": "Bloqueo +225",
+       "value": 225,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +225",
+       "value": 225,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de Medio defensivo y Stopper",
+     "text": "Al inicio del partido, aumenta en 450 el Bloqueo y en 450 la Técnica de los aliados con las etiquetas Medio defensivo o Stopper.",
+     "effects": [
+      {
+       "label": "Bloqueo +450",
+       "value": 450,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +450",
+       "value": 450,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de Medio defensivo y Stopper",
+     "text": "Al inicio del partido, aumenta en 675 el Bloqueo y en 675 la Técnica de los aliados con las etiquetas Medio defensivo o Stopper.",
+     "effects": [
+      {
+       "label": "Bloqueo +675",
+       "value": 675,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +675",
+       "value": 675,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de Medio defensivo y Stopper",
+     "text": "Al inicio del partido, aumenta en 900 el Bloqueo y en 900 la Técnica de los aliados con las etiquetas Medio defensivo o Stopper.",
+     "effects": [
+      {
+       "label": "Bloqueo +900",
+       "value": 900,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +900",
+       "value": 900,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de Medio defensivo y Stopper",
+     "text": "Al inicio del partido, aumenta en 1125 el Bloqueo y en 1125 la Técnica de los aliados con las etiquetas Medio defensivo o Stopper.",
+     "effects": [
+      {
+       "label": "Bloqueo +1125",
+       "value": 1125,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +1125",
+       "value": 1125,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de Medio defensivo y Stopper",
+     "text": "Al inicio del partido, aumenta en 1350 el Bloqueo y en 1350 la Técnica de los aliados con las etiquetas Medio defensivo o Stopper.",
+     "effects": [
+      {
+       "label": "Bloqueo +1350",
+       "value": 1350,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +1350",
+       "value": 1350,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de Medio defensivo y Stopper",
+     "text": "Al inicio del partido, aumenta en 1575 el Bloqueo y en 1575 la Técnica de los aliados con las etiquetas Medio defensivo o Stopper.",
+     "effects": [
+      {
+       "label": "Bloqueo +1575",
+       "value": 1575,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +1575",
+       "value": 1575,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de Medio defensivo y Stopper",
+     "text": "Al inicio del partido, aumenta en 1800 el Bloqueo y en 1800 la Técnica de los aliados con las etiquetas Medio defensivo o Stopper.",
+     "effects": [
+      {
+       "label": "Bloqueo +1800",
+       "value": 1800,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +1800",
+       "value": 1800,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de Medio defensivo y Stopper",
+     "text": "Al inicio del partido, aumenta en 2025 el Bloqueo y en 2025 la Técnica de los aliados con las etiquetas Medio defensivo o Stopper.",
+     "effects": [
+      {
+       "label": "Bloqueo +2025",
+       "value": 2025,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +2025",
+       "value": 2025,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de Medio defensivo y Stopper",
+     "text": "Al inicio del partido, aumenta en 2250 el Bloqueo y en 2250 la Técnica de los aliados con las etiquetas Medio defensivo o Stopper.",
+     "effects": [
+      {
+       "label": "Bloqueo +2250",
+       "value": 2250,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Técnica +2250",
+       "value": 2250,
+       "pos": null,
+       "tag": "Medio defensivo",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Sengoku Igajima",
+    "text": "Cuando un jugador de tu equipo usa una técnica de bloqueo y gana un duelo contra un rival que intenta regatearlo, aumenta en 250 la Técnica y en 250 el Tiro de todo tu equipo. El efecto se acumula cada vez que ocurre y termina cuando tu equipo marca un gol.",
+    "effects": [
+     {
+      "label": "Técnica +250",
+      "value": 250,
+      "pos": null,
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": true
+     },
+     {
+      "label": "Tiro +250",
+      "value": 250,
+      "pos": null,
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": true
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 71010,
    "name": "Nikaidou Shuugo",
-   "formation": "F-Kidokawa Seishuu",
    "nameEU": "",
    "nameJP": "二階堂修吾",
-   "layout": "433"
+   "formation": "F-Kidokawa Seishuu",
+   "layout": "80010",
+   "conditions": [
+    {
+     "slot": 1,
+     "type": "Elemento",
+     "value": "Montaña"
+    },
+    {
+     "slot": 2,
+     "type": "Elemento",
+     "value": "Fuego"
+    },
+    {
+     "slot": 3,
+     "type": "Elemento",
+     "value": "Viento"
+    }
+   ],
+   "passive": {
+    "name": "Impulso de poder de FW y Delantero",
+    "text": "Al inicio del partido, aumenta en 60 el poder de las técnicas de Tiro de los FW recomendados y en 85 el de los aliados con la etiqueta Delantero.",
+    "effects": [
+     {
+      "label": "Poder de técnica +60",
+      "value": 60,
+      "pos": "FW",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Poder de técnica +85",
+      "value": 85,
+      "pos": null,
+      "tag": "Delantero",
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de poder de FW y Delantero",
+     "text": "Al inicio del partido, aumenta en 6 el poder de las técnicas de Tiro de los FW recomendados y en 8 el de los aliados con la etiqueta Delantero.",
+     "effects": [
+      {
+       "label": "Poder de técnica +6",
+       "value": 6,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +8",
+       "value": 8,
+       "pos": null,
+       "tag": "Delantero",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de poder de FW y Delantero",
+     "text": "Al inicio del partido, aumenta en 12 el poder de las técnicas de Tiro de los FW recomendados y en 17 el de los aliados con la etiqueta Delantero.",
+     "effects": [
+      {
+       "label": "Poder de técnica +12",
+       "value": 12,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +17",
+       "value": 17,
+       "pos": null,
+       "tag": "Delantero",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de poder de FW y Delantero",
+     "text": "Al inicio del partido, aumenta en 18 el poder de las técnicas de Tiro de los FW recomendados y en 25 el de los aliados con la etiqueta Delantero.",
+     "effects": [
+      {
+       "label": "Poder de técnica +18",
+       "value": 18,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +25",
+       "value": 25,
+       "pos": null,
+       "tag": "Delantero",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de poder de FW y Delantero",
+     "text": "Al inicio del partido, aumenta en 24 el poder de las técnicas de Tiro de los FW recomendados y en 34 el de los aliados con la etiqueta Delantero.",
+     "effects": [
+      {
+       "label": "Poder de técnica +24",
+       "value": 24,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +34",
+       "value": 34,
+       "pos": null,
+       "tag": "Delantero",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de poder de FW y Delantero",
+     "text": "Al inicio del partido, aumenta en 30 el poder de las técnicas de Tiro de los FW recomendados y en 42 el de los aliados con la etiqueta Delantero.",
+     "effects": [
+      {
+       "label": "Poder de técnica +30",
+       "value": 30,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +42",
+       "value": 42,
+       "pos": null,
+       "tag": "Delantero",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de poder de FW y Delantero",
+     "text": "Al inicio del partido, aumenta en 36 el poder de las técnicas de Tiro de los FW recomendados y en 51 el de los aliados con la etiqueta Delantero.",
+     "effects": [
+      {
+       "label": "Poder de técnica +36",
+       "value": 36,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +51",
+       "value": 51,
+       "pos": null,
+       "tag": "Delantero",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de poder de FW y Delantero",
+     "text": "Al inicio del partido, aumenta en 42 el poder de las técnicas de Tiro de los FW recomendados y en 59 el de los aliados con la etiqueta Delantero.",
+     "effects": [
+      {
+       "label": "Poder de técnica +42",
+       "value": 42,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +59",
+       "value": 59,
+       "pos": null,
+       "tag": "Delantero",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de poder de FW y Delantero",
+     "text": "Al inicio del partido, aumenta en 48 el poder de las técnicas de Tiro de los FW recomendados y en 68 el de los aliados con la etiqueta Delantero.",
+     "effects": [
+      {
+       "label": "Poder de técnica +48",
+       "value": 48,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +68",
+       "value": 68,
+       "pos": null,
+       "tag": "Delantero",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de poder de FW y Delantero",
+     "text": "Al inicio del partido, aumenta en 54 el poder de las técnicas de Tiro de los FW recomendados y en 76 el de los aliados con la etiqueta Delantero.",
+     "effects": [
+      {
+       "label": "Poder de técnica +54",
+       "value": 54,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +76",
+       "value": 76,
+       "pos": null,
+       "tag": "Delantero",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de poder de FW y Delantero",
+     "text": "Al inicio del partido, aumenta en 60 el poder de las técnicas de Tiro de los FW recomendados y en 85 el de los aliados con la etiqueta Delantero.",
+     "effects": [
+      {
+       "label": "Poder de técnica +60",
+       "value": 60,
+       "pos": "FW",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +85",
+       "value": 85,
+       "pos": null,
+       "tag": "Delantero",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Kidokawa Seishuu",
+    "text": "Cuando un rival detiene una técnica de Tiro aliada, aumenta en 400 el Tiro de todos los aliados. El efecto termina cuando tu equipo marca un gol.",
+    "effects": [
+     {
+      "label": "Tiro +400",
+      "value": 400,
+      "pos": null,
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": true
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 71011,
    "name": "Kageyama Reiji",
-   "formation": "F-Zeus",
    "nameEU": "Ray Dark",
-   "nameJP": "影山零治"
+   "nameJP": "影山零治",
+   "formation": "F-Zeus",
+   "layout": "80011",
+   "conditions": [
+    {
+     "slot": 1,
+     "type": "Posición natural",
+     "value": "FW"
+    },
+    {
+     "slot": 4,
+     "type": "Etiqueta",
+     "value": "Zeus"
+    },
+    {
+     "slot": 11,
+     "type": "Elemento",
+     "value": "Montaña"
+    }
+   ],
+   "passive": {
+    "name": "Impulso de poder de MF y Zeus",
+    "text": "Al inicio del partido, aumenta en 60 el poder de las técnicas de Regate de los MF recomendados y en 60 el poder de las técnicas de Tiro de los aliados con la etiqueta Zeus.",
+    "effects": [
+     {
+      "label": "Poder de técnica +60",
+      "value": 60,
+      "pos": "MF",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Poder de técnica +60",
+      "value": 60,
+      "pos": null,
+      "tag": "Zeus",
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de poder de MF y Zeus",
+     "text": "Al inicio del partido, aumenta en 6 el poder de las técnicas de Regate de los MF recomendados y en 6 el poder de las técnicas de Tiro de los aliados con la etiqueta Zeus.",
+     "effects": [
+      {
+       "label": "Poder de técnica +6",
+       "value": 6,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +6",
+       "value": 6,
+       "pos": null,
+       "tag": "Zeus",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de poder de MF y Zeus",
+     "text": "Al inicio del partido, aumenta en 12 el poder de las técnicas de Regate de los MF recomendados y en 12 el poder de las técnicas de Tiro de los aliados con la etiqueta Zeus.",
+     "effects": [
+      {
+       "label": "Poder de técnica +12",
+       "value": 12,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +12",
+       "value": 12,
+       "pos": null,
+       "tag": "Zeus",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de poder de MF y Zeus",
+     "text": "Al inicio del partido, aumenta en 18 el poder de las técnicas de Regate de los MF recomendados y en 18 el poder de las técnicas de Tiro de los aliados con la etiqueta Zeus.",
+     "effects": [
+      {
+       "label": "Poder de técnica +18",
+       "value": 18,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +18",
+       "value": 18,
+       "pos": null,
+       "tag": "Zeus",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de poder de MF y Zeus",
+     "text": "Al inicio del partido, aumenta en 24 el poder de las técnicas de Regate de los MF recomendados y en 24 el poder de las técnicas de Tiro de los aliados con la etiqueta Zeus.",
+     "effects": [
+      {
+       "label": "Poder de técnica +24",
+       "value": 24,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +24",
+       "value": 24,
+       "pos": null,
+       "tag": "Zeus",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de poder de MF y Zeus",
+     "text": "Al inicio del partido, aumenta en 30 el poder de las técnicas de Regate de los MF recomendados y en 30 el poder de las técnicas de Tiro de los aliados con la etiqueta Zeus.",
+     "effects": [
+      {
+       "label": "Poder de técnica +30",
+       "value": 30,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +30",
+       "value": 30,
+       "pos": null,
+       "tag": "Zeus",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de poder de MF y Zeus",
+     "text": "Al inicio del partido, aumenta en 36 el poder de las técnicas de Regate de los MF recomendados y en 36 el poder de las técnicas de Tiro de los aliados con la etiqueta Zeus.",
+     "effects": [
+      {
+       "label": "Poder de técnica +36",
+       "value": 36,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +36",
+       "value": 36,
+       "pos": null,
+       "tag": "Zeus",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de poder de MF y Zeus",
+     "text": "Al inicio del partido, aumenta en 42 el poder de las técnicas de Regate de los MF recomendados y en 42 el poder de las técnicas de Tiro de los aliados con la etiqueta Zeus.",
+     "effects": [
+      {
+       "label": "Poder de técnica +42",
+       "value": 42,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +42",
+       "value": 42,
+       "pos": null,
+       "tag": "Zeus",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de poder de MF y Zeus",
+     "text": "Al inicio del partido, aumenta en 48 el poder de las técnicas de Regate de los MF recomendados y en 48 el poder de las técnicas de Tiro de los aliados con la etiqueta Zeus.",
+     "effects": [
+      {
+       "label": "Poder de técnica +48",
+       "value": 48,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +48",
+       "value": 48,
+       "pos": null,
+       "tag": "Zeus",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de poder de MF y Zeus",
+     "text": "Al inicio del partido, aumenta en 54 el poder de las técnicas de Regate de los MF recomendados y en 54 el poder de las técnicas de Tiro de los aliados con la etiqueta Zeus.",
+     "effects": [
+      {
+       "label": "Poder de técnica +54",
+       "value": 54,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +54",
+       "value": 54,
+       "pos": null,
+       "tag": "Zeus",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de poder de MF y Zeus",
+     "text": "Al inicio del partido, aumenta en 60 el poder de las técnicas de Regate de los MF recomendados y en 60 el poder de las técnicas de Tiro de los aliados con la etiqueta Zeus.",
+     "effects": [
+      {
+       "label": "Poder de técnica +60",
+       "value": 60,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +60",
+       "value": 60,
+       "pos": null,
+       "tag": "Zeus",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Zeus",
+    "text": "Cada vez que un MF aliado completa con éxito una técnica de Regate, aumenta en 10 el poder de las técnicas de todos los aliados. El efecto termina cuando tu equipo marca un gol.",
+    "effects": [
+     {
+      "label": "Poder de técnica +10",
+      "value": 10,
+      "pos": null,
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": true
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 71012,
    "name": "Endou Daisuke",
-   "formation": "F-Young Inazuma",
    "nameEU": "David Evans",
-   "nameJP": "円堂大介"
+   "nameJP": "円堂大介",
+   "formation": "F-Young Inazuma",
+   "layout": "80012",
+   "conditions": [
+    {
+     "slot": 2,
+     "type": "Elemento",
+     "value": "Fuego"
+    },
+    {
+     "slot": 6,
+     "type": "Elemento",
+     "value": "Montaña"
+    },
+    {
+     "slot": 11,
+     "type": "Elemento",
+     "value": "Montaña"
+    }
+   ],
+   "passive": {
+    "name": "Impulso de poder de DF y GK",
+    "text": "Al inicio del partido, aumenta en 60 el poder de las técnicas de Bloqueo de los DF recomendados y en 80 el poder de las técnicas de Parada de los GK recomendados de Montaña.",
+    "effects": [
+     {
+      "label": "Poder de técnica +60",
+      "value": 60,
+      "pos": "DF",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Poder de técnica +80",
+      "value": 80,
+      "pos": "GK",
+      "tag": null,
+      "els": [
+       "M"
+      ],
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de poder de DF y GK",
+     "text": "Al inicio del partido, aumenta en 6 el poder de las técnicas de Bloqueo de los DF recomendados y en 8 el poder de las técnicas de Parada de los GK recomendados de Montaña.",
+     "effects": [
+      {
+       "label": "Poder de técnica +6",
+       "value": 6,
+       "pos": "DF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +8",
+       "value": 8,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "M"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de poder de DF y GK",
+     "text": "Al inicio del partido, aumenta en 12 el poder de las técnicas de Bloqueo de los DF recomendados y en 16 el poder de las técnicas de Parada de los GK recomendados de Montaña.",
+     "effects": [
+      {
+       "label": "Poder de técnica +12",
+       "value": 12,
+       "pos": "DF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +16",
+       "value": 16,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "M"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de poder de DF y GK",
+     "text": "Al inicio del partido, aumenta en 18 el poder de las técnicas de Bloqueo de los DF recomendados y en 24 el poder de las técnicas de Parada de los GK recomendados de Montaña.",
+     "effects": [
+      {
+       "label": "Poder de técnica +18",
+       "value": 18,
+       "pos": "DF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +24",
+       "value": 24,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "M"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de poder de DF y GK",
+     "text": "Al inicio del partido, aumenta en 24 el poder de las técnicas de Bloqueo de los DF recomendados y en 32 el poder de las técnicas de Parada de los GK recomendados de Montaña.",
+     "effects": [
+      {
+       "label": "Poder de técnica +24",
+       "value": 24,
+       "pos": "DF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +32",
+       "value": 32,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "M"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de poder de DF y GK",
+     "text": "Al inicio del partido, aumenta en 30 el poder de las técnicas de Bloqueo de los DF recomendados y en 40 el poder de las técnicas de Parada de los GK recomendados de Montaña.",
+     "effects": [
+      {
+       "label": "Poder de técnica +30",
+       "value": 30,
+       "pos": "DF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +40",
+       "value": 40,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "M"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de poder de DF y GK",
+     "text": "Al inicio del partido, aumenta en 36 el poder de las técnicas de Bloqueo de los DF recomendados y en 48 el poder de las técnicas de Parada de los GK recomendados de Montaña.",
+     "effects": [
+      {
+       "label": "Poder de técnica +36",
+       "value": 36,
+       "pos": "DF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +48",
+       "value": 48,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "M"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de poder de DF y GK",
+     "text": "Al inicio del partido, aumenta en 42 el poder de las técnicas de Bloqueo de los DF recomendados y en 56 el poder de las técnicas de Parada de los GK recomendados de Montaña.",
+     "effects": [
+      {
+       "label": "Poder de técnica +42",
+       "value": 42,
+       "pos": "DF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +56",
+       "value": 56,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "M"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de poder de DF y GK",
+     "text": "Al inicio del partido, aumenta en 48 el poder de las técnicas de Bloqueo de los DF recomendados y en 64 el poder de las técnicas de Parada de los GK recomendados de Montaña.",
+     "effects": [
+      {
+       "label": "Poder de técnica +48",
+       "value": 48,
+       "pos": "DF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +64",
+       "value": 64,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "M"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de poder de DF y GK",
+     "text": "Al inicio del partido, aumenta en 54 el poder de las técnicas de Bloqueo de los DF recomendados y en 72 el poder de las técnicas de Parada de los GK recomendados de Montaña.",
+     "effects": [
+      {
+       "label": "Poder de técnica +54",
+       "value": 54,
+       "pos": "DF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +72",
+       "value": 72,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "M"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de poder de DF y GK",
+     "text": "Al inicio del partido, aumenta en 60 el poder de las técnicas de Bloqueo de los DF recomendados y en 80 el poder de las técnicas de Parada de los GK recomendados de Montaña.",
+     "effects": [
+      {
+       "label": "Poder de técnica +60",
+       "value": 60,
+       "pos": "DF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +80",
+       "value": 80,
+       "pos": "GK",
+       "tag": null,
+       "els": [
+        "M"
+       ],
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Young Inazuma",
+    "text": "Cada vez que un aliado completa con éxito una técnica de Parada, aumenta en 50 el poder de las técnicas de Tiro de todos los aliados. El efecto termina cuando tu equipo marca un gol.",
+    "effects": [
+     {
+      "label": "Poder de técnica +50",
+      "value": 50,
+      "pos": null,
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": true
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 73023,
    "name": "Kudou Michiya",
-   "formation": "F-Inazuma Japan",
    "nameEU": "Percival Travis",
-   "nameJP": "久遠道也"
+   "nameJP": "久遠道也",
+   "formation": "F-Inazuma Japón",
+   "layout": "80085",
+   "conditions": [
+    {
+     "slot": 1,
+     "type": "Etiqueta",
+     "value": "Inazuma Japón"
+    },
+    {
+     "slot": 4,
+     "type": "Etiqueta",
+     "value": "Inazuma Japón"
+    },
+    {
+     "slot": 9,
+     "type": "Etiqueta",
+     "value": "Inazuma Japón"
+    }
+   ],
+   "passive": {
+    "name": "Impulso de poder de Inazuma Japón",
+    "text": "Al inicio del partido, aumenta en 87 el poder de las técnicas de Tiro de los FW recomendados y en 87 el poder de las técnicas de Regate de los MF recomendados con la etiqueta Inazuma Japón.",
+    "effects": [
+     {
+      "label": "Poder de técnica +87",
+      "value": 87,
+      "pos": "FW",
+      "tag": "Inazuma Japón",
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Poder de técnica +87",
+      "value": 87,
+      "pos": "MF",
+      "tag": "Inazuma Japón",
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de poder de Inazuma Japón",
+     "text": "Al inicio del partido, aumenta en 8 el poder de las técnicas de Tiro de los FW recomendados y en 8 el poder de las técnicas de Regate de los MF recomendados con la etiqueta Inazuma Japón.",
+     "effects": [
+      {
+       "label": "Poder de técnica +8",
+       "value": 8,
+       "pos": "FW",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +8",
+       "value": 8,
+       "pos": "MF",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de poder de Inazuma Japón",
+     "text": "Al inicio del partido, aumenta en 17 el poder de las técnicas de Tiro de los FW recomendados y en 17 el poder de las técnicas de Regate de los MF recomendados con la etiqueta Inazuma Japón.",
+     "effects": [
+      {
+       "label": "Poder de técnica +17",
+       "value": 17,
+       "pos": "FW",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +17",
+       "value": 17,
+       "pos": "MF",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de poder de Inazuma Japón",
+     "text": "Al inicio del partido, aumenta en 26 el poder de las técnicas de Tiro de los FW recomendados y en 26 el poder de las técnicas de Regate de los MF recomendados con la etiqueta Inazuma Japón.",
+     "effects": [
+      {
+       "label": "Poder de técnica +26",
+       "value": 26,
+       "pos": "FW",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +26",
+       "value": 26,
+       "pos": "MF",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de poder de Inazuma Japón",
+     "text": "Al inicio del partido, aumenta en 34 el poder de las técnicas de Tiro de los FW recomendados y en 34 el poder de las técnicas de Regate de los MF recomendados con la etiqueta Inazuma Japón.",
+     "effects": [
+      {
+       "label": "Poder de técnica +34",
+       "value": 34,
+       "pos": "FW",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +34",
+       "value": 34,
+       "pos": "MF",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de poder de Inazuma Japón",
+     "text": "Al inicio del partido, aumenta en 43 el poder de las técnicas de Tiro de los FW recomendados y en 43 el poder de las técnicas de Regate de los MF recomendados con la etiqueta Inazuma Japón.",
+     "effects": [
+      {
+       "label": "Poder de técnica +43",
+       "value": 43,
+       "pos": "FW",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +43",
+       "value": 43,
+       "pos": "MF",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de poder de Inazuma Japón",
+     "text": "Al inicio del partido, aumenta en 52 el poder de las técnicas de Tiro de los FW recomendados y en 52 el poder de las técnicas de Regate de los MF recomendados con la etiqueta Inazuma Japón.",
+     "effects": [
+      {
+       "label": "Poder de técnica +52",
+       "value": 52,
+       "pos": "FW",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +52",
+       "value": 52,
+       "pos": "MF",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de poder de Inazuma Japón",
+     "text": "Al inicio del partido, aumenta en 60 el poder de las técnicas de Tiro de los FW recomendados y en 60 el poder de las técnicas de Regate de los MF recomendados con la etiqueta Inazuma Japón.",
+     "effects": [
+      {
+       "label": "Poder de técnica +60",
+       "value": 60,
+       "pos": "FW",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +60",
+       "value": 60,
+       "pos": "MF",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de poder de Inazuma Japón",
+     "text": "Al inicio del partido, aumenta en 69 el poder de las técnicas de Tiro de los FW recomendados y en 69 el poder de las técnicas de Regate de los MF recomendados con la etiqueta Inazuma Japón.",
+     "effects": [
+      {
+       "label": "Poder de técnica +69",
+       "value": 69,
+       "pos": "FW",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +69",
+       "value": 69,
+       "pos": "MF",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de poder de Inazuma Japón",
+     "text": "Al inicio del partido, aumenta en 78 el poder de las técnicas de Tiro de los FW recomendados y en 78 el poder de las técnicas de Regate de los MF recomendados con la etiqueta Inazuma Japón.",
+     "effects": [
+      {
+       "label": "Poder de técnica +78",
+       "value": 78,
+       "pos": "FW",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +78",
+       "value": 78,
+       "pos": "MF",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de poder de Inazuma Japón",
+     "text": "Al inicio del partido, aumenta en 87 el poder de las técnicas de Tiro de los FW recomendados y en 87 el poder de las técnicas de Regate de los MF recomendados con la etiqueta Inazuma Japón.",
+     "effects": [
+      {
+       "label": "Poder de técnica +87",
+       "value": 87,
+       "pos": "FW",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +87",
+       "value": 87,
+       "pos": "MF",
+       "tag": "Inazuma Japón",
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Inazuma Japón",
+    "text": "Al inicio del partido, aumenta en 40 el poder de las técnicas de Tiro de los FW recomendados y en 40 el poder de las técnicas de Bloqueo de los DF recomendados.",
+    "effects": [
+     {
+      "label": "Poder de técnica +40",
+      "value": 40,
+      "pos": "FW",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Poder de técnica +40",
+      "value": 40,
+      "pos": "DF",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "level": 10
   },
   {
    "id": 71013,
    "name": "Kira Hitomiko",
-   "formation": "F-Raimon 2",
    "nameEU": "Lina Schiller",
-   "nameJP": "吉良瞳子"
+   "nameJP": "吉良瞳子",
+   "formation": "F-Raimon 2",
+   "layout": "80013",
+   "conditions": [
+    {
+     "slot": 1,
+     "type": "Elemento",
+     "value": "Bosque"
+    },
+    {
+     "slot": 5,
+     "type": "Elemento",
+     "value": "Viento"
+    },
+    {
+     "slot": 6,
+     "type": "Elemento",
+     "value": "Bosque, Viento"
+    }
+   ],
+   "passive": {
+    "name": "Impulso de poder de Bosque, Viento y MF",
+    "text": "Al inicio del partido, aumenta en 70 el poder de las técnicas de Tiro de los aliados de Bosque y Viento y en 60 el poder de las técnicas de Regate de los MF recomendados.",
+    "effects": [
+     {
+      "label": "Poder de técnica +70",
+      "value": 70,
+      "pos": null,
+      "tag": null,
+      "els": [
+       "V",
+       "B"
+      ],
+      "rival": false,
+      "stack": false
+     },
+     {
+      "label": "Poder de técnica +60",
+      "value": 60,
+      "pos": "MF",
+      "tag": null,
+      "els": null,
+      "rival": false,
+      "stack": false
+     }
+    ]
+   },
+   "passiveByLevel": [
+    {
+     "level": 1,
+     "name": "Impulso de poder de Bosque, Viento y MF",
+     "text": "Al inicio del partido, aumenta en 7 el poder de las técnicas de Tiro de los aliados de Bosque y Viento y en 6 el poder de las técnicas de Regate de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +7",
+       "value": 7,
+       "pos": null,
+       "tag": null,
+       "els": [
+        "V",
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +6",
+       "value": 6,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Impulso de poder de Bosque, Viento y MF",
+     "text": "Al inicio del partido, aumenta en 14 el poder de las técnicas de Tiro de los aliados de Bosque y Viento y en 12 el poder de las técnicas de Regate de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +14",
+       "value": 14,
+       "pos": null,
+       "tag": null,
+       "els": [
+        "V",
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +12",
+       "value": 12,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Impulso de poder de Bosque, Viento y MF",
+     "text": "Al inicio del partido, aumenta en 21 el poder de las técnicas de Tiro de los aliados de Bosque y Viento y en 18 el poder de las técnicas de Regate de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +21",
+       "value": 21,
+       "pos": null,
+       "tag": null,
+       "els": [
+        "V",
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +18",
+       "value": 18,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Impulso de poder de Bosque, Viento y MF",
+     "text": "Al inicio del partido, aumenta en 28 el poder de las técnicas de Tiro de los aliados de Bosque y Viento y en 24 el poder de las técnicas de Regate de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +28",
+       "value": 28,
+       "pos": null,
+       "tag": null,
+       "els": [
+        "V",
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +24",
+       "value": 24,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "name": "Impulso de poder de Bosque, Viento y MF",
+     "text": "Al inicio del partido, aumenta en 35 el poder de las técnicas de Tiro de los aliados de Bosque y Viento y en 30 el poder de las técnicas de Regate de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +35",
+       "value": 35,
+       "pos": null,
+       "tag": null,
+       "els": [
+        "V",
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +30",
+       "value": 30,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "name": "Impulso de poder de Bosque, Viento y MF",
+     "text": "Al inicio del partido, aumenta en 42 el poder de las técnicas de Tiro de los aliados de Bosque y Viento y en 36 el poder de las técnicas de Regate de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +42",
+       "value": 42,
+       "pos": null,
+       "tag": null,
+       "els": [
+        "V",
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +36",
+       "value": 36,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "name": "Impulso de poder de Bosque, Viento y MF",
+     "text": "Al inicio del partido, aumenta en 49 el poder de las técnicas de Tiro de los aliados de Bosque y Viento y en 42 el poder de las técnicas de Regate de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +49",
+       "value": 49,
+       "pos": null,
+       "tag": null,
+       "els": [
+        "V",
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +42",
+       "value": 42,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "name": "Impulso de poder de Bosque, Viento y MF",
+     "text": "Al inicio del partido, aumenta en 56 el poder de las técnicas de Tiro de los aliados de Bosque y Viento y en 48 el poder de las técnicas de Regate de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +56",
+       "value": 56,
+       "pos": null,
+       "tag": null,
+       "els": [
+        "V",
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +48",
+       "value": 48,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "name": "Impulso de poder de Bosque, Viento y MF",
+     "text": "Al inicio del partido, aumenta en 63 el poder de las técnicas de Tiro de los aliados de Bosque y Viento y en 54 el poder de las técnicas de Regate de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +63",
+       "value": 63,
+       "pos": null,
+       "tag": null,
+       "els": [
+        "V",
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +54",
+       "value": 54,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "name": "Impulso de poder de Bosque, Viento y MF",
+     "text": "Al inicio del partido, aumenta en 70 el poder de las técnicas de Tiro de los aliados de Bosque y Viento y en 60 el poder de las técnicas de Regate de los MF recomendados.",
+     "effects": [
+      {
+       "label": "Poder de técnica +70",
+       "value": 70,
+       "pos": null,
+       "tag": null,
+       "els": [
+        "V",
+        "B"
+       ],
+       "rival": false,
+       "stack": false
+      },
+      {
+       "label": "Poder de técnica +60",
+       "value": 60,
+       "pos": "MF",
+       "tag": null,
+       "els": null,
+       "rival": false,
+       "stack": false
+      }
+     ]
+    }
+   ],
+   "formationPassive": {
+    "name": "Activa: F-Raimon 2",
+    "text": "Cada vez que un rival detiene una técnica de Tiro aliada, aumenta en 40 el poder de las técnicas de los aliados de Bosque y Viento. El efecto termina cuando tu equipo marca un gol.",
+    "effects": [
+     {
+      "label": "Poder de técnica +40",
+      "value": 40,
+      "pos": null,
+      "tag": null,
+      "els": [
+       "V",
+       "B"
+      ],
+      "rival": false,
+      "stack": true
+     }
+    ]
+   },
+   "level": 10
   }
  ]
 }

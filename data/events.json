@@ -1,5 +1,49 @@
 [
  {
+  "id": "banner-35734",
+  "kind": "gacha",
+  "title": "Gacha destacado de Ulvida",
+  "text": "Banner con probabilidad aumentada.",
+  "start": null,
+  "end": "2026-10-12T19:59:00.000Z",
+  "img": "official-banner-35734.jpg",
+  "player": 2042,
+  "source": "https://www.inazuma-cross.jp/information/news/35734/"
+ },
+ {
+  "id": "banner-35736",
+  "kind": "gacha",
+  "title": "Gacha destacado de Zaizen Touko",
+  "text": "Banner con probabilidad aumentada.",
+  "start": null,
+  "end": "2026-10-12T19:59:00.000Z",
+  "img": "official-banner-35736.jpg",
+  "player": 2064,
+  "source": "https://www.inazuma-cross.jp/information/news/35736/"
+ },
+ {
+  "id": "banner-35852",
+  "kind": "gacha",
+  "title": "Gacha destacado de Gazelle",
+  "text": "Banner con probabilidad aumentada.",
+  "start": null,
+  "end": "2026-10-26T19:59:00.000Z",
+  "img": "official-banner-35852.jpg",
+  "player": 2030,
+  "source": "https://www.inazuma-cross.jp/information/news/35852/"
+ },
+ {
+  "id": "banner-35850",
+  "kind": "gacha",
+  "title": "Gacha destacado de Torch",
+  "text": "Banner con probabilidad aumentada.",
+  "start": null,
+  "end": "2026-10-26T19:59:00.000Z",
+  "img": "official-banner-35850.jpg",
+  "player": 2031,
+  "source": "https://www.inazuma-cross.jp/information/news/35850/"
+ },
+ {
   "id": "evento-caos",
   "kind": "evento",
   "title": "¡Llega Caos!",
@@ -17,46 +61,6 @@
   "start": "2026-09-29T05:00:00+09:00",
   "end": "2026-10-27T04:59:00+09:00",
   "img": "official-36067.jpg"
- },
- {
-  "id": "gacha-torch",
-  "kind": "gacha",
-  "title": "Gacha destacado de Torch",
-  "text": "Delantero de Fuego de tres estrellas con Ventisca de fuego.",
-  "start": "2026-09-29T05:00:00+09:00",
-  "end": "2026-10-27T04:59:00+09:00",
-  "img": "official-banner-35850.jpg",
-  "player": 2031
- },
- {
-  "id": "gacha-gazelle",
-  "kind": "gacha",
-  "title": "Gacha destacado de Gazelle",
-  "text": "Delantero de Viento de tres estrellas.",
-  "start": "2026-09-29T05:00:00+09:00",
-  "end": "2026-10-27T04:59:00+09:00",
-  "img": "official-banner-35852.jpg",
-  "player": 2030
- },
- {
-  "id": "gacha-ulvida",
-  "kind": "gacha",
-  "title": "Gacha destacado de Ulvida",
-  "text": "Centrocampista de Viento de tres estrellas.",
-  "start": null,
-  "end": "2026-10-13T04:59:00+09:00",
-  "img": "official-banner-35734.jpg",
-  "player": 2042
- },
- {
-  "id": "gacha-zaizen",
-  "kind": "gacha",
-  "title": "Gacha destacado de Zaizen Touko",
-  "text": "Centrocampista de Viento de tres estrellas.",
-  "start": null,
-  "end": "2026-10-13T04:59:00+09:00",
-  "img": "official-banner-35736.jpg",
-  "player": 2064
  },
  {
   "id": "capitulo-6",

@@ -1,44 +1,61 @@
 [
  {
+  "date": "2026-10-05",
+  "kind": "contenido",
+  "label": "VERSIÓN 1.4.0",
+  "title": "Pegatinas Inazuma",
+  "summary": "La versión 1.4.0 estrenará las pegatinas Inazuma, un nuevo sistema de mejora. Se pegan en los slots de un jugador para darle efectos pasivos y se pueden cambiar de un jugador a otro.",
+  "img": "official-36111-stickers.jpg",
+  "points": [
+   "Nuevo sistema de mejora",
+   "Dan efectos pasivos",
+   "Se pueden cambiar de jugador",
+   "Fecha por confirmar"
+  ],
+  "source": "https://www.inazuma-cross.jp/information/news/36111/"
+ },
+ {
+  "date": "2026-10-05",
+  "kind": "contenido",
+  "label": "VERSIÓN 1.4.0",
+  "title": "Rango BASARA",
+  "summary": "Los enfrentamientos tendrán un nuevo rango por encima de HERO: BASARA. Además, la tienda de Enfrentamientos añadirá a Fubuki Shirou ★3 (Raimon), almas de despertar y otros objetos.",
+  "img": "official-36111-basara.jpg",
+  "points": [
+   "Por encima del rango HERO",
+   "Fubuki Shirou ★3 (Raimon)",
+   "Almas de despertar en la tienda",
+   "Fecha por confirmar"
+  ],
+  "source": "https://www.inazuma-cross.jp/information/news/36111/"
+ },
+ {
+  "date": "2026-10-05",
+  "kind": "contenido",
+  "label": "VERSIÓN 1.4.0",
+  "title": "Tesoro subterráneo",
+  "summary": "Nuevo modo por fases. Cada grupo, como Raimon o Young Inazuma, pide varias etiquetas: forma un equipo de 11 jugadores que las tengan y avanza hasta las fases más profundas. Cada fase superada da fichas propias, canjeables por pegatinas Inazuma.",
+  "img": "official-36111-underground.jpg",
+  "points": [
+   "Equipos de 11 según etiquetas",
+   "Fichas canjeables por pegatinas Inazuma",
+   "Reinicio mensual: las recompensas vuelven",
+   "Tras el reinicio, varias fases se superan solas según tu mejor marca"
+  ],
+  "source": "https://www.inazuma-cross.jp/information/news/36111/"
+ },
+ {
   "date": "2026-09-29",
   "kind": "contenido",
+  "label": "NUEVO CONTENIDO",
   "title": "Capítulo 6 ya disponible",
+  "summary": "La historia continúa con Torch y Gazelle. Supera la fase de recompensas del capítulo 5 para desbloquear el capítulo 6.",
   "img": "official-36089.jpg",
   "points": [
-   "Disponible desde el 29 de septiembre",
-   "Requiere completar el capítulo 5"
-  ]
- },
- {
-  "date": "2026-09-29",
-  "kind": "gacha",
-  "title": "Torch, delantero de Fuego de tres estrellas",
-  "img": "official-35850.jpg",
-  "points": [
-   "Gacha destacado hasta el 27 de octubre",
-   "Ficha completa con pasivas y supertécnicas"
+   "Disponible desde el 29 SEP",
+   "Requiere completar el capítulo 5",
+   "Versión 1.3.3"
   ],
-  "player": 2031
- },
- {
-  "date": "2026-09-29",
-  "kind": "evento",
-  "title": "Llega el equipo Caos",
-  "img": "official-36067.jpg",
-  "points": [
-   "Nueve jugadores en el tablón de conexiones",
-   "Tienda abierta hasta el 27 de octubre"
-  ],
-  "link": "#/jugadores?team=Caos"
- },
- {
-  "date": "2026-09-29",
-  "kind": "contenido",
-  "title": "Programa de entrenamiento permanente",
-  "img": "official-36092.jpg",
-  "points": [
-   "Misiones ligadas a los días de inicio de sesión",
-   "Reinicio diario a las 05:00 de Japón"
-  ]
+  "source": "https://www.inazuma-cross.jp/information/news/36089/"
  }
 ]

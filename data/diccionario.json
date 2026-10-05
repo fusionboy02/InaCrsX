@@ -80,7 +80,7 @@
  },
  "tecnicas": {
   "フォルテシモ": [
-   "Fortissimo",
+   "Pentagrama",
    "B"
   ],
   "バウンサーラビット（花火）": [
@@ -96,7 +96,7 @@
    "F"
   ],
   "デスドロップ": [
-   "Caída mortal",
+   "Aguijón letal",
    "F"
   ],
   "インフェルノペンギン": [
@@ -116,7 +116,7 @@
    "V"
   ],
   "イナズマ落とし": [
-   "Caída de relámpago",
+   "Trampolín relámpago",
    "V"
   ],
   "ダークトルネード": [
@@ -132,11 +132,11 @@
    "M"
   ],
   "炎の風見鶏": [
-   "Veleta de fuego",
+   "Pájaro de fuego",
    "F"
   ],
   "アステロイドベルト": [
-   "Cinturón de asteroides",
+   "Cinto astral",
    "B"
   ],
   "ディープミスト": [
@@ -184,7 +184,7 @@
    "M"
   ],
   "裁きの鉄槌": [
-   "Apisonadora",
+   "Pisotón de justicia",
    "F"
   ],
   "スーパー四股踏み": [
@@ -197,6 +197,366 @@
   ],
   "ファイアブリザード": [
    "Ventisca de fuego",
+   "F"
+  ],
+  "爆裂パンチ": [
+   "Despeje explosivo",
+   "F"
+  ],
+  "疾風ダッシュ": [
+   "Entrada huracán",
+   "V"
+  ],
+  "クイックドロウ": [
+   "Robo veloz",
+   "B"
+  ],
+  "ジグザグスパーク": [
+   "Zigzag explosivo",
+   "V"
+  ],
+  "ダッシュアクセル": [
+   "Superaceleración",
+   "M"
+  ],
+  "彗星シュート": [
+   "Tiro del cometa",
+   "V"
+  ],
+  "サイクロン": [
+   "Ciclón",
+   "V"
+  ],
+  "竜巻旋風": [
+   "Torbellino dragón",
+   "V"
+  ],
+  "分身フェイント": [
+   "Regate múltiple",
+   "B"
+  ],
+  "グレネードショット": [
+   "Chut granada",
+   "F"
+  ],
+  "クロスドライブ": [
+   "Pase cruzado",
+   "V"
+  ],
+  "イリュージョンボール": [
+   "Espejismo de balón",
+   "B"
+  ],
+  "ヒートタックル": [
+   "Entrada de llamas",
+   "F"
+  ],
+  "ドラゴンクラッシュ": [
+   "Remate dragón",
+   "B"
+  ],
+  "キラースライド": [
+   "Barrido defensivo",
+   "B"
+  ],
+  "スピニングシュート": [
+   "Tiro giratorio",
+   "V"
+  ],
+  "パワーシールド": [
+   "Escudo de fuerza",
+   "F"
+  ],
+  "ジャッジスルー": [
+   "Coz",
+   "F"
+  ],
+  "デスゾーン": [
+   "Triángulo letal",
+   "B"
+  ],
+  "百烈ショット": [
+   "Chut de los 100 toques",
+   "B"
+  ],
+  "ツインブースト": [
+   "Remate combinado",
+   "F"
+  ],
+  "ノーザンインパクト": [
+   "Balón iceberg",
+   "V"
+  ],
+  "アトミックフレア": [
+   "Llamarada atómica",
+   "F"
+  ],
+  "怒りの鉄槌": [
+   "Puño de furia",
+   "M"
+  ],
+  "風神の舞": [
+   "Danza del viento",
+   "V"
+  ],
+  "ツナミブースト": [
+   "Remate tsunami",
+   "V"
+  ],
+  "アストロブレイク": [
+   "Astro remate",
+   "B"
+  ],
+  "ライトニングアクセル": [
+   "Carrera relámpago",
+   "F"
+  ],
+  "ドラゴンスレイヤー": [
+   "Megadragón",
+   "B"
+  ],
+  "アースクェイク": [
+   "Terremoto",
+   "M"
+  ],
+  "まぼろしドリブル": [
+   "Regate espejismo",
+   "B"
+  ],
+  "コイルターン": [
+   "Giro bobina",
+   "V"
+  ],
+  "残像": [
+   "Espejismo",
+   "B"
+  ],
+  "メガネクラッシュ": [
+   "Remate gafas",
+   "M"
+  ],
+  "キラーブレード": [
+   "Cuchilla asesina",
+   "B"
+  ],
+  "ゆがむ空間": [
+   "Espiral de distorsión",
+   "B"
+  ],
+  "ファントムシュート": [
+   "Tiro fantasma",
+   "B"
+  ],
+  "怨霊": [
+   "Manos fantasmagóricas",
+   "B"
+  ],
+  "ターザンキック": [
+   "Remate tarzán",
+   "M"
+  ],
+  "シュートポケット": [
+   "Campo de fuerza defensivo",
+   "B"
+  ],
+  "ロケットこぶし": [
+   "Despeje cohete",
+   "F"
+  ],
+  "パトリオットシュート": [
+   "Remate misil",
+   "F"
+  ],
+  "ド根性バット": [
+   "Bateo total",
+   "F"
+  ],
+  "五里霧中": [
+   "Confusión",
+   "M"
+  ],
+  "つちだるま": [
+   "Bola de fango",
+   "M"
+  ],
+  "トライアングルＺ": [
+   "Triángulo Z",
+   "F"
+  ],
+  "バックトルネード": [
+   "Tornado inverso",
+   "V"
+  ],
+  "ひとりワンツー": [
+   "Pared solitaria",
+   "F"
+  ],
+  "ブレードアタック": [
+   "Ataque cortante",
+   "V"
+  ],
+  "流星ブレード": [
+   "Cañón de meteoritos",
+   "F"
+  ],
+  "エターナルブリザード": [
+   "Ventisca eterna",
+   "V"
+  ],
+  "ウルフレジェンド": [
+   "Aullido de lobo",
+   "V"
+  ],
+  "ジャッジスルー2": [
+   "Coz 2",
+   "F"
+  ],
+  "キラーフィールズ": [
+   "Campo de fuerza",
+   "B"
+  ],
+  "烈風ダッシュ": [
+   "Avance flamígero",
+   "F"
+  ],
+  "そよかぜステップ": [
+   "Brisa deslizante",
+   "V"
+  ],
+  "デスソード": [
+   "Proyectil letal",
+   "F"
+  ],
+  "やきもちスクリュー（花火）": [
+   "Tiro amasado (Fuegos artificiales)",
+   "F"
+  ],
+  "スカイウォーク（花火）": [
+   "Pasos aéreos (Fuegos artificiales)",
+   "M"
+  ],
+  "サムライショット": [
+   "Chut samurái",
+   "V"
+  ],
+  "サムライフェイント": [
+   "Regate samurái",
+   "V"
+  ],
+  "サムライペンギン2号": [
+   "Pingüino samurái n.º 2",
+   "V"
+  ],
+  "ブルーサイクロン": [
+   "Ciclón azul",
+   "V"
+  ],
+  "つなみウォール": [
+   "Muralla tsunami",
+   "V"
+  ],
+  "ギガントウォール": [
+   "Muralla gigante",
+   "M"
+  ],
+  "ダッシュストーム": [
+   "Entrada tormenta",
+   "V"
+  ],
+  "ヘブンズタイム": [
+   "Hora celestial",
+   "V"
+  ],
+  "ディバインアロー": [
+   "Flecha divina",
+   "V"
+  ],
+  "リフレクトバスター": [
+   "Disparo con rebotes",
+   "M"
+  ],
+  "ゴッドノウズ": [
+   "Sabiduría divina",
+   "V"
+  ],
+  "ザ・ミスト": [
+   "La niebla",
+   "B"
+  ],
+  "プレストターン": [
+   "Visto y no visto",
+   "B"
+  ],
+  "熱血パンチ": [
+   "Despeje de fuego",
+   "F"
+  ],
+  "ローズスプラッシュ": [
+   "Lecho de rosas",
+   "B"
+  ],
+  "ブラックホール": [
+   "Agujero negro",
+   "B"
+  ],
+  "フォトンフラッシュ": [
+   "Flash de fotones",
+   "F"
+  ],
+  "ガニメデプロトン": [
+   "Rayo de Ganímedes",
+   "B"
+  ],
+  "ワープドライブ": [
+   "Teleportación",
+   "B"
+  ],
+  "ユニバースブラスト": [
+   "Disparo cósmico",
+   "B"
+  ],
+  "メテオシャワー": [
+   "Lluvia de meteoros",
+   "F"
+  ],
+  "スペースペンギン": [
+   "Pingüino espacial",
+   "V"
+  ],
+  "ザ・タワー": [
+   "Torre inexpugnable",
+   "V"
+  ],
+  "パーフェクト・タワー": [
+   "Torre perfecta",
+   "V"
+  ],
+  "バーンアウト": [
+   "Combustión",
+   "F"
+  ],
+  "イグナイトスティール": [
+   "Cortafuegos",
+   "F"
+  ],
+  "ウォーターベール": [
+   "Bomba géiser",
+   "V"
+  ],
+  "フローズンスティール": [
+   "Rompehielos",
+   "V"
+  ],
+  "四股踏み": [
+   "Pisotón de sumo",
+   "M"
+  ],
+  "フレイムベール": [
+   "Pantalla ígnea",
+   "F"
+  ],
+  "ツインブーストF": [
+   "Remate combinado F",
    "F"
   ]
  },
