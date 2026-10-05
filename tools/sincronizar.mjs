@@ -16,11 +16,12 @@ import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { htmlATexto, leerFicha } from './importar-fichas.mjs';
+import * as X from './extraer.mjs';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const D = f => path.join(RAIZ, 'data', f);
 const ORIGEN = process.env.ORIGEN || 'https://iecrossdatabase.pages.dev';
-const GUIA = 'https://inacross-guide.com';
+const GUIA = process.env.GUIA || 'https://inacross-guide.com';
 const FUENTES_GUIA = ['/trials', '/club-trials', '/pvp', '/pvp/environments/ver-1-3-3', '/limited', '/cross-simulator', '/training', '/players', '/help', '/help/beginner', '/help/tier-list', '/calendar'];
 const FUENTES_ORIGEN = ['/', '/calendario', '/tier-list', '/formacion', '/jugadores', '/jugador/torch-2031', '/jugador/kino-aki-1166', '/jugador/afuro-terumi-1164'];
 const PAUSA = 350, dormir = ms => new Promise(r => setTimeout(r, ms));
@@ -33,7 +34,72 @@ async function bajar(url){
 }
 const log = (...a) => console.log(...a);
 
-/* ---------------- 1. Web original: catálogo y fichas ---------------- */
+
+/* ---------------- 0. Base de datos de los scripts de la web original ---------------- */
+async function descargarScripts(){
+  const scripts = new Map(), pendientes = [], css = new Map();
+  for (const ruta of ['/', '/jugadores', '/formacion', '/jugador/torch-2031']){
+    try{
+      const html = await bajar(ORIGEN + ruta);
+      for (const m of html.matchAll(/(?:src|href)="(\/[^"]+\.m?js)"/g)) pendientes.push(m[1]);
+      for (const m of html.matchAll(/href="(\/[^"]+\.css)"/g)) if (!css.has(m[1])) css.set(m[1], null);
+    } catch (e){ log('  ' + e.message); }
+  }
+  while (pendientes.length && scripts.size < 80){
+    const s = pendientes.shift(); if (scripts.has(s)) continue;
+    try{
+      const js = await bajar(ORIGEN + s); scripts.set(s, js);
+      const base = s.slice(0, s.lastIndexOf('/') + 1);
+      for (const m of js.matchAll(/(?:from\s*|import\s*\(\s*)["'`](\.{1,2}\/[^"'`]+\.m?js)["'`]/g)) pendientes.push(new URL(m[1], 'https://x' + base).pathname);
+      for (const m of js.matchAll(/["'`](\/_next\/[^"'`]+\.m?js)["'`]/g)) pendientes.push(m[1]);
+    } catch {}
+  }
+  for (const c of css.keys()){ try{ css.set(c, await bajar(ORIGEN + c)); } catch {} }
+  return { scripts, css };
+}
+async function sincronizarDesdeScripts(){
+  const { scripts, css } = await descargarScripts();
+  // Copia de la hoja de estilos (sirve para revisar el mapa de zonas)
+  const dirHtml = path.join(RAIZ, 'tools', 'fuentes', 'html'); await mkdir(dirHtml, { recursive: true });
+  for (const [r, txt] of css) if (txt) await writeFile(path.join(dirHtml, r.replace(/^\//, '').replace(/\//g, '__')), txt);
+  const datos = X.localizar(scripts);
+  log(`Web original: ${scripts.size} scripts; datos encontrados: ${Object.keys(datos).join(', ') || 'ninguno'}.`);
+  if (!datos.jugadores || datos.jugadores.length < 50) throw new Error('no se encontró la base de jugadores en los scripts');
+  const res = { cambios: [] };
+  const playersPrev = await leerJSON('players.json');
+  const players = X.convertirJugadores(datos, playersPrev);
+  const nuevos = players.filter(p => !playersPrev.some(q => q.id === p.id)).map(p => p.name);
+  if (!igual(players, playersPrev)){ await writeFile(D('players.json'), JSON.stringify(players, null, 1)); res.cambios.push('jugadores'); }
+  log(`  Jugadores: ${players.length} (${nuevos.length} nuevos${nuevos.length ? ': ' + nuevos.join(', ') : ''}).`);
+  if (datos.entrenadores?.length){
+    const prev = await leerJSON('coaches.json').catch(() => ({}));
+    const co = X.convertirEntrenadores(datos, prev);
+    if (!igual(co, prev)){ await writeFile(D('coaches.json'), JSON.stringify(co, null, 1)); res.cambios.push('entrenadores'); }
+    log(`  Entrenadores: ${co.coaches.length}.`);
+  }
+  if (datos.tier){
+    const prev = await leerJSON('tiers.json').catch(() => ({})), t = X.convertirTier(datos.tier);
+    if (!igual(t, prev)){ await writeFile(D('tiers.json'), JSON.stringify(t, null, 1)); res.cambios.push('tier list'); }
+  }
+  if (datos.novedades){
+    const evPrev = await leerJSON('events.json').catch(() => []), nwPrev = await leerJSON('news.json').catch(() => []);
+    const n = X.convertirNovedades(datos.novedades, evPrev);
+    if (!igual(n.events, evPrev)){ await writeFile(D('events.json'), JSON.stringify(n.events, null, 1)); res.cambios.push('eventos'); }
+    if (!igual(n.news, nwPrev)){ await writeFile(D('news.json'), JSON.stringify(n.news, null, 1)); res.cambios.push('noticias'); }
+  }
+  // Diccionario oficial japonés-español para leer inacross-guide
+  const dic = await leerJSON('diccionario.json'), of = X.diccionarioOficial(datos, players);
+  const tec = { ...dic.tecnicas };
+  for (const [jp, [es, el]] of Object.entries(of.tecnicas)) tec[jp] = [es, el || dic.tecnicas[jp]?.[1] || null];
+  if (!igual(tec, dic.tecnicas)){ dic.tecnicas = tec; await writeFile(D('diccionario.json'), JSON.stringify(dic, null, 1)); }
+  if (datos.japones?.meta?.gameVersion){
+    const meta = await leerJSON('meta.json'); if (meta.version !== datos.japones.meta.gameVersion){ meta.version = datos.japones.meta.gameVersion; await writeFile(D('meta.json'), JSON.stringify(meta, null, 1)); res.cambios.push('versión'); }
+  }
+  res.players = players;
+  return res;
+}
+
+/* ---------------- 1. Web original: catálogo y fichas (plan B) ---------------- */
 const ELS = { Fuego:'F', Viento:'V', Bosque:'B', 'Montaña':'M' };
 export function leerCabecera(html){
   const h1 = (html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i) || [])[1];
@@ -90,6 +156,7 @@ export function buscarJugador(nombre, dic, players){
   if (dic.cortos[nombre]) return dic.cortos[nombre];
   const m = nombre.match(/^(.+?)（(.+)）$/), base = m ? m[1] : nombre, eq = m ? SUFIJO_EQUIPO[m[2]] : null;
   let c = players.filter(p => p.nameJP === base);
+  if (!c.length) c = players.filter(p => p.nickJP === base);
   if (eq) c = c.filter(p => p.team === eq);
   c.sort((x, y) => y.stars - x.stars || y.power - x.power);
   return c[0]?.id || null;
@@ -166,7 +233,7 @@ async function guardarFuentes(){
   // Scripts y datos que usa la web original (ahí están los entrenadores y sus formaciones)
   const vistos = new Set();
   for (const s of scripts){
-    if (vistos.has(s) || vistos.size > 60) continue; vistos.add(s);
+    if (true) break; vistos.add(s);
     try{
       const js = await bajar(ORIGEN + s);
       await writeFile(path.join(raw, s.replace(/^\//, '').replace(/\//g, '__')), js);
@@ -210,18 +277,24 @@ async function main(){
   let cambios = false;
   const playersAntes = await leerJSON('players.json');
   let players = playersAntes;
-  if (!sinFichas){
-    try{ players = await sincronizarJugadores(); if (!igual(players, playersAntes)){ await writeFile(D('players.json'), JSON.stringify(players, null, 1)); cambios = true; } }
-    catch (e){ log('Jugadores sin cambios: ' + e.message); players = playersAntes; }
+  try{
+    const r = await sincronizarDesdeScripts();
+    players = r.players; if (r.cambios.length){ cambios = true; log('  Cambios: ' + r.cambios.join(', ') + '.'); }
+  } catch (e){
+    log('Lectura de scripts sin éxito (' + e.message + '); se leen las fichas una a una.');
+    if (!sinFichas){
+      try{ players = await sincronizarJugadores(); if (!igual(players, playersAntes)){ await writeFile(D('players.json'), JSON.stringify(players, null, 1)); cambios = true; } }
+      catch (e2){ log('Jugadores sin cambios: ' + e2.message); players = playersAntes; }
+    }
   }
   try{
     const { trials, pendientes } = await sincronizarPruebas(players);
     const guides = await leerJSON('guides.json');
     if (!igual(guides.trials, trials)){
-      // Las notas traducidas de un primer puesto se retiran si ese primer puesto ha cambiado.
       const firma = (lista, k) => JSON.stringify((lista || []).find(t => `${t.el}-${t.mode}` === k && t.rank === 1)?.lineup?.map(m => m.id));
       Object.keys(guides.trialNotes || {}).forEach(k => { if (firma(guides.trials, k) !== firma(trials, k)) delete guides.trialNotes[k]; });
-      guides.trials = trials; await writeFile(D('guides.json'), JSON.stringify(guides, null, 1)); cambios = true; }
+      guides.trials = trials; await writeFile(D('guides.json'), JSON.stringify(guides, null, 1)); cambios = true;
+    }
     await writeFile(D('pendientes.json'), JSON.stringify({ fecha: new Date().toISOString(), pendientes }, null, 1));
   } catch (e){ log('Pruebas sin cambios: ' + e.message); }
   await guardarFuentes();
