@@ -84,11 +84,11 @@
    "B"
   ],
   "バウンサーラビット（花火）": [
-   "Conejo saltarín (fuegos artificiales)",
+   "Remate rebotado (Fuegos artificiales)",
    "B"
   ],
   "皇帝ペンギン2号": [
-   "Pingüino Emperador N.º 2",
+   "Pingüino emperador n.º 2",
    "B"
   ],
   "ファイアトルネード": [
@@ -104,19 +104,19 @@
    "F"
   ],
   "天空落とし": [
-   "Caída celestial",
+   "Descenso estelar",
    "F"
   ],
   "爆熱スクリュー": [
-   "Tornillo explosivo",
+   "Torbellino de fuego",
    "F"
   ],
   "マッハウィンド": [
-   "Viento Mach",
+   "Tiro vendaval",
    "V"
   ],
   "イナズマ落とし": [
-   "Caída relámpago",
+   "Caída de relámpago",
    "V"
   ],
   "ダークトルネード": [
@@ -128,7 +128,7 @@
    "F"
   ],
   "タイガードライブ": [
-   "Impulso del tigre",
+   "Remate del tigre",
    "M"
   ],
   "炎の風見鶏": [
@@ -140,11 +140,11 @@
    "B"
   ],
   "ディープミスト": [
-   "Niebla profunda",
+   "Niebla mística",
    "B"
   ],
   "もちもち黄粉餅（花火）": [
-   "Mochi de kinako (fuegos artificiales)",
+   "Grumo pegapasta (Fuegos artificiales)",
    "F"
   ],
   "ザ・マウンテン": [
@@ -156,15 +156,15 @@
    "M"
   ],
   "ムゲン・ザ・ハンド": [
-   "Mano infinita",
+   "Manos infinitas",
    "B"
   ],
   "フルパワーシールド": [
-   "Escudo de potencia máxima",
+   "Escudo de fuerza total",
    "F"
   ],
   "真空魔": [
-   "Demonio del vacío",
+   "Golpe de vacío",
    "V"
   ],
   "スピニングカット": [
@@ -172,7 +172,7 @@
    "V"
   ],
   "旋風陣": [
-   "Formación torbellino",
+   "Campo torbellino",
    "V"
   ],
   "ザ・ウォール": [
@@ -184,16 +184,20 @@
    "M"
   ],
   "裁きの鉄槌": [
-   "Martillo del juicio",
+   "Apisonadora",
    "F"
   ],
   "スーパー四股踏み": [
-   "Súper pisotón de sumo",
+   "Super pisotón de sumo",
    "F"
   ],
   "ワームホール": [
    "Agujero de gusano",
    "B"
+  ],
+  "ファイアブリザード": [
+   "Ventisca de fuego",
+   "F"
   ]
  },
  "manuales": [
