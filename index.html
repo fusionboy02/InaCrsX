@@ -1136,7 +1136,7 @@ function viewPlayer(r){
     ${(()=>{ const tr = (DB.guides.training||[]).find(t=>t.id===p.id); const uses = usageCount(p.id);
       return (tr || uses) ? `<section class="panel block" style="margin-top:20px"><h2>En la práctica</h2>
         ${uses?`<p>Aparece en <b>${uses}</b> equipo${uses>1?'s':''} recomendado${uses>1?'s':''} de pruebas, duelos o batalla limitada.</p>`:''}
-        ${tr?`<p style="margin-top:8px">Entrenamiento recomendado: ${(tr.picks||[]).map(x=>`<span class="tag" style="margin:2px">${esc(x)}</span>`).join('')}</p>${tr.note?`<p class="note">${esc(tr.note)}</p>`:''}`:''}</section>` : ''; })()}
+        ${tr?`<h3 style="margin-top:12px;font-family:var(--body);font-style:normal;font-size:1rem">Entrenamiento recomendado</h3><p style="margin-top:6px">${pickTags(tr.picks)}</p>${trainingMeta(tr)}${tr.note?`<p style="margin-top:8px">${esc(tr.note)}</p>`:''}<p class="note">Las marcadas con ★ son las más importantes.</p>`:''}</section>` : ''; })()}
     ${variants.length ? `<section class="section" aria-labelledby="h-var"><div class="section-head"><div><h2 id="h-var">Otras versiones de ${esc(dn(p))}</h2><p>El mismo personaje con otro equipo, posición o rareza.</p></div></div><div class="grid">${variants.map((p,i)=>card(p,i)).join('')}</div></section>` : ''}
   </div>`;
   $$('[data-tech]').forEach(inp => inp.addEventListener('input', () => {
@@ -1882,6 +1882,8 @@ function usageCount(id){
    GUÍA (contenido propio a partir de mecánicas del juego)
    ========================================================= */
 const GUIDE_TOC = [ ['instalar','Instalar la app'],['diario','Tareas del día'],['empezar','Primeros pasos'],['pruebas','Cómo funcionan las pruebas'],['club','Pruebas de club'],['tp','TP y supertécnicas'],['afinidad','Afinidad de elementos'],['limitada','Batalla limitada'],['simulador','Cross Simulator'],['entreno','Entrenamiento de pasivas'] ];
+function pickTags(picks){ return (picks||[]).map(x=>{ const o = typeof x === 'string' ? { text:x } : x; return `<span class="tag ${o.top?'good':''}" style="margin:2px" ${o.top?'title="Muy importante"':''}>${o.top?'★ ':''}${esc(o.text)}</span>`; }).join(''); }
+function trainingMeta(t){ const b = []; if (t.techs?.length) b.push(`Técnicas principales: ${t.techs.map(esc).join(', ')}`); if (t.manuals?.length) b.push(`Manual recomendado: ${t.manuals.map(esc).join(' o ')}`); if (t.tp) b.push(`TP recomendado: ${esc(t.tp)}`); return b.length ? `<p class="note" style="margin:6px 0 0">${b.join('. ')}.</p>` : ''; }
 function guideEntries(list){
   return (list||[]).length ? `<div class="recs" style="margin-top:14px">${list.map((t,k)=>`<article class="panel rec" style="--i:${k}"><header class="rec-head"><div><h3>${esc(t.title||'')}</h3>${t.group?`<div class="meta-row"><span class="tag">${esc(t.group)}</span></div>`:''}</div></header>${t.text?`<p class="rec-note">${esc(t.text)}</p>`:''}${t.lineup?lineupHtml(t.lineup, null, 'defensa'):''}</article>`).join('')}</div>` : '';
 }
@@ -1951,8 +1953,9 @@ function viewGuide(){
 
     <section class="article" id="g-entreno"><h2>Entrenamiento de pasivas</h2>
       <p>Se abre al superar el partido 4 del capítulo 3 y permite dar a cada jugador una combinación de tres efectos de entrenamiento. Elige los que potencien lo que ese jugador ya hace bien en tu equipo: más TP para quien encadena técnicas caras o más poder para tu rematador principal.</p>
-      ${training.length ? `<div class="tablewrap" style="margin-top:14px"><table><caption class="sr-only">Entrenamiento recomendado</caption><thead><tr><th>Jugador</th><th>Efectos recomendados</th><th>Motivo</th></tr></thead><tbody>${training.map(t=>`<tr><td>${miniLink(t.p)}</td><td>${(t.picks||[]).map(x=>`<span class="tag" style="margin:2px">${esc(x)}</span>`).join('')}</td><td style="white-space:normal;min-width:220px">${esc(t.note||'')}</td></tr>`).join('')}</tbody></table></div>` : '<p class="note">Las recomendaciones por jugador aparecerán aquí y en cada ficha en cuanto se añadan a los datos.</p>'}
+      ${training.length ? `<div class="tablewrap" style="margin-top:14px"><table><caption class="sr-only">Entrenamiento recomendado</caption><thead><tr><th>Jugador</th><th>Efectos recomendados</th><th>Motivo</th></tr></thead><tbody>${training.map(t=>`<tr><td>${miniLink(t.p)}</td><td style="white-space:normal;min-width:200px">${pickTags(t.picks)}${trainingMeta(t)}</td><td style="white-space:normal;min-width:260px">${esc(t.note||'')}</td></tr>`).join('')}</tbody></table></div>` : '<p class="note">Las recomendaciones por jugador aparecerán aquí y en cada ficha en cuanto se añadan a los datos.</p>'}
     </section>
+    ${creditLine('training')}
     <p class="note" style="margin-top:28px">Contenido elaborado a partir de inacross-guide.com, de Tesla (@tsla_game), incluido con su permiso, y contrastado con otras guías de la comunidad como Game8. Comprueba siempre los avisos del juego, porque los horarios y las reglas pueden cambiar.</p>
   </div>`;
   $('#daily').addEventListener('change', e => { const c = e.target.closest('[data-task]'); if (!c) return;
