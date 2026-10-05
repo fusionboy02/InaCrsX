@@ -229,6 +229,7 @@ tr:last-child td{border-bottom:0}
 .zone[data-z="A"]{background:rgba(255,255,255,.75);color:#13244F;border-style:solid}
 .zone[data-z="B"]{background:rgba(255,255,255,.35);border-style:solid}
 .zone.span2{grid-column:span 2}
+.zones-areas{grid-template-columns:repeat(auto-fill,minmax(64px,1fr));max-width:none}
 .passive{padding:14px 0;border-top:1px solid var(--line)}
 .passive:first-of-type{border-top:0;padding-top:0}
 .passive h3{font-family:var(--body);font-style:normal;font-weight:700;font-size:1rem}
@@ -312,6 +313,7 @@ td.hl,th.hl{background:color-mix(in srgb,var(--bolt) 30%,transparent)}
 .tier[data-t="B"] .tier-label{background:#9BDB6A}
 .tier[data-t="C"] .tier-label{background:#6EC6E6}
 .tier[data-t="D"] .tier-label{background:#A8B3D6}
+.tier[data-t="E"] .tier-label{background:#C9CEDD}
 .tier[data-t="pool"] .tier-label{background:var(--surface-2);color:var(--ink-2);font-size:1rem;text-align:center;padding:6px}
 .tier-items{display:flex;flex-wrap:wrap;gap:8px;padding:10px;min-height:92px;align-content:flex-start}
 .tier.drop .tier-items{background:color-mix(in srgb,var(--bolt) 18%,transparent)}
@@ -504,6 +506,7 @@ a,button,label{touch-action:manipulation}
 .pvp-more summary{cursor:pointer;font-weight:700;color:var(--raimon);padding:4px 0}
 .pvp-more h4{margin:12px 0 2px;font-size:.98rem}
 .pvp-more p{font-size:.93rem;color:var(--ink-2)}
+.jp{font-weight:500;font-size:.8em;color:var(--ink-2);font-family:var(--body);font-style:normal}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -611,7 +614,7 @@ const POS_PL = { GK:'Porteros', DF:'Defensas', MF:'Centrocampistas', FW:'Delante
 const POS_ORDER = ['GK','DF','MF','FW'];
 const EL = { F:'Fuego', V:'Viento', B:'Bosque', M:'Montaña' };
 const EL_ALIASES = { fuego:'F', fire:'F', viento:'V', wind:'V', bosque:'B', forest:'B', wood:'B', montaña:'M', montana:'M', mountain:'M', earth:'M' };
-const TIERS = ['S+','S','A','B','C','D'];
+const TIERS = ['S+','S','A','B','C','D','E'];
 const TEAMS = {
   R:'Raimon', I:'Imperius', IJ:'Inazuma Japan', C:'Caos', RR:'Raimon de la Revolución', SJ:'Selección de Japón 2026',
   Z:'Zeus', YI:'Young Inazuma', KS:'Kidokawa Seishuu', ROB:'Raimon OB', TC:'Tablón de conexiones', GS:'Gemini Storm',
@@ -932,10 +935,11 @@ function viewHome(){
         <article class="panel news-item">
           <img src="${CONFIG.newsImg(n.img)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
           <div>
-            <span class="kind" data-k="${n.kind}">${kindLabel(n.kind)}</span>
+            <span class="kind" data-k="${n.kind}">${n.label?esc(n.label.charAt(0)+n.label.slice(1).toLowerCase()):kindLabel(n.kind)}</span>
             <h3 style="margin-top:8px">${esc(n.title)}</h3>
             <p class="when" style="margin-top:4px">${dfDay.format(new Date(n.date))}</p>
-            <ul>${n.points.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+            ${n.summary?`<p style="margin-top:8px">${esc(n.summary)}</p>`:''}
+            <ul>${(n.points||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
             ${n.player ? `<a class="btn btn-ghost btn-sm" style="margin-top:12px" href="#/jugador/${n.player}">Abrir la ficha</a>` : n.link ? `<a class="btn btn-ghost btn-sm" style="margin-top:12px" href="${n.link}">Ver los jugadores</a>` : ''}
           </div>
         </article>`).join('')}</div>
@@ -1052,14 +1056,8 @@ function statScale(){ // Escala común: la estadística más alta registrada en 
   let max = 0; DB.players.forEach(p => p.detail && Object.values(p.detail.stats).forEach(v => { if (v>max) max=v; })); return max || 1;
 }
 function zonesGrid(z){
-  const layout = DB.layouts.default;
-  const cell = s => `<div class="zone ${s.pos==='GK'?'span2':''}" data-z="${z?.[s.n]||''}" ${s.pos==='GK'?'style="grid-column:2 / span 2"':''}><b>${z?.[s.n]||'·'}</b>${s.n} ${s.pos}</div>`;
-  const rows = [[1,2],[3,4,5,6],[7,8,9,10],[11]];
-  return `<div class="zones" aria-label="Zonas ideales sobre la formación">${rows.map(r=>{
-    const items = r.map(n=>layout.find(s=>s.n===n));
-    if (r.length===2) return `<div></div>${items.map(cell).join('')}<div></div>`;
-    return items.map(cell).join('');
-  }).join('')}</div>`;
+  const cell = n => `<div class="zone" data-z="${z?.[n]||''}"><b>${z?.[n]||'·'}</b>Área ${n}</div>`;
+  return `<div class="zones zones-areas" aria-label="Áreas ideales">${Array.from({length:11},(_,i)=>cell(i+1)).join('')}</div>`;
 }
 function viewPlayer(r){
   const p = DB.byId.get(Number(r.param));
@@ -1108,7 +1106,7 @@ function viewPlayer(r){
       <section class="panel block" aria-labelledby="h-zones">
         <h2 id="h-zones">Zonas ideales</h2>
         ${zonesGrid(d.zones)}
-        <p class="note">Bonus por zona: S suma un 15 %, A un 10 % y B un 5 %. Los números son las casillas del creador de formaciones.</p>
+        <p class="note">Bonus por área: S suma un 15 %, A un 10 % y B un 5 %. Las áreas siguen la numeración del juego.</p>
         <h2 style="margin-top:20px;font-size:1.3rem">Etiquetas</h2>
         <div class="meta-row">${d.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>
         <p class="note">Las pasivas de cohesión usan estas etiquetas para reconocer a sus aliados.</p>
@@ -1116,12 +1114,12 @@ function viewPlayer(r){
     </div>
     <section class="panel block" style="margin-top:20px" aria-labelledby="h-pas">
       <h2 id="h-pas">Pasivas</h2>
-      ${d.passives.map(x=>`<div class="passive"><h3>${esc(x.name)}</h3><p>${esc(x.text)}</p><div class="meta-row"><span class="tag">${x.src} ${x.lv}</span><span class="tag">Se desbloquea en ${esc(x.unlock)}</span>${x.cond?`<span class="tag">Se comprueba en el creador de formaciones</span>`:''}</div></div>`).join('')}
+      ${d.passives.map(x=>`<div class="passive"><h3>${esc(x.name)}${x.nameJP?` <small class="jp">${esc(x.nameJP)}</small>`:''}</h3><p>${esc(x.text)}</p><div class="meta-row"><span class="tag">${x.src} ${x.lv}</span>${x.rank?`<span class="tag">Rango ${esc(x.rank)}</span>`:''}${x.stack?'<span class="tag good" title="El efecto se acumula cada vez que se activa">Se acumula</span>':''}<span class="tag">Se desbloquea en ${esc(x.unlock)}</span>${x.cond?`<span class="tag">Se comprueba en el creador de formaciones</span>`:''}</div></div>`).join('')}
     </section>
     <section class="panel block" style="margin-top:20px" aria-labelledby="h-tech">
       <h2 id="h-tech">Supertécnicas</h2>
       ${d.techniques.map((t,i)=>`<div class="tech">
-        <div class="tech-head"><div><h3>${esc(t.name)}</h3><div class="meta-row" style="margin-top:6px"><span class="tag">${t.type}</span>${elTag(t.el)}<span class="tag">Se desbloquea al nivel ${t.unlock}</span><span class="tag">${t.long?'Tiro largo':'Sin tiro largo'}</span>${t.chain?'<span class="tag">Admite cadena</span>':''}</div></div>
+        <div class="tech-head"><div><h3>${esc(t.name)}${t.nameJP?` <small class="jp">${esc(t.nameJP)}</small>`:''}</h3><div class="meta-row" style="margin-top:6px"><span class="tag">${t.type}</span>${elTag(t.el)}<span class="tag">Se desbloquea al nivel ${t.unlock}</span>${t.type==='Tiro'?`<span class="tag">${t.long?'Tiro largo':'Sin tiro largo'}</span>`:''}${t.blocksShots&&t.type==='Bloqueo'?'<span class="tag">Bloquea tiros</span>':''}${t.chain?'<span class="tag">Admite cadena</span>':''}</div></div>
           <label class="lvl">Nivel de la técnica <input type="range" min="1" max="10" value="10" data-tech="${i}" aria-label="Nivel de ${esc(t.name)}"><b class="num" data-tech-out="${i}">10</b></label></div>
         <div class="tablewrap"><table data-tech-table="${i}"><caption class="sr-only">${esc(t.name)} por nivel</caption><thead><tr><th>Nivel</th>${[...Array(10)].map((_,k)=>`<th class="r ${k===9?'hl':''}" data-col="${k}">${k+1}</th>`).join('')}</tr></thead>
         <tbody>${Object.entries(t.rows).map(([k,vals])=>`<tr><th scope="row">${k}</th>${vals.map((v,k2)=>`<td class="r ${k2===9?'hl':''}" data-col="${k2}">${v}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
@@ -1211,24 +1209,53 @@ function attachSuggest(input, box, onPick){
 let team = store.get('team', { coach:71002, slots:Array(11).fill(null) });
 function saveTeam(){ store.set('team', team); }
 function teamUrl(){ return `#/formacion?c=${team.coach}&p=${team.slots.map(x=>x||0).join(',')}`; }
+const EL_NAME = { Fuego:'F', Viento:'V', Bosque:'B', 'Montaña':'M' };
+function normCond(c){ return c.type ? c : { slot:c.slot, type:'Etiqueta', value:c.tag }; }
+function cumpleCond(p, c){
+  if (!p) return false;
+  const vals = String(c.value).split(',').map(v => v.trim()).filter(Boolean);
+  if (c.type === 'Elemento') return vals.some(v => EL_NAME[v] === p.el);
+  if (c.type === 'Etiqueta') return vals.some(v => (p.tags||[]).includes(v));
+  if (/Posici/.test(c.type)) return vals.includes(p.pos);
+  return false;
+}
+function condTexto(c){
+  const v = String(c.value).split(',').map(x=>x.trim()).join(' o ');
+  return c.type === 'Elemento' ? `elemento ${v}` : c.type === 'Etiqueta' ? `etiqueta ${v}` : /Posici/.test(c.type) ? `posición natural ${v}` : v;
+}
+function efectoDestino(ef){
+  if (ef.rival) return 'al rival';
+  const partes = [];
+  if (ef.pos) partes.push(`los ${ef.pos} recomendados`);
+  if (ef.tag) partes.push(`con la etiqueta ${ef.tag}`);
+  if (ef.els) partes.push(`de ${ef.els.map(e=>EL[e]).join(' o ')}`);
+  return partes.length ? 'a ' + (ef.pos ? '' : 'los aliados ') + partes.join(' ') : 'a todos los aliados';
+}
+function coachPassiveAt(coach){
+  const lv = team.coachLevel || coach.level || 10;
+  return (coach.passiveByLevel || []).find(x => x.level === lv) || coach.passive || null;
+}
 function analyzeTeam(){
   const coach = DB.coaches.find(c=>c.id===team.coach) || DB.coaches[0];
-  const layout = DB.layouts[coach.layout||'default'] || DB.layouts.default;
+  const layout = DB.layouts[coach.layout||'default'] || DB.layouts.default || Object.values(DB.layouts)[0];
   const placed = layout.map((s,i)=>({ slot:s, p: team.slots[i] ? DB.byId.get(team.slots[i]) : null })).filter(x=>x.p);
   const elCount = { F:0, V:0, B:0, M:0 }; placed.forEach(x=>elCount[x.p.el]++);
-  const tagCount = {}; placed.forEach(x=>x.p.tags.forEach(t=>tagCount[t]=(tagCount[t]||0)+1));
-  const conds = (coach.conditions||[]).map(c => { const i = layout.findIndex(s=>s.n===c.slot); const p = team.slots[i] ? DB.byId.get(team.slots[i]) : null; return { ...c, pos:layout[i].pos, p, ok: !!p && p.tags.includes(c.tag) }; });
-  const formationOn = conds.length>0 && conds.every(c=>c.ok);
-  const recipients = eff => placed.filter(x => (!eff.pos || x.slot.pos===eff.pos) && (!eff.tag || x.p.tags.includes(eff.tag)));
+  const tagCount = {}; placed.forEach(x=>(x.p.tags||[]).forEach(t=>tagCount[t]=(tagCount[t]||0)+1));
+  const conds = (coach.conditions||[]).map(normCond).map(c => { const i = layout.findIndex(s=>s.n===c.slot); const p = i>=0 && team.slots[i] ? DB.byId.get(team.slots[i]) : null; return { ...c, pos:layout[i]?.pos, p, ok: cumpleCond(p, c) }; });
+  const formationOn = conds.every(c=>c.ok);
+  const recipients = ef => ef.rival ? [] : placed.filter(x => (!ef.pos || x.slot.pos===ef.pos) && (!ef.tag || (x.p.tags||[]).includes(ef.tag)) && (!ef.els || ef.els.includes(x.p.el)));
   const offPos = placed.filter(x=>x.slot.pos!==x.p.pos);
   const passives = [];
-  placed.forEach(x => (x.p.detail?.passives||[]).forEach(ps => { if (ps.cond?.type==='element'){ const n = elCount[ps.cond.el]; passives.push({ who:x.p, ps, n, ok: n>=ps.cond.min }); } }));
-  const zones = placed.filter(x=>x.p.detail?.zones?.[x.slot.n]).map(x=>({ p:x.p, slot:x.slot, z:x.p.detail.zones[x.slot.n] }));
-  return { coach, layout, placed, elCount, tagCount, conds, formationOn, recipients, offPos, passives, zones,
+  placed.forEach(x => (x.p.detail?.passives||[]).forEach(ps => {
+    if (ps.cond?.type==='element'){ const n = elCount[ps.cond.el]; passives.push({ who:x.p, ps, n, ok: n>=ps.cond.min, need:`jugadores de ${EL[ps.cond.el]}` }); }
+    if (ps.cond?.type==='tag'){ const n = tagCount[ps.cond.tag]||0; passives.push({ who:x.p, ps, n, ok: n>=ps.cond.min, need:`jugadores con la etiqueta ${ps.cond.tag}` }); }
+  }));
+  return { coach, layout, placed, elCount, tagCount, conds, formationOn, recipients, offPos, passives, zones:[], cp: coachPassiveAt(coach),
     power: placed.reduce((a,x)=>a+x.p.power,0) };
 }
 function viewTeam(r){
   setTitle('Creador de formaciones');
+  app.onchange = e => { const s = e.target.closest('[data-coach-level]'); if (s){ team.coachLevel = Number(s.value); saveTeam(); render(); } };
   if (r.q.get('p')){
     const ids = r.q.get('p').split(',').map(Number);
     team = { coach: Number(r.q.get('c')) || team.coach, slots: Array.from({length:11}, (_,i)=>DB.byId.has(ids[i]) ? ids[i] : null) };
@@ -1237,7 +1264,7 @@ function viewTeam(r){
   const A = analyzeTeam();
   const saved = store.get('teams', []);
   const condSlots = new Map(A.conds.map(c=>[c.slot,c]));
-  const zoneMap = new Map(A.zones.map(z=>[z.slot.n,z.z]));
+  const zoneMap = new Map();
   const total = A.placed.length || 1;
   app.innerHTML = `<div class="wrap">
     <header class="page-head"><h1>Creador de formaciones</h1><p>Elige entrenador y coloca a cualquier jugador en cualquier casilla. El panel de la derecha comprueba al momento las condiciones de la formación, la pasiva del entrenador, las pasivas de los jugadores y sus zonas ideales.</p></header>
@@ -1249,7 +1276,7 @@ function viewTeam(r){
           <div class="box top"></div><div class="box bot"></div>
           ${A.layout.map((s,i)=>{ const p = team.slots[i] ? DB.byId.get(team.slots[i]) : null; const c = condSlots.get(s.n); const z = zoneMap.get(s.n);
             const cls = ['slot', p?'filled':'', c?(c.ok?'ok':'need'):'', p&&p.pos!==s.pos?'off':''].join(' ');
-            const lbl = p ? `Casilla ${s.n}, ${s.pos}: ${p.name}${p.pos!==s.pos?', fuera de su posición natural':''}${c?(c.ok?', cumple la condición':`, necesita la etiqueta ${c.tag}`):''}. Pulsa para cambiarlo.` : `Casilla ${s.n}, ${s.pos}, vacía${c?`, necesita la etiqueta ${c.tag}`:''}. Pulsa para añadir un jugador.`;
+            const lbl = p ? `Casilla ${s.n}, ${s.pos}: ${dn(p)}${p.pos!==s.pos?', fuera de su posición natural':''}${c?(c.ok?', cumple el requisito':`, necesita ${condTexto(c)}`):''}. Pulsa para cambiarlo.` : `Casilla ${s.n}, ${s.pos}, vacía${c?`, necesita ${condTexto(c)}`:''}. Pulsa para añadir un jugador.`;
             return `<button class="${cls}" style="left:${s.x}%;top:${s.y}%" ${p?`data-el="${p.el}"`:''} data-act="slot" data-i="${i}" aria-label="${esc(lbl)}">
               <span class="slot-disc">${p?portrait(p):'<span class="slot-plus" aria-hidden="true">+</span>'}${z?`<span class="zone-badge" title="Zona ${z}">${z}</span>`:''}</span>
               <span class="slot-label"><span class="pos">${s.pos}</span>${p?esc(dn(p).split(' ')[0]):s.n}</span></button>`; }).join('')}
@@ -1271,19 +1298,21 @@ function viewTeam(r){
         <div class="legend">${Object.entries(A.elCount).map(([k,v])=>`<span data-el="${k}"><span class="dot"></span>${EL[k]} ${v}</span>`).join('')}</div>
 
         <h3>Formación ${esc(A.coach.formation)}</h3>
-        ${A.conds.length ? `<ul class="checks">${A.conds.map(c=>`<li><span class="st ${c.ok?'ok':'no'}" aria-hidden="true">${c.ok?'✓':c.slot}</span><span>Casilla ${c.slot} (${c.pos}) con la etiqueta ${esc(c.tag)}: ${c.p?(c.ok?esc(dn(c.p))+' la cumple.':esc(dn(c.p))+' no tiene esa etiqueta.'):'vacía.'}</span></li>`).join('')}</ul>
-          <p class="note">${A.formationOn ? `Pasiva de formación activa. ${esc(A.coach.formationPassive.text)}` : `Cumple las ${A.conds.length} condiciones para activar la pasiva de formación: ${esc(A.coach.formationPassive.text)}`}</p>`
-          : `<p class="note">Los requisitos de esta formación aún no están en los datos cargados. La plantilla usa la disposición de F-Raimon.</p>`}
+        ${A.conds.length ? `<ul class="checks">${A.conds.map(c=>`<li><span class="st ${c.ok?'ok':'no'}" aria-hidden="true">${c.ok?'✓':c.slot}</span><span>Casilla ${c.slot} (${c.pos}): ${esc(condTexto(c))}. ${c.p?(c.ok?esc(dn(c.p))+' lo cumple.':esc(dn(c.p))+' no lo cumple.'):'Vacía.'}</span></li>`).join('')}</ul>` : '<p class="note">Esta formación no tiene requisitos.</p>'}
+        ${A.coach.formationPassive ? `<div class="pvp-pas" style="margin-top:10px"><p><b>${A.formationOn ? 'Pasiva de formación activa' : `Pasiva de formación: cumple ${A.conds.length===1?'el requisito':'los '+A.conds.length+' requisitos'} para activarla`}</b></p><p>${esc(A.coach.formationPassive.text)}</p>
+          <ul class="checks" style="margin-top:8px">${A.coach.formationPassive.effects.map(ef=>{ const rec = A.formationOn ? A.recipients(ef) : []; return `<li><span class="st ${rec.length?'ok':'no'}" aria-hidden="true">${ef.rival?'R':rec.length}</span><span><b>${esc(ef.label)}</b> ${esc(efectoDestino(ef))}${ef.stack?' (se acumula)':''}${!ef.rival&&A.formationOn?': '+(rec.length?rec.map(x=>esc(dn(x.p))).join(', '):'nadie lo recibe todavía.'):''}</span></li>`; }).join('')}</ul></div>` : ''}
 
-        ${A.coach.passive ? `<h3>Pasiva del entrenador: ${esc(A.coach.passive.name)}</h3><ul class="checks">${A.coach.passive.effects.map(ef=>{ const rec = A.recipients(ef); return `<li><span class="st ${rec.length?'ok':'no'}" aria-hidden="true">${rec.length}</span><span><b>${esc(ef.label)}</b> ${ef.pos?`a los ${ef.pos} `:'a los aliados '}${ef.tag?`con la etiqueta ${esc(ef.tag)}`:''}: ${rec.length?rec.map(x=>esc(dn(x.p))).join(', '):'nadie lo recibe todavía.'}</span></li>`; }).join('')}</ul>` : ''}
+        ${A.cp ? `<h3>Pasiva del entrenador: ${esc(A.cp.name)}</h3>
+          <label class="field" style="width:fit-content;min-height:36px;margin-bottom:8px"><span class="kv">Nivel del entrenador</span><select data-coach-level>${(A.coach.passiveByLevel&&A.coach.passiveByLevel.length?A.coach.passiveByLevel:[{level:10}]).map(x=>`<option value="${x.level}" ${(team.coachLevel||A.coach.level||10)===x.level?'selected':''}>${x.level}</option>`).join('')}</select></label>
+          <p class="note" style="margin:0 0 8px">${esc(A.cp.text||'')}</p>
+          <ul class="checks">${A.cp.effects.map(ef=>{ const rec = A.recipients(ef); return `<li><span class="st ${rec.length?'ok':'no'}" aria-hidden="true">${ef.rival?'R':rec.length}</span><span><b>${esc(ef.label)}</b> ${esc(efectoDestino(ef))}${ef.rival?'':': '+(rec.length?rec.map(x=>esc(dn(x.p))).join(', '):'nadie lo recibe todavía.')}</span></li>`; }).join('')}</ul>` : ''}
 
         <h3>Pasivas de los jugadores</h3>
-        ${A.passives.length ? `<ul class="checks">${A.passives.map(x=>`<li><span class="st ${x.ok?'ok':'no'}" aria-hidden="true">${x.ok?'✓':x.n}</span><span><b>${esc(dn(x.who))}</b>, ${esc(x.ps.name)}: ${x.n} de ${x.ps.cond.min} jugadores de ${EL[x.ps.cond.el]} en el equipo.</span></li>`).join('')}</ul>` : `<p class="note">Ningún jugador colocado tiene pasivas con condiciones que se puedan comprobar antes del partido.</p>`}
+        ${A.passives.length ? `<ul class="checks">${A.passives.map(x=>`<li><span class="st ${x.ok?'ok':'no'}" aria-hidden="true">${x.ok?'✓':x.n}</span><span><b>${esc(dn(x.who))}</b>, ${esc(x.ps.name)}: ${x.n} de ${x.ps.cond.min} ${esc(x.need)} en el equipo.</span></li>`).join('')}</ul>` : `<p class="note">Ningún jugador colocado tiene pasivas con condiciones que se puedan comprobar antes del partido.</p>`}
 
-        <h3>Posiciones y zonas</h3>
+        <h3>Posiciones</h3>
         <ul class="checks">
           ${A.offPos.length ? A.offPos.map(x=>`<li><span class="st warn" aria-hidden="true">!</span><span>${esc(dn(x.p))} es ${x.p.pos} y está en una casilla de ${x.slot.pos}.</span></li>`).join('') : `<li><span class="st ok" aria-hidden="true">✓</span><span>${A.placed.length?'Todos juegan en su posición natural.':'Coloca jugadores para ver si encajan.'}</span></li>`}
-          ${A.zones.map(z=>`<li><span class="st ok" aria-hidden="true">${z.z}</span><span>${esc(dn(z.p))} está en una zona ${z.z} (casilla ${z.slot.n}).</span></li>`).join('')}
         </ul>
 
         ${Object.keys(A.tagCount).length ? `<h3>Etiquetas en el equipo</h3><div class="meta-row">${Object.entries(A.tagCount).sort((a,b)=>b[1]-a[1]).map(([t,n])=>`<span class="tag">${esc(t)} ${n}</span>`).join('')}</div>` : ''}
@@ -1297,7 +1326,7 @@ function openSlotPicker(i){
   openDialog(`
     <div class="dialog-head">
       <h2 style="font-size:1.4rem">Casilla ${s.n}: ${POS[s.pos].toLowerCase()}</h2>
-      ${cond?`<p class="note" style="margin:0">Esta casilla pide la etiqueta ${esc(cond.tag)} para activar la formación.</p>`:''}
+      ${cond?`<p class="note" style="margin:0">Esta casilla pide ${esc(condTexto(cond))} para activar la formación.</p>`:''}
       <label class="field">${icon.search}<span class="sr-only">Buscar jugador</span><input id="dlg-q" type="search" placeholder="Buscar jugador" autocomplete="off"></label>
       <div class="filters-row" role="group" aria-label="Posición">${['',...POS_ORDER].map(p=>`<button class="chip" data-dpos="${p}" aria-pressed="${p===pos}">${p||'Todas'}</button>`).join('')}</div>
     </div>
@@ -1307,9 +1336,9 @@ function openSlotPicker(i){
       const list = $('#dlg-list', dlg), q = $('#dlg-q', dlg); let items = [], sel = 0;
       const draw = () => {
         const t = norm(q.value).split(/\s+/).filter(Boolean);
-        items = DB.players.filter(p=>(!pos||p.pos===pos) && t.every(x=>p.search.includes(x))).sort((a,b)=>(cond?(b.tags.includes(cond.tag)-a.tags.includes(cond.tag)):0)||b.power-a.power);
+        items = DB.players.filter(p=>(!pos||p.pos===pos) && t.every(x=>p.search.includes(x))).sort((a,b)=>(cond?(cumpleCond(b,cond)-cumpleCond(a,cond)):0)||b.power-a.power);
         sel = 0;
-        list.innerHTML = items.length ? items.map((p,k)=>`<button class="opt" role="option" data-id="${p.id}" data-el="${p.el}" aria-selected="${k===0}"><span class="mini">${portrait(p)}</span><span class="grow">${esc(dn(p))}<small>${esc(p.team)}${used.has(p.id)?', ya está en el equipo':''}${cond&&p.tags.includes(cond.tag)?', cumple la condición':''}</small></span><span class="pos">${p.pos}</span><span class="dot"></span><span class="num">${fmt(p.power)}</span></button>`).join('') : emptyState('Sin resultados','Prueba con otro nombre o cambia la posición.');
+        list.innerHTML = items.length ? items.map((p,k)=>`<button class="opt" role="option" data-id="${p.id}" data-el="${p.el}" aria-selected="${k===0}"><span class="mini">${portrait(p)}</span><span class="grow">${esc(dn(p))}<small>${esc(p.team)}${used.has(p.id)?', ya está en el equipo':''}${cond&&cumpleCond(p,cond)?', cumple el requisito':''}</small></span><span class="pos">${p.pos}</span><span class="dot"></span><span class="num">${fmt(p.power)}</span></button>`).join('') : emptyState('Sin resultados','Prueba con otro nombre o cambia la posición.');
       };
       const pick = id => { const prev = team.slots.indexOf(id); if (prev>-1 && prev!==i) team.slots[prev] = team.slots[i]; team.slots[i] = id; saveTeam(); closeDialog(); render(); popEl($$('.slot')[i]); };
       draw(); q.focus();
@@ -2216,7 +2245,7 @@ document.addEventListener('click', e => {
   else if (act==='pvp-open'){ const t = DB.guides.pvp[Number(a.dataset.rec)]; if (t){ team = { coach:t.coach || team.coach, slots:Array.from({length:11},(_,i)=>DB.byId.has(t.slots?.[i]) ? t.slots[i] : null) }; saveTeam(); location.hash = '#/formacion'; toast('Formación cargada en el creador'); } }
   else if (act==='plan-json') copyJSON({ el:plan.opp, mode:plan.mode, rank:1, title:'', note:'', lineup:plan.slots.filter(Boolean).map(x=>({ id:x.id, el:x.el, tech:'', manual:false })) }, 'Recomendación copiada. Pégala en data/guides.json, dentro de "trials".');
   else if (act==='team-json') copyJSON({ tier:'S', version:CONFIG.VERSION, coach:team.coach, title:'', note:'', slots:[...team.slots] }, 'Formación copiada. Pégala en data/guides.json, dentro de "pvp".');
-  else if (act==='coach'){ team.coach = id; saveTeam(); render(); }
+  else if (act==='coach'){ team.coach = id; team.coachLevel = 10; saveTeam(); render(); }
   else if (act==='slot') openSlotPicker(Number(a.dataset.i));
   else if (act==='team-clear'){ if (team.slots.some(Boolean) && confirm('¿Vaciar la formación actual?')){ team.slots = Array(11).fill(null); saveTeam(); render(); } }
   else if (act==='team-auto'){
