@@ -152,6 +152,7 @@ p{margin:0}
 
 /* Player cards */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(176px,1fr));gap:14px}
+@media (max-width:560px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.pcard-power{font-size:1.15rem}.pcard-body{padding:8px 10px 10px}}
 .pcard{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}
 .pcard:hover{transform:translateY(-2px);border-color:var(--el)}
 .pcard-link{display:block;text-decoration:none;color:var(--ink)}
@@ -313,7 +314,7 @@ td.hl,th.hl{background:color-mix(in srgb,var(--bolt) 30%,transparent)}
 .tabs{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 16px}
 .tier{display:grid;grid-template-columns:76px 1fr;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface);margin-bottom:10px}
 .tier-label{display:flex;align-items:center;justify-content:center;font-family:var(--display);font-style:italic;font-weight:800;font-size:1.9rem;color:#13244F}
-.tier[data-t="S+"] .tier-label{background:#FF5A3C;color:#fff}
+.tier[data-t="S+"] .tier-label,.tier[data-t="SS"] .tier-label{background:#FF5A3C;color:#fff}
 .tier[data-t="S"] .tier-label{background:#FF9A2E}
 .tier[data-t="A"] .tier-label{background:var(--bolt)}
 .tier[data-t="B"] .tier-label{background:#9BDB6A}
@@ -513,6 +514,16 @@ a,button,label{touch-action:manipulation}
 .pvp-more h4{margin:12px 0 2px;font-size:.98rem}
 .pvp-more p{font-size:.93rem;color:var(--ink-2)}
 .jp{font-weight:500;font-size:.8em;color:var(--ink-2);font-family:var(--body);font-style:normal}
+.article h3.sub{font-family:var(--body);font-style:normal;font-size:1.05rem;margin:20px 0 4px}
+.pcard-match{font-size:.76rem;color:var(--raimon);font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pcard.is-owned::after{content:"✓";position:absolute;top:8px;right:46px;z-index:3;width:26px;height:26px;border-radius:50%;background:var(--good);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:.9rem;box-shadow:0 2px 6px rgba(0,0,0,.25)}
+.col-mode .pcard{cursor:pointer}
+.col-mode .pcard:not(.is-owned) .pcard-art{filter:grayscale(.85) opacity(.7)}
+.col-mode .pcard.is-owned{border-color:var(--good);box-shadow:0 0 0 2px var(--good)}
+.colbar{position:sticky;top:70px;z-index:19}
+@media (max-width:900px){.colbar{top:8px}}
+.ranks{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:6px}
+.rank b{font-size:.86rem}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -866,11 +877,11 @@ function portrait(p){
   return `<span class="pt" data-el="${p.el}"><img src="${CONFIG.img(p.id)}" alt="" loading="lazy" decoding="async" onload="this.parentNode.classList.add('ok')" onerror="this.parentNode.classList.add('err');this.remove()"><span class="pt-fb" aria-hidden="true">${esc(initials(p.name))}</span></span>`;
 }
 function card(p, i=0){
-  return `<article class="pcard" data-el="${p.el}" style="--i:${i}">
+  return `<article class="pcard ${isOwned(p.id)?'is-owned':''}" data-el="${p.el}" data-id="${p.id}" style="--i:${i}">
     <a class="pcard-link" href="#/jugador/${p.id}" aria-label="${esc(dn(p))}, ${esc(p.team)}, ${POS[p.pos]} de ${EL[p.el]}, ${p.stars} estrellas, poder ${fmt(p.power)}">
-      <div class="pcard-art">${portrait(p)}<div class="pcard-top"><span class="pos">${p.pos}</span>${p.isNew?'<span class="new">¡Nuevo!</span>':''}${isOwned(p.id)?`<span class="tag" style="background:var(--surface);font-size:.72rem;padding:1px 6px" title="En tu colección">D${mine(p.id).aw}</span>`:''}</div></div>
+      <div class="pcard-art">${portrait(p)}<div class="pcard-top"><span class="pos">${p.pos}</span>${p.isNew?'<span class="new">¡Nuevo!</span>':''}${isOwned(p.id)?`<span class="tag" style="background:var(--surface);font-size:.72rem;padding:1px 6px" title="En tu colección">${rankOf(mine(p.id).aw, p).short}</span>`:''}</div></div>
       <div class="pcard-body">
-        <div class="pcard-name">${esc(dn(p))}</div>
+        <div class="pcard-name">${esc(dn(p))}</div>${p._match?`<div class="pcard-match">${esc(p._match)}</div>`:''}
         <div class="pcard-team">${esc(p.team)}</div>
         <div class="pcard-foot"><span class="stars" aria-hidden="true">${starStr(p.stars)}</span><span class="num pcard-power">${fmt(p.power)}<small>poder</small></span></div>
       </div>
@@ -987,8 +998,19 @@ function applyFilters(f){
     (!f.pos || p.pos===f.pos) && (!f.el || p.el===f.el) && (!f.stars || p.stars===Number(f.stars)) &&
     (!f.team || p.team===f.team) && (!f.fav || favs.has(p.id)) && (!f.isNew || p.isNew) && (!f.col || (f.col==='tengo') === isOwned(p.id)) &&
     tokens.every(t => p.search.includes(t)));
+  list.forEach(p => { p._match = ''; p._score = 0; });
+  if (tokens.length){
+    const q = norm(f.q).trim();
+    list.forEach(p => {
+      const nombres = [dn(p), p.name, p.nameEU, p.nameJP, ...(p.alias ? p.alias.split(/,\s*/) : [])].filter(Boolean);
+      let best = 0, hit = '';
+      nombres.forEach(n => { const v = norm(n); const sc = v.startsWith(q) ? 3 : v.split(/\s+/).some(w => w.startsWith(q)) ? 2 : v.includes(q) ? 1 : 0; if (sc > best){ best = sc; hit = n; } });
+      p._score = best; if (hit && !norm(dn(p)).includes(q)) p._match = hit;
+    });
+  }
   const by = { power:(a,b)=>b.power-a.power, 'power-asc':(a,b)=>a.power-b.power, name:(a,b)=>a.name.localeCompare(b.name,'es'), stars:(a,b)=>b.stars-a.stars||b.power-a.power, team:(a,b)=>a.team.localeCompare(b.team,'es')||b.power-a.power, recent:(a,b)=>(b.isNew-a.isNew)||b.id-a.id };
-  return list.sort(by[f.sort]||by.power);
+  const base = by[f.sort]||by.power;
+  return list.sort(tokens.length && f.sort === 'power' ? (a,b) => b._score - a._score || base(a,b) : base);
 }
 function viewPlayers(r){
   setTitle('Jugadores y estadísticas');
@@ -1012,9 +1034,11 @@ function viewPlayers(r){
         <span role="group" aria-label="Estrellas" style="display:contents">${['','3','2','1'].map(s=>`<button class="chip" data-f="stars" data-v="${s}" aria-pressed="${f.stars===s}">${s?starStr(+s):'Todas'}</button>`).join('')}</span>
         <button class="chip" data-f="fav" aria-pressed="${f.fav}">Solo favoritos</button>
         <button class="chip" data-f="isNew" aria-pressed="${f.isNew}">Solo novedades</button>
+        <button class="chip chip-col" data-act="colmode" aria-pressed="${r.q.get('modo')==='coleccion'}">Añadir a mi colección tocando</button>
         <span role="group" aria-label="Colección" style="display:contents">${[['','Toda la base'],['tengo','Los que tengo'],['faltan','Me faltan']].map(([v,l])=>`<button class="chip" data-f="col" data-v="${v}" aria-pressed="${f.col===v}">${l}</button>`).join('')}</span>
       </div>
     </div>
+    <div class="banner colbar" id="colbar" ${r.q.get('modo')==='coleccion'?'':'hidden'}><span><b>Modo colección.</b> Toca un jugador para marcarlo como tuyo o quitarlo. Llevas <b id="colcount">${Object.keys(owned).length}</b>.</span><span style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn btn-sm" data-act="col-all">Marcar los que se ven</button><button class="btn btn-ghost btn-sm" data-act="colmode">Terminar</button></span></div>
     <div class="result-line"><p id="count" aria-live="polite"></p>
       <div style="display:flex;gap:8px;align-items:center">
         <button class="btn btn-ghost btn-sm" data-act="reset-filters">Quitar filtros</button>
@@ -1024,10 +1048,11 @@ function viewPlayers(r){
     <div id="results"></div>
   </div>`;
 
-  const state = { ...f };
+  const state = { ...f, colMode: r.q.get('modo')==='coleccion' };
+  let ultima = [];
   const draw = () => {
     writeFilters(state);
-    const list = applyFilters(state);
+    const list = applyFilters(state); ultima = list;
     $('#count').textContent = `Mostrando ${list.length} de ${DB.players.length} jugadores`;
     const res = $('#results');
     if (!list.length){ res.innerHTML = emptyState('Ningún jugador coincide con estos filtros', state.fav && !favs.size ? 'Aún no tienes favoritos. Marca la estrella de cualquier ficha para guardarla.' : 'Prueba a quitar algún filtro o a buscar por otro nombre.', '<button class="btn btn-ghost btn-sm" data-act="reset-filters">Quitar filtros</button>'); return; }
@@ -1039,11 +1064,16 @@ function viewPlayers(r){
       </tbody></table></div>`;
     } else res.innerHTML = `<div class="grid">${list.map((p,i)=>card(p,i)).join('')}</div>`;
   };
-  draw();
+  draw(); app.classList.toggle('col-mode', state.colMode);
   let t; $('#f-q').addEventListener('input', e => { clearTimeout(t); t = setTimeout(()=>{ state.q = e.target.value; draw(); }, 120); });
   $('#f-team').addEventListener('change', e => { state.team = e.target.value; draw(); });
   $('#f-sort').addEventListener('change', e => { state.sort = e.target.value; draw(); });
+  const marcar = (art, id) => { const tiene = isOwned(id); setOwned(id, tiene ? null : nuevoMio()); art.classList.toggle('is-owned', !tiene); popEl(art); $('#colcount').textContent = Object.keys(owned).length; };
   app.onclick = e => {
+    const cm = e.target.closest('[data-act="colmode"]');
+    if (cm){ state.colMode = !state.colMode; $$('[data-act="colmode"].chip').forEach(x=>x.setAttribute('aria-pressed', state.colMode)); $('#colbar').hidden = !state.colMode; app.classList.toggle('col-mode', state.colMode); if (state.colMode) toast('Toca los jugadores que tengas'); return; }
+    if (e.target.closest('[data-act="col-all"]')){ let n = 0; ultima.forEach(p => { if (!isOwned(p.id)){ setOwned(p.id, nuevoMio()); n++; } }); draw(); $('#colcount').textContent = Object.keys(owned).length; toast(`${n} jugadores añadidos a tu colección`); return; }
+    if (state.colMode){ const l = e.target.closest('.pcard-link, .mini'); const art = e.target.closest('.pcard'); if (l && art){ e.preventDefault(); marcar(art, Number(art.dataset.id)); return; } }
     const b = e.target.closest('[data-f]');
     if (b){ const k = b.dataset.f;
       if (k==='fav'||k==='isNew') state[k] = !state[k]; else state[k] = b.dataset.v;
@@ -1096,7 +1126,7 @@ function viewPlayer(r){
         </div>
         <div class="panel" style="margin-top:14px;padding:12px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap">
           <button class="chip" data-act="own" data-id="${p.id}" aria-pressed="${isOwned(p.id)}">${isOwned(p.id)?'Lo tengo':'No lo tengo'}</button>
-          ${isOwned(p.id)?`<span style="display:inline-flex;align-items:center;gap:8px">Despertar <button class="iconbtn" style="height:32px;min-width:32px" data-act="awk" data-d="-1" data-id="${p.id}" aria-label="Bajar despertar">−</button><b class="num" style="font-size:1.2rem">${mine(p.id).aw}</b><button class="iconbtn" style="height:32px;min-width:32px" data-act="awk" data-d="1" data-id="${p.id}" aria-label="Subir despertar">+</button></span>`:'<span class="muted" style="font-size:.9rem">Márcalo para usarlo en el planificador con tu colección.</span>'}
+          ${isOwned(p.id)?`<span style="display:inline-flex;align-items:center;gap:8px">Rango <button class="iconbtn" style="height:32px;min-width:32px" data-act="awk" data-d="-1" data-id="${p.id}" aria-label="Bajar rango">−</button><b class="num" style="font-size:1.1rem;min-width:3ch;text-align:center" title="${rankOf(mine(p.id).aw, p).name}">${rankOf(mine(p.id).aw, p).short}</b><button class="iconbtn" style="height:32px;min-width:32px" data-act="awk" data-d="1" data-id="${p.id}" aria-label="Subir rango">+</button></span>`:'<span class="muted" style="font-size:.9rem">Márcalo para usarlo en el planificador con tu colección.</span>'}
         </div>
       </div>
     </div>
@@ -1120,7 +1150,7 @@ function viewPlayer(r){
     </div>
     <section class="panel block" style="margin-top:20px" aria-labelledby="h-pas">
       <h2 id="h-pas">Pasivas</h2>
-      ${d.passives.map(x=>`<div class="passive"><h3>${esc(x.name)}${x.nameJP?` <small class="jp">${esc(x.nameJP)}</small>`:''}</h3><p>${esc(x.text)}</p><div class="meta-row"><span class="tag">${x.src} ${x.lv}</span>${x.rank?`<span class="tag">Rango ${esc(x.rank)}</span>`:''}${x.stack?'<span class="tag good" title="El efecto se acumula cada vez que se activa">Se acumula</span>':''}<span class="tag">Se desbloquea en ${esc(x.unlock)}</span>${x.cond?`<span class="tag">Se comprueba en el creador de formaciones</span>`:''}</div></div>`).join('')}
+      ${d.passives.map(x=>`<div class="passive"><h3>${esc(x.name)}${x.nameJP?` <small class="jp">${esc(x.nameJP)}</small>`:''}</h3><p>${esc(x.text)}</p><div class="meta-row"><span class="tag">${x.src} ${x.lv}</span>${x.rank?`<span class="tag">Rango ${esc(x.rank)}</span>`:''}${x.stack?'<span class="tag good" title="El efecto se acumula cada vez que se activa">Se acumula</span>':''}<span class="tag">${esc(unlockLabel(x, p))}</span>${x.cond?`<span class="tag">Se comprueba en el creador de formaciones</span>`:''}</div></div>`).join('')}
     </section>
     <section class="panel block" style="margin-top:20px" aria-labelledby="h-tech">
       <h2 id="h-tech">Supertécnicas</h2>
@@ -1133,9 +1163,10 @@ function viewPlayer(r){
     </section>` : `
     <section style="margin-top:22px">${emptyState('La ficha detallada de este jugador aún no está en los datos cargados', 'Estadísticas, pasivas, zonas y supertécnicas aparecerán aquí en cuanto la API las incluya. Mientras tanto puedes usarlo en el creador de formaciones y en el comparador.')}</section>`}
 
-    ${(()=>{ const tr = (DB.guides.training||[]).find(t=>t.id===p.id); const uses = usageCount(p.id);
-      return (tr || uses) ? `<section class="panel block" style="margin-top:20px"><h2>En la práctica</h2>
-        ${uses?`<p>Aparece en <b>${uses}</b> equipo${uses>1?'s':''} recomendado${uses>1?'s':''} de pruebas, duelos o batalla limitada.</p>`:''}
+    ${(()=>{ const tr = (DB.guides.training||[]).find(t=>t.id===p.id); const uses = usageCount(p.id); const ev = (DB.guides.evaluations||{})[p.id];
+      return (tr || uses || ev) ? `<section class="panel block" style="margin-top:20px"><h2>En la práctica</h2>
+        ${ev?`<div class="stat-row" style="margin-bottom:10px"><div><div class="kv">Duelos</div><div class="num">${esc(ev.pvp||'—')}</div></div><div><div class="kv">Pruebas</div><div class="num">${esc(ev.trial||'—')}</div></div><div><div class="kv">Equipos recomendados</div><div class="num">${ev.uses??uses}</div></div></div>${ev.summary?`<p>${esc(ev.summary)}</p>`:''}`:''}
+        ${uses&&!ev?`<p>Aparece en <b>${uses}</b> equipo${uses>1?'s':''} recomendado${uses>1?'s':''} de pruebas, duelos o batalla limitada.</p>`:''}
         ${tr?`<h3 style="margin-top:12px;font-family:var(--body);font-style:normal;font-size:1rem">Entrenamiento recomendado</h3><p style="margin-top:6px">${pickTags(tr.picks)}</p>${trainingMeta(tr)}${tr.note?`<p style="margin-top:8px">${esc(tr.note)}</p>`:''}<p class="note">Las marcadas con ★ son las más importantes.</p>`:''}</section>` : ''; })()}
     ${variants.length ? `<section class="section" aria-labelledby="h-var"><div class="section-head"><div><h2 id="h-var">Otras versiones de ${esc(dn(p))}</h2><p>El mismo personaje con otro equipo, posición o rareza.</p></div></div><div class="grid">${variants.map((p,i)=>card(p,i)).join('')}</div></section>` : ''}
   </div>`;
@@ -1367,19 +1398,33 @@ function openSlotPicker(i){
    VISTA: TIER LIST OFICIAL
    ========================================================= */
 function viewTier(r){
-  setTitle('Tier list por posición');
+  setTitle('Tier list');
+  const tipo = r.q.get('tipo') === 'duelos' && DB.guides.tierPvp ? 'duelos' : 'general';
+  const chip = p => `<a class="tchip" href="#/jugador/${p.id}" data-el="${p.el}">${portrait(p)}<b>${esc(dn(p))}</b><small>${esc(p.team)} ${starStr(p.stars)}</small></a>`;
+  const tipos = DB.guides.tierPvp ? `<div class="seg" role="group" aria-label="Tipo de tier list" style="margin-bottom:12px"><a class="chip" href="#/tier-list" aria-pressed="${tipo==='general'}" style="border-radius:0;border:0">General por posición</a><a class="chip" href="#/tier-list?tipo=duelos" aria-pressed="${tipo==='duelos'}" style="border-radius:0;border:0">Duelos</a></div>` : '';
+  if (tipo === 'duelos'){
+    const T = DB.guides.tierPvp, pos = POS[r.q.get('pos')] ? r.q.get('pos') : '';
+    app.innerHTML = `<div class="wrap">
+      <header class="page-head"><h1>Tier list de duelos</h1><p>${esc(T.note)}</p></header>
+      ${tipos}
+      <div class="tabs" role="group" aria-label="Posición">${['',...POS_ORDER].map(p=>`<a class="chip" href="#/tier-list?tipo=duelos${p?'&pos='+p:''}" aria-pressed="${p===pos}">${p?POS_PL[p]:'Todas'}</a>`).join('')}</div>
+      <p class="muted" style="margin-bottom:12px">Versión ${esc(T.version)}, actualizada el ${dfDay.format(new Date(T.updated))}.</p>
+      ${Object.entries(T.tiers).map(([k,ids])=>`<div class="tier" data-t="${k}"><div class="tier-label">${k}</div><div class="tier-items">${ids.map(id=>DB.byId.get(id)).filter(p=>p && (!pos||p.pos===pos)).map(chip).join('')}</div></div>`).join('')}
+    </div>`;
+    return;
+  }
   const pos = POS[r.q.get('pos')] ? r.q.get('pos') : 'GK';
   const t = DB.tiers[pos];
   const ranked = t ? new Set(Object.values(t.tiers).flat()) : new Set();
   const unranked = t ? DB.players.filter(p=>p.pos===pos && !ranked.has(p.id)) : [];
-  const chip = p => `<a class="tchip" href="#/jugador/${p.id}" data-el="${p.el}">${portrait(p)}<b>${esc(dn(p))}</b><small>${esc(p.team)} ${starStr(p.stars)}</small></a>`;
   app.innerHTML = `<div class="wrap">
     <header class="page-head"><h1>Tier list</h1><p>Ranking por posición. Debajo de cada nombre ves el equipo y las estrellas, para distinguir las distintas versiones de un mismo personaje.</p></header>
+    ${tipos}
     <div class="tabs" role="tablist" aria-label="Posición">${POS_ORDER.map(p=>`<a class="chip" role="tab" href="#/tier-list?pos=${p}" aria-selected="${p===pos}" aria-pressed="${p===pos}">${POS_PL[p]}</a>`).join('')}</div>
     ${t ? `<p class="muted" style="margin-bottom:12px">Actualizada el ${dfDay.format(new Date(t.updated))}.</p>
       ${TIERS.map(k=>`<div class="tier" data-t="${k}"><div class="tier-label">${k}</div><div class="tier-items">${(t.tiers[k]||[]).map(id=>DB.byId.get(id)).filter(Boolean).map(chip).join('')}</div></div>`).join('')}
       ${unranked.length?`<div class="tier" data-t="pool"><div class="tier-label">Pendientes de valorar</div><div class="tier-items">${unranked.map(chip).join('')}</div></div>`:''}`
-      : emptyState(`Aún no hay clasificación de ${POS_PL[pos].toLowerCase()} en los datos cargados`, 'Aparecerá aquí en cuanto la API la incluya. Mientras tanto puedes hacer la tuya.', '<a class="btn btn-ghost btn-sm" href="#/mi-tier-list">Crear mi tier list</a>')}
+      : emptyState(`Aún no hay clasificación de ${POS_PL[pos].toLowerCase()} en los datos cargados`, 'Aparecerá aquí en cuanto se actualicen los datos. Mientras tanto puedes hacer la tuya.', '<a class="btn btn-ghost btn-sm" href="#/mi-tier-list">Crear mi tier list</a>')}
   </div>`;
 }
 
@@ -1535,7 +1580,35 @@ function openPalette(){
 /* =========================================================
    MI COLECCIÓN (jugadores que tienes y nivel de despertar)
    ========================================================= */
-const AWAKEN_MAX = 10; // Ajusta si el juego tiene otro máximo de despertar.
+/* Rangos de despertar. «stage» es el número que usan los datos («Despertar 8», «Despertar 9»). */
+const RANKS = [
+  { stage:6,  name:'GROWING PLAYER',     short:'GP',  how:'Rango inicial' },
+  { stage:7,  name:'GROWING PLAYER+',    short:'GP+', how:'1 despertar' },
+  { stage:8,  name:'ADVANCED PLAYER',    short:'AP',  how:'2 despertares' },
+  { stage:9,  name:'ADVANCED PLAYER+',   short:'AP+', how:'100 gemas de su elemento' },
+  { stage:10, name:'TOP PLAYER',         short:'TP',  how:'3 despertares' },
+  { stage:11, name:'TOP PLAYER+',        short:'TP+', how:'5 despertares' },
+  { stage:12, name:'LEGENDARY PLAYER',   short:'LP',  how:'600 gemas de su elemento' },
+  { stage:13, name:'LEGENDARY PLAYER+',  short:'LP+', how:'7 despertares (rango máximo)' }
+];
+const RANK_MIN = RANKS[0].stage, AWAKEN_MAX = RANKS[RANKS.length-1].stage;
+/* ★1 y ★2 tienen otro camino: suben con gemas de su elemento y terminan con despertares. */
+const RANKS_BY_STARS = {
+  3: RANKS,
+  2: [ { stage:6,  name:'Rango inicial',      short:'—',   how:'Al conseguirlo' },
+       { stage:9,  name:'ADVANCED PLAYER+',   short:'AP+', how:'120 gemas de su elemento' },
+       { stage:12, name:'LEGENDARY PLAYER',   short:'LP',  how:'200 gemas de su elemento' },
+       { stage:13, name:'LEGENDARY PLAYER+',  short:'LP+', how:'15 despertares (rango máximo)', awakenings:15 } ],
+  1: [ { stage:6,  name:'Rango inicial',      short:'—',   how:'Al conseguirlo' },
+       { stage:12, name:'LEGENDARY PLAYER',   short:'LP',  how:'200 gemas de su elemento' },
+       { stage:13, name:'LEGENDARY PLAYER+',  short:'LP+', how:'20 despertares (rango máximo)', awakenings:20 } ]
+};
+const ranksFor = p => RANKS_BY_STARS[p?.stars] || RANKS;
+// Rango alcanzado: el último de su lista cuyo número no supera el guardado
+function rankOf(st, p){ const l = ranksFor(p); let r = l[0]; l.forEach(x => { if (x.stage <= st) r = x; }); return r; }
+// Rango en el que se desbloquea algo que pide el número n
+function rankNeeded(n, p){ return ranksFor(p).find(x => x.stage >= n) || ranksFor(p).at(-1); }
+function stepRank(id, d){ const p = DB.byId.get(id), m = mine(id); if (!m) return; const l = ranksFor(p); const i = l.indexOf(rankOf(m.aw, p)); const j = Math.max(0, Math.min(l.length-1, i + d)); m.aw = l[j].stage; if (m.aw < 13) m.dk = Math.min(m.dk||0, 0); store.set('owned', owned); }
 let owned = store.get('owned', {}); // { id: nivelDeDespertar }
 const isOwned = id => Object.prototype.hasOwnProperty.call(owned, id);
 function setOwned(id, val){
@@ -1558,7 +1631,7 @@ function viewCollection(r){
       <section class="panel block"><h2>Progreso</h2>
         <div class="stat-row"><div><div class="kv">Jugadores conseguidos</div><div class="num"><span data-count="${have}">${have}</span> <span class="muted" style="font-size:1.1rem">de ${total}</span></div></div><div><div class="kv">Completado</div><div class="num">${Math.round(have/total*100)} %</div></div></div>
         <div style="margin-top:14px;display:grid;gap:10px">${byStars.map(x=>`<div><div style="display:flex;justify-content:space-between;font-size:.9rem"><span class="stars">${starStr(x.s)}</span><span>${x.have} de ${x.all}</span></div>${bar(x.have,x.all)}</div>`).join('')}</div>
-        <div class="actions"><button class="btn btn-ghost btn-sm" data-act="col-export">Descargar copia de seguridad</button><label class="btn btn-ghost btn-sm" style="cursor:pointer">Restaurar copia<input type="file" accept="application/json" id="col-import" class="sr-only"></label></div>
+        <div class="actions"><a class="btn btn-sm" href="#/jugadores?modo=coleccion">Añadir jugadores tocando</a><button class="btn btn-ghost btn-sm" data-act="col-export">Descargar copia de seguridad</button><label class="btn btn-ghost btn-sm" style="cursor:pointer">Restaurar copia<input type="file" accept="application/json" id="col-import" class="sr-only"></label></div>
       </section>
       <section class="panel block"><h2>Por equipo</h2>
         <div style="display:grid;gap:9px;max-height:300px;overflow:auto;padding-right:6px">${teams.map(x=>`<div><div style="display:flex;justify-content:space-between;font-size:.9rem"><a href="#/jugadores?team=${encodeURIComponent(x.t)}">${esc(x.t)}</a><span>${x.have} de ${x.all}</span></div>${bar(x.have,x.all)}</div>`).join('')}</div>
@@ -1571,7 +1644,7 @@ function viewCollection(r){
     ${list.length ? `<div class="tablewrap"><table><caption class="sr-only">Colección</caption><thead><tr><th>Jugador</th><th>Equipo</th><th>Posición</th><th>Elemento</th><th>Estrellas</th><th>¿Lo tengo?</th><th>Tu versión</th></tr></thead><tbody>
       ${list.map(p=>`<tr><td>${miniLink(p)}</td><td>${esc(p.team)}</td><td><span class="pos">${p.pos}</span></td><td>${elTag(p.el)}</td><td><span class="stars">${starStr(p.stars)}</span></td>
         <td><button class="chip" data-act="own" data-id="${p.id}" aria-pressed="${isOwned(p.id)}">${isOwned(p.id)?'Lo tengo':'No lo tengo'}</button></td>
-        <td>${isOwned(p.id)?`<span style="display:inline-flex;align-items:center;gap:6px"><button class="iconbtn" style="height:32px;min-width:32px" data-act="awk" data-d="-1" data-id="${p.id}" aria-label="Bajar despertar de ${esc(dn(p))}">−</button><b class="num" style="min-width:2ch;text-align:center">${mine(p.id).aw}</b><button class="iconbtn" style="height:32px;min-width:32px" data-act="awk" data-d="1" data-id="${p.id}" aria-label="Subir despertar de ${esc(dn(p))}">+</button><button class="btn btn-ghost btn-sm" data-act="mine-edit" data-id="${p.id}">Nivel y técnicas</button></span><small class="muted" style="display:block;margin-top:4px">${esc(mineSummary(p))}</small>`:'<span class="muted">—</span>'}</td></tr>`).join('')}
+        <td>${isOwned(p.id)?`<span style="display:inline-flex;align-items:center;gap:6px"><button class="iconbtn" style="height:32px;min-width:32px" data-act="awk" data-d="-1" data-id="${p.id}" aria-label="Bajar rango de ${esc(dn(p))}">−</button><b class="num" style="min-width:3ch;text-align:center" title="${rankOf(mine(p.id).aw, p).name}">${rankOf(mine(p.id).aw, p).short}</b><button class="iconbtn" style="height:32px;min-width:32px" data-act="awk" data-d="1" data-id="${p.id}" aria-label="Subir rango de ${esc(dn(p))}">+</button><button class="btn btn-ghost btn-sm" data-act="mine-edit" data-id="${p.id}">Nivel y técnicas</button></span><small class="muted" style="display:block;margin-top:4px">${esc(mineSummary(p))}</small>`:'<span class="muted">—</span>'}</td></tr>`).join('')}
     </tbody></table></div>` : emptyState(filter==='tengo'?'Aún no has marcado ningún jugador':'¡Los tienes todos!', filter==='tengo'?'Pulsa «No lo tengo» en la lista completa para añadirlos a tu colección.':'No te falta ninguno con este filtro.', filter==='tengo'?`<a class="btn btn-ghost btn-sm" href="${link('todos',pos)}">Ver todos los jugadores</a>`:'')}
   </div>`;
   $('#col-import').addEventListener('change', async e => {
@@ -1928,7 +2001,14 @@ function viewGuide(){
     </section>
 
     <section class="article" id="g-club"><h2>Pruebas de club</h2>
-      <p>Cuando los miembros del club completan sus misiones se acumulan puntos, y al llegar al límite aparece un jefe que hay que derrotar entre todos. Puedes atacarlo tres veces al día, y cada jugador que uses queda bloqueado hasta el día siguiente, así que reparte tus mejores equipos entre los tres intentos. Al vencerlo se reciben registros del club, que se canjean en su tienda por objetos y almas de despertar.</p>
+      ${(()=>{ const c = DB.guides.clubTrial; if (!c) return '<p>Cuando los miembros del club completan sus misiones aparece un jefe. Puedes atacarlo tres veces al día y cada jugador que uses queda bloqueado hasta el día siguiente.</p>';
+        return `<ul class="bullets">${(c.rules||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+        <p>${esc(c.intro)}</p>
+        <div class="tablewrap" style="margin-top:12px;max-width:420px"><table><caption class="sr-only">Ventaja contra el jefe</caption><thead><tr><th>Elemento del jefe</th><th>Usa técnicas de</th></tr></thead><tbody>${c.advantage.map(([a,b])=>`<tr><td>${elTag(a)}</td><td>${elTag(b)}</td></tr>`).join('')}</tbody></table></div>
+        <h3 class="sub">Cómo montar cada grupo de cinco</h3><ol class="steps">${c.steps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>
+        <h3 class="sub">Ejemplo contra un jefe de Fuego</h3><p class="note">Tres grupos sin repetir jugadores. El número es el orden de uso.</p>
+        <div class="recs" style="margin-top:10px">${c.teams.map((t,k)=>`<article class="panel rec" style="--i:${k}"><header class="rec-head"><span class="rank num">${k+1}</span><div><h3>${esc(t.title)}</h3><div class="meta-row"><span class="tag">${chainsOf(t.lineup)} cadenas</span></div></div></header><p class="rec-note">${esc(t.note)}</p>${lineupHtml(t.lineup, t.boss, 'ataque')}</article>`).join('')}</div>
+        ${creditLine('clubTrial')}`; })()}
     </section>
 
     <section class="article" id="g-tp"><h2>TP y supertécnicas</h2>
@@ -1942,13 +2022,33 @@ function viewGuide(){
     </section>
 
     <section class="article" id="g-limitada"><h2>Batalla limitada</h2>
-      <p>Modo por pisos con equipos de cinco jugadores organizados por grupos. Se abre al superar el partido 5 del capítulo 3. Planifica alternativas para cada puesto, porque no siempre tendrás disponible al jugador ideal.</p>
-      ${guideEntries(DB.guides.limited) || '<p class="note">Los equipos recomendados por grupo aparecerán aquí en cuanto se añadan a los datos.</p>'}
+      <p>Batallas de dificultad alta en las que solo puedes usar jugadores de un grupo concreto, con equipos de cinco. Se abre al superar el partido 5 del capítulo 3.</p>
+      ${DB.guides.limitedIntro ? `<h3 class="sub">Antes de empezar</h3><ol class="steps">${DB.guides.limitedIntro.checks.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>` : ''}
+      ${(DB.guides.limited||[]).length ? `<nav class="toc" style="margin-top:14px" aria-label="Grupos">${DB.guides.limited.map((t,i)=>`<a class="chip" href="#/guia" data-goto="lim-${i}">${esc(t.title)}</a>`).join('')}</nav>
+        <div class="recs" style="margin-top:12px">${DB.guides.limited.map((t,i)=>`<article class="panel rec" id="g-lim-${i}" style="--i:${i};scroll-margin-top:90px">
+          <header class="rec-head"><div><h3>${esc(t.title)}</h3><div class="meta-row"><span class="tag">${esc(t.shape)}</span></div></div></header>
+          <p class="rec-note">${esc(t.text)}</p>
+          <div class="squad">${t.squad.map(([id,pos])=>{ const p = DB.byId.get(id); return p ? `<a class="tchip" href="#/jugador/${p.id}" data-el="${p.el}">${portrait(p)}<b>${esc(dn(p))}</b><small>${pos} ${starStr(p.stars)}${isOwned(p.id)||!Object.keys(owned).length?'':', no lo tienes'}</small></a>` : ''; }).join('')}</div>
+          ${t.proof?`<p class="note">${esc(t.proof)}</p>`:''}
+          <details class="pvp-more"><summary>Cómo jugarlo, manuales y suplentes</summary>
+            ${(t.tips||[]).length?`<h4>Cómo jugarlo</h4><ol class="steps">${t.tips.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`:''}
+            ${(t.manuals||[]).length?`<h4>Manuales recomendados</h4>${t.manuals.map(([a,b,c])=>`<p><b>${esc(a)} → ${esc(b)}</b>: ${esc(c)}</p>`).join('')}`:''}
+            ${(t.alts||[]).length?`<h4>Suplentes</h4>${t.alts.map(([ids,txt])=>`<p><b>${ids.map(id=>esc(dn(DB.byId.get(id)))).join(', ')}</b>: ${esc(txt)}</p>`).join('')}`:''}
+            ${(t.floors||[]).length?`<h4>Pisos difíciles</h4>${t.floors.map(([f,txt])=>`<p><b>Piso ${esc(f)}</b>: ${esc(txt)}</p>`).join('')}`:''}
+          </details></article>`).join('')}</div>${creditLine('limited')}` : ''}
     </section>
 
     <section class="article" id="g-simulador"><h2>Cross Simulator</h2>
-      <p>Modo de progresión por etapas que da materiales para mejorar a tus jugadores. Las etapas altas exigen un equipo equilibrado entre ataque y defensa; si te atascas, revisa la formación y las pasivas en el creador antes de subir más niveles.</p>
-      ${guideEntries(DB.guides.crossSim) || '<p class="note">Los consejos por tramo de etapas aparecerán aquí en cuanto se añadan a los datos.</p>'}
+      ${(()=>{ const c = DB.guides.crossSim; if (!c || Array.isArray(c)) return '<p>Modo de progresión por etapas que da materiales para mejorar a tus jugadores.</p>';
+        return `${c.intro.map(x=>`<p>${esc(x)}</p>`).join('')}
+        <h3 class="sub">Referencias a partir de la etapa 600</h3><ul class="checks">${c.goals.map(([a,b])=>`<li><span class="st ok" aria-hidden="true">!</span><span><b>${esc(a)}</b> ${esc(b)}</span></li>`).join('')}</ul>
+        <h3 class="sub">Dos versiones del 5-3-2 según tu portero</h3>
+        <div class="recs" style="margin-top:10px">${c.teams.map((t,k)=>{ const coach = DB.coaches.find(x=>x.id===t.coach); return `<article class="panel rec" style="--i:${k}"><header class="rec-head"><div><h3>${esc(t.title)}</h3><div class="meta-row">${coach?`<span class="tag">${esc(coachName(coach))}, ${esc(coach.formation)}</span>`:''}<span class="tag">${esc(t.shape)}</span></div></div></header>
+          <p class="rec-note">${esc(t.note)}</p>
+          <div class="squad">${t.slots.filter(Boolean).map(id=>DB.byId.get(id)).filter(Boolean).map(p=>`<a class="tchip" href="#/jugador/${p.id}" data-el="${p.el}">${portrait(p)}<b>${esc(dn(p))}</b><small>${p.pos}</small></a>`).join('')}</div>
+          <button class="btn btn-sm" data-act="cs-open" data-rec="${k}">Abrir en el creador de formaciones</button></article>`; }).join('')}</div>
+        ${c.points.map(([h,x])=>`<h3 class="sub">${esc(h)}</h3><p>${esc(x)}</p>`).join('')}
+        ${creditLine('crossSim')}`; })()}
     </section>
 
     <section class="article" id="g-entreno"><h2>Entrenamiento de pasivas</h2>
@@ -1956,13 +2056,13 @@ function viewGuide(){
       ${training.length ? `<div class="tablewrap" style="margin-top:14px"><table><caption class="sr-only">Entrenamiento recomendado</caption><thead><tr><th>Jugador</th><th>Efectos recomendados</th><th>Motivo</th></tr></thead><tbody>${training.map(t=>`<tr><td>${miniLink(t.p)}</td><td style="white-space:normal;min-width:200px">${pickTags(t.picks)}${trainingMeta(t)}</td><td style="white-space:normal;min-width:260px">${esc(t.note||'')}</td></tr>`).join('')}</tbody></table></div>` : '<p class="note">Las recomendaciones por jugador aparecerán aquí y en cada ficha en cuanto se añadan a los datos.</p>'}
     </section>
     ${creditLine('training')}
-    <p class="note" style="margin-top:28px">Contenido elaborado a partir de inacross-guide.com, de Tesla (@tsla_game), incluido con su permiso, y contrastado con otras guías de la comunidad como Game8. Comprueba siempre los avisos del juego, porque los horarios y las reglas pueden cambiar.</p>
+    <p class="note" style="margin-top:28px">Comprueba siempre los avisos del juego, porque los horarios y las reglas pueden cambiar.</p>
   </div>`;
   $('#daily').addEventListener('change', e => { const c = e.target.closest('[data-task]'); if (!c) return;
     let d = store.get('daily-done', {}); if (d.day !== day) d = { day, ids:[] };
     d.ids = c.checked ? [...new Set([...d.ids, c.dataset.task])] : d.ids.filter(x=>x!==c.dataset.task); store.set('daily-done', d);
     if (c.checked) popEl(c.closest('li')); render(); });
-  app.onclick = e => { const g = e.target.closest('[data-goto]'); if (g){ e.preventDefault(); $('#g-'+g.dataset.goto)?.scrollIntoView({ behavior: reducedMotion()?'auto':'smooth' }); } };
+  app.onclick = e => { const g = e.target.closest('[data-goto]'); if (g){ e.preventDefault(); const el = $('#g-'+g.dataset.goto); if (el && el.tagName==='ARTICLE') popEl(el); el?.scrollIntoView({ behavior: reducedMotion()?'auto':'smooth' }); } };
 }
 
 /* Hoja «Más» para el móvil */
@@ -2014,16 +2114,27 @@ const MAX_LEVEL = 440, TECH_MAX = 10;
 const mine = id => isOwned(id) ? owned[id] : null;
 function migrateOwned(){
   let changed = false;
-  Object.keys(owned).forEach(k => { if (typeof owned[k] === 'number'){ owned[k] = { aw:owned[k], lv:MAX_LEVEL, tl:[] }; changed = true; } });
+  Object.keys(owned).forEach(k => {
+    if (typeof owned[k] === 'number'){ owned[k] = { aw:owned[k], lv:MAX_LEVEL, tl:[] }; changed = true; }
+    // Versión 2: el despertar pasa a ser el rango (GROWING PLAYER = 6 … LEGENDARY PLAYER+ = 13)
+    if (owned[k].rv !== 2){ owned[k].aw = Math.min(AWAKEN_MAX, RANK_MIN + (owned[k].aw || 0)); owned[k].rv = 2; changed = true; }
+  });
   if (changed) store.set('owned', owned);
 }
-function setAw(id, aw){ const m = mine(id); if (!m) return; m.aw = Math.max(0, Math.min(AWAKEN_MAX, aw)); store.set('owned', owned); }
+function setAw(id, aw){ const m = mine(id); if (!m) return; m.aw = Math.max(RANK_MIN, Math.min(AWAKEN_MAX, aw)); store.set('owned', owned); }
+const nuevoMio = () => ({ aw:RANK_MIN, lv:MAX_LEVEL, tl:[], rv:2 });
+function unlockLabel(x, p){ const n = unlockNum(x.unlock); if (/despertar/i.test(x.unlock)) return `Se desbloquea en ${rankNeeded(n, p).name}`; const { tope, max } = pasivaNivel(x); return `Sube cada 30 niveles y llega al nivel ${max} con el jugador al nivel ${tope}`; }
 const unlockNum = u => Number((String(u||'').match(/\d+/) || [])[0]) || 0;
+/* Pasivas de nivel: las tres suben por turnos, una cada 10 niveles del jugador (cada una, cada 30).
+   El número de los datos (411, 421, 431) es el nivel en el que llegan a su máximo. */
+function pasivaNivel(ps){ const u = unlockNum(ps.unlock); return { tope: u % 10 === 1 ? u - 1 : u, max: ps.lv || 1 }; }
+function nivelPasivaEn(ps, L){ const { tope, max } = pasivaNivel(ps); const faltan = L >= tope ? 0 : Math.ceil((tope - L) / 30); return Math.max(0, max - faltan); }
+function proximaSubida(ps, L){ const { tope } = pasivaNivel(ps); if (L >= tope) return null; return tope - 30 * Math.floor((tope - L - 1) / 30); }
 function passiveUnlocked(ps, m){
   if (!m) return null;
   const n = unlockNum(ps.unlock);
   if (/despertar/i.test(ps.unlock)) return m.aw >= n;
-  if (/nivel/i.test(ps.unlock)) return m.lv >= n;
+  if (/nivel/i.test(ps.unlock)) return nivelPasivaEn(ps, m.lv) >= 1;
   return true;
 }
 const techPowerAt = (t, lvl) => { const r = t.rows?.Poder; return r ? r[Math.max(1, Math.min(TECH_MAX, lvl)) - 1] : null; };
@@ -2052,17 +2163,21 @@ function lineupPower(lineup, mode){
 function mineSummary(p){
   const m = mine(p.id); if (!m) return '';
   const tl = (p.detail?.techniques||[]).map((t,i)=>myTechLevel(p,i));
-  return `Despertar ${m.aw}, nivel ${m.lv}${tl.length?`, técnicas ${tl.join(' y ')}`:''}`;
+  return `${rankOf(m.aw, p).name}${m.dk && m.aw < 13 ? ` (${m.dk} despertares)` : ''}, nivel ${m.lv}${tl.length?`, técnicas ${tl.join(' y ')}`:''}`;
 }
 function openMineEditor(id){
   const p = DB.byId.get(id); if (!p) return;
-  if (!isOwned(id)) setOwned(id, { aw:0, lv:MAX_LEVEL, tl:[] });
+  if (!isOwned(id)) setOwned(id, nuevoMio());
   const m = mine(id); const ts = p.detail?.techniques || [];
   openDialog(`<div class="dialog-head"><h2 style="font-size:1.4rem">Tu ${esc(dn(p))}</h2><p class="note" style="margin:0">${esc(p.team)}, ${POS[p.pos].toLowerCase()} de ${EL[p.el]}. Ajusta cómo lo tienes en el juego y la web calculará con estos datos.</p></div>
     <div class="dialog-list" style="padding:16px;display:grid;gap:18px" id="me">
-      <div class="stepper-row"><span><b>Despertar</b><small>De 0 a ${AWAKEN_MAX}</small></span>
-        <span class="stepper"><button class="iconbtn" data-st="aw" data-d="-1" aria-label="Bajar despertar">−</button><output id="me-aw" class="num">${m.aw}</output><button class="iconbtn" data-st="aw" data-d="1" aria-label="Subir despertar">+</button></span></div>
-      <label class="slider-row"><span><b>Nivel del jugador</b><small>Desbloquea pasivas y técnicas</small></span>
+      <fieldset class="setting"><legend>Rango de despertar</legend>
+        <div class="ranks">${ranksFor(p).map(r=>`<label class="radio rank"><input type="radio" name="me-rank" value="${r.stage}" ${rankOf(m.aw, p)===r?'checked':''}><span><b>${r.name}</b><small>${r.how}</small></span></label>`).join('')}</div>
+        ${p.stars < 3 ? `<div class="stepper-row" id="me-dk-row" ${rankOf(m.aw, p).stage>=12?'':'hidden'}><span><b>Despertares hechos</b><small>Tras LEGENDARY PLAYER: con ${ranksFor(p).at(-1).awakenings} llega a LEGENDARY PLAYER+</small></span>
+          <span class="stepper"><button class="iconbtn" data-dk="-1" aria-label="Quitar un despertar">−</button><output id="me-dk" class="num">${m.aw>=13?ranksFor(p).at(-1).awakenings:(m.dk||0)}</output><button class="iconbtn" data-dk="1" aria-label="Añadir un despertar">+</button></span></div>` : ''}
+        <p class="note">Las pasivas de despertar se desbloquean en ${[...new Set((p.detail?.passives||[]).filter(x=>/despertar/i.test(x.unlock)).map(x=>rankNeeded(unlockNum(x.unlock), p).name))].join(' y ') || 'los rangos indicados'}.</p>
+      </fieldset>
+      <label class="slider-row"><span><b>Nivel del jugador</b><small>Sube las pasivas de nivel (una cada 10 niveles) y desbloquea técnicas</small></span>
         <input type="range" min="1" max="${MAX_LEVEL}" value="${m.lv}" id="me-lv"><input type="number" min="1" max="${MAX_LEVEL}" value="${m.lv}" id="me-lvn" class="numbox" aria-label="Nivel exacto"></label>
       ${ts.length ? ts.map((t,i)=>`<label class="slider-row"><span><b>${esc(t.name)}</b><small>Nivel de la técnica. Se desbloquea al nivel ${t.unlock} del jugador.</small></span>
         <input type="range" min="1" max="${TECH_MAX}" value="${m.tl?.[i]||1}" data-tl="${i}"><output class="num" data-tlo="${i}">${m.tl?.[i]||1}</output></label>`).join('')
@@ -2074,17 +2189,25 @@ function openMineEditor(id){
       const ps = p.detail?.passives || [];
       const on = ps.filter(x => passiveUnlocked(x, m)).length;
       const techs = ts.map((t,i)=>{ const pw = techPowerAt(t, m.tl?.[i]||1); return `${esc(t.name)}: ${m.lv >= t.unlock ? `poder <b>${pw ?? '—'}</b> de ${techPowerAt(t,TECH_MAX) ?? '—'}` : `bloqueada hasta el nivel ${t.unlock}`}`; });
-      $('#me-sum', dlg).innerHTML = `${ps.length?`<p><b>${on} de ${ps.length}</b> pasivas desbloqueadas.</p>`:''}${techs.map(x=>`<p style="margin-top:4px">${x}</p>`).join('')}` || '<p class="muted">Sin datos de pasivas ni técnicas todavía.</p>';
+      const nivs = ps.filter(x=>!/despertar/i.test(x.unlock)).map(x=>`${nivelPasivaEn(x, m.lv)}/${pasivaNivel(x).max}`);
+      $('#me-sum', dlg).innerHTML = `${ps.length?`<p><b>${on} de ${ps.length}</b> pasivas activas. Niveles de las pasivas de nivel: ${nivs.join(', ')}.</p>`:''}${techs.map(x=>`<p style="margin-top:4px">${x}</p>`).join('')}` || '<p class="muted">Sin datos de pasivas ni técnicas todavía.</p>';
     };
     const save = () => { store.set('owned', owned); };
     sum();
     dlg.addEventListener('click', e => {
-      const s = e.target.closest('[data-st="aw"]'); if (s){ m.aw = Math.max(0, Math.min(AWAKEN_MAX, m.aw + Number(s.dataset.d))); $('#me-aw', dlg).textContent = m.aw; save(); sum(); popEl($('#me-aw', dlg)); }
+
       if (e.target.closest('[data-act="me-done"]')){ save(); closeDialog(); render(); toast('Guardado en tu colección'); }
       if (e.target.closest('[data-act="me-remove"]')){ setOwned(id, null); closeDialog(); render(); toast('Quitado de tu colección'); }
     });
+    const maxDk = ranksFor(p).at(-1).awakenings || 0;
+    const syncDk = () => { const row = $('#me-dk-row', dlg); if (!row) return; row.hidden = m.aw < 12; $('#me-dk', dlg).textContent = m.aw >= 13 ? maxDk : (m.dk || 0); };
+    dlg.addEventListener('change', e => { if (e.target.name === 'me-rank'){ m.aw = Number(e.target.value); if (m.aw < 13) m.dk = m.aw >= 12 ? (m.dk||0) : 0; save(); sum(); syncDk(); popEl(e.target.closest('.rank')); } });
+    dlg.addEventListener('click', e => { const b = e.target.closest('[data-dk]'); if (!b) return;
+      const cur = m.aw >= 13 ? maxDk : (m.dk || 0), v = Math.max(0, Math.min(maxDk, cur + Number(b.dataset.dk)));
+      m.dk = v; m.aw = v >= maxDk ? 13 : 12; save(); sum(); syncDk(); $$('input[name="me-rank"]', dlg).forEach(x => x.checked = Number(x.value) === rankOf(m.aw, p).stage); popEl($('#me-dk', dlg)); });
     dlg.addEventListener('input', e => {
       if (e.target.id === 'me-lv' || e.target.id === 'me-lvn'){ m.lv = Math.max(1, Math.min(MAX_LEVEL, Number(e.target.value)||1)); $('#me-lv', dlg).value = m.lv; if (e.target.id==='me-lv') $('#me-lvn', dlg).value = m.lv; }
+      if (e.target.name === 'me-rank') return;
       if (e.target.dataset.tl != null){ const i = Number(e.target.dataset.tl); m.tl = m.tl || []; m.tl[i] = Number(e.target.value); $(`[data-tlo="${i}"]`, dlg).textContent = e.target.value; }
       save(); sum();
     });
@@ -2095,11 +2218,14 @@ function myVersionPanel(p){
   if (!m) return `<section class="panel block" style="margin-top:20px"><h2>Tu versión</h2><p class="muted">Márcalo como tuyo e indica su despertar, su nivel y el de sus técnicas para ver qué pasivas tienes desbloqueadas y cuánto rinden tus técnicas.</p><button class="btn btn-sm" style="margin-top:12px" data-act="mine-edit" data-id="${p.id}">Lo tengo: indicar cómo</button></section>`;
   const ps = d?.passives || [], ts = d?.techniques || [];
   return `<section class="panel block" style="margin-top:20px" aria-labelledby="h-mine"><div class="section-head" style="margin-bottom:10px"><h2 id="h-mine">Tu versión</h2><button class="btn btn-ghost btn-sm" data-act="mine-edit" data-id="${p.id}">Editar</button></div>
-    <div class="stat-row"><div><div class="kv">Despertar</div><div class="num">${m.aw}</div></div><div><div class="kv">Nivel</div><div class="num">${m.lv}</div></div>${ps.length?`<div><div class="kv">Pasivas activas</div><div class="num">${ps.filter(x=>passiveUnlocked(x,m)).length}/${ps.length}</div></div>`:''}</div>
+    <div class="stat-row"><div><div class="kv">Rango</div><div class="num" style="font-size:1.3rem">${rankOf(m.aw, p).name}</div></div><div><div class="kv">Nivel</div><div class="num">${m.lv}</div></div>${ps.length?`<div><div class="kv">Pasivas activas</div><div class="num">${ps.filter(x=>passiveUnlocked(x,m)).length}/${ps.length}</div></div>`:''}</div>
     ${ts.length ? `<h3 style="margin:16px 0 8px;font-family:var(--body);font-style:normal;font-size:1rem">Tus técnicas</h3><ul class="checks">${ts.map((t,i)=>{ const lv = myTechLevel(p,i), ok = m.lv >= t.unlock, pw = techPowerAt(t,lv), mx = techPowerAt(t,TECH_MAX);
       return `<li><span class="st ${ok?'ok':'no'}" aria-hidden="true">${ok?lv:'×'}</span><span><b>${esc(t.name)}</b>: ${ok ? `nivel ${lv}, poder ${pw ?? '—'}${mx&&pw!==mx?` (al máximo, ${mx}: te faltan ${mx-pw})`:', al máximo'}` : `se desbloquea al nivel ${t.unlock}; te faltan ${t.unlock - m.lv} niveles`}</span></li>`; }).join('')}</ul>` : ''}
     ${ps.length ? `<h3 style="margin:16px 0 8px;font-family:var(--body);font-style:normal;font-size:1rem">Tus pasivas</h3><ul class="checks">${ps.map(x=>{ const ok = passiveUnlocked(x,m), n = unlockNum(x.unlock), byAw = /despertar/i.test(x.unlock);
-      return `<li><span class="st ${ok?'ok':'no'}" aria-hidden="true">${ok?'✓':'×'}</span><span><b>${esc(x.name)}</b>${ok?'':`: te ${byAw ? `faltan ${n - m.aw} despertares` : `faltan ${n - m.lv} niveles`}`}</span></li>`; }).join('')}</ul>` : ''}
+      if (!byAw){ const nv = nivelPasivaEn(x, m.lv), { max } = pasivaNivel(x), sig = proximaSubida(x, m.lv);
+        return `<li><span class="st ${nv?'ok':'no'}" aria-hidden="true">${nv||'×'}</span><span><b>${esc(x.name)}</b>: ${nv ? `nivel ${nv} de ${max}` : 'aún sin nivel'}${sig ? `. Sube al nivel ${nv+1} cuando el jugador llegue al ${sig}.` : '. Al máximo.'}</span></li>`; }
+      return `<li><span class="st ${ok?'ok':'no'}" aria-hidden="true">${ok?'✓':'×'}</span><span><b>${esc(x.name)}</b>${ok?'':`: se desbloquea en ${rankNeeded(n, p).name} (${rankNeeded(n, p).how.toLowerCase()})`}</span></li>`; }).join('')}</ul>
+      <p class="note">Las pasivas de nivel suben por turnos, una cada 10 niveles del jugador. Los valores de su descripción son los de su nivel máximo.</p>` : ''}
     ${!d ? '<p class="note">Cuando la ficha tenga pasivas y técnicas en los datos, aquí verás cuáles tienes desbloqueadas.</p>' : ''}
   </section>`;
 }
@@ -2112,8 +2238,7 @@ function runsLabel(lineup){
 }
 const listNames = ids => { const n = ids.map(id => dn(DB.byId.get(id))).filter(Boolean); return n.length > 1 ? n.slice(0,-1).join(', ') + ' y ' + n[n.length-1] : (n[0] || ''); };
 function creditLine(kind){
-  const c = DB.guides.credits; if (!c) return '';
-  return `<p class="credit">Equipos de <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.source)}</a>, de ${esc(c.author)}, incluidos con su permiso. ${esc(c[kind] || '')}</p>`;
+  const t = DB.guides.credits?.[kind]; return t ? `<p class="credit">${esc(t)}</p>` : '';
 }
 function lineupHtml(lineup, opp, mode){
   return `<ol class="lineup">${lineup.map((m,i)=>{ const p = DB.byId.get(m.id); if (!p) return '';
@@ -2189,7 +2314,7 @@ function parseHash(){
 }
 let lastRoute = null;
 function paint(r){
-  app.onclick = null; app.onchange = null;
+  app.onclick = null; app.onchange = null; app.classList.remove('col-mode');
   (ROUTES[r.name] || viewNotFound)(r);
   $$('[data-nav]').forEach(a => a.dataset.nav===r.name ? a.setAttribute('aria-current','page') : a.removeAttribute('aria-current'));
   $$('[data-tab]').forEach(a => a.dataset.tab===r.name ? a.setAttribute('aria-current','page') : a.removeAttribute('aria-current'));
@@ -2233,11 +2358,12 @@ document.addEventListener('click', e => {
     if (i<0){ toast('Tu formación está completa. Quita a alguien primero.'); location.hash = '#/formacion'; return; }
     team.slots[i] = id; saveTeam(); toast(`${dn(p)} añadido a la casilla ${i+1}`); location.hash = '#/formacion';
   }
-  else if (act==='own'){ setOwned(id, isOwned(id) ? null : { aw:0, lv:MAX_LEVEL, tl:[] }); render(); toast(isOwned(id) ? 'Añadido a tu colección' : 'Quitado de tu colección'); }
-  else if (act==='awk'){ setAw(id, mine(id).aw + Number(a.dataset.d)); render(); }
+  else if (act==='own'){ setOwned(id, isOwned(id) ? null : nuevoMio()); render(); toast(isOwned(id) ? 'Añadido a tu colección' : 'Quitado de tu colección'); }
+  else if (act==='awk'){ stepRank(id, Number(a.dataset.d)); render(); }
   else if (act==='mine-edit') openMineEditor(id);
   else if (act==='settings') openSettings();
   else if (act==='rec-sort'){ store.set('recSortMine', !store.get('recSortMine', false)); render(); }
+  else if (act==='cs-open'){ const t = DB.guides.crossSim?.teams?.[Number(a.dataset.rec)]; if (t){ team = { coach:t.coach, coachLevel:10, slots:[...t.slots] }; saveTeam(); location.hash = '#/formacion'; toast('Formación cargada en el creador'); } }
   else if (act==='pvp-coach'){ const t = DB.guides.pvp[Number(a.dataset.rec)]; if (t){ team = { coach:t.coach || team.coach, slots:Array(11).fill(null) }; saveTeam(); location.hash = '#/formacion'; toast('Entrenador elegido: coloca ahora a los jugadores clave'); } }
   else if (act==='col-export') exportBackup();
   else if (act==='plan-mine'){ plan.mine = !plan.mine; savePlan(); render(); }

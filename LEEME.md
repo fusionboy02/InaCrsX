@@ -150,6 +150,6 @@ En la colección y en cada ficha, el usuario puede indicar el despertar, el nive
 
 Las pasivas se desbloquean leyendo el texto `unlock` de cada pasiva (`nivel 431`, `despertar 8`). El despertar máximo es `AWAKEN_MAX` y el nivel máximo `MAX_LEVEL` en `index.html`.
 
-## Contenido de inacross-guide
+## Equipos y guías
 
-Los equipos de pruebas (80 equipos: 10 por cada una de las 8 pruebas), las notas de los primeros puestos y las formaciones de duelos proceden de inacross-guide.com, de Tesla (@tsla_game), y se incluyen con su permiso; la web lo indica junto a cada sección. Los nombres de técnicas están traducidos del japonés y el original aparece al pasar el ratón; si quieres que coincidan con los nombres españoles de tus fichas, cambia `tech` en `guides.json`.
+Los equipos de pruebas, las formaciones de duelos, el entrenamiento recomendado, la batalla limitada, la Cross Simulator, las pruebas de club y las valoraciones están en `data/guides.json`. Los equipos de pruebas los actualiza el robot; el resto se edita en ese archivo.

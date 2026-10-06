@@ -5,7 +5,7 @@
      en segundo plano.
    Cambia APP_VERSION cuando publiques cambios de diseño o código: la app
    mostrará el aviso «Hay una versión nueva». Para datos no hace falta. */
-const APP_VERSION = '2026-10-05-4';
+const APP_VERSION = '2026-10-06-6';
 const SHELL = `iec-shell-${APP_VERSION}`, DATA = 'iec-data', IMG = 'iec-img';
 const SHELL_FILES = ['./', './index.html', './manifest.webmanifest', './assets/logo.jpg', './assets/hero.jpg',
   './icons/icon-180.png', './icons/icon-192.png', './icons/icon-512.png', './icons/favicon-64.png',
