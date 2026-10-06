@@ -3581,8 +3581,453 @@
    ]
   }
  ],
- "limited": [],
- "crossSim": [],
+ "limited": [
+  {
+   "group": "Raimon",
+   "shape": "2-1-1-1",
+   "title": "Raimon",
+   "text": "Ataque con Yamino y Megane, y Handa para llevar el balón arriba. En los pisos donde falte defensa, cambia a Domon por Kabeyama.",
+   "squad": [
+    [
+     1040,
+     "FW"
+    ],
+    [
+     1012,
+     "FW"
+    ],
+    [
+     1006,
+     "MF"
+    ],
+    [
+     1013,
+     "DF"
+    ],
+    [
+     1001,
+     "GK"
+    ]
+   ],
+   "proof": "Comprobado hasta el piso 60 con Megane con el despertar completo, Yamino en rango LEGENDARY PLAYER y Endou con el despertar completo.",
+   "tips": [
+    "Elige a Yamino o a Megane como goleador y no repartas los materiales de mejora entre los dos.",
+    "Corta los ataques con Handa o con los bloqueos de los DF antes de que el balón llegue a los delanteros fuertes del rival.",
+    "Si en los pisos altos no avanzas, revisa a la vez el despertar, el equipamiento y las pasivas de tiro, no solo el nivel."
+   ],
+   "manuals": [
+    [
+     "Handa y Domon",
+     "una técnica de bloqueo que funcione por el centro",
+     "En el carril central hay muchos duelos y así tienes más jugadores que corten antes del tiro."
+    ]
+   ],
+   "alts": [
+    [
+     [
+      1010,
+      1011,
+      1009
+     ],
+     "Como goleador, el delantero que tengas más mejorado. En los pisos altos mira también la afinidad de elementos."
+    ],
+    [
+     [
+      1003
+     ],
+     "Cámbialo por Domon en los pisos en los que encajes muchos goles, para reforzar el bloqueo de tiros."
+    ]
+   ],
+   "floors": [
+    [
+     "51 a 53",
+     "El elemento del portero rival cambia en cada piso, así que no te quedes solo con Megane: alterna entre Yamino, Someoka y Gouenji según la afinidad. Corta con Handa o Domon antes de que los delanteros rivales puedan tirar fuerte."
+    ],
+    [
+     "56 y 57",
+     "Base con Yamino, Megane, Handa, Domon y Endou, ajustando la colocación en cada piso. Decide antes a quién frenar y quién marca, y si la jugada se tuerce, reinicia pronto."
+    ],
+    [
+     "58",
+     "Dos delanteros en la misma línea de tiro: Yamino con Someoka o con Megane. O encadenas tiros desde Yamino, o le pones TP+ (2.ª parte) a Yamino para tirar más veces sin depender de la cadena. Usa las técnicas de Handa para robar y avanzar. En defensa, Domon debilita el tiro de Yuukoku y Endou lo para; si no aguantas, mejora antes nivel, equipamiento y entrenamiento defensivo."
+    ],
+    [
+     "59",
+     "Separa los papeles: uno gasta el TP de Tachimukai y otro marca. Repite el Tornado oscuro de Yamino hasta que Tachimukai no pueda usar sus paradas fuertes y remata con Megane o Matsuno. Matsuno además refuerza el tiro de los aliados. Si Yamino hace las dos cosas se quedará sin TP. Roba con el Barrido defensivo o el Cinto astral de Domon. Hay suerte en las técnicas del portero y en las faltas: si no tienes ocasiones, reinicia pronto."
+    ],
+    [
+     "60",
+     "Tornado oscuro de Yamino como arma principal y Megane de segundo goleador. A Handa ponle TP+ (2.ª parte) y entrenamiento de regate y bloqueo para los duelos del centro. Tras marcar, conserva el balón a través de Handa para que el rival tire menos. Domon corta pronto para que no llegue a Endou un tiro fuerte. Es más fácil marcar que en los pisos 58 y 59."
+    ]
+   ]
+  },
+  {
+   "group": "Imperius",
+   "shape": "2-1-1-1",
+   "title": "Royal Academy (Imperius)",
+   "text": "Gouenji (Imperius) y Sakuma buscan el gol, y Gojou, Oono y Genda resisten. Si Gouenji está poco mejorado, Terakado puede ocupar su lugar.",
+   "squad": [
+    [
+     10001,
+     "FW"
+    ],
+    [
+     1027,
+     "FW"
+    ],
+    [
+     1021,
+     "MF"
+    ],
+    [
+     1018,
+     "DF"
+    ],
+    [
+     1017,
+     "GK"
+    ]
+   ],
+   "proof": "Comprobado hasta el piso 60 con Terakado con el despertar completo y Sakuma en rango TOP PLAYER+.",
+   "tips": [
+    "Gouenji (Imperius) es el goleador principal; Sakuma desgasta al portero y tira cuando juega en pareja.",
+    "Las técnicas iniciales de los DF no bastan: consigue una técnica de bloqueo antes de los pisos altos.",
+    "Prioriza el despertar y las mejoras de parada de Genda, y no gastes su TP con tiros flojos del rival."
+   ],
+   "manuals": [
+    [
+     "Oono",
+     "El muro",
+     "Bloquea tiros y reduce los que llegan a Genda."
+    ],
+    [
+     "Henmi",
+     "Corte giratorio",
+     "Amplía su alcance defensivo si lo usas."
+    ],
+    [
+     "Genda",
+     "una parada de bajo coste",
+     "Para tiros flojos del rival sin gastar mucho TP."
+    ]
+   ],
+   "alts": [
+    [
+     [
+      1025
+     ],
+     "Delantero si Gouenji (Imperius) no está mejorado."
+    ],
+    [
+     [
+      1022,
+      1019,
+      1026
+     ],
+     "Para el centro o la defensa según lo que tengas. Kidou, si puedes aprovechar sus técnicas de Viento."
+    ]
+   ],
+   "floors": [
+    [
+     "51 a 60",
+     "Dale a Oono una técnica de bloqueo para ahorrar el TP de Genda. Con Gouenji (Imperius) el ataque no da problemas. Sin él, usa la pasiva de Sakuma: sus técnicas se refuerzan cuando regatea con éxito, así que si no lo consigue en el saque inicial, reinicia. Si aún falta potencia, pon a Henmi en lugar de Gojou para que su pasiva refuerce a los FW. Aquí importa mucho la potencia de los delanteros, así que también hace falta entrenamiento de pasivas."
+    ]
+   ]
+  },
+  {
+   "group": "Inazuma Japan",
+   "shape": "2-1-1-1",
+   "title": "Inazuma Japan",
+   "text": "Fubuki y Gouenji en punta, con Kazemaru, Kabeyama y Tachimukai detrás. Papeles claros y fácil de mejorar.",
+   "squad": [
+    [
+     3009,
+     "FW"
+    ],
+    [
+     3010,
+     "FW"
+    ],
+    [
+     3002,
+     "MF"
+    ],
+    [
+     3003,
+     "DF"
+    ],
+    [
+     3020,
+     "GK"
+    ]
+   ],
+   "tips": [
+    "El goleador principal es el que tenga más despertar y nivel de técnica entre Fubuki y Gouenji.",
+    "Kazemaru lleva el balón por el centro y ayuda en defensa, enlazando con los bloqueos de tiro de Kabeyama.",
+    "Si en automático usa técnicas que no quieres, juega en manual o cambia de jugador."
+   ],
+   "manuals": [
+    [
+     "Kazemaru",
+     "Corte giratorio",
+     "Asegura los robos en el centro y los duelos antes del tiro."
+    ]
+   ],
+   "alts": [
+    [
+     [
+      3018,
+      3011
+     ],
+     "Para delante o el centro. Toramaru avanza fácil su despertar en el tablón de conexiones y además refuerza a los aliados."
+    ],
+    [
+     [
+      3001
+     ],
+     "Endou también vale de portero; prioriza su parada y la potencia de sus técnicas."
+    ]
+   ]
+  },
+  {
+   "group": "Inazuma Eleven 1, grupo A",
+   "shape": "2-1-1-1",
+   "title": "Inazuma Eleven 1, grupo A",
+   "text": "El juego combinado de los hermanos Takekata da los goles, y Domon y Nata defienden. También funciona repetir tiros de poco TP para gastar el del portero rival.",
+   "squad": [
+    [
+     1152,
+     "FW"
+    ],
+    [
+     1153,
+     "FW"
+    ],
+    [
+     1154,
+     "MF"
+    ],
+    [
+     1013,
+     "DF"
+    ],
+    [
+     1078,
+     "GK"
+    ]
+   ],
+   "tips": [
+    "Kachi y Tomo delante, y Tsutomu construye desde el centro.",
+    "Si no marcas de un tiro, desgasta al portero con tiros baratos antes de usar la técnica buena.",
+    "En los pisos donde no aguantes los tiros fuertes, busca que el rival se quede sin TP con tu DF o tu portero."
+   ],
+   "manuals": [
+    [
+     "Takekata Kachi",
+     "Confusión",
+     "Pierde menos balones arriba y llega más veces al tiro."
+    ],
+    [
+     "Dio",
+     "Corte giratorio",
+     "Si lo usas, bloquea tiros desde una zona amplia."
+    ]
+   ],
+   "alts": [
+    [
+     [
+      1120,
+      1159,
+      3013,
+      1026
+     ],
+     "Para desgastar arriba o en el centro. Si gastas manuales, prioriza jugadores que también uses en otros modos."
+    ]
+   ],
+   "floors": [
+    [
+     "50",
+     "Además del equipo de los hermanos, funciona Takekata Kachi, Manga, Dio, Domon y Nata, desgastando al portero con tiros de poco TP. Si te llega un tiro fuerte, a veces es mejor reintentar que aguantar."
+    ]
+   ]
+  },
+  {
+   "group": "Inazuma Eleven 1, grupo B",
+   "shape": "2-0-2-1",
+   "title": "Inazuma Eleven 1, grupo B",
+   "text": "Shitatsuru y Suizenji buscan el gol, y Kabeyama, Tobitaka y Sugimori defienden. Si falta gol, revisa primero los manuales y el despertar de los delanteros.",
+   "squad": [
+    [
+     1110,
+     "FW"
+    ],
+    [
+     1099,
+     "FW"
+    ],
+    [
+     3003,
+     "DF"
+    ],
+    [
+     3007,
+     "DF"
+    ],
+    [
+     1100,
+     "GK"
+    ]
+   ],
+   "tips": [
+    "Shitatsuru es el goleador habitual; en los pisos con mala afinidad, tira con Suizenji.",
+    "Acumula bloqueos de tiro de Kabeyama y Tobitaka para que a Sugimori le lleguen menos tiros y más flojos.",
+    "Si con Kisaragi no marcas más, compara despertar, técnicas y pasivas de los delanteros y cámbialos."
+   ],
+   "manuals": [
+    [
+     "Suizenji",
+     "una técnica de tiro de Viento",
+     "Coincide con su elemento y lo convierte en un buen segundo goleador."
+    ]
+   ],
+   "alts": [
+    [
+     [
+      1077,
+      1143
+     ],
+     "Delanteros alternativos: elige el que más goles dé según despertar, nivel de técnica y elemento del portero rival."
+    ],
+    [
+     [
+      1003
+     ],
+     "Para defender si usas al Kabeyama ★3 en otro modo."
+    ]
+   ],
+   "floors": [
+    [
+     "46",
+     "Aunque es antes del 50, es de los más difíciles. El bloqueo de tiros del Kabeyama ★3 es clave: por el efecto del escenario, cada bloqueo debilita al portero rival. Acumula bloqueos para bajar la potencia de su parada normal."
+    ]
+   ]
+  },
+  {
+   "group": "Young Inazuma",
+   "shape": "2-1-1-1",
+   "title": "Young Inazuma",
+   "text": "Tamiyama y Sugata en punta, con Ikari, Kamimura y Hibiki por el centro.",
+   "squad": [
+    [
+     2052,
+     "FW"
+    ],
+    [
+     2053,
+     "FW"
+    ],
+    [
+     2050,
+     "MF"
+    ],
+    [
+     2046,
+     "DF"
+    ],
+    [
+     2044,
+     "GK"
+    ]
+   ],
+   "proof": "Equipo comprobado con Hibiki con el despertar completo.",
+   "floors": [
+    [
+     "20",
+     "Con Hibiki mejorado, la defensa no da problemas. En ataque, el Trampolín relámpago de Tamiyama tiene que superar la Mano celestial de Endou: usa las mejoras de Ikari y Sugata para subirlo. Se superó 1-0 con unos 60 000 de potencia de técnica."
+    ]
+   ]
+  }
+ ],
+ "crossSim": {
+  "intro": [
+   "La Cross Simulator da más materiales de mejora mientras estás fuera cuanto más avanzas. Se abre en la escena 1 del capítulo 2 de la historia.",
+   "Con la actualización del 1 de septiembre de 2026 se añadieron las etapas 481 a 800 y el nivel cross subió hasta 440. El número de tres cifras de la pantalla es la etapa, no el nivel cross.",
+   "Al principio basta con el modo automático, pero a partir de la etapa 600 se atasca de golpe. Avanza en automático hasta perder y juega en manual solo el partido que se te resista. Las recompensas llegan al máximo en 24 horas: recógelas una vez al día.",
+   "Hacia la etapa 580 la recompensa por hora ya no crece tanto: si te sobran objetos de aceleración, es el momento de usarlos."
+  ],
+  "goals": [
+   [
+    "Más de 250 000",
+    "de potencia en el tiro que marca: lleva a Tsurugi o a Fei hasta ese punto."
+   ],
+   [
+    "Más de 300 000",
+    "tienen los tiros rivales: acumula bloqueos de DF y la parada del portero, sin cargarlo todo en el último."
+   ],
+   [
+    "Manual",
+    "en los partidos atascados: elige tú la trayectoria del tiro y cuántos bloquean."
+   ]
+  ],
+  "teams": [
+   {
+    "title": "Tipo 1: con Hibiki mayor de portero",
+    "coach": 71012,
+    "shape": "5-3-2",
+    "slots": [
+     2044,
+     4010,
+     3002,
+     4008,
+     3008,
+     3001,
+     2046,
+     1168,
+     4003,
+     10002,
+     1170
+    ],
+    "note": "Equipo comprobado hasta la etapa 800. Úsalo si Kino Aki aún no tiene dos despertares (rango ADVANCED+): Hibiki mayor, de Montaña, aprovecha la pasiva del entrenador Endou Daisuke."
+   },
+   {
+    "title": "Tipo 2: con Kino Aki de portero",
+    "coach": 71012,
+    "shape": "5-3-2",
+    "slots": [
+     2044,
+     4010,
+     1167,
+     4008,
+     3008,
+     3001,
+     2046,
+     1168,
+     4003,
+     10002,
+     1166
+    ],
+    "note": "Si Kino Aki tiene dos despertares o más (ADVANCED+), ponla de portero y a Otonashi de MF izquierdo. Delante y atrás, igual que el tipo 1. En lugar de Otonashi vale cualquier jugador de Raimon con buen regate, como Ichinose: importa más que no le roben el balón que su tiro."
+   }
+  ],
+  "points": [
+   [
+    "Por qué Endou Daisuke",
+    "Este 5-3-2 refuerza a los delanteros justo después de defender. Desde el inicio mejora a los DF recomendados y al portero de Montaña (a nivel 10: +60 al poder de bloqueo de los DF y +80 al de parada del portero de Montaña), y cada parada con éxito suma +50 al poder de tiro del equipo hasta que marcas. Con cinco DF, varios bloquean los tiros por el centro y desgastan el tiro antes de que llegue al portero."
+   ],
+   [
+    "El plan común",
+    "Varios DF bloquean los tiros por el centro antes de que lleguen al portero. Cuando el portero para, la formación refuerza el siguiente tiro. Al final, el balón a Tsurugi; si no lo tienes, Fei es el goleador."
+   ],
+   [
+    "Fudou en el centro lleva el balón",
+    "Los DF rivales bloquean mucho y si pierdes el balón en el centro no llegas a atacar, así que en los dos tipos va un jugador con buen regate en el centro. Mejor evitar su regate con un 30 % de falta y usar el Killer Fields subido de nivel. Enseñarle un bloqueo con manual ayuda en defensa, pero no es imprescindible."
+   ],
+   [
+    "Si te faltan jugadores",
+    "No hace falta tener los 11. Decide primero tres puestos: el goleador (Tsurugi o Fei, el más mejorado), Kirino en el centro de la defensa para bloquear y ayudar al portero, y el portero (Kino Aki con dos despertares; si no, Hibiki mayor ★2). El resto, con jugadores que den mejoras o bloqueen tiros."
+   ]
+  ]
+ },
  "training": [
   {
    "id": 3008,
@@ -4239,12 +4684,444 @@
  },
  "trialDefenseCommon": "En las cuatro defensas el primer puesto parte de la misma base: Domon aprende Cinturón de asteroides con manual y se combinan los apoyos de Domon, Kirino, Kinako y Kabeyama.",
  "credits": {
-  "source": "inacross-guide.com",
-  "author": "Tesla (@tsla_game)",
-  "url": "https://inacross-guide.com",
-  "trials": "Ranking calculado por inacross-guide con su simulador de pruebas: 111 jugadores registrados a 19 de septiembre de 2026, modo Endless y efectos de escenario activados. Comprobado en el juego el 31 de agosto (versión 1.2.3). El orden puede cambiar según el despertar, el nivel de las técnicas, los manuales y el entrenamiento; en ataque se exploró un conjunto de candidatos, así que no garantiza el máximo absoluto.",
-  "pvp": "Formaciones de inacross-guide: versión 1.3.3 comprobada en el juego el 1 de octubre de 2026 (artículo del 3 de octubre); versión 1.3.2, el 16 de septiembre. La colocación es un ejemplo: ajusta los DF según los delanteros rivales.",
-  "training": "Recomendaciones de entrenamiento de inacross-guide, comprobadas en el juego el 5 de septiembre de 2026 (versión 1.2.3). El TP recomendado parte de los 100 de base más las pasivas."
+  "trials": "Ranking calculado con un simulador de pruebas: 111 jugadores registrados a 19 de septiembre de 2026, modo Endless y efectos de escenario activados. El orden puede cambiar según el despertar, el nivel de las técnicas, los manuales y el entrenamiento.",
+  "pvp": "Versión 1.3.3 comprobada en el juego el 1 de octubre de 2026; versión 1.3.2, el 16 de septiembre. La colocación es un ejemplo: ajusta los DF según los delanteros rivales.",
+  "training": "Comprobado en el juego el 5 de septiembre de 2026 (versión 1.2.3). El TP recomendado parte de los 100 de base más las pasivas.",
+  "limited": "Comprobado en el juego el 12 de agosto de 2026. Si tu despertar o tus manuales no llegan a lo indicado, el resultado puede ser distinto.",
+  "crossSim": "Etapas 600 a 800 comprobadas en el juego (actualizado el 4 de octubre de 2026).",
+  "clubTrial": "Comprobado el 17 de septiembre de 2026 (versión 1.3.2). Son tres grupos de ejemplo contra un jefe de Fuego: el daño real depende de tu mejora y de las técnicas que tengas.",
+  "evaluations": "Valoraciones comprobadas el 5 de septiembre (versión 1.2.3) y revisadas el 1 de octubre de 2026. El uso cuenta en cuántos equipos recomendados aparece el jugador; no es una estadística de uso de todos los jugadores."
  },
- "techNote": "Los nombres de técnicas de los equipos recomendados están traducidos del japonés; el original aparece al pasar por encima."
+ "techNote": "Los nombres de técnicas de los equipos recomendados están traducidos del japonés; el original aparece al pasar por encima.",
+ "limitedIntro": {
+  "checks": [
+   "Requisito: completar todo el modo de conexiones y tener los jugadores permitidos en el grupo.",
+   "Elige un solo goleador y concentra en él técnicas, despertar y pasivas en lugar de repartir.",
+   "Cambia jugadores en cada piso: el elemento y la colocación del rival varían, así que ajusta delanteros y defensas."
+  ]
+ },
+ "clubTrial": {
+  "intro": "En las pruebas de club la ventaja de elemento pesa mucho más que en las normales: en ataque, las técnicas de tiro con ventaja suman +50 de poder, frente a +10 en las pruebas normales. Es un aumento del poder de la técnica, no del daño final. Fíjate en el elemento de la técnica, no en el del jugador.",
+  "advantage": [
+   [
+    "F",
+    "M"
+   ],
+   [
+    "V",
+    "B"
+   ],
+   [
+    "B",
+    "F"
+   ],
+   [
+    "M",
+    "V"
+   ]
+  ],
+  "steps": [
+   "Busca primero quién tiene un tiro con ventaja contra el jefe y cómo de mejorado lo tienes.",
+   "Pon seguidas las técnicas del mismo elemento para encadenarlas y combina en el mismo grupo de cinco las mejoras a aliados.",
+   "Con los jugadores que te queden, monta el segundo y el tercer grupo. Si el jefe cambia de elemento, revisa el siguiente grupo."
+  ],
+  "teams": [
+   {
+    "title": "Grupo 1: Fuego ×4 y remate de Montaña de Toramaru",
+    "note": "Cuatro tiros de Fuego seguidos con cadena del 2.º al 4.º, y al final la técnica de Montaña de Toramaru, con ventaja contra el jefe de Fuego.",
+    "boss": "F",
+    "lineup": [
+     {
+      "id": 10001,
+      "tech": "Pingüino infernal",
+      "el": "F",
+      "techJP": "インフェルノペンギン"
+     },
+     {
+      "id": 3018,
+      "tech": "Descenso estelar",
+      "el": "F",
+      "techJP": "天空落とし"
+     },
+     {
+      "id": 3010,
+      "tech": "Torbellino de fuego",
+      "el": "F",
+      "techJP": "爆熱スクリュー"
+     },
+     {
+      "id": 4010,
+      "tech": "Aguijón letal",
+      "el": "F",
+      "techJP": "デスドロップ"
+     },
+     {
+      "id": 3011,
+      "tech": "Remate del tigre",
+      "el": "M",
+      "techJP": "タイガードライブ"
+     }
+    ]
+   },
+   {
+    "title": "Grupo 2: Viento ×2 y Bosque ×3",
+    "note": "Tenma y Tamiyama encadenan Viento y Natsumi, Shindou y Fei pasan a Bosque. El Bosque está en desventaja contra el Fuego: si tienes jugadores de Montaña bien mejorados, compáralos.",
+    "boss": "F",
+    "lineup": [
+     {
+      "id": 4008,
+      "tech": "Tiro vendaval",
+      "el": "V",
+      "techJP": "マッハウィンド"
+     },
+     {
+      "id": 2052,
+      "tech": "Trampolín relámpago",
+      "el": "V",
+      "techJP": "イナズマ落とし"
+     },
+     {
+      "id": 1168,
+      "tech": "Tiro fantasma",
+      "el": "B",
+      "techJP": "ファントムシュート"
+     },
+     {
+      "id": 4009,
+      "tech": "Pentagrama",
+      "el": "B",
+      "techJP": "フォルテシモ"
+     },
+     {
+      "id": 10003,
+      "tech": "Remate rebotado (Fuegos artificiales)",
+      "el": "B",
+      "techJP": "バウンサーラビット（花火）"
+     }
+    ]
+   },
+   {
+    "title": "Grupo 3: Viento ×4 y remate de Montaña de Megane",
+    "note": "Los cuatro jugadores de Viento que quedan, con cadena del 2.º al 4.º, y al final la técnica de Montaña de Megane, con ventaja.",
+    "boss": "F",
+    "lineup": [
+     {
+      "id": 10005,
+      "tech": "Pingüino samurái n.º 2",
+      "el": "V",
+      "techJP": "サムライペンギン2号"
+     },
+     {
+      "id": 2042,
+      "tech": "Pingüino espacial",
+      "el": "V",
+      "techJP": "スペースペンギン"
+     },
+     {
+      "id": 1009,
+      "tech": "Flecha divina",
+      "el": "V",
+      "techJP": "ディバインアロー"
+     },
+     {
+      "id": 3009,
+      "tech": "Aullido de lobo",
+      "el": "V",
+      "techJP": "ウルフレジェンド"
+     },
+     {
+      "id": 1012,
+      "tech": "Remate gafas",
+      "el": "M",
+      "techJP": "メガネクラッシュ"
+     }
+    ]
+   }
+  ],
+  "rules": [
+   "Cuando los miembros del club completan sus misiones se acumulan puntos y, al llegar al límite, aparece el jefe.",
+   "Puedes atacarlo tres veces al día y cada jugador que uses queda bloqueado hasta el día siguiente: los tres grupos no pueden repetir jugadores.",
+   "Al vencerlo se reciben registros del club, que se canjean en su tienda por objetos y almas de despertar."
+  ]
+ },
+ "evaluations": {
+  "4010": {
+   "pvp": "SS",
+   "trial": "SS",
+   "uses": 20,
+   "summary": "FW que convierte cada regate con éxito de un MF aliado en más potencia para su propio tiro."
+  },
+  "2030": {
+   "pvp": "SS",
+   "trial": "SS",
+   "uses": 7,
+   "summary": "FW de Caos con la Ventisca de fuego de elemento Viento: puede marcar él mismo o debilitar al portero rival, según convenga."
+  },
+  "10003": {
+   "pvp": "SS",
+   "trial": "S",
+   "uses": 6,
+   "summary": "Su pasiva que refuerza los tiros de Bosque de los FW de Bosque cada vez que tu equipo para un tiro es lo que lo define."
+  },
+  "3010": {
+   "pvp": "B",
+   "trial": "SS",
+   "uses": 6,
+   "summary": "En las pruebas pega muy fuerte. En duelos tiene una pasiva que refuerza los tiros dentro del área: si consigues tirar desde ahí, es muy peligroso."
+  },
+  "2031": {
+   "pvp": "S",
+   "trial": "SS",
+   "uses": 5,
+   "summary": "FW de Caos que busca el gol con su Ventisca de fuego de elemento Fuego y además refuerza el tiro de los FW aliados."
+  },
+  "10001": {
+   "pvp": "B",
+   "trial": "SS",
+   "uses": 5,
+   "summary": "FW de Fuego con el potentísimo Pingüino infernal. Cuesta 55 de TP: con entrenamiento hasta 165 de TP puede usarlo tres veces por partido."
+  },
+  "3018": {
+   "pvp": "C",
+   "trial": "SS",
+   "uses": 4,
+   "summary": "Su pasiva sube la potencia de Descenso estelar, así que en las pruebas es un atacante muy fuerte."
+  },
+  "3016": {
+   "pvp": "S",
+   "trial": "SS",
+   "uses": 2,
+   "summary": "FW que funciona como un Gouenji de Imperius en versión Bosque."
+  },
+  "3009": {
+   "pvp": "B",
+   "trial": "S",
+   "uses": 1,
+   "summary": "FW de Viento cuya pasiva mejora a la vez la potencia, la probabilidad de crítico y el alcance de su tiro principal."
+  },
+  "1169": {
+   "pvp": "S",
+   "trial": "C",
+   "uses": 5,
+   "summary": "MF que se consigue gratis en la tienda canjeando puntos de club y que apoya muy bien a los FW. Su pasiva es tan buena que conviene canjearlo de los primeros."
+  },
+  "2042": {
+   "pvp": "SS",
+   "trial": "S",
+   "uses": 5,
+   "summary": "MF de Viento que puede hacer de goleador como un FW y, a la vez, apoyar como MF."
+  },
+  "3008": {
+   "pvp": "A",
+   "trial": "C",
+   "uses": 5,
+   "summary": "MF de centro con un regate potentísimo. En la Cross Simulator es muy útil porque supera a los DF rivales más fuertes."
+  },
+  "1167": {
+   "pvp": "A",
+   "trial": null,
+   "uses": 5,
+   "summary": "MF de apoyo: al inicio del partido refuerza los regates de los MF aliados y, cada vez que regatea con éxito, baja el tiro de los FW rivales y el bloqueo de los DF rivales de Montaña."
+  },
+  "4009": {
+   "pvp": "S",
+   "trial": "A",
+   "uses": 4,
+   "summary": "MF de Bosque que ayuda en ataque y en defensa a la vez: solo con estar en el campo refuerza el ataque de los FW y los bloqueos de los DF de Bosque."
+  },
+  "2064": {
+   "pvp": "S",
+   "trial": "A",
+   "uses": 0,
+   "summary": "MF de Viento con mucho futuro como pivote en las formaciones de la entrenadora Kira Hitomiko."
+  },
+  "10005": {
+   "pvp": "A",
+   "trial": "C",
+   "uses": 0,
+   "summary": "Mucha técnica y apoyo tanto a los FW como al bloqueo de los MF: ayuda delante y en el centro."
+  },
+  "3014": {
+   "pvp": "B",
+   "trial": "C",
+   "uses": 0,
+   "summary": "Jugador de apoyo defensivo: mientras está en su mitad del campo refuerza el bloqueo de los DF aliados."
+  },
+  "10004": {
+   "pvp": "B",
+   "trial": "C",
+   "uses": 0,
+   "summary": "Jugador de apoyo que refuerza a la vez a todos los MF de Viento del equipo."
+  },
+  "1164": {
+   "pvp": "B",
+   "trial": "C",
+   "uses": 0
+  },
+  "10002": {
+   "pvp": "S",
+   "trial": "SS",
+   "uses": 28,
+   "summary": "Su pasiva sube la potencia y baja el coste de su bloqueo. Además refuerza al portero tras un bloqueo fallido y ayuda al bloqueo de los DF y a la parada del portero."
+  },
+  "3002": {
+   "pvp": "S",
+   "trial": "B",
+   "uses": 9,
+   "summary": "Suele jugar de MF y, con Corte giratorio, para tiros lejanos desde el centro del campo."
+  },
+  "3003": {
+   "pvp": "A",
+   "trial": "SS",
+   "uses": 6,
+   "summary": "DF con un bloqueo de Montaña muy potente, con ventaja contra los FW de Fuego."
+  },
+  "3007": {
+   "pvp": "B",
+   "trial": "SS",
+   "uses": 4,
+   "summary": "A pesar de ser ★2, refuerza aún más su potente Golpe de vacío. Es fácil de despertar y en las pruebas de defensa sirve contra Montaña, Viento y Fuego."
+  },
+  "3006": {
+   "pvp": "B",
+   "trial": "SS",
+   "uses": 2,
+   "summary": "Su pasiva sube mucho la potencia de Campo torbellino. De MF regatea poco y le roban el balón con facilidad."
+  },
+  "1170": {
+   "pvp": "A",
+   "trial": null,
+   "uses": 13,
+   "summary": "El primer portero a elegir si no tienes a Kino Aki o no le has dado dos despertares. Al ser ★2 es fácil de mejorar y es muy valioso para quien juega sin pagar."
+  },
+  "3001": {
+   "pvp": "S",
+   "trial": "C",
+   "uses": 12,
+   "summary": "Como portero, su técnica y su autorrefuerzo se quedan cortos para ser titular."
+  },
+  "1017": {
+   "pvp": "C",
+   "trial": "SS",
+   "uses": 5,
+   "summary": "Con el despertar completo empieza con 150 de TP y usa su Escudo de fuerza total tres veces por partido. Refuerza su técnica y además ayuda al bloqueo y a la parada del equipo."
+  },
+  "3020": {
+   "pvp": "B",
+   "trial": "S",
+   "uses": 5,
+   "summary": "Portero de Bosque que necesita mucho TP para usar Manos infinitas tres veces. En duelos suele ser mejor Kino Aki, y si lo usas depende del elemento de los FW rivales y del entrenador."
+  },
+  "1168": {
+   "pvp": "SS",
+   "trial": "SS",
+   "uses": 25,
+   "summary": "Cada vez que paran un tiro de tu equipo refuerza a los FW aliados. Es una pieza de apoyo muy valiosa en duelos, en la Cross Simulator y en las pruebas de ataque."
+  },
+  "4008": {
+   "pvp": "S",
+   "trial": "S",
+   "uses": 25,
+   "summary": "MF con un regate muy fuerte. Cada regate con éxito refuerza además el tiro de los FW aliados."
+  },
+  "4003": {
+   "pvp": "SS",
+   "trial": "SS",
+   "uses": 29,
+   "summary": "DF de Bosque que sostiene la defensa tanto en duelos como en pruebas. Refuerza al portero cada vez que él o un DF aliado falla un bloqueo de tiro."
+  },
+  "1166": {
+   "pvp": "SS",
+   "trial": "SS",
+   "uses": 16,
+   "summary": "Portera de Montaña: si hay tres o más aliados con la etiqueta Raimon su parada sube mucho, y se refuerza aún más cada vez que falla un bloqueo de tiro de un aliado."
+  },
+  "3012": {
+   "summary": "Lleva la etiqueta Inazuma Japan y es fácil de usar mientras tus ★3 tengan poco despertar. Regatea bien para ser MF y su pasiva sube el bloqueo de los DF aliados. Se consigue en el modo de conexiones."
+  }
+ },
+ "tierPvp": {
+  "updated": "2026-10-01",
+  "version": "1.3.2",
+  "tiers": {
+   "SS": [
+    4003,
+    1166,
+    1168,
+    2042,
+    10003,
+    4010,
+    2030
+   ],
+   "S": [
+    10002,
+    2064,
+    2046,
+    1169,
+    4009,
+    4008,
+    2044,
+    3016,
+    3001,
+    3002,
+    2053,
+    1013,
+    2031
+   ],
+   "A": [
+    1167,
+    10005,
+    2045,
+    3003,
+    1170,
+    1016,
+    1171,
+    1145,
+    1159,
+    3008,
+    3017,
+    1040,
+    1174
+   ],
+   "B": [
+    3012,
+    3020,
+    3006,
+    3014,
+    10004,
+    2052,
+    3007,
+    3011,
+    1025,
+    2054,
+    3009,
+    10001,
+    3010,
+    1164
+   ],
+   "C": [
+    1017,
+    3018,
+    3004,
+    2000,
+    1161,
+    3013,
+    3005,
+    2004,
+    2001,
+    2010,
+    2003,
+    2002,
+    2005,
+    2009,
+    2008,
+    2007,
+    2050,
+    1158,
+    1156,
+    1110
+   ]
+  },
+  "note": "Valoración para duelos en modo automático: potencia, defensa, mejoras al equipo y facilidad para encajar en las formaciones. SS son jugadores con un papel difícil de sustituir en varias formaciones; S, muy fuertes pero con condiciones (entrenador, despertar o manuales). De A hacia abajo no significa que sean malos: tienen un papel más concreto, hay sustitutos o dependen del rival. Dentro de cada rango, el orden no es una clasificación."
+ }
 }
