@@ -63,6 +63,7 @@ async function sincronizarDesdeScripts(){
   const dirHtml = path.join(RAIZ, 'tools', 'fuentes', 'html'); await mkdir(dirHtml, { recursive: true });
   for (const [r, txt] of css) if (txt) await writeFile(path.join(dirHtml, r.replace(/^\//, '').replace(/\//g, '__')), txt);
   const datos = X.localizar(scripts);
+  datos.nombresManuales = await leerJSON('nombres.json').then(n => n.europeo || {}).catch(() => ({}));
   log(`Web original: ${scripts.size} scripts; datos encontrados: ${Object.keys(datos).join(', ') || 'ninguno'}.`);
   if (!datos.jugadores || datos.jugadores.length < 50) throw new Error('no se encontró la base de jugadores en los scripts');
   const res = { cambios: [] };
@@ -230,6 +231,16 @@ async function guardarFuentes(){
       await dormir(PAUSA);
     }
   }
+  // Fichas individuales de cada jugador en la guía japonesa
+  try{
+    const lista = await bajar(GUIA + '/players');
+    const fichas = [...new Set([...lista.matchAll(/href="(\/players\/[a-z0-9-]+)"/g)].map(m => m[1]))];
+    for (const f of fichas){
+      try{ await writeFile(path.join(dir, 'inacross' + f.replace(/\//g, '_') + '.txt'), htmlATexto(await bajar(GUIA + f))); } catch {}
+      await dormir(PAUSA);
+    }
+    log(`Fichas de la guía japonesa guardadas: ${fichas.length}.`);
+  } catch (e){ log('  Fichas de la guía japonesa: ' + e.message); }
   // Scripts y datos que usa la web original (ahí están los entrenadores y sus formaciones)
   const vistos = new Set();
   for (const s of scripts){

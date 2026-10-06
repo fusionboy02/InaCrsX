@@ -60,6 +60,15 @@ function condicionPasiva(texto){
   if (m) return { type:'tag', tag: m[2].trim(), min: Number(m[1]) };
   return null;
 }
+// Nombre japonés romanizado: dos palabras que terminan en vocal o en «n» (Nagumo Haruya, Touko Zaizen)
+const esRomaji = a => { const w = String(a || '').trim().split(/\s+/); return w.length >= 1 && w.every(x => /[aeiou]n?$/i.test(x)) && !/[^a-zāēīōū\s'-]/i.test(a); };
+export function nombreEuropeo(r, viejo = {}, manual = {}){
+  if (manual[r.id]) return manual[r.id];
+  const alias = r.aliases || [];
+  if (viejo.nameEU && alias.some(a => viejo.nameEU.includes(a) || a.includes(viejo.nameEU))) return alias.find(a => a.includes(viejo.nameEU) && a.length > viejo.nameEU.length) || viejo.nameEU;
+  if (!esRomaji(r.name)) return viejo.nameEU || r.name;
+  return alias.find(a => !esRomaji(a)) || viejo.nameEU || '';
+}
 export function convertirJugadores(datos, anteriores = []){
   const previo = new Map(anteriores.map(p => [p.id, p]));
   const jaJ = datos.japones?.players || {}, jaT = datos.japones?.lookup?.techniques || {}, jaP = datos.japones?.lookup?.passiveNames || {};
@@ -87,7 +96,7 @@ export function convertirJugadores(datos, anteriores = []){
       id, slug: r.slug,
       // Los nombres ya revisados se conservan; los jugadores nuevos usan los de la web original.
       name: viejo.name || r.name,
-      nameEU: viejo.nameEU || (r.aliases || [])[0] || '',
+      nameEU: nombreEuropeo(r, viejo, datos.nombresManuales || {}),
       nameJP: sinEspacio(jaJ[r.id]?.name) || viejo.nameJP || '', nickJP: sinEspacio(jaJ[r.id]?.nickname) || '',
       alias: alias.join(', '),
       team: r.team, pos: r.position, el: EL[r.element], stars: r.stars, power: r.stats.power, isNew: !!r.new,
