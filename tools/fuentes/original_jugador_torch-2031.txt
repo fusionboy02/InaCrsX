@@ -5,15 +5,15 @@ FW NUEVO !
 Caos
 Torch
 Nombre occidental: Claude Beacons
-FW Fuego ★★★ Segundo delantero Inazuma Eleven 2
+FW Fuego Segundo delantero Inazuma Eleven 2
 PODER BASE 10.458 Nivel 440 · máximo
 Estadísticas
 NIV. 440
 Estadísticas base · nivel 440 · sin equipación
-⚽ Tiro 3.776
-✦ Técnica 3.120
-▣ Bloqueo 2.134
-✋ Parada 1.428
+Tiro 3.776
+Técnica 3.120
+Bloqueo 2.134
+Parada 1.428
 Velocidad 4 TP 100
 Zonas ideales
 A 1 S 2 3 4 B 5 6 7 8 9 10 11

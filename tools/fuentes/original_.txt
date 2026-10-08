@@ -12,68 +12,68 @@ Gazelle y Torch ya están disponibles. Fichas completas al nivel 440, con sus pa
 FW NUEVO !
 Caos
 Gazelle
-FW Viento ★★★
+FW Viento
 PODER BASE Nivel 440 10.372
 Abrir ficha
 FW NUEVO !
 Caos
 Torch
-FW Fuego ★★★
+FW Fuego
 PODER BASE Nivel 440 10.458
 Abrir ficha
 NUEVO EVENTO Caos
 GK NUEVO !
 Caos
 Grent
-GK Fuego ★
+GK Fuego
 PODER BASE Nivel 440 7.972
 Abrir ficha
 DF NUEVO !
 Caos
 Barra
-DF Bosque ★
+DF Bosque
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF NUEVO !
 Caos
 Clara
-DF Viento ★★
+DF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
 DF NUEVO !
 Caos
 Gocker
-DF Montaña ★
+DF Montaña
 PODER BASE Nivel 440 7.843
 Abrir ficha
 MF NUEVO !
 Caos
 Bomber
-MF Fuego ★
+MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Heat
-MF Bosque ★
+MF Bosque
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Droll
-MF Viento ★
+MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Rione
-MF Viento ★
+MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 FW NUEVO !
 Caos
 Nepper
-FW Bosque ★★
+FW Bosque
 PODER BASE Nivel 440 8.888
 Abrir ficha
 ÚLTIMA HORA

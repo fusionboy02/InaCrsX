@@ -5,15 +5,15 @@ GK
 Raimon
 Kino Aki
 Nombre occidental: Silvia Woods
-GK Montaña ★★★ Portero Inazuma Eleven 1
+GK Montaña Portero Inazuma Eleven 1
 PODER BASE 11.811 Nivel 440 · máximo
 Estadísticas
 NIV. 440
 Estadísticas base · nivel 440 · sin equipación
-⚽ Tiro 1.949
-✦ Técnica 2.234
-▣ Bloqueo 2.979
-✋ Parada 4.649
+Tiro 1.949
+Técnica 2.234
+Bloqueo 2.979
+Parada 4.649
 Velocidad 2 TP 100
 Zonas ideales
 1 2 3 4 5 6 7 B 8 9 A 10 S 11

@@ -5,15 +5,15 @@ MF
 Zeus
 Afuro Terumi
 Nombre occidental: Byron Love
-MF Bosque ★★★ Mediapunta Inazuma Eleven 1
+MF Bosque Mediapunta Inazuma Eleven 1
 PODER BASE 11.468 Nivel 440 · máximo
 Estadísticas
 NIV. 440
 Estadísticas base · nivel 440 · sin equipación
-⚽ Tiro 3.512
-✦ Técnica 4.350
-▣ Bloqueo 2.164
-✋ Parada 1.442
+Tiro 3.512
+Técnica 4.350
+Bloqueo 2.164
+Parada 1.442
 Velocidad 6 TP 100
 Zonas ideales
 1 A 2 3 4 S 5 6 B 7 8 9 10 11

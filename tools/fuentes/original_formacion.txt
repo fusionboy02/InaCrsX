@@ -17,7 +17,7 @@ PASIVA ACTIVA DE FORMACIÓN Activa: F-Raimon Al inicio del partido, aumenta en 5
 PLANTILLA TÁCTICA F-Raimon
 Vaciar
 FW 1 FW 2 MF 3 MF 4 MF 5 MF 6 DF 7 DF 8 DF 9 DF 10 GK 11
-Pulsa cualquier slot para añadir o cambiar un jugador. Su posición natural nunca bloquea la selección.
+Pulsa cualquier slot para añadir o cambiar un jugador. Arrastra un jugador a otra casilla para intercambiarlos. Su posición natural nunca bloquea la selección.
 ACTIVACIÓN DE LA FORMACIÓN 0 de 3 condiciones
 Coloca fichas que cumplan los requisitos marcados.
 SLOT 3 · MF Etiqueta: Raimon Slot vacío

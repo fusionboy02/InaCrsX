@@ -12,733 +12,733 @@ Jugadores
 GK
 Raimon
 Mamoru Endou
-GK Montaña ★★
+GK Montaña
 PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Raimon
 Ichirota Kazemaru
-DF Viento ★★
+DF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
 DF
 Raimon
 Heigorou Kabeyama
-DF Montaña ★
+DF Montaña
 PODER BASE Nivel 440 8.888
 Abrir ficha
 DF
 Raimon
 Teppei Kurimatsu
-DF Fuego ★
+DF Fuego
 PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Raimon
 Shinichi Handa
-MF Viento ★
+MF Viento
 PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Raimon
 Ayumu Shourinji
-MF Bosque ★
+MF Bosque
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Raimon
 Sakichi Shishido
-MF Fuego ★
+MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Raimon
 Kuusuke Matsuno
-FW Viento ★
+FW Viento
 PODER BASE Nivel 440 7.843
 Abrir ficha
 FW
 Raimon
 Gouenji Shuuya
-FW Fuego ★★
+FW Fuego
 PODER BASE Nivel 440 8.887
 Abrir ficha
 FW
 Raimon
 Ryuugo Someoka
-FW Bosque ★★
+FW Bosque
 PODER BASE Nivel 440 8.887
 Abrir ficha
 DF
 Raimon
 Asuka Domon
-DF Bosque ★★
+DF Bosque
 PODER BASE Nivel 440 8.889
 Abrir ficha
 MF
 Raimon
 Kazuya Ichinose
-MF Bosque ★★
+MF Bosque
 PODER BASE Nivel 440 8.743
 Abrir ficha
 GK
 Royal Academy
 Koujirou Genda
-GK Fuego ★★
+GK Fuego
 PODER BASE Nivel 440 9.034
 Abrir ficha
 MF
 Royal Academy
 Seikami Kenya
-MF Viento ★
+MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 DF
 Royal Academy
 Gojou Kachi
-DF Bosque ★
+DF Bosque
 PODER BASE Nivel 440 7.844
 Abrir ficha
 MF
 Royal Academy
 Henmi Watari
-MF Viento ★
+MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Royal Academy
 Sakiyama Shuuji
-MF Fuego ★
+MF Fuego
 PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Royal Academy
 Horamen Shuuichirou
-MF Viento ★
+MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Royal Academy
 Terakado Daiki
-FW Bosque ★
+FW Bosque
 PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Royal Academy
 Yuuto Kidou
-MF Viento ★★
+MF Viento
 PODER BASE Nivel 440 8.743
 Abrir ficha
 FW
 Royal Academy
 Sakuma Jirou
-FW Bosque ★★
+FW Bosque
 PODER BASE Nivel 440 8.815
 Abrir ficha
 DF
 Raimon
 Miyasaka Ryou
-DF Viento ★
+DF Viento
 PODER BASE Nivel 440 7.844
 Abrir ficha
 FW NUEVO !
 Caos
 Gazelle
-FW Viento ★★★
+FW Viento
 PODER BASE Nivel 440 10.372
 Abrir ficha
 FW NUEVO !
 Caos
 Torch
-FW Fuego ★★★
+FW Fuego
 PODER BASE Nivel 440 10.458
 Abrir ficha
 GK
 Inazuma Japón
 Mamoru Endou
-GK Montaña ★★★
+GK Montaña
 PODER BASE Nivel 440 10.628
 Abrir ficha
 DF
 Inazuma Japón
 Ichirota Kazemaru
-DF Viento ★★★
+DF Viento
 PODER BASE Nivel 440 10.457
 Abrir ficha
 DF
 Inazuma Japón
 Heigorou Kabeyama
-DF Montaña ★★★
+DF Montaña
 PODER BASE Nivel 440 10.458
 Abrir ficha
 DF
 Inazuma Japón
 Tsunaumi Jousuke
-DF Viento ★★
+DF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
 DF
 Inazuma Japón
 Kogure Yuuya
-DF Bosque ★★
+DF Bosque
 PODER BASE Nivel 440 8.889
 Abrir ficha
 DF
 Inazuma Japón
 Tobitaka Seiya
-DF Viento ★★
+DF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
 FW
 Inazuma Japón
 Gouenji Shuuya
-FW Fuego ★★★
+FW Fuego
 PODER BASE Nivel 440 10.458
 Abrir ficha
 MF
 Inazuma Japón
 Midorikawa Ryuuji
-MF Bosque ★★
+MF Bosque
 PODER BASE Nivel 440 8.742
 Abrir ficha
 MF
 Inazuma Japón
 Yuuto Kidou
-MF Viento ★★★
+MF Viento
 PODER BASE Nivel 440 10.286
 Abrir ficha
 FW
 Inazuma Japón
 Ryuugo Someoka
-FW Bosque ★★★
+FW Bosque
 PODER BASE Nivel 440 10.457
 Abrir ficha
 GK
 Inazuma Japón
 Tachimukai Yuuki
-GK Bosque ★★★
+GK Bosque
 PODER BASE Nivel 440 10.629
 Abrir ficha
 DF
 Royal Academy
 Oono Densuke
-DF Montaña ★
+DF Montaña
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Royal Academy
 Banjou Ichidou
-DF Bosque ★
+DF Bosque
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Inazuma Japón
 Teppei Kurimatsu
-DF Fuego ★★
+DF Fuego
 PODER BASE Nivel 440 8.889
 Abrir ficha
 FW
 Raimon
 Kageto Yamino
-FW Bosque ★★
+FW Bosque
 PODER BASE Nivel 440 8.888
 Abrir ficha
 DF
 Raimon
 Jin Kageno
-DF Bosque ★
+DF Bosque
 PODER BASE Nivel 440 7.844
 Abrir ficha
 FW
 Raimon
 Kakeru Megane
-FW Bosque ★
+FW Bosque
 PODER BASE Nivel 440 7.842
 Abrir ficha
 FW
 Inazuma Kids FC
 Kisaragi Mako
-FW Bosque ★
+FW Bosque
 PODER BASE Nivel 440 7.842
 Abrir ficha
 GK
 Occult
 Nata Juusan
-GK Viento ★
+GK Viento
 PODER BASE Nivel 440 7.971
 Abrir ficha
 FW
 Occult
 Yuukoku Hiroyuki
-FW Bosque ★★
+FW Bosque
 PODER BASE Nivel 440 8.815
 Abrir ficha
 FW
 Wild
 Suizenji Chiita
-FW Viento ★
+FW Viento
 PODER BASE Nivel 440 7.842
 Abrir ficha
 GK
 Brain
 Sugimori I
-GK Bosque ★★
+GK Bosque
 PODER BASE Nivel 440 9.034
 Abrir ficha
 FW
 Brain
 Shitatsuru Kai
-FW Fuego ★★
+FW Fuego
 PODER BASE Nivel 440 8.888
 Abrir ficha
 FW
 Otaku
 Manga Hou
-FW Viento ★
+FW Viento
 PODER BASE Nivel 440 7.842
 Abrir ficha
 FW
 Shuriken
 Kirigakure Saitsugi
-FW Fuego ★★
+FW Fuego
 PODER BASE Nivel 440 8.815
 Abrir ficha
 FW
 Kirkwood
 Takekata Kachi
-FW Fuego ★★
+FW Fuego
 PODER BASE Nivel 440 8.887
 Abrir ficha
 FW
 Kirkwood
 Takekata Tomo
-FW Viento ★★
+FW Viento
 PODER BASE Nivel 440 8.888
 Abrir ficha
 FW
 Kirkwood
 Takekata Tsutomu
-FW Montaña ★★
+FW Montaña
 PODER BASE Nivel 440 8.888
 Abrir ficha
 FW
 Inazuma Japón
 Utsunomiya Toramaru
-FW Bosque ★★
+FW Bosque
 PODER BASE Nivel 440 8.888
 Abrir ficha
 MF
 Inazuma Japón
 Hijikata Raiden
-MF Viento ★★
+MF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
 FW
 Inazuma Japón
 Hiroto Kiyama
-FW Fuego ★★★
+FW Fuego
 PODER BASE Nivel 440 10.457
 Abrir ficha
 FW
 Inazuma Japón
 Fubuki Shirou
-FW Viento ★★★
+FW Viento
 PODER BASE Nivel 440 10.458
 Abrir ficha
 MF
 Inazuma Japón
 Fudou Myouou
-MF Fuego ★★★
+MF Fuego
 PODER BASE Nivel 440 10.287
 Abrir ficha
 FW
 Inazuma Japón
 Sakuma Jirou
-FW Bosque ★★★
+FW Bosque
 PODER BASE Nivel 440 11.639
 Abrir ficha
 MF
 Raimon de la Revolución
 Matsukaze Tenma
-MF Viento ★★★
+MF Viento
 PODER BASE Nivel 440 11.554
 Abrir ficha
 FW
 Raimon de la Revolución
 Kenjou Kyousuke
-FW Fuego ★★★
+FW Fuego
 PODER BASE Nivel 440 11.639
 Abrir ficha
 FW
 Royal Academy
 Gouenji Shuuya
-FW Fuego ★★★
+FW Fuego
 PODER BASE Nivel 440 11.639
 Abrir ficha
 DF
 Raimon de la Revolución
 Kinako Nanobana
-DF Fuego ★★★
+DF Fuego
 PODER BASE Nivel 440 11.639
 Abrir ficha
 FW
 Raimon de la Revolución
 Fei Rune
-FW Bosque ★★★
+FW Bosque
 PODER BASE Nivel 440 11.639
 Abrir ficha
 MF
 Selección de Japón 2026
 Mamoru Endou
-MF Montaña ★★★
+MF Montaña
 PODER BASE Nivel 440 10.286
 Abrir ficha
 MF
 Selección de Japón 2026
 Yuuto Kidou
-MF Viento ★★★
+MF Viento
 PODER BASE Nivel 440 10.286
 Abrir ficha
 GK
 Zeus
 Hohoshi Donichi
-GK Montaña ★★
+GK Montaña
 PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Zeus
 Ahotsuyu Hikari
-DF Bosque ★
+DF Bosque
 PODER BASE Nivel 440 7.844
 Abrir ficha
 DF
 Zeus
 Buhai Honoo
-DF Fuego ★
+DF Fuego
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Zeus
 Kousu Ran
-DF Montaña ★
+DF Montaña
 PODER BASE Nivel 440 7.777
 Abrir ficha
 DF
 Zeus
 Tesakana Geki
-DF Viento ★
+DF Viento
 PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Zeus
 Zaite Miyumi
-MF Viento ★
+MF Viento
 PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Zeus
 Keime Sushou
-MF Bosque ★
+MF Bosque
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Zeus
 Meitenmei Satoru
-MF Bosque ★★
+MF Bosque
 PODER BASE Nivel 440 8.743
 Abrir ficha
 FW
 Zeus
 Shutsumigite Yutaka
-FW Fuego ★★
+FW Fuego
 PODER BASE Nivel 440 8.887
 Abrir ficha
 MF
 Zeus
 Afuro Terumi
-MF Bosque ★★★
+MF Bosque
 PODER BASE Nivel 440 11.468
 Abrir ficha
 MF
 Zeus
 Taira Tei
-MF Fuego ★★
+MF Fuego
 PODER BASE Nivel 440 8.742
 Abrir ficha
 GK
 Jóvenes Inazuma
 Hibiki Seigou
-GK Montaña ★★
+GK Montaña
 PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Jóvenes Inazuma
 Fushima Hitori
-DF Bosque ★★
+DF Bosque
 PODER BASE Nivel 440 8.889
 Abrir ficha
 MF
 Jóvenes Inazuma
 Teiryou Ho
-MF Montaña ★
+MF Montaña
 PODER BASE Nivel 440 7.715
 Abrir ficha
 FW
 Jóvenes Inazuma
 Tamiyama Utai
-FW Viento ★
+FW Viento
 PODER BASE Nivel 440 7.842
 Abrir ficha
 MF
 Jóvenes Inazuma
 Sugata Gen
-MF Fuego ★
+MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 DF
 Jóvenes Inazuma
 Kamimura Setsuto
-DF Viento ★
+DF Viento
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Jóvenes Inazuma
 Aida Chikara
-DF Montaña ★★
+DF Montaña
 PODER BASE Nivel 440 8.889
 Abrir ficha
 MF
 Jóvenes Inazuma
 Batora Shi
-MF Bosque ★★
+MF Bosque
 PODER BASE Nivel 440 8.743
 Abrir ficha
 MF
 Jóvenes Inazuma
 Chuukan You
-MF Bosque ★
+MF Bosque
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Jóvenes Inazuma
 Ikari Gangorou
-MF Fuego ★
+MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Jóvenes Inazuma
 Biryuuta Kouichi
-FW Fuego ★★
+FW Fuego
 PODER BASE Nivel 440 8.887
 Abrir ficha
 DF
 Raimon de la Revolución
 Kirino Ranmaru
-DF Bosque ★★★
+DF Bosque
 PODER BASE Nivel 440 11.640
 Abrir ficha
 MF
 Raimon de la Revolución
 Shindou Takuto
-MF Bosque ★★★
+MF Bosque
 PODER BASE Nivel 440 11.469
 Abrir ficha
 DF
 Kirkwood
 Nishigaki Mamoru
-DF Fuego ★★
+DF Fuego
 PODER BASE Nivel 440 8.889
 Abrir ficha
 GK
 Raimon OB
 Hibiki Seigou
-GK Montaña ★★
+GK Montaña
 PODER BASE Nivel 440 9.034
 Abrir ficha
 MF
 Tablón de conexiones
 Gouenji Yuuka
-MF Fuego ★
+MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 DF
 Tablón de conexiones
 Kabeyama Saku
-DF Montaña ★
+DF Montaña
 PODER BASE Nivel 440 7.843
 Abrir ficha
 FW
 Tablón de conexiones
 Raimon Souichirou
-FW Montaña ★
+FW Montaña
 PODER BASE Nivel 440 7.842
 Abrir ficha
 GK
 Tablón de conexiones
 Onigawara Gengorou
-GK Fuego ★
+GK Fuego
 PODER BASE Nivel 440 7.972
 Abrir ficha
 MF
 Tablón de conexiones
 Ootani Tsukushi
-MF Bosque ★★
+MF Bosque
 PODER BASE Nivel 440 8.743
 Abrir ficha
 GK
 Raimon
 Kino Aki
-GK Montaña ★★★
+GK Montaña
 PODER BASE Nivel 440 11.811
 Abrir ficha
 MF
 Raimon
 Otonashi Haruna
-MF Viento ★★★
+MF Viento
 PODER BASE Nivel 440 11.554
 Abrir ficha
 FW
 Raimon
 Raimon Natsumi
-FW Fuego ★★★
+FW Fuego
 PODER BASE Nivel 440 11.639
 Abrir ficha
 GK
 Tormenta de Géminis
 Gorleo
-GK Bosque ★★
+GK Bosque
 PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Tormenta de Géminis
 Coral
-DF Viento ★
+DF Viento
 PODER BASE Nivel 440 7.844
 Abrir ficha
 DF
 Tormenta de Géminis
 Gigu
-DF Fuego ★
+DF Fuego
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Tormenta de Géminis
 Ganimede
-DF Montaña ★
+DF Montaña
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Tormenta de Géminis
 Karon
-DF Fuego ★
+DF Fuego
 PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Tormenta de Géminis
 Pandora
-MF Viento ★
+MF Viento
 PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Tormenta de Géminis
 Gringo
-MF Montaña ★
+MF Montaña
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Tormenta de Géminis
 Io
-MF Fuego ★
+MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Tormenta de Géminis
 Reem
-FW Bosque ★
+FW Bosque
 PODER BASE Nivel 440 7.842
 Abrir ficha
 MF
 Tormenta de Géminis
 Reize
-MF Bosque ★★
+MF Bosque
 PODER BASE Nivel 440 8.742
 Abrir ficha
 FW
 Tormenta de Géminis
 Diam
-FW Bosque ★
+FW Bosque
 PODER BASE Nivel 440 7.842
 Abrir ficha
 MF
 Génesis
 Ulvida
-MF Viento ★★★
+MF Viento
 PODER BASE Nivel 440 11.469
 Abrir ficha
 MF
 Servicio Secreto
 Zaizen Touko
-MF Viento ★★★
+MF Viento
 PODER BASE Nivel 440 11.469
 Abrir ficha
 MF
 Raimon
 Kidou Yuuto
-MF Viento ★★★
+MF Viento
 PODER BASE Nivel 440 10.286
 Abrir ficha
 GK NUEVO !
 Caos
 Grent
-GK Fuego ★
+GK Fuego
 PODER BASE Nivel 440 7.972
 Abrir ficha
 DF NUEVO !
 Caos
 Barra
-DF Bosque ★
+DF Bosque
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF NUEVO !
 Caos
 Clara
-DF Viento ★★
+DF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
 DF NUEVO !
 Caos
 Gocker
-DF Montaña ★
+DF Montaña
 PODER BASE Nivel 440 7.843
 Abrir ficha
 MF NUEVO !
 Caos
 Bomber
-MF Fuego ★
+MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Heat
-MF Bosque ★
+MF Bosque
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Droll
-MF Viento ★
+MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF NUEVO !
 Caos
 Rione
-MF Viento ★
+MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 FW NUEVO !
 Caos
 Nepper
-FW Bosque ★★
+FW Bosque
 PODER BASE Nivel 440 8.888
 Abrir ficha
 Una base de fans, para fans.
