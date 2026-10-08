@@ -95,7 +95,7 @@ Almas de despertar en la tienda
 Fecha por confirmar
 VERSIÓN 1.4.0 05 OCT 2026
 Tesoro subterráneo
-Nuevo modo por fases. Cada grupo, como Raimon o Young Inazuma, pide varias etiquetas: forma un equipo de 11 jugadores que las tengan y avanza hasta las fases más profundas. Cada fase superada da fichas propias, canjeables por pegatinas Inazuma.
+Nuevo modo por fases. Cada grupo, como Raimon o Jóvenes Inazuma, pide varias etiquetas: forma un equipo de 11 jugadores que las tengan y avanza hasta las fases más profundas. Cada fase superada da fichas propias, canjeables por pegatinas Inazuma.
 Equipos de 11 según etiquetas
 Fichas canjeables por pegatinas Inazuma
 Reinicio mensual: las recompensas vuelven

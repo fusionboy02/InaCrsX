@@ -9,6 +9,7 @@ GK Montaña ★★★ Portero Inazuma Eleven 1
 PODER BASE 11.811 Nivel 440 · máximo
 Estadísticas
 NIV. 440
+Estadísticas base · nivel 440 · sin equipación
 ⚽ Tiro 1.949
 ✦ Técnica 2.234
 ▣ Bloqueo 2.979
@@ -23,6 +24,9 @@ Las pasivas de cohesión utilizan estas etiquetas para reconocer a sus aliados.
 Raimon Portero Inazuma Eleven 1
 Pasivas
 5 activas
+Nivel
+Rareza (despertar) Growing Growing+ Advanced Advanced+ Top Top+ Legendary Legendary+
+Elige nivel y rareza para ver la cifra exacta de cada pasiva. Las estadísticas no cambian: son siempre las del nivel 440.
 STACK: el efecto se acumula cada vez que se activa, normalmente hasta que marca tu equipo o el propio jugador.
 Nivel [Cohesión] Parada+
 NIV. 15
@@ -39,11 +43,11 @@ Se desbloquea al nivel 421
 Despertar TP máximo+
 NIV. 3
 Al inicio del partido, aumenta el TP máximo propio en 30.
-Despertar 8
+Despertar 8 · Legendary
 Despertar Poder de Mano celestial+ (mejorada)
 NIV. 3
 Al inicio del partido, aumenta el poder de su técnica Mano celestial de Montaña en 117 y reduce su coste de TP en 5.
-Despertar 9
+Despertar 9 · Legendary+
 Supertécnicas
 Despeje de fuego
 Nivel 1

@@ -9,6 +9,7 @@ FW Fuego ★★★ Segundo delantero Inazuma Eleven 2
 PODER BASE 10.458 Nivel 440 · máximo
 Estadísticas
 NIV. 440
+Estadísticas base · nivel 440 · sin equipación
 ⚽ Tiro 3.776
 ✦ Técnica 3.120
 ▣ Bloqueo 2.134
@@ -23,6 +24,9 @@ Las pasivas de cohesión utilizan estas etiquetas para reconocer a sus aliados.
 Caos Segundo delantero Inazuma Eleven 2
 Pasivas
 5 activas
+Nivel
+Rareza (despertar) Growing Growing+ Advanced Advanced+ Top Top+ Legendary Legendary+
+Elige nivel y rareza para ver la cifra exacta de cada pasiva. Las estadísticas no cambian: son siempre las del nivel 440.
 STACK: el efecto se acumula cada vez que se activa, normalmente hasta que marca tu equipo o el propio jugador.
 Nivel [Resonancia] Poder de tiro+ <Fuego>
 NIV. 15
@@ -39,11 +43,11 @@ Se desbloquea al nivel 421
 Despertar TP máximo+
 NIV. 3
 Al inicio del partido, aumenta el TP máximo propio en 30.
-Despertar 8
+Despertar 8 · Legendary
 Despertar [Oportunidad / Acum.] Poder de tiro+ STACK
 NIV. 3
 Cada vez que falla un bloqueo de tiro de un DF rival, aumenta el poder de las técnicas de tiro propias en 97. El efecto termina cuando tu equipo marca un gol.
-Despertar 9
+Despertar 9 · Legendary+
 Supertécnicas
 Llamarada atómica
 Nivel 1
