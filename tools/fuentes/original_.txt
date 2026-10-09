@@ -1,5 +1,5 @@
 Última actualización: 1.3.3
-IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Guías Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
 DATOS · NOTICIAS · TIER LIST INAZUMA ELEVEN CROSS DATABASE
 La base de datos fan de Inazuma Eleven Cross, también conocida como IE Cross DB: compara estadísticas de jugadores, consulta pasivas y supertécnicas, revisa la tier list y crea tu equipo.
 Buscar jugador Ver catálogo Tier List Crea tu formación Tienda
@@ -117,23 +117,14 @@ Abrir jugadores CONSTRUCTOR TÁCTICO Crea tu formación
 Elige entrenador, coloca once jugadores y comprueba todas las bonificaciones.
 13 entrenadores 11 slots libres
 Crear plantilla
-INAZUMA ELEVEN CROSS
-Guías
-Guías
-Estadísticas, pasivas y zonas en Inazuma Eleven Cross
-Cómo leer una ficha de jugador: nivel de referencia, estadísticas, etiquetas, pasivas, zonas ideales y tablas de supertécnicas.
-Cómo crear un equipo en Inazuma Eleven Cross
-Guía del creador de equipos: selecciona entrenador y nivel, coloca once jugadores y revisa los requisitos de formación y pasivas.
-Cómo usar la tier list de Inazuma Eleven Cross
-Consulta el ranking por posición de RR_o, contrasta las fichas con tu equipo y crea tu propia tier list de Inazuma Eleven Cross.
 ¿Conoces a alguien que juegue a Cross?
-Comparte las fichas, las guías y el creador de equipos con tu comunidad.
+Comparte las fichas, la tier list y el creador de equipos con tu comunidad.
 Compartir la base de datos Copiar enlace
 Una base de fans, para fans.
 Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
 Apoyar el proyecto
 IE CROSS DATABASE
 Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
-Guías · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
+Pasivas · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
 El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
 Inazuma Eleven Cross Database | Jugadores y Tier List
