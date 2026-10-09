@@ -15,7 +15,7 @@ Nivel del entrenador Nivel 1 Nivel 2 Nivel 3 Nivel 4 Nivel 5 Nivel 6 Nivel 7 Niv
 PASIVA DEL ENTRENADOR Impulso de Raimon Al inicio del partido, aumenta en 3113 la Parada de los GK recomendados con la etiqueta Raimon y en 1200 la Técnica de todos los aliados con la etiqueta Raimon.
 PASIVA ACTIVA DE FORMACIÓN Activa: F-Raimon Al inicio del partido, aumenta en 53 el poder de las técnicas de Parada de los GK recomendados y en 53 el poder de las técnicas de Bloqueo de los DF recomendados.
 PLANTILLA TÁCTICA F-Raimon
-Vaciar
+Descargar PNG Vaciar
 FW 1 FW 2 MF 3 MF 4 MF 5 MF 6 DF 7 DF 8 DF 9 DF 10 GK 11
 Pulsa cualquier slot para añadir o cambiar un jugador. Arrastra un jugador a otra casilla para intercambiarlos. Su posición natural nunca bloquea la selección.
 ACTIVACIÓN DE LA FORMACIÓN 0 de 3 condiciones
