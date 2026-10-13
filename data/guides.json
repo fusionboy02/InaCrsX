@@ -341,6 +341,48 @@
    "mode": "ataque",
    "rank": 9,
    "with": [
+    3010,
+    10001
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Aguijón letal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    }
+   ]
+  },
+  {
+   "el": "M",
+   "mode": "ataque",
+   "rank": 10,
+   "with": [
     1152,
     10001
    ],
@@ -373,47 +415,6 @@
     {
      "id": 2031,
      "el": "F",
-     "tech": "Ventisca de fuego",
-     "techJP": "ファイアブリザード"
-    }
-   ]
-  },
-  {
-   "el": "M",
-   "mode": "ataque",
-   "rank": 10,
-   "with": [
-    4008,
-    2030
-   ],
-   "lineup": [
-    {
-     "id": 10001,
-     "el": "F",
-     "tech": "Pingüino infernal",
-     "techJP": "インフェルノペンギン"
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Aguijón letal",
-     "techJP": "デスドロップ"
-    },
-    {
-     "id": 2031,
-     "el": "F",
-     "tech": "Ventisca de fuego",
-     "techJP": "ファイアブリザード"
-    },
-    {
-     "id": 4008,
-     "el": "V",
-     "tech": "Tiro vendaval",
-     "techJP": "マッハウィンド"
-    },
-    {
-     "id": 2030,
-     "el": "V",
      "tech": "Ventisca de fuego",
      "techJP": "ファイアブリザード"
     }
@@ -633,6 +634,48 @@
    "el": "V",
    "mode": "ataque",
    "rank": 6,
+   "with": [
+    3010,
+    10001
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Aguijón letal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    }
+   ]
+  },
+  {
+   "el": "V",
+   "mode": "ataque",
+   "rank": 7,
    "with": [
     3016,
     10001
@@ -674,7 +717,7 @@
   {
    "el": "V",
    "mode": "ataque",
-   "rank": 7,
+   "rank": 8,
    "with": [
     1152,
     10001
@@ -716,7 +759,7 @@
   {
    "el": "V",
    "mode": "ataque",
-   "rank": 8,
+   "rank": 9,
    "with": [
     4009,
     10003
@@ -758,7 +801,7 @@
   {
    "el": "V",
    "mode": "ataque",
-   "rank": 9,
+   "rank": 10,
    "with": [
     4009,
     10001
@@ -776,47 +819,6 @@
      "tech": "Tornado de fuego",
      "techJP": "ファイアトルネード",
      "manual": true
-    },
-    {
-     "id": 10001,
-     "el": "F",
-     "tech": "Pingüino infernal",
-     "techJP": "インフェルノペンギン"
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Aguijón letal",
-     "techJP": "デスドロップ"
-    },
-    {
-     "id": 2031,
-     "el": "F",
-     "tech": "Ventisca de fuego",
-     "techJP": "ファイアブリザード"
-    }
-   ]
-  },
-  {
-   "el": "V",
-   "mode": "ataque",
-   "rank": 10,
-   "with": [
-    10003,
-    3016
-   ],
-   "lineup": [
-    {
-     "id": 10003,
-     "el": "B",
-     "tech": "Remate rebotado (Fuegos artificiales)",
-     "techJP": "バウンサーラビット（花火）"
-    },
-    {
-     "id": 3016,
-     "el": "B",
-     "tech": "Pingüino emperador n.º 2",
-     "techJP": "皇帝ペンギン2号"
     },
     {
      "id": 10001,
@@ -927,6 +929,48 @@
    "mode": "ataque",
    "rank": 3,
    "with": [
+    3010,
+    1168
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Aguijón letal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    }
+   ]
+  },
+  {
+   "el": "B",
+   "mode": "ataque",
+   "rank": 4,
+   "with": [
     1152,
     1168
    ],
@@ -967,7 +1011,7 @@
   {
    "el": "B",
    "mode": "ataque",
-   "rank": 4,
+   "rank": 5,
    "with": [
     1110,
     1168
@@ -1009,7 +1053,7 @@
   {
    "el": "B",
    "mode": "ataque",
-   "rank": 5,
+   "rank": 6,
    "with": [
     3018,
     3010
@@ -1050,7 +1094,7 @@
   {
    "el": "B",
    "mode": "ataque",
-   "rank": 6,
+   "rank": 7,
    "with": [
     4008,
     1168
@@ -1092,7 +1136,7 @@
   {
    "el": "B",
    "mode": "ataque",
-   "rank": 7,
+   "rank": 8,
    "with": [
     2054,
     1168
@@ -1134,7 +1178,7 @@
   {
    "el": "B",
    "mode": "ataque",
-   "rank": 8,
+   "rank": 9,
    "with": [
     4009,
     1168
@@ -1176,7 +1220,7 @@
   {
    "el": "B",
    "mode": "ataque",
-   "rank": 9,
+   "rank": 10,
    "with": [
     3011,
     1168
@@ -1212,48 +1256,6 @@
      "el": "M",
      "tech": "Remate del tigre",
      "techJP": "タイガードライブ"
-    }
-   ]
-  },
-  {
-   "el": "B",
-   "mode": "ataque",
-   "rank": 10,
-   "with": [
-    1153,
-    1168
-   ],
-   "lineup": [
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 1153,
-     "el": "F",
-     "tech": "Triángulo Z",
-     "techJP": "トライアングルZ"
-    },
-    {
-     "id": 10001,
-     "el": "F",
-     "tech": "Pingüino infernal",
-     "techJP": "インフェルノペンギン"
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Aguijón letal",
-     "techJP": "デスドロップ"
-    },
-    {
-     "id": 2031,
-     "el": "F",
-     "tech": "Ventisca de fuego",
-     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -1388,6 +1390,48 @@
    "mode": "ataque",
    "rank": 4,
    "with": [
+    3010,
+    1168
+   ],
+   "lineup": [
+    {
+     "id": 1168,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード",
+     "manual": true
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Tornado de fuego",
+     "techJP": "ファイアトルネード"
+    },
+    {
+     "id": 10001,
+     "el": "F",
+     "tech": "Pingüino infernal",
+     "techJP": "インフェルノペンギン"
+    },
+    {
+     "id": 4010,
+     "el": "F",
+     "tech": "Aguijón letal",
+     "techJP": "デスドロップ"
+    },
+    {
+     "id": 2031,
+     "el": "F",
+     "tech": "Ventisca de fuego",
+     "techJP": "ファイアブリザード"
+    }
+   ]
+  },
+  {
+   "el": "F",
+   "mode": "ataque",
+   "rank": 5,
+   "with": [
     1152,
     1168
    ],
@@ -1428,7 +1472,7 @@
   {
    "el": "F",
    "mode": "ataque",
-   "rank": 5,
+   "rank": 6,
    "with": [
     3011,
     1168
@@ -1470,7 +1514,7 @@
   {
    "el": "F",
    "mode": "ataque",
-   "rank": 6,
+   "rank": 7,
    "with": [
     1110,
     1168
@@ -1512,7 +1556,7 @@
   {
    "el": "F",
    "mode": "ataque",
-   "rank": 7,
+   "rank": 8,
    "with": [
     2030,
     1168
@@ -1554,7 +1598,7 @@
   {
    "el": "F",
    "mode": "ataque",
-   "rank": 8,
+   "rank": 9,
    "with": [
     3018,
     3010
@@ -1595,7 +1639,7 @@
   {
    "el": "F",
    "mode": "ataque",
-   "rank": 9,
+   "rank": 10,
    "with": [
     2052,
     1168
@@ -1631,48 +1675,6 @@
      "el": "V",
      "tech": "Trampolín relámpago",
      "techJP": "イナズマ落とし"
-    }
-   ]
-  },
-  {
-   "el": "F",
-   "mode": "ataque",
-   "rank": 10,
-   "with": [
-    4009,
-    1168
-   ],
-   "lineup": [
-    {
-     "id": 4009,
-     "el": "B",
-     "tech": "Pentagrama",
-     "techJP": "フォルテシモ"
-    },
-    {
-     "id": 1168,
-     "el": "F",
-     "tech": "Tornado de fuego",
-     "techJP": "ファイアトルネード",
-     "manual": true
-    },
-    {
-     "id": 10001,
-     "el": "F",
-     "tech": "Pingüino infernal",
-     "techJP": "インフェルノペンギン"
-    },
-    {
-     "id": 4010,
-     "el": "F",
-     "tech": "Aguijón letal",
-     "techJP": "デスドロップ"
-    },
-    {
-     "id": 2031,
-     "el": "F",
-     "tech": "Ventisca de fuego",
-     "techJP": "ファイアブリザード"
     }
    ]
   },
@@ -4845,77 +4847,22 @@
   ]
  },
  "evaluations": {
-  "4010": {
-   "pvp": "SS",
-   "trial": "SS",
-   "uses": 20,
-   "summary": "FW que convierte cada regate con éxito de un MF aliado en más potencia para su propio tiro."
-  },
-  "2030": {
-   "pvp": "SS",
-   "trial": "SS",
-   "uses": 7,
-   "summary": "FW de Caos con la Ventisca de fuego de elemento Viento: puede marcar él mismo o debilitar al portero rival, según convenga."
-  },
-  "10003": {
-   "pvp": "SS",
-   "trial": "S",
-   "uses": 6,
-   "summary": "Su pasiva que refuerza los tiros de Bosque de los FW de Bosque cada vez que tu equipo para un tiro es lo que lo define."
-  },
-  "3010": {
-   "pvp": "B",
-   "trial": "SS",
-   "uses": 6,
-   "summary": "En las pruebas pega muy fuerte. En duelos tiene una pasiva que refuerza los tiros dentro del área: si consigues tirar desde ahí, es muy peligroso."
-  },
-  "2031": {
-   "pvp": "S",
-   "trial": "SS",
-   "uses": 5,
-   "summary": "FW de Caos que busca el gol con su Ventisca de fuego de elemento Fuego y además refuerza el tiro de los FW aliados."
-  },
-  "10001": {
-   "pvp": "B",
-   "trial": "SS",
-   "uses": 5,
-   "summary": "FW de Fuego con el potentísimo Pingüino infernal. Cuesta 55 de TP: con entrenamiento hasta 165 de TP puede usarlo tres veces por partido."
-  },
-  "3018": {
+  "1017": {
    "pvp": "C",
    "trial": "SS",
-   "uses": 4,
-   "summary": "Su pasiva sube la potencia de Descenso estelar, así que en las pruebas es un atacante muy fuerte."
+   "uses": 5,
+   "summary": "Con el despertar completo empieza con 150 de TP y usa su Escudo de fuerza total tres veces por partido. Refuerza su técnica y además ayuda al bloqueo y a la parada del equipo."
   },
-  "3016": {
-   "pvp": "S",
-   "trial": "SS",
-   "uses": 2,
-   "summary": "FW que funciona como un Gouenji de Imperius en versión Bosque."
-  },
-  "3009": {
+  "1164": {
    "pvp": "B",
-   "trial": "S",
-   "uses": 1,
-   "summary": "FW de Viento cuya pasiva mejora a la vez la potencia, la probabilidad de crítico y el alcance de su tiro principal."
-  },
-  "1169": {
-   "pvp": "S",
    "trial": "C",
-   "uses": 5,
-   "summary": "MF que se consigue gratis en la tienda canjeando puntos de club y que apoya muy bien a los FW. Su pasiva es tan buena que conviene canjearlo de los primeros."
+   "uses": 0
   },
-  "2042": {
+  "1166": {
    "pvp": "SS",
-   "trial": "S",
-   "uses": 5,
-   "summary": "MF de Viento que puede hacer de goleador como un FW y, a la vez, apoyar como MF."
-  },
-  "3008": {
-   "pvp": "A",
-   "trial": "C",
-   "uses": 5,
-   "summary": "MF de centro con un regate potentísimo. En la Cross Simulator es muy útil porque supera a los DF rivales más fuertes."
+   "trial": "SS",
+   "uses": 16,
+   "summary": "Portera de Montaña: si hay tres o más aliados con la etiqueta Raimon su parada sube mucho, y se refuerza aún más cada vez que falla un bloqueo de tiro de un aliado."
   },
   "1167": {
    "pvp": "A",
@@ -4923,11 +4870,41 @@
    "uses": 5,
    "summary": "MF de apoyo: al inicio del partido refuerza los regates de los MF aliados y, cada vez que regatea con éxito, baja el tiro de los FW rivales y el bloqueo de los DF rivales de Montaña."
   },
-  "4009": {
+  "1168": {
+   "pvp": "SS",
+   "trial": "SS",
+   "uses": 25,
+   "summary": "Cada vez que paran un tiro de tu equipo refuerza a los FW aliados. Es una pieza de apoyo muy valiosa en duelos, en la Cross Simulator y en las pruebas de ataque."
+  },
+  "1169": {
    "pvp": "S",
-   "trial": "A",
-   "uses": 4,
-   "summary": "MF de Bosque que ayuda en ataque y en defensa a la vez: solo con estar en el campo refuerza el ataque de los FW y los bloqueos de los DF de Bosque."
+   "trial": "C",
+   "uses": 5,
+   "summary": "MF que se consigue gratis en la tienda canjeando puntos de club y que apoya muy bien a los FW. Su pasiva es tan buena que conviene canjearlo de los primeros."
+  },
+  "1170": {
+   "pvp": "A",
+   "trial": null,
+   "uses": 13,
+   "summary": "El primer portero a elegir si no tienes a Kino Aki o no le has dado dos despertares. Al ser ★2 es fácil de mejorar y es muy valioso para quien juega sin pagar."
+  },
+  "2030": {
+   "pvp": "SS",
+   "trial": "SS",
+   "uses": 7,
+   "summary": "FW de Caos con la Ventisca de fuego de elemento Viento: puede marcar él mismo o debilitar al portero rival, según convenga."
+  },
+  "2031": {
+   "pvp": "S",
+   "trial": "SS",
+   "uses": 5,
+   "summary": "FW de Caos que busca el gol con su Ventisca de fuego de elemento Fuego y además refuerza el tiro de los FW aliados."
+  },
+  "2042": {
+   "pvp": "SS",
+   "trial": "S",
+   "uses": 5,
+   "summary": "MF de Viento que puede hacer de goleador como un FW y, a la vez, apoyar como MF."
   },
   "2064": {
    "pvp": "S",
@@ -4935,34 +4912,11 @@
    "uses": 0,
    "summary": "MF de Viento con mucho futuro como pivote en las formaciones de la entrenadora Kira Hitomiko."
   },
-  "10005": {
-   "pvp": "A",
-   "trial": "C",
-   "uses": 0,
-   "summary": "Mucha técnica y apoyo tanto a los FW como al bloqueo de los MF: ayuda delante y en el centro."
-  },
-  "3014": {
-   "pvp": "B",
-   "trial": "C",
-   "uses": 0,
-   "summary": "Jugador de apoyo defensivo: mientras está en su mitad del campo refuerza el bloqueo de los DF aliados."
-  },
-  "10004": {
-   "pvp": "B",
-   "trial": "C",
-   "uses": 0,
-   "summary": "Jugador de apoyo que refuerza a la vez a todos los MF de Viento del equipo."
-  },
-  "1164": {
-   "pvp": "B",
-   "trial": "C",
-   "uses": 0
-  },
-  "10002": {
+  "3001": {
    "pvp": "S",
-   "trial": "SS",
-   "uses": 28,
-   "summary": "Su pasiva sube la potencia y baja el coste de su bloqueo. Además refuerza al portero tras un bloqueo fallido y ayuda al bloqueo de los DF y a la parada del portero."
+   "trial": "C",
+   "uses": 12,
+   "summary": "Como portero, su técnica y su autorrefuerzo se quedan cortos para ser titular."
   },
   "3002": {
    "pvp": "S",
@@ -4976,35 +4930,56 @@
    "uses": 6,
    "summary": "DF con un bloqueo de Montaña muy potente, con ventaja contra los FW de Fuego."
   },
-  "3007": {
-   "pvp": "B",
-   "trial": "SS",
-   "uses": 4,
-   "summary": "A pesar de ser ★2, refuerza aún más su potente Golpe de vacío. Es fácil de despertar y en las pruebas de defensa sirve contra Montaña, Viento y Fuego."
-  },
   "3006": {
    "pvp": "B",
    "trial": "SS",
    "uses": 2,
    "summary": "Su pasiva sube mucho la potencia de Campo torbellino. De MF regatea poco y le roban el balón con facilidad."
   },
-  "1170": {
+  "3007": {
+   "pvp": "B",
+   "trial": "SS",
+   "uses": 4,
+   "summary": "A pesar de ser ★2, refuerza aún más su potente Golpe de vacío. Es fácil de despertar y en las pruebas de defensa sirve contra Montaña, Viento y Fuego."
+  },
+  "3008": {
    "pvp": "A",
-   "trial": null,
-   "uses": 13,
-   "summary": "El primer portero a elegir si no tienes a Kino Aki o no le has dado dos despertares. Al ser ★2 es fácil de mejorar y es muy valioso para quien juega sin pagar."
-  },
-  "3001": {
-   "pvp": "S",
    "trial": "C",
-   "uses": 12,
-   "summary": "Como portero, su técnica y su autorrefuerzo se quedan cortos para ser titular."
+   "uses": 5,
+   "summary": "MF de centro con un regate potentísimo. En la Cross Simulator es muy útil porque supera a los DF rivales más fuertes."
   },
-  "1017": {
+  "3009": {
+   "pvp": "B",
+   "trial": "S",
+   "uses": 1,
+   "summary": "FW de Viento cuya pasiva mejora a la vez la potencia, la probabilidad de crítico y el alcance de su tiro principal."
+  },
+  "3010": {
+   "pvp": "B",
+   "trial": "SS",
+   "uses": 6,
+   "summary": "En las pruebas pega muy fuerte. En duelos tiene una pasiva que refuerza los tiros dentro del área: si consigues tirar desde ahí, es muy peligroso."
+  },
+  "3012": {
+   "summary": "Lleva la etiqueta Inazuma Japan y es fácil de usar mientras tus ★3 tengan poco despertar. Regatea bien para ser MF y su pasiva sube el bloqueo de los DF aliados. Se consigue en el modo de conexiones."
+  },
+  "3014": {
+   "pvp": "B",
+   "trial": "C",
+   "uses": 0,
+   "summary": "Jugador de apoyo defensivo: mientras está en su mitad del campo refuerza el bloqueo de los DF aliados."
+  },
+  "3016": {
+   "pvp": "S",
+   "trial": "SS",
+   "uses": 2,
+   "summary": "FW que funciona como un Gouenji de Imperius en versión Bosque."
+  },
+  "3018": {
    "pvp": "C",
    "trial": "SS",
-   "uses": 5,
-   "summary": "Con el despertar completo empieza con 150 de TP y usa su Escudo de fuerza total tres veces por partido. Refuerza su técnica y además ayuda al bloqueo y a la parada del equipo."
+   "uses": 4,
+   "summary": "Su pasiva sube la potencia de Descenso estelar, así que en las pruebas es un atacante muy fuerte."
   },
   "3020": {
    "pvp": "B",
@@ -5012,11 +4987,11 @@
    "uses": 5,
    "summary": "Portero de Bosque que necesita mucho TP para usar Manos infinitas tres veces. En duelos suele ser mejor Kino Aki, y si lo usas depende del elemento de los FW rivales y del entrenador."
   },
-  "1168": {
+  "4003": {
    "pvp": "SS",
    "trial": "SS",
-   "uses": 25,
-   "summary": "Cada vez que paran un tiro de tu equipo refuerza a los FW aliados. Es una pieza de apoyo muy valiosa en duelos, en la Cross Simulator y en las pruebas de ataque."
+   "uses": 29,
+   "summary": "DF de Bosque que sostiene la defensa tanto en duelos como en pruebas. Refuerza al portero cada vez que él o un DF aliado falla un bloqueo de tiro."
   },
   "4008": {
    "pvp": "S",
@@ -5024,20 +4999,47 @@
    "uses": 25,
    "summary": "MF con un regate muy fuerte. Cada regate con éxito refuerza además el tiro de los FW aliados."
   },
-  "4003": {
+  "4009": {
+   "pvp": "S",
+   "trial": "A",
+   "uses": 4,
+   "summary": "MF de Bosque que ayuda en ataque y en defensa a la vez: solo con estar en el campo refuerza el ataque de los FW y los bloqueos de los DF de Bosque."
+  },
+  "4010": {
    "pvp": "SS",
    "trial": "SS",
-   "uses": 29,
-   "summary": "DF de Bosque que sostiene la defensa tanto en duelos como en pruebas. Refuerza al portero cada vez que él o un DF aliado falla un bloqueo de tiro."
+   "uses": 20,
+   "summary": "FW que convierte cada regate con éxito de un MF aliado en más potencia para su propio tiro."
   },
-  "1166": {
-   "pvp": "SS",
+  "10001": {
+   "pvp": "B",
    "trial": "SS",
-   "uses": 16,
-   "summary": "Portera de Montaña: si hay tres o más aliados con la etiqueta Raimon su parada sube mucho, y se refuerza aún más cada vez que falla un bloqueo de tiro de un aliado."
+   "uses": 5,
+   "summary": "FW de Fuego con el potentísimo Pingüino infernal. Cuesta 55 de TP: con entrenamiento hasta 165 de TP puede usarlo tres veces por partido."
   },
-  "3012": {
-   "summary": "Lleva la etiqueta Inazuma Japan y es fácil de usar mientras tus ★3 tengan poco despertar. Regatea bien para ser MF y su pasiva sube el bloqueo de los DF aliados. Se consigue en el modo de conexiones."
+  "10002": {
+   "pvp": "S",
+   "trial": "SS",
+   "uses": 28,
+   "summary": "Su pasiva sube la potencia y baja el coste de su bloqueo. Además refuerza al portero tras un bloqueo fallido y ayuda al bloqueo de los DF y a la parada del portero."
+  },
+  "10003": {
+   "pvp": "SS",
+   "trial": "S",
+   "uses": 6,
+   "summary": "Su pasiva que refuerza los tiros de Bosque de los FW de Bosque cada vez que tu equipo para un tiro es lo que lo define."
+  },
+  "10004": {
+   "pvp": "B",
+   "trial": "C",
+   "uses": 0,
+   "summary": "Jugador de apoyo que refuerza a la vez a todos los MF de Viento del equipo."
+  },
+  "10005": {
+   "pvp": "A",
+   "trial": "C",
+   "uses": 0,
+   "summary": "Mucha técnica y apoyo tanto a los FW como al bloqueo de los MF: ayuda delante y en el centro."
   }
  },
  "tierPvp": {
