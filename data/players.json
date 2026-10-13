@@ -2121,7 +2121,7 @@
     {
      "code": "101009004",
      "name": "Poder+ <Viento>",
-     "nameJP": "パワー＋〈風〉",
+     "nameJP": "",
      "src": "Despertar",
      "lv": 3,
      "rank": "A",
@@ -6355,7 +6355,7 @@
   "el": "V",
   "stars": 3,
   "power": 10372,
-  "isNew": true,
+  "isNew": false,
   "detail": {
    "tags": [
     "Caos",
@@ -6645,7 +6645,7 @@
   "el": "F",
   "stars": 3,
   "power": 10458,
-  "isNew": true,
+  "isNew": false,
   "detail": {
    "tags": [
     "Caos",
@@ -8428,7 +8428,7 @@
     {
      "code": "103007004",
      "name": "Poder+ <Viento>",
-     "nameJP": "パワー＋〈風〉",
+     "nameJP": "",
      "src": "Despertar",
      "lv": 3,
      "rank": "A",
@@ -18169,7 +18169,7 @@
     {
      "code": "1010004001",
      "name": "Poder+ <Viento>",
-     "nameJP": "パワー＋〈風〉",
+     "nameJP": "",
      "src": "Nivel",
      "lv": 15,
      "rank": "A",
@@ -20224,7 +20224,7 @@
     {
      "code": "101160004",
      "name": "Poder+ <Viento>",
-     "nameJP": "パワー＋〈風〉",
+     "nameJP": "",
      "src": "Despertar",
      "lv": 3,
      "rank": "A",
@@ -32549,7 +32549,7 @@
   "el": "F",
   "stars": 1,
   "power": 7972,
-  "isNew": true,
+  "isNew": false,
   "detail": {
    "tags": [
     "Caos",
@@ -32839,7 +32839,7 @@
   "el": "B",
   "stars": 1,
   "power": 7843,
-  "isNew": true,
+  "isNew": false,
   "detail": {
    "tags": [
     "Caos",
@@ -33129,7 +33129,7 @@
   "el": "V",
   "stars": 2,
   "power": 8889,
-  "isNew": true,
+  "isNew": false,
   "detail": {
    "tags": [
     "Caos",
@@ -33419,7 +33419,7 @@
   "el": "M",
   "stars": 1,
   "power": 7843,
-  "isNew": true,
+  "isNew": false,
   "detail": {
    "tags": [
     "Caos",
@@ -33709,7 +33709,7 @@
   "el": "F",
   "stars": 1,
   "power": 7714,
-  "isNew": true,
+  "isNew": false,
   "detail": {
    "tags": [
     "Caos",
@@ -33999,7 +33999,7 @@
   "el": "B",
   "stars": 1,
   "power": 7714,
-  "isNew": true,
+  "isNew": false,
   "detail": {
    "tags": [
     "Caos",
@@ -34289,7 +34289,7 @@
   "el": "V",
   "stars": 1,
   "power": 7714,
-  "isNew": true,
+  "isNew": false,
   "detail": {
    "tags": [
     "Caos",
@@ -34579,7 +34579,7 @@
   "el": "V",
   "stars": 1,
   "power": 7714,
-  "isNew": true,
+  "isNew": false,
   "detail": {
    "tags": [
     "Caos",
@@ -34868,7 +34868,7 @@
   "el": "B",
   "stars": 2,
   "power": 8888,
-  "isNew": true,
+  "isNew": false,
   "detail": {
    "tags": [
     "Caos",
@@ -35127,6 +35127,582 @@
        "8 %",
        "8 %",
        "11 %"
+      ],
+      "Bonus crítico": [
+       "10 %",
+       "10 %",
+       "10 %",
+       "10 %",
+       "13 %",
+       "13 %",
+       "13 %",
+       "13 %",
+       "13 %",
+       "16 %"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": 1176,
+  "slug": "fubuki-shirou-1176",
+  "name": "Fubuki Shirou",
+  "nameEU": "Shawn Froste",
+  "nameJP": "吹雪士郎",
+  "nickJP": "吹雪",
+  "alias": "Shawn Froste",
+  "team": "Raimon",
+  "pos": "FW",
+  "el": "V",
+  "stars": 3,
+  "power": 10458,
+  "isNew": true,
+  "detail": {
+   "tags": [
+    "Raimon",
+    "Delantero",
+    "Inazuma Eleven 2"
+   ],
+   "level": 440,
+   "stats": {
+    "Tiro": 3899,
+    "Técnica": 2922,
+    "Bloqueo": 2191,
+    "Parada": 1446
+   },
+   "speed": 4,
+   "tp": 100,
+   "zones": {
+    "2": "S",
+    "5": "A",
+    "7": "B"
+   },
+   "passives": [
+    {
+     "code": "101176001",
+     "name": "[Resonancia] Tiro de FW+",
+     "nameJP": "【共鳴】ＦＷキック＋",
+     "src": "Nivel",
+     "lv": 15,
+     "rank": "A",
+     "unlock": "nivel 431",
+     "text": "Al inicio del partido, si hay al menos 3 aliados de Viento, aumenta el Tiro de los FW aliados en 1169.",
+     "cond": {
+      "type": "element",
+      "el": "V",
+      "min": 3
+     }
+    },
+    {
+     "code": "100000101",
+     "name": "Tiro+",
+     "nameJP": "キック＋",
+     "src": "Nivel",
+     "lv": 14,
+     "rank": "B",
+     "unlock": "nivel 411",
+     "text": "Al inicio del partido, aumenta el Tiro propio en 2016."
+    },
+    {
+     "code": "101176003",
+     "name": "Poder de Fuego helado+ / Tiro de aliados de Viento+",
+     "nameJP": "クロスファイアパワー＋／風キック＋",
+     "src": "Nivel",
+     "lv": 14,
+     "rank": "A",
+     "unlock": "nivel 421",
+     "text": "Al inicio del partido, aumenta el poder de su técnica Fuego helado en 81 y el Tiro de todos los aliados de Viento en 518."
+    },
+    {
+     "code": "100000501",
+     "name": "TP máximo+",
+     "nameJP": "最大ＴＰ＋",
+     "src": "Despertar",
+     "lv": 3,
+     "rank": "A",
+     "unlock": "despertar 8",
+     "text": "Al inicio del partido, aumenta el TP máximo propio en 30."
+    },
+    {
+     "code": "101176004",
+     "name": "[Intercepción / Acum.] Poder de tiro de FW de Viento+ <Viento> / Tiro de FW de Viento+",
+     "nameJP": "【阻止/累】風ＦＷシュートパワー＋〈風〉／風ＦＷキック＋",
+     "src": "Despertar",
+     "lv": 3,
+     "rank": "A",
+     "unlock": "despertar 9",
+     "text": "Cada vez que un aliado detiene un tiro rival, aumenta el poder de las técnicas de tiro de Viento de los FW aliados de Viento en 45 y su Tiro en 782. El efecto termina cuando tu equipo marca un gol.",
+     "stack": true
+    }
+   ],
+   "techniques": [
+    {
+     "name": "Ventisca eterna",
+     "nameJP": "エターナルブリザード",
+     "code": "11005",
+     "unlock": 1,
+     "type": "Tiro",
+     "el": "V",
+     "long": false,
+     "blocksShots": false,
+     "chain": true,
+     "rows": {
+      "Poder": [
+       90,
+       95,
+       100,
+       105,
+       110,
+       115,
+       120,
+       125,
+       130,
+       135
+      ],
+      "Coste TP": [
+       40,
+       40,
+       40,
+       40,
+       40,
+       40,
+       40,
+       40,
+       40,
+       40
+      ],
+      "Rango": [
+       19,
+       19,
+       19,
+       19,
+       19,
+       19,
+       19,
+       19,
+       19,
+       19
+      ],
+      "Recarga": [
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "Falta": [
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %"
+      ],
+      "Crítico": [
+       "6 %",
+       "6 %",
+       "6 %",
+       "6 %",
+       "9 %",
+       "9 %",
+       "9 %",
+       "9 %",
+       "9 %",
+       "12 %"
+      ],
+      "Bonus crítico": [
+       "5 %",
+       "5 %",
+       "5 %",
+       "5 %",
+       "8 %",
+       "8 %",
+       "8 %",
+       "8 %",
+       "8 %",
+       "11 %"
+      ]
+     }
+    },
+    {
+     "name": "Fuego helado",
+     "nameJP": "クロスファイア",
+     "code": "11017",
+     "unlock": 31,
+     "type": "Tiro",
+     "el": "V",
+     "long": false,
+     "blocksShots": false,
+     "chain": true,
+     "rows": {
+      "Poder": [
+       130,
+       135,
+       140,
+       145,
+       150,
+       155,
+       160,
+       165,
+       170,
+       175
+      ],
+      "Coste TP": [
+       60,
+       60,
+       60,
+       60,
+       60,
+       60,
+       60,
+       60,
+       60,
+       60
+      ],
+      "Rango": [
+       19,
+       19,
+       19,
+       19,
+       19,
+       19,
+       19,
+       19,
+       19,
+       19
+      ],
+      "Recarga": [
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "Falta": [
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %"
+      ],
+      "Crítico": [
+       "10 %",
+       "10 %",
+       "10 %",
+       "10 %",
+       "13 %",
+       "13 %",
+       "13 %",
+       "13 %",
+       "13 %",
+       "16 %"
+      ],
+      "Bonus crítico": [
+       "20 %",
+       "20 %",
+       "20 %",
+       "20 %",
+       "23 %",
+       "23 %",
+       "23 %",
+       "23 %",
+       "23 %",
+       "26 %"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": 10072,
+  "slug": "shin-aphrodi-10072",
+  "name": "Shin Aphrodi",
+  "nameEU": "",
+  "nameJP": "シン・アフロディ",
+  "nickJP": "アフロディ",
+  "alias": "Shin-Aphrodi, Shin Afurodi",
+  "team": "Shin Zeus",
+  "pos": "MF",
+  "el": "M",
+  "stars": 3,
+  "power": 11469,
+  "isNew": true,
+  "detail": {
+   "tags": [
+    "Shin Zeus",
+    "Mediapunta",
+    "Inazuma Eleven Cross"
+   ],
+   "level": 440,
+   "stats": {
+    "Tiro": 3776,
+    "Técnica": 4350,
+    "Bloqueo": 2007,
+    "Parada": 1336
+   },
+   "speed": 6,
+   "tp": 100,
+   "zones": {
+    "2": "A",
+    "5": "S",
+    "7": "B"
+   },
+   "passives": [
+    {
+     "code": "110072001",
+     "name": "Poder de Sabiduría divina Makina+ (mejorada)",
+     "nameJP": "ゴッドノウズ・マキナパワー＋改",
+     "src": "Nivel",
+     "lv": 15,
+     "rank": "A",
+     "unlock": "nivel 431",
+     "text": "Al inicio del partido, reduce el coste de TP de su técnica Sabiduría divina Makina en 10 y aumenta su poder en 112."
+    },
+    {
+     "code": "100000101",
+     "name": "Tiro+",
+     "nameJP": "キック＋",
+     "src": "Nivel",
+     "lv": 14,
+     "rank": "B",
+     "unlock": "nivel 411",
+     "text": "Al inicio del partido, aumenta el Tiro propio en 2016."
+    },
+    {
+     "code": "110072003",
+     "name": "[Combinación / Acum.] Poder de tiro+",
+     "nameJP": "【連動/累】シュートパワー＋",
+     "src": "Nivel",
+     "lv": 14,
+     "rank": "A",
+     "unlock": "nivel 421",
+     "text": "Cada vez que una técnica de regate de un MF aliado tiene éxito, aumenta el poder de las técnicas de tiro propias en 66. El efecto termina cuando tu equipo marca un gol.",
+     "stack": true
+    },
+    {
+     "code": "100000501",
+     "name": "TP máximo+",
+     "nameJP": "最大ＴＰ＋",
+     "src": "Despertar",
+     "lv": 3,
+     "rank": "A",
+     "unlock": "despertar 8",
+     "text": "Al inicio del partido, aumenta el TP máximo propio en 30."
+    },
+    {
+     "code": "110072004",
+     "name": "[Intercepción / Acum.] Tiro+",
+     "nameJP": "【阻止/累】キック＋",
+     "src": "Despertar",
+     "lv": 3,
+     "rank": "A",
+     "unlock": "despertar 9",
+     "text": "Cada vez que un aliado detiene un tiro rival, aumenta el Tiro propio en 4142. El efecto termina cuando tu equipo marca un gol.",
+     "stack": true
+    }
+   ],
+   "techniques": [
+    {
+     "name": "Sabiduría divina Makina",
+     "nameJP": "ゴッドノウズ・マキナ",
+     "code": "14007",
+     "unlock": 1,
+     "type": "Tiro",
+     "el": "M",
+     "long": false,
+     "blocksShots": false,
+     "chain": true,
+     "rows": {
+      "Poder": [
+       115,
+       120,
+       125,
+       130,
+       135,
+       140,
+       145,
+       150,
+       155,
+       160
+      ],
+      "Coste TP": [
+       60,
+       60,
+       60,
+       60,
+       60,
+       60,
+       60,
+       60,
+       60,
+       60
+      ],
+      "Rango": [
+       29,
+       29,
+       29,
+       29,
+       29,
+       29,
+       29,
+       29,
+       29,
+       29
+      ],
+      "Recarga": [
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "Falta": [
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %",
+       "0 %"
+      ],
+      "Crítico": [
+       "5 %",
+       "5 %",
+       "5 %",
+       "5 %",
+       "8 %",
+       "8 %",
+       "8 %",
+       "8 %",
+       "8 %",
+       "11 %"
+      ],
+      "Bonus crítico": [
+       "8 %",
+       "8 %",
+       "8 %",
+       "8 %",
+       "11 %",
+       "11 %",
+       "11 %",
+       "11 %",
+       "11 %",
+       "14 %"
+      ]
+     }
+    },
+    {
+     "name": "Hora celestial",
+     "nameJP": "ヘブンズタイム",
+     "code": "19011",
+     "unlock": 31,
+     "type": "Regate",
+     "el": "V",
+     "long": false,
+     "blocksShots": false,
+     "chain": false,
+     "rows": {
+      "Poder": [
+       140,
+       145,
+       150,
+       155,
+       160,
+       165,
+       170,
+       175,
+       180,
+       185
+      ],
+      "Coste TP": [
+       50,
+       50,
+       50,
+       50,
+       50,
+       50,
+       50,
+       50,
+       50,
+       50
+      ],
+      "Rango": [
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2
+      ],
+      "Recarga": [
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "Falta": [
+       "5 %",
+       "5 %",
+       "5 %",
+       "5 %",
+       "5 %",
+       "5 %",
+       "5 %",
+       "5 %",
+       "5 %",
+       "5 %"
+      ],
+      "Crítico": [
+       "2 %",
+       "2 %",
+       "2 %",
+       "2 %",
+       "5 %",
+       "5 %",
+       "5 %",
+       "5 %",
+       "5 %",
+       "8 %"
       ],
       "Bonus crítico": [
        "10 %",

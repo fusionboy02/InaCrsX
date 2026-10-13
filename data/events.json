@@ -1,27 +1,5 @@
 [
  {
-  "id": "banner-35734",
-  "kind": "gacha",
-  "title": "Gacha destacado de Ulvida",
-  "text": "Banner con probabilidad aumentada.",
-  "start": null,
-  "end": "2026-10-12T19:59:00.000Z",
-  "img": "official-banner-35734.jpg",
-  "player": 2042,
-  "source": "https://www.inazuma-cross.jp/information/news/35734/"
- },
- {
-  "id": "banner-35736",
-  "kind": "gacha",
-  "title": "Gacha destacado de Zaizen Touko",
-  "text": "Banner con probabilidad aumentada.",
-  "start": null,
-  "end": "2026-10-12T19:59:00.000Z",
-  "img": "official-banner-35736.jpg",
-  "player": 2064,
-  "source": "https://www.inazuma-cross.jp/information/news/35736/"
- },
- {
   "id": "banner-35852",
   "kind": "gacha",
   "title": "Gacha destacado de Gazelle",
@@ -42,6 +20,17 @@
   "img": "official-banner-35850.jpg",
   "player": 2031,
   "source": "https://www.inazuma-cross.jp/information/news/35850/"
+ },
+ {
+  "id": "banner-36005",
+  "kind": "gacha",
+  "title": "Gacha destacado de Shin Aphrodi",
+  "text": "Banner con probabilidad aumentada.",
+  "start": null,
+  "end": "2026-11-26T19:54:00.000Z",
+  "img": "official-banner-36005.jpg",
+  "player": 10072,
+  "source": "https://www.inazuma-cross.jp/information/news/36005/"
  },
  {
   "id": "evento-caos",

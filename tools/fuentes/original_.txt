@@ -1,118 +1,62 @@
-Última actualización: 1.3.3
-IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+Saltar al contenido Última actualización: 1.4.0
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Sellos Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
 DATOS · NOTICIAS · TIER LIST INAZUMA ELEVEN CROSS DATABASE
 La base de datos fan de Inazuma Eleven Cross, también conocida como IE Cross DB: compara estadísticas de jugadores, consulta pasivas y supertécnicas, revisa la tier list y crea tu equipo.
 Buscar jugador Ver catálogo Tier List Crea tu formación Tienda
-122 jugadores
-ACTUALIZACIÓN 29 SEP
-11 nuevas fichas
+124 jugadores
+ACTUALIZACIÓN 13 OCT
+2 nuevas fichas
 Ver catálogo
-★★★ Gazelle · Torch
-Gazelle y Torch ya están disponibles. Fichas completas al nivel 440, con sus pasivas, técnicas y plazas en Formación y Tu Tier List.
+★★★ Fubuki Shirou · Shin Aphrodi
+Shin Aphrodi y Fubuki Shirou de Raimon ya están disponibles. Fichas completas al nivel 440, con sus pasivas, técnicas y plazas en Formación y Tu Tier List.
 FW NUEVO !
-Caos
-Gazelle
+Raimon
+Fubuki Shirou
 FW Viento
-PODER BASE Nivel 440 10.372
-Abrir ficha
-FW NUEVO !
-Caos
-Torch
-FW Fuego
 PODER BASE Nivel 440 10.458
 Abrir ficha
-NUEVO EVENTO Caos
-GK NUEVO !
-Caos
-Grent
-GK Fuego
-PODER BASE Nivel 440 7.972
-Abrir ficha
-DF NUEVO !
-Caos
-Barra
-DF Bosque
-PODER BASE Nivel 440 7.843
-Abrir ficha
-DF NUEVO !
-Caos
-Clara
-DF Viento
-PODER BASE Nivel 440 8.889
-Abrir ficha
-DF NUEVO !
-Caos
-Gocker
-DF Montaña
-PODER BASE Nivel 440 7.843
-Abrir ficha
 MF NUEVO !
-Caos
-Bomber
-MF Fuego
-PODER BASE Nivel 440 7.714
-Abrir ficha
-MF NUEVO !
-Caos
-Heat
-MF Bosque
-PODER BASE Nivel 440 7.714
-Abrir ficha
-MF NUEVO !
-Caos
-Droll
-MF Viento
-PODER BASE Nivel 440 7.714
-Abrir ficha
-MF NUEVO !
-Caos
-Rione
-MF Viento
-PODER BASE Nivel 440 7.714
-Abrir ficha
-FW NUEVO !
-Caos
-Nepper
-FW Bosque
-PODER BASE Nivel 440 8.888
+Shin Zeus
+Shin Aphrodi
+MF Montaña
+PODER BASE Nivel 440 11.469
 Abrir ficha
 ÚLTIMA HORA
 Últimas noticias
-Actualizado el 05 OCT 2026
-VERSIÓN 1.4.0 05 OCT 2026
-Pegatinas Inazuma
-La versión 1.4.0 estrenará las pegatinas Inazuma, un nuevo sistema de mejora. Se pegan en los slots de un jugador para darle efectos pasivos y se pueden cambiar de un jugador a otro.
+Actualizado el 13 OCT 2026
+VERSIÓN 1.4.0 13 OCT 2026
+Sellos Inazuma ya disponibles
+Los sellos Inazuma ya están disponibles. Colócalos en tus jugadores para mejorar sus capacidades. Un sello no puede estar equipado en varios jugadores a la vez.
+Disponibles desde el 13 OCT
 Nuevo sistema de mejora
-Dan efectos pasivos
-Se pueden cambiar de jugador
-Fecha por confirmar
-VERSIÓN 1.4.0 05 OCT 2026
-Rango BASARA
-Los enfrentamientos tendrán un nuevo rango por encima de HERO: BASARA. Además, la tienda de Enfrentamientos añadirá a Fubuki Shirou ★3 (Raimon), almas de despertar y otros objetos.
-Por encima del rango HERO
+Cada sello se equipa en un jugador a la vez
+NUEVO EVENTO 13 OCT 2026
+Shin Aphrodi: el dios mecánico
+Completa las fases y misiones del evento para reunir fichas. Canjéalas por sellos Inazuma, el manual de Hora celestial y otras recompensas. Requiere completar la fase 16 del capítulo 2.
+Evento hasta el 6 NOV · 04:54 JST
+Tienda hasta el 13 NOV · 04:54 JST
+Requiere capítulo 2 · fase 16
+GACHA ACTIVO 13 OCT 2026
+Shin Aphrodi · gacha destacado ★3
+Shin Aphrodi ★3, «Deus ex Machina», ya está disponible en su gacha destacado. Puedes usar tiques o Diamantes Balón. El banner termina el 27 de noviembre a las 04:54 JST.
+Disponible desde el 13 OCT
+Hasta el 27 NOV · 04:54 JST
+Shin Aphrodi ★3
+Ver ficha traducida
+NUEVO CONTENIDO 13 OCT 2026
+Fubuki Shirou (Raimon) y rango BASARA
+La temporada 4 añade el rango BASARA, por encima de HERO. La tienda de Enfrentamientos incorpora a Fubuki Shirou ★3 de Raimon y sellos de mejora. La temporada termina el 26 de noviembre a las 04:59 JST.
 Fubuki Shirou ★3 (Raimon)
-Almas de despertar en la tienda
-Fecha por confirmar
-VERSIÓN 1.4.0 05 OCT 2026
-Tesoro subterráneo
-Nuevo modo por fases. Cada grupo, como Raimon o Jóvenes Inazuma, pide varias etiquetas: forma un equipo de 11 jugadores que las tengan y avanza hasta las fases más profundas. Cada fase superada da fichas propias, canjeables por pegatinas Inazuma.
-Equipos de 11 según etiquetas
-Fichas canjeables por pegatinas Inazuma
-Reinicio mensual: las recompensas vuelven
-Tras el reinicio, varias fases se superan solas según tu mejor marca
-NUEVO CONTENIDO 29 SEP 2026
-Capítulo 6 ya disponible
-La historia continúa con Torch y Gazelle. Supera la fase de recompensas del capítulo 5 para desbloquear el capítulo 6.
-Disponible desde el 29 SEP
-Requiere completar el capítulo 5
-Versión 1.3.3
+Rango BASARA por encima de HERO
+Temporada 4: hasta el 26 NOV · 04:59 JST
+Ver ficha traducida
 EXPLORA LA BASE
 Todo lo necesario para jugar
 RANKING POR POSICIÓN Tier List
 Consulta las categorías de GK, DF, MF y FW.
-Abrir ranking BASE COMPLETA 122 jugadores
+Abrir ranking BASE COMPLETA 124 jugadores
 Busca por nombre japonés, nombre occidental, equipo o etiqueta.
-4 posiciones 244 técnicas equipadas
+4 posiciones 248 técnicas equipadas
 Abrir jugadores CONSTRUCTOR TÁCTICO Crea tu formación
 Elige entrenador, coloca once jugadores y comprueba todas las bonificaciones.
 13 entrenadores 11 slots libres
@@ -125,6 +69,6 @@ Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus
 Apoyar el proyecto
 IE CROSS DATABASE
 Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
-Pasivas · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
-El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
+Pasivas · Inazuma Eleven Cross Privacidad Términos Cookies Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
+El idioma va en la dirección de la página: no se guarda en tu dispositivo ni usa cookies.
 Inazuma Eleven Cross Database | Jugadores y Tier List

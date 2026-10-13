@@ -1,5 +1,5 @@
-Última actualización: 1.3.3
-IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+Saltar al contenido Última actualización: 1.4.0
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Sellos Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
 Inicio Jugadores Kino Aki
 GK
 Raimon
@@ -73,12 +73,12 @@ Parada Montaña Bloquea tiros
 | Bonus crítico | 13 % | 13 % | 13 % | 13 % | 16 % | 16 % | 16 % | 16 % | 16 % | 19 %
 Mismo equipo
 Raimon
-GK Mamoru Endou DF Ichirota Kazemaru DF Heigorou Kabeyama DF Teppei Kurimatsu MF Shinichi Handa MF Ayumu Shourinji MF Sakichi Shishido FW Kuusuke Matsuno FW Gouenji Shuuya FW Ryuugo Someoka DF Asuka Domon MF Kazuya Ichinose DF Miyasaka Ryou FW Kageto Yamino DF Jin Kageno FW Kakeru Megane MF Otonashi Haruna FW Raimon Natsumi MF Kidou Yuuto
+GK Mamoru Endou DF Ichirota Kazemaru DF Heigorou Kabeyama DF Teppei Kurimatsu MF Shinichi Handa MF Ayumu Shourinji MF Sakichi Shishido FW Kuusuke Matsuno FW Gouenji Shuuya FW Ryuugo Someoka DF Asuka Domon MF Kazuya Ichinose DF Miyasaka Ryou FW Kageto Yamino DF Jin Kageno FW Kakeru Megane MF Otonashi Haruna FW Raimon Natsumi MF Kidou Yuuto FW Fubuki Shirou
 Una base de fans, para fans.
 Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
 Apoyar el proyecto
 IE CROSS DATABASE
 Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
-Pasivas · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
-El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
+Pasivas · Inazuma Eleven Cross Privacidad Términos Cookies Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
+El idioma va en la dirección de la página: no se guarda en tu dispositivo ni usa cookies.
 Kino Aki (Silvia Woods) | Inazuma Eleven Cross — Estadísticas y técnicas

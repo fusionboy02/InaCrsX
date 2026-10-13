@@ -1,14 +1,14 @@
-Última actualización: 1.3.3
-IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+Saltar al contenido Última actualización: 1.4.0
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Sellos Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
 CATÁLOGO JUGABLE JUGADORES
 Consulta estadísticas, etiquetas, pasivas, supertécnicas y zonas ideales de todos los jugadores disponibles.
-122 jugadores
-Posición Todos 122 Delanteros 35 Medios 41 Defensas 33 Porteros 13
+124 jugadores
+Posición Todos 124 Delanteros 36 Medios 42 Defensas 33 Porteros 13
 Elemento Todos los elementos Fuego Viento Bosque Montaña Etiqueta
 Ordenar Por defecto Nombre Poder
 CATÁLOGO JUGABLE
 Jugadores
-122 jugadores
+124 jugadores
 GK
 Raimon
 Mamoru Endou
@@ -141,13 +141,13 @@ Miyasaka Ryou
 DF Viento
 PODER BASE Nivel 440 7.844
 Abrir ficha
-FW NUEVO !
+FW
 Caos
 Gazelle
 FW Viento
 PODER BASE Nivel 440 10.372
 Abrir ficha
-FW NUEVO !
+FW
 Caos
 Torch
 FW Fuego
@@ -687,65 +687,77 @@ Kidou Yuuto
 MF Viento
 PODER BASE Nivel 440 10.286
 Abrir ficha
-GK NUEVO !
+GK
 Caos
 Grent
 GK Fuego
 PODER BASE Nivel 440 7.972
 Abrir ficha
-DF NUEVO !
+DF
 Caos
 Barra
 DF Bosque
 PODER BASE Nivel 440 7.843
 Abrir ficha
-DF NUEVO !
+DF
 Caos
 Clara
 DF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
-DF NUEVO !
+DF
 Caos
 Gocker
 DF Montaña
 PODER BASE Nivel 440 7.843
 Abrir ficha
-MF NUEVO !
+MF
 Caos
 Bomber
 MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
-MF NUEVO !
+MF
 Caos
 Heat
 MF Bosque
 PODER BASE Nivel 440 7.714
 Abrir ficha
-MF NUEVO !
+MF
 Caos
 Droll
 MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
-MF NUEVO !
+MF
 Caos
 Rione
 MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
-FW NUEVO !
+FW
 Caos
 Nepper
 FW Bosque
 PODER BASE Nivel 440 8.888
+Abrir ficha
+FW NUEVO !
+Raimon
+Fubuki Shirou
+FW Viento
+PODER BASE Nivel 440 10.458
+Abrir ficha
+MF NUEVO !
+Shin Zeus
+Shin Aphrodi
+MF Montaña
+PODER BASE Nivel 440 11.469
 Abrir ficha
 Una base de fans, para fans.
 Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
 Apoyar el proyecto
 IE CROSS DATABASE
 Web creada por RR_o. Inazuma Eleven y todos sus derechos pertenecen a LEVEL5 Inc. Proyecto fan no oficial.
-Pasivas · Inazuma Eleven Cross Privacidad Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
-El idioma se recuerda con almacenamiento local; no usamos una cookie para esta preferencia.
+Pasivas · Inazuma Eleven Cross Privacidad Términos Cookies Acerca de la web Contacto REDES Y APOYO 𝕏 @RR_o50
+El idioma va en la dirección de la página: no se guarda en tu dispositivo ni usa cookies.
 Jugadores y estadísticas | Inazuma Eleven Cross Database
