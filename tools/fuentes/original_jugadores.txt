@@ -1,5 +1,6 @@
 Saltar al contenido Última actualización: 1.4.0
-IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Sellos Calculadora Jefes Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Sellos Calculadora Jefes Misc Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+OCC Nombres occidentales JAP Nombres japoneses
 CATÁLOGO JUGABLE JUGADORES
 Consulta estadísticas, etiquetas, pasivas, supertécnicas y zonas ideales de todos los jugadores disponibles.
 124 jugadores
