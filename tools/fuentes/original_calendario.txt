@@ -1,5 +1,5 @@
 Saltar al contenido Última actualización: 1.4.0
-IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Sellos Calculadora Jefes Misc Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Banners Tienda Pasivas Sellos Calculadora Jefes Misc Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
 OCC Nombres occidentales JAP Nombres japoneses
 PRÓXIMAS NOVEDADES CALENDARIO
 Consulta la siguiente actualización y los eventos anunciados para el juego.
@@ -33,6 +33,7 @@ Finaliza el 27 NOV 2026 · 04:54 JST
 -- MIN
 -- SEG
 Ver ficha traducida
+Ver todos los banners y probar el simulador
 Una base de fans, para fans.
 Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
 Apoyar el proyecto

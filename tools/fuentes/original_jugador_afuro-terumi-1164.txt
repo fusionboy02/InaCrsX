@@ -1,11 +1,11 @@
 Saltar al contenido Última actualización: 1.4.0
-IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Sellos Calculadora Jefes Misc Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Banners Tienda Pasivas Sellos Calculadora Jefes Misc Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
 OCC Nombres occidentales JAP Nombres japoneses
 Inicio Jugadores Afuro Terumi
 MF
 Zeus
-Afuro Terumi
-Nombre occidental: Byron Love
+Byron Love
+Nombre japonés: Afuro Terumi
 MF Bosque Mediapunta Inazuma Eleven 1
 PODER BASE 11.468 Nivel 440 · máximo
 Estadísticas
@@ -72,9 +72,16 @@ Regate Viento
 | Falta | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 % | 5 %
 | Crítico | 2 % | 2 % | 2 % | 2 % | 5 % | 5 % | 5 % | 5 % | 5 % | 8 %
 | Bonus crítico | 10 % | 10 % | 10 % | 10 % | 13 % | 13 % | 13 % | 13 % | 13 % | 16 %
+Potencia calculada
+Potencia de cada supertécnica con la fórmula comprobada en el juego: nivel 440, Legendary+, equipación completa de MF, técnica al nivel máximo y solo sus propias pasivas de inicio de partido. No incluye compañeros, entrenador, sellos ni pasivas de entrenamiento.
+Su técnica más potente es Hora celestial: 76.649, la 8.ª de las 79 técnicas de regate de la base de datos.
+| | Técnica | Potencia | Puesto
+| Sabiduría divina | 53.514 | 40.º de 81 (Tiro)
+| Hora celestial | 76.649 | 8.º de 79 (Regate)
+Calcúlala con tu equipo, nivel y rareza en la Calculadora , o mira cómo se calcula en la guía de cálculo .
 Mismo equipo
 Zeus
-GK Hohoshi Donichi DF Ahotsuyu Hikari DF Buhai Honoo DF Kousu Ran DF Tesakana Geki MF Zaite Miyumi MF Keime Sushou MF Meitenmei Satoru FW Shutsumigite Yutaka MF Taira Tei
+GK Paul Siddon DF Apollo Light DF Jeff Iron DF Lane War DF Danny Wood MF Artie Mishman MF Arion Matlock MF Wesley Knox FW Jonas Demetrius MF Henry House
 Una base de fans, para fans.
 Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
 Apoyar el proyecto

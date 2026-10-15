@@ -1,11 +1,11 @@
 Saltar al contenido Última actualización: 1.4.0
-IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Sellos Calculadora Jefes Misc Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Banners Tienda Pasivas Sellos Calculadora Jefes Misc Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
 OCC Nombres occidentales JAP Nombres japoneses
 Inicio Jugadores Torch
 FW
 Caos
-Torch
-Nombre occidental: Claude Beacons
+Claude Beacons
+Nombre japonés: Torch
 FW Fuego Segundo delantero Inazuma Eleven 2
 PODER BASE 10.458 Nivel 440 · máximo
 Estadísticas
@@ -72,9 +72,16 @@ Tiro Fuego Tiro largo: no Cadena
 | Falta | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 0 %
 | Crítico | 6 % | 6 % | 6 % | 6 % | 9 % | 9 % | 9 % | 9 % | 9 % | 12 %
 | Bonus crítico | 10 % | 10 % | 10 % | 10 % | 13 % | 13 % | 13 % | 13 % | 13 % | 16 %
+Potencia calculada
+Potencia de cada supertécnica con la fórmula comprobada en el juego: nivel 440, Legendary+, equipación completa de FW, técnica al nivel máximo y solo sus propias pasivas de inicio de partido. No incluye compañeros, entrenador, sellos ni pasivas de entrenamiento.
+Su técnica más potente es Ventisca de fuego: 109.145, la 8.ª de las 81 técnicas de tiro de la base de datos.
+| | Técnica | Potencia | Puesto
+| Llamarada atómica | 96.567 | 11.º de 81 (Tiro)
+| Ventisca de fuego | 109.145 | 8.º de 81 (Tiro)
+Calcúlala con tu equipo, nivel y rareza en la Calculadora , o mira cómo se calcula en la guía de cálculo .
 Mismo equipo
 Caos
-FW Gazelle GK Grent DF Barra DF Clara DF Gocker MF Bomber MF Heat MF Droll MF Rione FW Nepper
+FW Bryce Whitingale GK Grant Cook DF Baller DF Clear DF Albert Denver MF Ben Blowton MF Ethan Whitering MF Dawson Foxx MF Rhine FW Neppten
 Una base de fans, para fans.
 Si la base te ayuda a preparar tu equipo, puedes apoyar el trabajo de RR_o y sus próximas actualizaciones.
 Apoyar el proyecto

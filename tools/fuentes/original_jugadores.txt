@@ -1,5 +1,5 @@
 Saltar al contenido Última actualización: 1.4.0
-IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Tienda Pasivas Sellos Calculadora Jefes Misc Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
+IE CROSS DATABASE Inicio Jugadores Formación Tier List Tu Tier List Calendario Banners Tienda Pasivas Sellos Calculadora Jefes Misc Idioma ES Español EN English FR Français PT Português (Brasil) IT Italiano DE Deutsch JA 日本語
 OCC Nombres occidentales JAP Nombres japoneses
 CATÁLOGO JUGABLE JUGADORES
 Consulta estadísticas, etiquetas, pasivas, supertécnicas y zonas ideales de todos los jugadores disponibles.
@@ -12,373 +12,373 @@ Jugadores
 124 jugadores
 GK
 Raimon
-Mamoru Endou
+Mark Evans
 GK Montaña
 PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Raimon
-Ichirota Kazemaru
+Nathan Swift
 DF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
 DF
 Raimon
-Heigorou Kabeyama
+Jack Wallside
 DF Montaña
 PODER BASE Nivel 440 8.888
 Abrir ficha
 DF
 Raimon
-Teppei Kurimatsu
+Tod Ironside
 DF Fuego
 PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Raimon
-Shinichi Handa
+Steve Grim
 MF Viento
 PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Raimon
-Ayumu Shourinji
+Tim Saunders
 MF Bosque
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Raimon
-Sakichi Shishido
+Sam Kincaid
 MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Raimon
-Kuusuke Matsuno
+Maxwell Carson
 FW Viento
 PODER BASE Nivel 440 7.843
 Abrir ficha
 FW
 Raimon
-Gouenji Shuuya
+Axel Blaze
 FW Fuego
 PODER BASE Nivel 440 8.887
 Abrir ficha
 FW
 Raimon
-Ryuugo Someoka
+Kevin Dragonfly
 FW Bosque
 PODER BASE Nivel 440 8.887
 Abrir ficha
 DF
 Raimon
-Asuka Domon
+Bobby Shearer
 DF Bosque
 PODER BASE Nivel 440 8.889
 Abrir ficha
 MF
 Raimon
-Kazuya Ichinose
+Erik Eagle
 MF Bosque
 PODER BASE Nivel 440 8.743
 Abrir ficha
 GK
 Royal Academy
-Koujirou Genda
+Joseph King
 GK Fuego
 PODER BASE Nivel 440 9.034
 Abrir ficha
 MF
 Royal Academy
-Seikami Kenya
+Alan Master
 MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 DF
 Royal Academy
-Gojou Kachi
+Gus Martin
 DF Bosque
 PODER BASE Nivel 440 7.844
 Abrir ficha
 MF
 Royal Academy
-Henmi Watari
+Herman Waldon
 MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Royal Academy
-Sakiyama Shuuji
+John Bloom
 MF Fuego
 PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Royal Academy
-Horamen Shuuichirou
+Derek Swing
 MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Royal Academy
-Terakado Daiki
+Daniel Hatch
 FW Bosque
 PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Royal Academy
-Yuuto Kidou
+Jude Sharp
 MF Viento
 PODER BASE Nivel 440 8.743
 Abrir ficha
 FW
 Royal Academy
-Sakuma Jirou
+David Samford
 FW Bosque
 PODER BASE Nivel 440 8.815
 Abrir ficha
 DF
 Raimon
-Miyasaka Ryou
+Miles Ryan
 DF Viento
 PODER BASE Nivel 440 7.844
 Abrir ficha
 FW
 Caos
-Gazelle
+Bryce Whitingale
 FW Viento
 PODER BASE Nivel 440 10.372
 Abrir ficha
 FW
 Caos
-Torch
+Claude Beacons
 FW Fuego
 PODER BASE Nivel 440 10.458
 Abrir ficha
 GK
 Inazuma Japón
-Mamoru Endou
+Mark Evans
 GK Montaña
 PODER BASE Nivel 440 10.628
 Abrir ficha
 DF
 Inazuma Japón
-Ichirota Kazemaru
+Nathan Swift
 DF Viento
 PODER BASE Nivel 440 10.457
 Abrir ficha
 DF
 Inazuma Japón
-Heigorou Kabeyama
+Jack Wallside
 DF Montaña
 PODER BASE Nivel 440 10.458
 Abrir ficha
 DF
 Inazuma Japón
-Tsunaumi Jousuke
+Hurley Kane
 DF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
 DF
 Inazuma Japón
-Kogure Yuuya
+Scott Banyan
 DF Bosque
 PODER BASE Nivel 440 8.889
 Abrir ficha
 DF
 Inazuma Japón
-Tobitaka Seiya
+Archer Hawkins
 DF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
 FW
 Inazuma Japón
-Gouenji Shuuya
+Axel Blaze
 FW Fuego
 PODER BASE Nivel 440 10.458
 Abrir ficha
 MF
 Inazuma Japón
-Midorikawa Ryuuji
+Jordan Greenway
 MF Bosque
 PODER BASE Nivel 440 8.742
 Abrir ficha
 MF
 Inazuma Japón
-Yuuto Kidou
+Jude Sharp
 MF Viento
 PODER BASE Nivel 440 10.286
 Abrir ficha
 FW
 Inazuma Japón
-Ryuugo Someoka
+Kevin Dragonfly
 FW Bosque
 PODER BASE Nivel 440 10.457
 Abrir ficha
 GK
 Inazuma Japón
-Tachimukai Yuuki
+Darren LaChance
 GK Bosque
 PODER BASE Nivel 440 10.629
 Abrir ficha
 DF
 Royal Academy
-Oono Densuke
+Peter Drent
 DF Montaña
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Royal Academy
-Banjou Ichidou
+Ben Simmons
 DF Bosque
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Inazuma Japón
-Teppei Kurimatsu
+Tod Ironside
 DF Fuego
 PODER BASE Nivel 440 8.889
 Abrir ficha
 FW
 Raimon
-Kageto Yamino
+Shadow Cimmerian
 FW Bosque
 PODER BASE Nivel 440 8.888
 Abrir ficha
 DF
 Raimon
-Jin Kageno
+Jim Wraith
 DF Bosque
 PODER BASE Nivel 440 7.844
 Abrir ficha
 FW
 Raimon
-Kakeru Megane
+William Glass
 FW Bosque
 PODER BASE Nivel 440 7.842
 Abrir ficha
 FW
 Inazuma Kids FC
-Kisaragi Mako
+Maddie Moonlight
 FW Bosque
 PODER BASE Nivel 440 7.842
 Abrir ficha
 GK
 Occult
-Nata Juusan
+Nathan Jones
 GK Viento
 PODER BASE Nivel 440 7.971
 Abrir ficha
 FW
 Occult
-Yuukoku Hiroyuki
+Johan Tassman
 FW Bosque
 PODER BASE Nivel 440 8.815
 Abrir ficha
 FW
 Wild
-Suizenji Chiita
+Adrian Speed
 FW Viento
 PODER BASE Nivel 440 7.842
 Abrir ficha
 GK
 Brain
-Sugimori I
+Thomas Feldt
 GK Bosque
 PODER BASE Nivel 440 9.034
 Abrir ficha
 FW
 Brain
-Shitatsuru Kai
+Neil Turner
 FW Fuego
 PODER BASE Nivel 440 8.888
 Abrir ficha
 FW
 Otaku
-Manga Hou
+Mark Gambling
 FW Viento
 PODER BASE Nivel 440 7.842
 Abrir ficha
 FW
 Shuriken
-Kirigakure Saitsugi
+Sail Bluesea
 FW Fuego
 PODER BASE Nivel 440 8.815
 Abrir ficha
 FW
 Kirkwood
-Takekata Kachi
+Marvin Murdock
 FW Fuego
 PODER BASE Nivel 440 8.887
 Abrir ficha
 FW
 Kirkwood
-Takekata Tomo
+Thomas Murdock
 FW Viento
 PODER BASE Nivel 440 8.888
 Abrir ficha
 FW
 Kirkwood
-Takekata Tsutomu
+Tyler Murdock
 FW Montaña
 PODER BASE Nivel 440 8.888
 Abrir ficha
 FW
 Inazuma Japón
-Utsunomiya Toramaru
+Austin Hobbes
 FW Bosque
 PODER BASE Nivel 440 8.888
 Abrir ficha
 MF
 Inazuma Japón
-Hijikata Raiden
+Thor Stoutberg
 MF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
 FW
 Inazuma Japón
-Hiroto Kiyama
+Xavier Foster
 FW Fuego
 PODER BASE Nivel 440 10.457
 Abrir ficha
 FW
 Inazuma Japón
-Fubuki Shirou
+Shawn Froste
 FW Viento
 PODER BASE Nivel 440 10.458
 Abrir ficha
 MF
 Inazuma Japón
-Fudou Myouou
+Caleb Stonewall
 MF Fuego
 PODER BASE Nivel 440 10.287
 Abrir ficha
 FW
 Inazuma Japón
-Sakuma Jirou
+David Samford
 FW Bosque
 PODER BASE Nivel 440 11.639
 Abrir ficha
 MF
 Raimon de la Revolución
-Matsukaze Tenma
+Arion Sherwind
 MF Viento
 PODER BASE Nivel 440 11.554
 Abrir ficha
 FW
 Raimon de la Revolución
-Kenjou Kyousuke
+Victor Blade
 FW Fuego
 PODER BASE Nivel 440 11.639
 Abrir ficha
 FW
 Royal Academy
-Gouenji Shuuya
+Axel Blaze
 FW Fuego
 PODER BASE Nivel 440 11.639
 Abrir ficha
 DF
 Raimon de la Revolución
-Kinako Nanobana
+Goldie Lemmon
 DF Fuego
 PODER BASE Nivel 440 11.639
 Abrir ficha
@@ -390,361 +390,361 @@ PODER BASE Nivel 440 11.639
 Abrir ficha
 MF
 Selección de Japón 2026
-Mamoru Endou
+Mark Evans
 MF Montaña
 PODER BASE Nivel 440 10.286
 Abrir ficha
 MF
 Selección de Japón 2026
-Yuuto Kidou
+Jude Sharp
 MF Viento
 PODER BASE Nivel 440 10.286
 Abrir ficha
 GK
 Zeus
-Hohoshi Donichi
+Paul Siddon
 GK Montaña
 PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Zeus
-Ahotsuyu Hikari
+Apollo Light
 DF Bosque
 PODER BASE Nivel 440 7.844
 Abrir ficha
 DF
 Zeus
-Buhai Honoo
+Jeff Iron
 DF Fuego
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Zeus
-Kousu Ran
+Lane War
 DF Montaña
 PODER BASE Nivel 440 7.777
 Abrir ficha
 DF
 Zeus
-Tesakana Geki
+Danny Wood
 DF Viento
 PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Zeus
-Zaite Miyumi
+Artie Mishman
 MF Viento
 PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Zeus
-Keime Sushou
+Arion Matlock
 MF Bosque
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Zeus
-Meitenmei Satoru
+Wesley Knox
 MF Bosque
 PODER BASE Nivel 440 8.743
 Abrir ficha
 FW
 Zeus
-Shutsumigite Yutaka
+Jonas Demetrius
 FW Fuego
 PODER BASE Nivel 440 8.887
 Abrir ficha
 MF
 Zeus
-Afuro Terumi
+Byron Love
 MF Bosque
 PODER BASE Nivel 440 11.468
 Abrir ficha
 MF
 Zeus
-Taira Tei
+Henry House
 MF Fuego
 PODER BASE Nivel 440 8.742
 Abrir ficha
 GK
 Jóvenes Inazuma
-Hibiki Seigou
+Seymour Hillman
 GK Montaña
 PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Jóvenes Inazuma
-Fushima Hitori
+Charles Island
 DF Bosque
 PODER BASE Nivel 440 8.889
 Abrir ficha
 MF
 Jóvenes Inazuma
-Teiryou Ho
+Tyler Thomas
 MF Montaña
 PODER BASE Nivel 440 7.715
 Abrir ficha
 FW
 Jóvenes Inazuma
-Tamiyama Utai
+Joseph Yosemite
 FW Viento
 PODER BASE Nivel 440 7.842
 Abrir ficha
 MF
 Jóvenes Inazuma
-Sugata Gen
+Ian Suffolk
 MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 DF
 Jóvenes Inazuma
-Kamimura Setsuto
+Garret Hairtown
 DF Viento
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Jóvenes Inazuma
-Aida Chikara
+Arthur Sweet
 DF Montaña
 PODER BASE Nivel 440 8.889
 Abrir ficha
 MF
 Jóvenes Inazuma
-Batora Shi
+Peter Mildred
 MF Bosque
 PODER BASE Nivel 440 8.743
 Abrir ficha
 MF
 Jóvenes Inazuma
-Chuukan You
+Josh Nathaniel
 MF Bosque
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Jóvenes Inazuma
-Ikari Gangorou
+Edward Gladstone
 MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Jóvenes Inazuma
-Biryuuta Kouichi
+Constant Builder
 FW Fuego
 PODER BASE Nivel 440 8.887
 Abrir ficha
 DF
 Raimon de la Revolución
-Kirino Ranmaru
+Gabriel García
 DF Bosque
 PODER BASE Nivel 440 11.640
 Abrir ficha
 MF
 Raimon de la Revolución
-Shindou Takuto
+Riccardo Di Rigo
 MF Bosque
 PODER BASE Nivel 440 11.469
 Abrir ficha
 DF
 Kirkwood
-Nishigaki Mamoru
+Malcolm Night
 DF Fuego
 PODER BASE Nivel 440 8.889
 Abrir ficha
 GK
 Raimon OB
-Hibiki Seigou
+Seymour Hillman
 GK Montaña
 PODER BASE Nivel 440 9.034
 Abrir ficha
 MF
 Tablón de conexiones
-Gouenji Yuuka
+Julia Blaze
 MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 DF
 Tablón de conexiones
-Kabeyama Saku
+Zak Wallside
 DF Montaña
 PODER BASE Nivel 440 7.843
 Abrir ficha
 FW
 Tablón de conexiones
-Raimon Souichirou
+Sonny Raimon
 FW Montaña
 PODER BASE Nivel 440 7.842
 Abrir ficha
 GK
 Tablón de conexiones
-Onigawara Gengorou
+Gregory Smith
 GK Fuego
 PODER BASE Nivel 440 7.972
 Abrir ficha
 MF
 Tablón de conexiones
-Ootani Tsukushi
+Aurelia Dingle
 MF Bosque
 PODER BASE Nivel 440 8.743
 Abrir ficha
 GK
 Raimon
-Kino Aki
+Silvia Woods
 GK Montaña
 PODER BASE Nivel 440 11.811
 Abrir ficha
 MF
 Raimon
-Otonashi Haruna
+Celia Hills
 MF Viento
 PODER BASE Nivel 440 11.554
 Abrir ficha
 FW
 Raimon
-Raimon Natsumi
+Nelly Raimon
 FW Fuego
 PODER BASE Nivel 440 11.639
 Abrir ficha
 GK
 Tormenta de Géminis
-Gorleo
+Galileo
 GK Bosque
 PODER BASE Nivel 440 9.034
 Abrir ficha
 DF
 Tormenta de Géminis
-Coral
+Connor Shuttle
 DF Viento
 PODER BASE Nivel 440 7.844
 Abrir ficha
 DF
 Tormenta de Géminis
-Gigu
+Gigs
 DF Fuego
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Tormenta de Géminis
-Ganimede
+Ganymede
 DF Montaña
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Tormenta de Géminis
-Karon
+Charon
 DF Fuego
 PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Tormenta de Géminis
-Pandora
+Pat Box
 MF Viento
 PODER BASE Nivel 440 7.715
 Abrir ficha
 MF
 Tormenta de Géminis
-Gringo
+Grengo
 MF Montaña
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Tormenta de Géminis
-Io
+Izzy Jupiter
 MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Tormenta de Géminis
-Reem
+Rihm
 FW Bosque
 PODER BASE Nivel 440 7.842
 Abrir ficha
 MF
 Tormenta de Géminis
-Reize
+Janus
 MF Bosque
 PODER BASE Nivel 440 8.742
 Abrir ficha
 FW
 Tormenta de Géminis
-Diam
+Dylan Bluemoon
 FW Bosque
 PODER BASE Nivel 440 7.842
 Abrir ficha
 MF
 Génesis
-Ulvida
+Bellatrix
 MF Viento
 PODER BASE Nivel 440 11.469
 Abrir ficha
 MF
 Servicio Secreto
-Zaizen Touko
+Victoria Vanguard
 MF Viento
 PODER BASE Nivel 440 11.469
 Abrir ficha
 MF
 Raimon
-Kidou Yuuto
+Jude Sharp
 MF Viento
 PODER BASE Nivel 440 10.286
 Abrir ficha
 GK
 Caos
-Grent
+Grant Cook
 GK Fuego
 PODER BASE Nivel 440 7.972
 Abrir ficha
 DF
 Caos
-Barra
+Baller
 DF Bosque
 PODER BASE Nivel 440 7.843
 Abrir ficha
 DF
 Caos
-Clara
+Clear
 DF Viento
 PODER BASE Nivel 440 8.889
 Abrir ficha
 DF
 Caos
-Gocker
+Albert Denver
 DF Montaña
 PODER BASE Nivel 440 7.843
 Abrir ficha
 MF
 Caos
-Bomber
+Ben Blowton
 MF Fuego
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Caos
-Heat
+Ethan Whitering
 MF Bosque
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Caos
-Droll
+Dawson Foxx
 MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 MF
 Caos
-Rione
+Rhine
 MF Viento
 PODER BASE Nivel 440 7.714
 Abrir ficha
 FW
 Caos
-Nepper
+Neppten
 FW Bosque
 PODER BASE Nivel 440 8.888
 Abrir ficha
 FW NUEVO !
 Raimon
-Fubuki Shirou
+Shawn Froste
 FW Viento
 PODER BASE Nivel 440 10.458
 Abrir ficha
